@@ -3,7 +3,7 @@
 지금 무료 계정으로 쓸 수 있는 생성형 AI(이미지·영상·음악·음성·챗봇·코딩·3D)를 매일 찾아 정리하는 게시판형 사이트.
 공식 서비스와 Freepik·Higgsfield 같은 wrapper 사이트를 모두 다룹니다.
 
-- 사이트: https://free-ai.today
+- 사이트: https://free-ai.today (같은 내용: https://x0te.github.io/free-ai/)
 - 틀린 정보·새 무료 AI 제보: 각 글의 댓글 또는 [토론 게시판](https://github.com/x0te/free-ai/discussions)
 
 ## 구조

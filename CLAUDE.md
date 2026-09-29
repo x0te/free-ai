@@ -1,7 +1,9 @@
 # 오늘의 무료 AI — 운영 지침
 
 무료 계정으로 쓸 수 있는 생성형 AI(공식 서비스 + Freepik·Higgsfield 같은 wrapper 사이트)를 카테고리별로 정리하는 정적 사이트.
-데이터는 `data/`의 JSON, `node scripts/build.mjs`가 `dist/`로 빌드, `main`에 푸시하면 GitHub Actions가 GitHub Pages(https://free-ai.today, GoDaddy 도메인)로 배포한다.
+데이터는 `data/`의 JSON, `node scripts/build.mjs`가 `dist/`로 빌드, `main`에 푸시하면 GitHub Actions가 두 주소에 배포한다.
+- https://x0te.github.io/free-ai/ — 이 저장소의 GitHub Pages (`BASE_PATH=/free-ai`)
+- https://free-ai.today — `x0te/free-ai-today`의 gh-pages 브랜치 (배포 키로 자동 푸시, GoDaddy 도메인). 그 저장소는 직접 수정하지 않는다
 
 - `data/tools/<category>.json` — 서비스 항목 배열 (category: image, video, music, voice, chat, code, 3d)
 - `data/changelog.json` — 날짜별 변경 기록 (최신이 맨 앞)
