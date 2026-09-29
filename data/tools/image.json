@@ -1,0 +1,2768 @@
+[
+  {
+    "id": "adobe-firefly-image",
+    "platform": "Adobe Firefly",
+    "vendor": "Adobe",
+    "access": "official",
+    "url": "https://firefly.adobe.com",
+    "logo": "adobe-firefly",
+    "logoDomain": "firefly.adobe.com",
+    "models": [
+      "Firefly Image (Adobe 자체)",
+      "Nano Banana"
+    ],
+    "headline": "Adobe Firefly 무료: 플랜 없이 매일 무료 생성 — 파트너 모델 Nano Banana 포함 (일일 횟수 비공개)",
+    "description": "Adobe 자체 Firefly 모델과 Google·OpenAI·Luma 등 파트너 모델을 한 앱에서 쓰는 서비스다. 플랜 없이도 이미지·영상·오디오 '무료 일일 생성'을 제공하며, Adobe는 Nano Banana를 무료로 쓸 수 있는 대표 모델로 소개한다. 일일 횟수는 공개하지 않는다.",
+    "freeTier": {
+      "quota": "무료 일일 생성 (이미지·영상·오디오) — 정확한 일일 횟수 비공개",
+      "reset": "매일",
+      "watermark": "불명 (Adobe는 Content Credentials 메타데이터 부착)",
+      "commercialUse": "불명 — 무료 등급 상업 이용 조건 명시 없음",
+      "signup": "Adobe 계정 (무료)",
+      "korea": "가능",
+      "notes": "무료 일일 생성 범위 밖의 파트너 모델·프리미엄 영상/오디오 기능은 생성 크레딧 필요. 'Generate Image 무제한'은 Standard 이상 유료 플랜 혜택. Adobe 자체 모델 서비스이므로 공식(official) 조사 항목과 겹칠 수 있음."
+    },
+    "howTo": [
+      "firefly.adobe.com 접속 후 Adobe 계정 로그인",
+      "이미지 생성에서 모델을 Nano Banana 또는 Firefly Image로 선택",
+      "일일 무료 한도 소진 시 다음 날 리필"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "한도비공개",
+      "Nano Banana"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "sources": [
+      {
+        "title": "Adobe Firefly Plans",
+        "url": "https://www.adobe.com/products/firefly/plans.html",
+        "type": "official"
+      },
+      {
+        "title": "Adobe Firefly Free Plan | PromoClock",
+        "url": "https://promoclock.co/en/tools/adobe-firefly/",
+        "type": "community",
+        "date": "2026-09-17"
+      },
+      {
+        "title": "Is Adobe Firefly Free? (Krea)",
+        "url": "https://www.krea.ai/blog/is-adobe-firefly-free-what-it-is-and-how-it-compares-in-2026",
+        "type": "community",
+        "date": "2026-09-02"
+      },
+      {
+        "title": "Best free AI image generator (Firefly 항목)",
+        "url": "https://blog.laozhang.ai/en/posts/best-free-ai-image-generator",
+        "type": "community",
+        "date": "2026-03-27"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "bing-image-creator-image",
+    "category": "image",
+    "platform": "Bing Image Creator",
+    "vendor": "Microsoft",
+    "url": "https://www.bing.com/images/create",
+    "logo": "bing",
+    "logoDomain": "bing.com",
+    "models": [
+      "MAI-Image-2.5-Flash",
+      "MAI-Image-2e"
+    ],
+    "headline": "MAI-Image-2.5-Flash → Bing Image Creator에서 하루 15회 빠른 생성 + 이후 일반 속도 무제한",
+    "description": "마이크로소프트의 무료 이미지 생성기. 지금은 자체 모델 MAI-Image-2.5-Flash(조명, 풍경, 사실감)와 MAI-Image-2e(빠르고 스타일화된 이미지)를 쓰며, 한 번에 4장을 만든다. 빠른 생성을 다 쓴 뒤에도 느린 대기열로 계속 만들 수 있어 사실상 무제한이다.",
+    "freeTier": {
+      "quota": "하루 15회 빠른 생성(부스트, 1회에 4장) + 이후 표준 속도 생성은 무제한",
+      "reset": "매일 (빠른 생성 15회)",
+      "watermark": "기본 가시 워터마크 없음, 설정에서 '가시 워터마크 포함' 선택 가능",
+      "commercialUse": "Image Creator 약관은 개인·비상업 용도가 원칙이라는 보고 (확인 필요)",
+      "signup": "Microsoft 개인 계정(MSA). 회사·학교 계정 불가",
+      "korea": "가능 (한국어 도움말 제공)",
+      "notes": "Microsoft Rewards 포인트로 빠른 생성을 늘릴 수 있다. 이미지 편집에는 MAI-Image-2.5-Flash만 쓰인다. 일부 지역에서는 서비스가 제공되지 않는다. 오래된 글에 나오는 DALL-E 3·GPT-4o 정보는 지금과 다를 수 있다."
+    },
+    "howTo": [
+      "bing.com/images/create에 Microsoft 계정으로 로그인",
+      "모델(MAI-Image-2.5-Flash 또는 MAI-Image-2e)을 고르고 프롬프트 입력",
+      "4장 중 원하는 결과를 다운로드하거나 편집"
+    ],
+    "tags": [
+      "매일충전",
+      "사실상무제한",
+      "로그인필요",
+      "한국어지원"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Bing Image Creator 도움말 (부스트·모델·워터마크 설정)",
+        "url": "https://www.bing.com/images/create/help",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Introducing MAI-Image-2",
+        "url": "https://microsoft.ai/news/introducing-mai-image-2/",
+        "type": "official",
+        "date": "2026-03"
+      },
+      {
+        "title": "Bing AI Image Generator in 2026: Free Limits, Boosts",
+        "url": "https://morphed.app/blog/bing-ai-image-generator",
+        "type": "community",
+        "date": "2026-04-12"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "none",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "canva-image",
+    "category": "image",
+    "platform": "Canva",
+    "vendor": "Canva",
+    "url": "https://www.canva.com/ai-image-generator/",
+    "logo": "canva",
+    "logoDomain": "canva.com",
+    "models": [
+      "Canva AI (Dream Lab·Magic Media 계열)",
+      "Canva AI 이미지 생성 (Magic Media·Dream Lab, Standard 품질)"
+    ],
+    "headline": "Canva AI → 무료 계정 월 최대 20회 AI 사용 (이미지 생성 포함)",
+    "description": "디자인 도구 캔바에 들어 있는 AI 이미지 생성 기능. 만든 이미지를 곧바로 SNS 게시물, 썸네일, 프레젠테이션에 넣을 수 있다. 무료 플랜은 이미지 생성·업스케일·매직 레이어 등이 함께 쓰는 월간 AI 사용량을 받는다.",
+    "freeTier": {
+      "quota": "월 최대 20회 Standard 또는 Premium AI 사용 (이미지 생성 포함, 모든 AI 기능이 공유). 고급 기능일수록 더 많이 소모",
+      "reset": "매월 1일 00:00 UTC (한국 시간 오전 9시)",
+      "watermark": "불명",
+      "commercialUse": "무료 플랜 AI 이미지의 상업 권리가 제한된다는 보고 (Canva 약관 확인 필요)",
+      "signup": "Canva 계정 (이메일, Google 등)",
+      "korea": "가능 (한국어 지원)",
+      "notes": "'Canva AI로 이미지 만들기'가 기능에 따라 Standard, Premium, Ultra 등급으로 나뉘고, 등급에 따라 소모량이 다르다. 무료 계정은 Affinity의 Premium AI 도구를 쓸 수 없다."
+    },
+    "howTo": [
+      "canva.com에 로그인 후 디자인 편집기 열기",
+      "Canva AI(또는 앱 → AI 이미지 생성) 선택 후 프롬프트 입력",
+      "생성된 이미지를 디자인에 넣어 편집하고 다운로드"
+    ],
+    "tags": [
+      "매월충전",
+      "로그인필요",
+      "한국어지원",
+      "디자인연계"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Canva Pricing (Canva Free: Up to 20 Standard or Premium AI uses)",
+        "url": "https://www.canva.com/pricing/",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Understanding your AI usage - Canva Help Center",
+        "url": "https://www.canva.com/help/ai-access/",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Canva AI Image Generator",
+        "url": "https://felloai.com/canva-ai-image-generator/",
+        "type": "community",
+        "date": "2026-09-23"
+      },
+      {
+        "title": "Canva Free Plan | PromoClock",
+        "url": "https://promoclock.co/en/tools/canva/",
+        "type": "community",
+        "date": "2026-09-17"
+      },
+      {
+        "title": "Is Canva Free? What the Free Plan and Canva AI Include in 2026 (Krea)",
+        "url": "https://www.krea.ai/blog/is-canva-free-what-the-free-plan-and-canva-ai-include-in-2026",
+        "type": "community",
+        "date": "2026"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "monthly",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "chatgpt-image",
+    "category": "image",
+    "platform": "ChatGPT",
+    "vendor": "OpenAI",
+    "url": "https://chatgpt.com/images",
+    "logo": "chatgpt",
+    "logoDomain": "chatgpt.com",
+    "models": [
+      "ChatGPT Images 2.5 (GPT-Image-2.5)"
+    ],
+    "headline": "ChatGPT Images 2.5 → 무료 계정도 사용 가능 (하루 약 2~3장 보고)",
+    "description": "ChatGPT 대화창에서 이미지를 만들고 여러 차례 고친다. 2026년 9월 8일 나온 Images 2.5는 2.0보다 생성 속도가 최대 50% 빠르고, 레퍼런스 사진 속 인물을 더 잘 유지하며, 스케치를 참고해 그리는 기능이 추가됐다. 글자가 들어간 포스터나 인포그래픽에 강하다.",
+    "freeTier": {
+      "quota": "OpenAI는 무료 수치를 공개하지 않음. 커뮤니티 보고는 롤링 24시간에 약 2~3장. 텍스트 채팅은 2026년 8월부터 무제한이지만 이미지는 별도 한도",
+      "reset": "롤링 (앱 안내 메시지에 표시된 시각에 충전, 자정 기준 아님)",
+      "watermark": "가시 워터마크 없음. C2PA 메타데이터와 비가시 워터마크 포함",
+      "commercialUse": "OpenAI 약관상 생성물 권리는 사용자에게 있음(정책 준수 시 상업 이용 가능)",
+      "signup": "OpenAI 계정 (이메일, Google, Apple 등)",
+      "korea": "가능 (한국어 지원)",
+      "notes": "무료 사용자는 한도 내에서 속도가 느릴 수 있고 피크 시간에 대기가 생긴다. 고급 추론(Thinking) 이미지 생성과 고해상도 옵션은 유료 플랜에서 더 넉넉하다. 일부 보도는 무료 이미지 한도를 주간 단위로 설명하기도 한다."
+    },
+    "howTo": [
+      "chatgpt.com에 로그인한 뒤 왼쪽 'Images' 메뉴로 가거나 채팅에 '이미지 만들어줘'라고 입력",
+      "원하는 장면·스타일·글자를 구체적으로 적고, 필요하면 사진이나 스케치 첨부",
+      "결과를 선택하고 수정 지시를 추가로 입력해 다듬은 뒤 다운로드"
+    ],
+    "tags": [
+      "한도소량",
+      "로그인필요",
+      "한국어지원",
+      "C2PA",
+      "상업이용가능"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Introducing ChatGPT Images 2.5",
+        "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+        "type": "official",
+        "date": "2026-09-08"
+      },
+      {
+        "title": "OpenAI releases ChatGPT Images 2.5",
+        "url": "https://9to5mac.com/2026/09/08/openai-releases-chatgpt-images-2-5-with-sharper-details-and-more-precise-editing/",
+        "type": "news",
+        "date": "2026-09-08"
+      },
+      {
+        "title": "Is ChatGPT Free?",
+        "url": "https://felloai.com/is-chatgpt-free/",
+        "type": "community",
+        "date": "2026-09-24"
+      },
+      {
+        "title": "ChatGPT: What's free in 2026 and what isn't?",
+        "url": "https://www.engadget.com/2234173/chatgpt-free-features-2026/",
+        "type": "news",
+        "date": "2026-08-12"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "none",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "dreamina-image",
+    "category": "image",
+    "platform": "Dreamina (CapCut)",
+    "vendor": "ByteDance",
+    "url": "https://dreamina.capcut.com/ai-tool/home",
+    "logo": "dreamina",
+    "logoDomain": "dreamina.capcut.com",
+    "models": [
+      "Seedream 5.0 Pro",
+      "Seedream 5.0 Lite",
+      "Seedream 4.7",
+      "Seedream 4.5",
+      "GPT Image 2.5",
+      "Nano Banana Pro"
+    ],
+    "headline": "Seedream 5.0 → Dreamina(CapCut)에서 무료 크레딧으로 사용 (4K 지원)",
+    "description": "틱톡·캡컷 운영사 바이트댄스의 크리에이티브 플랫폼. 자사 Seedream 이미지 모델(5.0 Pro는 2026년 7월 공개)을 가장 먼저 쓸 수 있는 곳이고, GPT Image 2.5와 Nano Banana Pro 같은 외부 모델도 들어와 있다. 에이전트, 캔버스, 이미지 세트, 캐릭터 디자인 스킬을 지원한다.",
+    "freeTier": {
+      "quota": "로그인하면 무료 크레딧 제공 (정확한 일일 수치는 확인 못 함). 중국판 Jimeng(即梦)·Doubao(豆包)에서는 Seedream 5.0을 하루 한도 안에서 무료로 쓸 수 있다는 보고",
+      "reset": "불명 (매일 지급으로 알려짐)",
+      "watermark": "불명",
+      "commercialUse": "불명",
+      "signup": "CapCut, TikTok, Google 계정 등",
+      "korea": "불명 (글로벌 서비스지만 지역 제한 가능)",
+      "notes": "모델마다 크레딧 소모가 다르고, Seedream 5.0 Pro와 4K 출력은 더 많이 쓴다. 중국판 Jimeng·Doubao는 중국 휴대폰 번호 인증이 필요할 수 있다."
+    },
+    "howTo": [
+      "dreamina.capcut.com에 CapCut 또는 Google 계정으로 로그인",
+      "생성 모드에서 Image를 고르고 모델(Seedream 5.0 Lite/Pro 등) 선택",
+      "프롬프트나 레퍼런스를 넣어 생성한 뒤 다운로드"
+    ],
+    "tags": [
+      "무료크레딧",
+      "로그인필요",
+      "Seedream",
+      "4K"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Dreamina AI tool (모델 목록: Seedream 5.0 Pro/Lite 등)",
+        "url": "https://dreamina.capcut.com/ai-tool/home",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Seedream 5 (free access: Doubao, Jimeng)",
+        "url": "https://felloai.com/seedream-5/",
+        "type": "community",
+        "date": "2026-09-14"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "gemini-app-image",
+    "category": "image",
+    "platform": "Gemini 앱",
+    "vendor": "Google",
+    "url": "https://gemini.google.com/",
+    "logo": "gemini",
+    "logoDomain": "gemini.google.com",
+    "models": [
+      "Nano Banana 2",
+      "Nano Banana 2 Lite"
+    ],
+    "headline": "Nano Banana 2 → Gemini 앱에서 무료 (1K 다운로드, 사용량 한도는 5시간마다 충전)",
+    "description": "구글 Gemini 챗봇에서 대화하듯 이미지를 만들고 편집한다. Nano Banana 2(Gemini 3.1 Flash Image)는 글자 표현, 캐릭터 일관성, 여러 장 합성, 부분 편집에 강하다. 사진을 올리고 '머리 스타일 바꿔줘'처럼 말로 고치는 작업이 가장 쉬운 곳이다.",
+    "freeTier": {
+      "quota": "하루 몇 장인지 고정 수치는 비공개. 2026년 5월 20일부터 연산량 기반 한도로 바뀌어 5시간마다 충전되고 주간 상한이 있다. 3월 공식 도움말 기준으로는 무료 하루 최대 20장이었다. 도움말에는 'Nano Banana 2 이미지 일일 할당량'이라는 표현이 남아 있다.",
+      "reset": "5시간마다 충전 + 주간 상한 (2026-05-20부터)",
+      "watermark": "SynthID(비가시) 포함. 무료 사용자 이미지에는 오른쪽 아래에 반짝이 아이콘 가시 워터마크가 붙는다는 보고",
+      "commercialUse": "Google 약관·금지 사용 정책 안에서 사용 가능(명시적 상업 제한 없음)",
+      "signup": "Google 계정 (생성은 만 13세 이상, 편집은 만 18세 이상)",
+      "korea": "가능 (한국어 지원)",
+      "notes": "무료는 1K 해상도로만 다운로드(유료는 2K). Nano Banana Pro로 다시 그리기(Redo with Pro)는 유료 플랜 전용. 모델을 Flash-Lite로 두면 Nano Banana 2 Lite가, Flash/Pro로 두면 Nano Banana 2가 쓰인다. 수요가 몰리면 무료 사용자의 고연산 기능이 제한될 수 있다."
+    },
+    "howTo": [
+      "gemini.google.com 또는 Gemini 앱에 Google 계정으로 로그인",
+      "사이드바에서 '이미지(Images)'를 누르거나 채팅에 '~를 그려줘'라고 입력",
+      "만든 이미지나 업로드한 사진에 추가 지시를 입력해 편집한 뒤 '원본 크기 다운로드'"
+    ],
+    "tags": [
+      "한도충전",
+      "로그인필요",
+      "한국어지원",
+      "워터마크",
+      "SynthID",
+      "이미지편집"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Generate & edit images with Gemini Apps - Gemini Apps Help",
+        "url": "https://support.google.com/gemini/answer/14286560?hl=en",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Gemini Apps limits & upgrades for Google AI subscribers",
+        "url": "https://support.google.com/gemini/answer/16275805?hl=en",
+        "type": "official",
+        "date": "2026-05"
+      },
+      {
+        "title": "Gemini's new usage limits are live",
+        "url": "https://9to5google.com/2026/05/21/gemini-usage-limits-live-user-reactions/",
+        "type": "news",
+        "date": "2026-05-21"
+      },
+      {
+        "title": "Nano Banana Pricing (free access)",
+        "url": "https://felloai.com/nano-banana-pricing/",
+        "type": "community",
+        "date": "2026-09"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "weekly",
+      "watermark": "invisible",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "google-search-image",
+    "category": "image",
+    "platform": "Google 검색 AI 모드",
+    "vendor": "Google",
+    "url": "https://www.google.com/search?udm=50",
+    "logo": "google-search",
+    "logoDomain": "google.com",
+    "models": [
+      "Nano Banana 2"
+    ],
+    "headline": "Nano Banana → 구글 검색 AI 모드에서 24시간당 최대 25장 무료",
+    "description": "구글 검색 AI 모드의 'Create Images' 기능으로 검색창에서 바로 이미지를 만들고 대화하듯 고친다. 무료 한도가 숫자로 공개된 몇 안 되는 구글 이미지 서비스라 계획을 세우기 쉽다. 한국어 프롬프트를 지원한다.",
+    "freeTier": {
+      "quota": "Google AI 플랜 없이 24시간당 최대 25장 (AI Plus 50장, Pro 100장, Ultra 1,000장)",
+      "reset": "매일 (24시간 롤링)",
+      "watermark": "SynthID(비가시)로 보임. 도움말에 가시 워터마크 언급 없음",
+      "commercialUse": "Google 약관 범위 안에서 사용 가능(명시적 상업 제한 없음)",
+      "signup": "직접 관리하는 개인 Google 계정 (만 18세 이상)",
+      "korea": "가능 (지원 국가에 대한민국, 지원 언어에 한국어 포함)",
+      "notes": "Nano Banana Pro는 무료 사용자의 경우 미국에서만 쓸 수 있다는 도움말 문구가 있음. 일반 검색창에서 이미지 생성 요청하는 방식은 영어만 지원하고, AI 모드의 'Create Images' 메뉴는 한국어도 된다. 한도는 수요에 따라 바뀔 수 있다(이전 20장 → 현재 25장)."
+    },
+    "howTo": [
+      "google.com에서 AI 모드를 열기 (개인 Google 계정으로 로그인)",
+      "입력창 왼쪽 + 버튼 → 'Create Images' 선택",
+      "프롬프트를 입력하거나 이미지를 업로드해 수정 요청"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "한국어지원",
+      "한도공개"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Create and edit images in Google Search - Google Search Help",
+        "url": "https://support.google.com/websearch/answer/16649374?hl=en&co=GENIE.Platform%3DDesktop",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Gemini image generation free limit 2026",
+        "url": "https://blog.laozhang.ai/en/posts/gemini-image-generation-free-limit-2026",
+        "type": "community",
+        "date": "2026-09-26"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "invisible",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "google-ai-studio-image",
+    "category": "image",
+    "platform": "Google AI Studio",
+    "vendor": "Google",
+    "url": "https://aistudio.google.com/",
+    "logo": "google-ai-studio",
+    "logoDomain": "aistudio.google.com",
+    "models": [
+      "Nano Banana 2",
+      "Nano Banana 2 Lite",
+      "Nano Banana Pro"
+    ],
+    "headline": "Nano Banana → AI Studio 무료 사용 사실상 종료 (유료 키나 AI Pro 플랜 필요)",
+    "description": "개발자용 Gemini 실험 공간. 2025년에는 Nano Banana를 무료로 돌려보는 우회 경로로 유명했다. 지금은 공식 가격표에서 모든 이미지 모델의 무료 등급이 '제공 안 함'이고, AI Studio에서 Nano Banana를 쓰려면 유료 API 키나 Google AI Pro 플랜이 필요하다는 보고가 일관된다.",
+    "freeTier": {
+      "quota": "무료 등급 없음 (Nano Banana 2, 2 Lite, Pro, 2.5 Flash Image 모두 'Free Tier: Not available')",
+      "reset": "해당 없음",
+      "watermark": "SynthID(비가시)",
+      "commercialUse": "유료 API 약관에 따름",
+      "signup": "Google 계정 + 결제 수단(유료 키)",
+      "korea": "가능",
+      "notes": "가격 페이지에 'AI Studio 사용은 무료'라는 일반 문구는 남아 있다. 하지만 이미지 모델은 유료 키나 AI Pro가 필요하다는 게 커뮤니티의 일관된 보고다. 무료로 Nano Banana를 쓰려면 Gemini 앱, 검색 AI 모드, Flow를 이용할 것."
+    },
+    "howTo": [
+      "무료 이용자는 대신 Gemini 앱, Google 검색 AI 모드, Google Flow 사용을 권장",
+      "AI Studio에서 쓰려면 결제가 연결된 API 키를 발급",
+      "모델 선택에서 gemini-3.1-flash-image 계열 선택"
+    ],
+    "tags": [
+      "무료종료",
+      "유료전환",
+      "개발자"
+    ],
+    "confidence": "medium",
+    "status": "ended",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Gemini Developer API pricing",
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Is Nano Banana 2 Free? Gemini, AI Studio, and API Answer",
+        "url": "https://www.aifreeapi.com/en/posts/nano-banana-2-free",
+        "type": "community",
+        "date": "2026-03-29"
+      },
+      {
+        "title": "Gemini image generation free limit 2026",
+        "url": "https://blog.laozhang.ai/en/posts/gemini-image-generation-free-limit-2026",
+        "type": "community",
+        "date": "2026-09-26"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "invisible",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "google-flow-image",
+    "category": "image",
+    "platform": "Google Flow",
+    "vendor": "Google",
+    "url": "https://flow.google.com/",
+    "logo": "google-flow",
+    "logoDomain": "labs.google",
+    "models": [
+      "Nano Banana 2 Lite",
+      "Nano Banana 2",
+      "Nano Banana Pro"
+    ],
+    "headline": "Nano Banana 2 Lite·Nano Banana 2 → Google Flow에서 크레딧 차감 없이 무료 생성",
+    "description": "구글의 AI 영상·이미지 제작 스튜디오. 2026년 2월 Whisk와 ImageFX가 Flow로 통합되면서 이미지 생성·편집도 Flow 안에서 하게 됐다. 공식 크레딧 표에는 영상 모델만 과금 대상으로 나와 있고, 이미지 생성은 무료다. 만든 이미지를 곧바로 Veo·Gemini Omni 영상의 첫 프레임이나 재료로 쓸 수 있다.",
+    "freeTier": {
+      "quota": "이미지 생성은 Flow 크레딧을 쓰지 않는다(공식 크레딧 표에 이미지 모델 없음, 구글 공지 'Flow에서 이미지는 무료'). 이와 별도로 무료 계정에 매일 50 크레딧이 주어지며 이건 영상용이다.",
+      "reset": "무제한(이미지) / 영상 크레딧은 매일 50 (그날 첫 생성 시점 기준으로 충전, 이월 없음)",
+      "watermark": "SynthID(비가시) 포함. 가시 워터마크는 보고가 엇갈림(내보낼 때 선택할 수 있다는 보고 있음)",
+      "commercialUse": "Google 약관 범위 안에서 사용 가능. 무료 플랜을 상업적으로 쓰지 말라는 명시적 제한은 없음(유명인·미성년자 관련 제한 있음)",
+      "signup": "Google 계정 (만 18세 이상)",
+      "korea": "가능 (공식 지원 국가 목록에 대한민국 포함, 한국어 UI 지원)",
+      "notes": "공식 도움말 기준 무료 기본 모델은 Nano Banana 2 Lite('무과금 기본 모델'). Nano Banana 2도 선택 가능하고, Nano Banana Pro는 Ultra 구독자의 기본 모델이다. 3월에는 무료 계정에서도 Pro가 0크레딧이었다는 커뮤니티 보고가 있지만 계정·시기에 따라 다를 수 있다. 무료 계정은 피크 시간(UTC 14~17시, 한국 시간 23~02시)에 영상 생성이 막힐 수 있으나 이미지 생성은 계속 된다."
+    },
+    "howTo": [
+      "flow.google.com에 Google 계정으로 로그인",
+      "새 프로젝트를 만든 뒤 프롬프트 창에서 모델 이름을 누르고 'Image' 선택",
+      "모델(Nano Banana 2 Lite/2), 비율, 출력 수를 고르고 프롬프트를 입력해 Generate"
+    ],
+    "tags": [
+      "무제한",
+      "로그인필요",
+      "한국어지원",
+      "SynthID",
+      "영상연계"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Manage your Google Flow credits - Google Flow Help",
+        "url": "https://support.google.com/flow/answer/16526234?hl=en",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Learn about Google Flow models & supported features",
+        "url": "https://support.google.com/flow/answer/16352836?hl=en",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Where you can use Google Flow",
+        "url": "https://support.google.com/flow/answer/16353544?hl=en",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Flow update (Whisk·ImageFX 통합, 이미지 무료)",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-updates-february-2026/",
+        "type": "official",
+        "date": "2026-02"
+      },
+      {
+        "title": "What Is Google Flow AI? Credits and Free Limits Explained",
+        "url": "https://felloai.com/google-flow/",
+        "type": "community",
+        "date": "2026-09-26"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unlimited",
+      "watermark": "invisible",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "grok-imagine-image",
+    "category": "image",
+    "platform": "Grok Imagine",
+    "vendor": "xAI",
+    "url": "https://grok.com/imagine",
+    "logo": "grok",
+    "logoDomain": "grok.com",
+    "models": [
+      "Grok Imagine (Aurora)"
+    ],
+    "headline": "Grok Imagine 이미지 → 2026년 3월 19일 무료 제공 종료 (SuperGrok 유료 전용)",
+    "description": "xAI의 Grok Imagine은 2025년 한동안 무료 이미지 생성으로 인기가 많았다. 2026년 1월 유명인 딥페이크 논란 뒤 무료 이미지 생성을 줄였고, 3월 19일 무료 할당을 완전히 없앴다. 지금은 SuperGrok 구독자만 이미지와 영상을 만들 수 있다.",
+    "freeTier": {
+      "quota": "무료 0장 (유료 SuperGrok 전용)",
+      "reset": "해당 없음",
+      "watermark": "해당 없음",
+      "commercialUse": "해당 없음",
+      "signup": "X 또는 xAI 계정 + 유료 구독",
+      "korea": "유료 구독 시 가능",
+      "notes": "무료 Grok은 텍스트 채팅과 일부 음성 기능만 남았다. 가을부터 SuperGrok 요금 체계도 바뀌었다는 보고가 있다(Lite 약 30달러, Plus 100달러 신설)."
+    },
+    "howTo": [
+      "무료 이용자는 다른 서비스(Gemini, Flow, Meta AI 등) 이용 권장",
+      "유료 사용 시 grok.com의 Imagine 탭 이용",
+      "SuperGrok 구독 후 생성"
+    ],
+    "tags": [
+      "무료종료",
+      "유료전용"
+    ],
+    "confidence": "medium",
+    "status": "ended",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Grok Imagine Limits 2026: Free Tier + SuperGrok Caps",
+        "url": "https://www.sloane.world/guides/grok-imagine-limits-2026",
+        "type": "community",
+        "date": "2026-09-22"
+      },
+      {
+        "title": "Grok Image Limits & Video Generation Status (2026 Update)",
+        "url": "https://www.atlascloud.ai/blog/tips/grok-xai-image-generation-daily-limit",
+        "type": "community",
+        "date": "2026"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "none",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "huggingface-spaces-image",
+    "platform": "Hugging Face Spaces",
+    "vendor": "Hugging Face",
+    "access": "opensource",
+    "url": "https://huggingface.co/spaces",
+    "logo": "huggingface",
+    "logoDomain": "huggingface.co",
+    "models": [
+      "FLUX.2 [dev]",
+      "FLUX.2 [klein] 9B",
+      "FLUX.1 [dev]/[schnell]",
+      "FLUX.1 Kontext [dev]",
+      "Qwen-Image / Qwen-Image-2512",
+      "Qwen-Image-Edit-2511",
+      "Z-Image-Turbo"
+    ],
+    "headline": "Hugging Face Spaces: 오픈모델(FLUX.2·Qwen-Image·Z-Image) 무료 — ZeroGPU 하루 5분(비로그인 2분)",
+    "description": "모델 제작사가 직접 올린 공식 데모(Space)에서 FLUX.2, Qwen-Image, Z-Image-Turbo 같은 최신 오픈 이미지 모델을 무료로 돌려볼 수 있다. 공유 GPU(ZeroGPU)를 쓰기 때문에 하루 GPU 사용 시간 한도가 있다.",
+    "freeTier": {
+      "quota": "ZeroGPU 일일 GPU 시간: 비로그인 2분, 무료 계정 5분 (PRO 40분). 장당 수 초~수십 초가 걸려 모델에 따라 하루 수~수십 장 수준(추정)",
+      "reset": "첫 GPU 사용 후 24시간마다",
+      "watermark": "없음 (Space별 상이)",
+      "commercialUse": "모델 라이선스별 상이 (예: FLUX dev 계열은 비상업 라이선스, Qwen-Image는 Apache 2.0)",
+      "signup": "로그인 불필요 (로그인 시 한도 증가)",
+      "korea": "가능",
+      "notes": "남은 쿼터가 많을수록 대기열 우선순위가 높음. Space 소유자가 하드웨어를 바꾸거나 중단할 수 있음. 2026-09-29 기준 black-forest-labs/FLUX.2-dev, Qwen/Qwen-Image, Tongyi-MAI/Z-Image-Turbo 등 공식 Space 실행 중 확인."
+    },
+    "howTo": [
+      "huggingface.co/spaces 에서 모델명(예: Z-Image-Turbo, Qwen-Image, FLUX.2-dev) 검색",
+      "공식 조직(black-forest-labs, Qwen, Tongyi-MAI) Space 열기",
+      "무료 계정 로그인 후 생성하면 하루 5분 GPU 사용"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인불필요",
+      "오픈소스",
+      "워터마크없음"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "sources": [
+      {
+        "title": "Spaces ZeroGPU: Usage Tiers (Hugging Face Docs)",
+        "url": "https://huggingface.co/docs/hub/spaces-zerogpu",
+        "type": "official"
+      },
+      {
+        "title": "Tongyi-MAI/Z-Image-Turbo Space",
+        "url": "https://huggingface.co/spaces/Tongyi-MAI/Z-Image-Turbo",
+        "type": "official"
+      },
+      {
+        "title": "Qwen/Qwen-Image Space",
+        "url": "https://huggingface.co/spaces/Qwen/Qwen-Image",
+        "type": "official"
+      },
+      {
+        "title": "black-forest-labs/FLUX.2-dev Space",
+        "url": "https://huggingface.co/spaces/black-forest-labs/FLUX.2-dev",
+        "type": "official"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "none",
+      "login": false,
+      "commercial": false
+    }
+  },
+  {
+    "id": "huggingface-qwen-image",
+    "category": "image",
+    "platform": "Hugging Face Spaces (Qwen-Image 2.1 데모)",
+    "vendor": "Alibaba (Qwen) / Hugging Face",
+    "url": "https://huggingface.co/spaces/Qwen/Qwen-Image-2.1",
+    "logo": "huggingface",
+    "logoDomain": "huggingface.co",
+    "models": [
+      "Qwen-Image 2.1"
+    ],
+    "headline": "Qwen-Image 2.1(9월 신모델) → Hugging Face 공식 데모에서 로그인 없이 무료",
+    "description": "알리바바 Qwen 팀이 2026년 9월 20일 오픈 웨이트로 공개한 Qwen-Image 2.1을 Hugging Face의 공식 데모 페이지에서 바로 써볼 수 있다. 계정 없이 프롬프트 테스트가 되고, 로그인하면 GPU 사용 시간이 늘어난다.",
+    "freeTier": {
+      "quota": "무료 (공개된 고정 한도 없음, 붐비면 대기열). Hugging Face ZeroGPU의 일일 GPU 시간 한도를 받으며 비로그인이 가장 적다(보고)",
+      "reset": "매일 (ZeroGPU 할당, 보고)",
+      "watermark": "불명",
+      "commercialUse": "불가 (Qwen Research License, 연구·평가 용도. 상업 이용은 별도 라이선스)",
+      "signup": "로그인 불필요 (Hugging Face 계정 로그인 시 한도 증가)",
+      "korea": "가능",
+      "notes": "ModelScope API-Inference로도 하루 약 250회 무료 호출이 가능하지만, 알리바바 클라우드 실명 인증 계정이 필요하다. 16~24GB VRAM GPU가 있으면 로컬에서 돌릴 수 있다."
+    },
+    "howTo": [
+      "huggingface.co/spaces/Qwen/Qwen-Image-2.1 접속",
+      "프롬프트와 옵션(비율 등)을 입력하고 생성 (대기열이 있으면 기다림)",
+      "결과 이미지 저장 (비상업·연구 용도)"
+    ],
+    "tags": [
+      "로그인불필요",
+      "오픈웨이트",
+      "비상업",
+      "신모델"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Qwen-Image-2.1 - Hugging Face Space",
+        "url": "https://huggingface.co/spaces/Qwen/Qwen-Image-2.1",
+        "type": "official",
+        "date": "2026-09-27"
+      },
+      {
+        "title": "Qwen Image 2.1 free API guide",
+        "url": "https://blog.laozhang.ai/en/posts/qwen-image-2-1-free-api",
+        "type": "community",
+        "date": "2026-09-25"
+      }
+    ],
+    "access": "opensource",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": false,
+      "commercial": false
+    }
+  },
+  {
+    "id": "ideogram-image",
+    "category": "image",
+    "platform": "Ideogram",
+    "vendor": "Ideogram",
+    "url": "https://ideogram.ai/",
+    "logo": "ideogram",
+    "logoDomain": "ideogram.ai",
+    "models": [
+      "Ideogram 4.0"
+    ],
+    "headline": "Ideogram 4.0 → 무료 계정 주 10 슬로 크레딧 (포스터·로고 글자에 강함)",
+    "description": "이미지 속 글자(타이포그래피)를 정확하게 그리는 것으로 유명한 서비스. 최신 Ideogram 4.0은 투명 배경, 스타일 제어, 편집 안정성이 좋아졌다. 포스터, 로고, 썸네일 문구 작업에 알맞다.",
+    "freeTier": {
+      "quota": "주 10 슬로 크레딧 (느린 대기열, 주 최대 약 40장이라는 보고)",
+      "reset": "매주",
+      "watermark": "없음/불명",
+      "commercialUse": "Ideogram은 생성물의 소유권을 주장하지 않음(약관 준수 시 사용 가능)",
+      "signup": "Google, Apple, Microsoft 계정 (이메일+비밀번호로 가입하면 무료 크레딧 없음)",
+      "korea": "가능",
+      "notes": "무료 플랜 이미지는 공개되고, 비공개 생성은 유료다. 레퍼런스·이미지 편집 도구도 무료 플랜에서는 슬로 크레딧을 쓴다. 커뮤니티 상위 창작자 타이틀을 받으면 주간 슬로 크레딧이 100~500으로 늘어난다."
+    },
+    "howTo": [
+      "ideogram.ai에 Google, Apple, Microsoft 계정으로 가입 (이메일 가입은 무료 크레딧 없음)",
+      "프롬프트에 넣을 문구를 따옴표로 적고 모델(4.0/Auto) 선택",
+      "슬로 대기열로 생성된 결과 다운로드"
+    ],
+    "tags": [
+      "매주충전",
+      "로그인필요",
+      "글자렌더링",
+      "공개갤러리"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Ideogram Docs - Available Plans / Creator perks (free plan 10 Slow credits per week)",
+        "url": "https://docs.ideogram.ai/plans-and-pricing/available-plans",
+        "type": "official",
+        "date": "2026-08-21"
+      },
+      {
+        "title": "Ideogram Docs (전체 문서)",
+        "url": "https://docs.ideogram.ai/llms-full.txt",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Best free AI image generator",
+        "url": "https://blog.laozhang.ai/en/posts/best-free-ai-image-generator",
+        "type": "community",
+        "date": "2026-03-27"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "weekly",
+      "watermark": "none",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "kling-image",
+    "category": "image",
+    "platform": "Kling AI",
+    "vendor": "Kuaishou",
+    "url": "https://klingai.com/global/",
+    "logo": "kling",
+    "logoDomain": "klingai.com",
+    "models": [
+      "Kling Image 3.0"
+    ],
+    "headline": "Kling Image 3.0 → Kling AI 무료 계정 매일 66크레딧 (영상과 공유)",
+    "description": "중국 콰이쇼우의 영상·이미지 생성 플랫폼. 영상 모델로 유명하지만 Kling Image 3.0으로 영화 같은 사실적 이미지, 레퍼런스 기반 인물 일관성, 스토리보드 생성도 지원한다. 만든 이미지를 곧바로 영상으로 이어서 만들 수 있다.",
+    "freeTier": {
+      "quota": "매일 66크레딧 (영상·이미지 공용, 누적 안 됨). 이미지는 영상보다 크레딧을 훨씬 적게 쓴다 (정확한 이미지 단가는 미확인)",
+      "reset": "매일 (24시간마다, 이월 없음)",
+      "watermark": "가시 워터마크 있음 (Kling 로고)",
+      "commercialUse": "불가 (무료 플랜은 개인 용도만)",
+      "signup": "이메일, Google 등",
+      "korea": "가능 (글로벌판)",
+      "notes": "무료 계정은 대기열이 느리고 출력 제한이 있다(영상 720p, 5초 등). 상업용으로 쓰려면 Standard(월 약 10달러) 이상이 필요하다."
+    },
+    "howTo": [
+      "klingai.com/global에 가입",
+      "AI Images 메뉴에서 Kling Image 3.0 선택",
+      "프롬프트나 레퍼런스를 넣고 생성 (크레딧 소모량 확인)"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "워터마크",
+      "비상업",
+      "영상연계"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Kling AI: Next-Gen AI Video & Image Generator (Kling Image 3.0)",
+        "url": "https://klingai.com/global/",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Kling AI Pricing (free 66 credits/day)",
+        "url": "https://felloai.com/kling-ai-pricing/",
+        "type": "community",
+        "date": "2026-06-13"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "visible",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "meta-ai-image",
+    "category": "image",
+    "platform": "Meta AI",
+    "vendor": "Meta",
+    "url": "https://www.meta.ai/",
+    "logo": "meta-ai",
+    "logoDomain": "meta.ai",
+    "models": [
+      "Muse Image",
+      "Meta Imagine"
+    ],
+    "headline": "Meta AI(Muse Image) → 무료 (하루 약 25장 보고, 2026년 5월 한국 출시)",
+    "description": "메타의 AI 챗봇 Meta AI(meta.ai, Meta AI 앱, 인스타그램, 왓츠앱)에서 이미지를 만들고 사진을 편집한다. 2026년 7월 메타 초지능연구소(MSL)가 만든 첫 이미지 모델 'Muse Image'가 공개됐고, 인스타그램 스토리 등과 바로 연결된다. Meta AI는 2026년 5월 한국에 공식 출시됐다.",
+    "freeTier": {
+      "quota": "공식 수치 비공개('일상적인 창작은 무료, 많이 쓰면 구독'). 독립 테스트 기준 하루 약 25장 보고",
+      "reset": "매일 (롤링, 보고)",
+      "watermark": "가시 워터마크 'Imagined with Meta AI' 보고 + 비가시 표식(Content Seal)",
+      "commercialUse": "불명 (Meta 약관 따름)",
+      "signup": "Meta 계정 (Facebook·Instagram 등)",
+      "korea": "가능 (2026-05-13 한국 출시, 이미지 생성 포함). 다만 Muse Image 신모델은 일부 국가에 먼저 적용",
+      "notes": "유료 구독 Meta One이 일부 지역에서 시험 운영 중이며, 가입하면 고급 이미지·영상 모델 사용량이 늘어난다. 모델을 고를 수 없다. 인스타그램 공개 사진을 태그해 이미지에 반영하는 기능이 있다(거부 설정 가능)."
+    },
+    "howTo": [
+      "meta.ai 또는 Meta AI 앱에 Meta 계정으로 로그인 (인스타그램·왓츠앱의 Meta AI 채팅도 가능)",
+      "'Imagine ~' 또는 '~ 이미지 만들어줘'라고 입력",
+      "결과를 편집, 애니메이션화하거나 스토리로 공유"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "워터마크",
+      "한국어지원"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Manage AI usage for your Meta One plan - Meta Help Center",
+        "url": "https://www.meta.com/help/artificial-intelligence/1831790234178989/",
+        "type": "official",
+        "date": "2026"
+      },
+      {
+        "title": "메타AI 한국 상륙…자체 모델 '뮤즈 스파크' 기반",
+        "url": "https://m.news.nate.com/view/20260513n35415",
+        "type": "news",
+        "date": "2026-05-13"
+      },
+      {
+        "title": "메타, 이미지 생성 AI 모델 '뮤즈 이미지' 출시 - 전자신문",
+        "url": "https://www.etnews.com/20260708000019",
+        "type": "news",
+        "date": "2026-07-08"
+      },
+      {
+        "title": "Meta AI Image Generator Limits in 2026",
+        "url": "https://morphed.app/blog/meta-ai-image-generator-limits",
+        "type": "community",
+        "date": "2026-06-13"
+      },
+      {
+        "title": "Meta AI Image Generator (Muse Image)",
+        "url": "https://felloai.com/meta-ai-image-generator/",
+        "type": "community",
+        "date": "2026-09-16"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "invisible",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "copilot-image",
+    "category": "image",
+    "platform": "Microsoft Copilot",
+    "vendor": "Microsoft",
+    "url": "https://copilot.microsoft.com/",
+    "logo": "microsoft-copilot",
+    "logoDomain": "copilot.microsoft.com",
+    "models": [
+      "MAI-Image-2.5"
+    ],
+    "headline": "MAI-Image 계열 → Copilot 채팅에서 무료 생성 (한도 비공개, '나중에 다시' 방식)",
+    "description": "마이크로소프트 Copilot 앱과 웹에서 대화하며 이미지를 만든다. 마이크로소프트는 2026년 6월 Nano Banana Pro보다 Arena 점수가 높다고 소개한 자체 모델 MAI-Image-2.5를 공개하고 Copilot과 Bing에 순차 적용하고 있다. 예전 Designer의 이미지 생성 기능도 Copilot 쪽으로 합쳐지는 추세다.",
+    "freeTier": {
+      "quota": "공식 수치 비공개. 예전 '하루 15 부스트' 체계는 Copilot에서 없어졌고, 한도에 걸리면 '업그레이드하거나 나중에 다시 오라'는 안내가 나온다",
+      "reset": "불명 (용량 기반)",
+      "watermark": "불명 (콘텐츠 자격증명 메타데이터 포함 가능성)",
+      "commercialUse": "불명 (Microsoft 약관 따름)",
+      "signup": "Microsoft 계정 (일부 기능은 로그인 없이도 가능)",
+      "korea": "가능 (한국어 지원)",
+      "notes": "Copilot 안에서 어떤 이미지 모델이 쓰이는지는 화면에 명확히 나오지 않을 수 있다. 빠른 생성 횟수를 분명히 알고 싶다면 Bing Image Creator가 한도가 더 투명하다."
+    },
+    "howTo": [
+      "copilot.microsoft.com 또는 Copilot 앱 실행 후 로그인",
+      "채팅에 '~ 이미지 그려줘'라고 입력",
+      "결과 이미지를 다운로드하거나 추가 지시로 수정"
+    ],
+    "tags": [
+      "한도비공개",
+      "한국어지원",
+      "로그인권장"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Launching seven new MAI models (MAI-Image-2.5)",
+        "url": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
+        "type": "official",
+        "date": "2026-06-02"
+      },
+      {
+        "title": "Is Copilot Free?",
+        "url": "https://felloai.com/is-copilot-free/",
+        "type": "community",
+        "date": "2026-09-21"
+      },
+      {
+        "title": "Microsoft Build 2026: MAI-Image 2.5, MAI-Voice 2",
+        "url": "https://windowsforum.com/threads/microsoft-build-2026-mai-image-2-5-mai-voice-2-and-mai-transcribe-1-5.420924/",
+        "type": "community",
+        "date": "2026-06"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "perchance-image",
+    "platform": "Perchance AI Image Generator",
+    "vendor": "Perchance",
+    "access": "opensource",
+    "url": "https://perchance.org/ai-text-to-image-generator",
+    "logo": "perchance",
+    "logoDomain": "perchance.org",
+    "models": [],
+    "headline": "Perchance: 로그인·크레딧 없이 완전 무제한 무료 (구형 오픈소스 모델)",
+    "description": "로그인도, 일일 크레딧도, 워터마크도 없이 몇 초 만에 여러 장을 한꺼번에 뽑아 주는 '진짜 무제한' 생성기다. 최신 상용 모델만큼 품질이 좋진 않지만 아이디어 스케치나 캐릭터 대량 생성에는 제한 없이 쓰기 좋아 2026년 무료 추천 목록에 계속 오른다.",
+    "freeTier": {
+      "quota": "무제한 — 일일 크레딧·횟수 제한 없음, 배치 생성",
+      "reset": "무제한",
+      "watermark": "없음",
+      "commercialUse": "불명 (명시 없음)",
+      "signup": "로그인 불필요",
+      "korea": "가능",
+      "notes": "품질은 Nano Banana·Seedream 같은 최신 모델보다 낮음(구형 SD 계열 평가). 해상도 제한(약 512×768 수준 보고). 광고 지원 방식. 이미지 편집·참조 이미지 기능은 제한적."
+    },
+    "howTo": [
+      "perchance.org/ai-text-to-image-generator 접속",
+      "프롬프트와 스타일 선택",
+      "생성 버튼 반복 — 제한 없이 계속 생성"
+    ],
+    "tags": [
+      "무제한",
+      "로그인불필요",
+      "워터마크없음",
+      "구형모델"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "sources": [
+      {
+        "title": "AI Image Generator (free, no sign-up, unlimited) - Perchance",
+        "url": "https://perchance.org/ai-text-to-image-generator",
+        "type": "official"
+      },
+      {
+        "title": "9 Best Free Unlimited AI Image Generators in 2026 (Morphed)",
+        "url": "https://morphed.app/blog/free-unlimited-ai-image-generators",
+        "type": "community",
+        "date": "2026-07-03"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unlimited",
+      "watermark": "none",
+      "login": false,
+      "commercial": null
+    }
+  },
+  {
+    "id": "pixai-image",
+    "category": "image",
+    "access": "official",
+    "platform": "PixAI",
+    "vendor": "PixAI",
+    "url": "https://pixai.art",
+    "logo": "pixai",
+    "logoDomain": "pixai.art",
+    "models": [
+      "Tsubaki.3 (이벤트 카드로 무료 생성)",
+      "PixAI 애니메 모델·커뮤니티 LoRA (크레딧)"
+    ],
+    "headline": "PixAI 무료: 매일 출석 크레딧으로 애니풍 이미지 — 지금 4주년 이벤트로 최대 31.5만 크레딧 + Tsubaki.3 카드 15장",
+    "description": "애니메이션·일러스트 특화 이미지 생성 플랫폼. 매일 출석으로 크레딧을 받아 자체 모델과 커뮤니티 LoRA를 쓸 수 있다. 9월 17일 공개한 신모델 Tsubaki.3와 함께 4주년 출석 이벤트를 진행 중.",
+    "freeTier": {
+      "quota": "매일 출석 크레딧 (커뮤니티 보고: 출석 1만 크레딧 + 매일 추가 크레딧)",
+      "reset": "매일",
+      "watermark": "불명",
+      "commercialUse": "불명",
+      "signup": "이메일·Google 계정",
+      "korea": "가능",
+      "notes": "Tsubaki.3는 이벤트 '모델 생성 카드'로 무료 사용. 멤버십은 출석 보상 증가."
+    },
+    "howTo": [
+      "pixai.art 가입",
+      "상단 4주년 배너(Check-in for Credits or Tsubaki.3 Cards)에서 매일 체크인",
+      "받은 크레딧·카드로 생성"
+    ],
+    "tags": [
+      "매일충전",
+      "애니풍",
+      "이벤트",
+      "로그인필요"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "promo": {
+      "text": "4주년 'Project Genesis' 출석 이벤트: 매일 체크인으로 최대 315,000 크레딧 + Tsubaki.3 생성 카드 15장 (9/17 시작, 무료 계정 참여 가능)",
+      "until": "불명"
+    },
+    "sources": [
+      {
+        "title": "PixAI 4th Anniversary Event",
+        "url": "https://pixai.art/en/event/4th-anniversary",
+        "type": "official",
+        "date": "2026-09-17"
+      },
+      {
+        "title": "Pixai 4주년 맞아 Tsubaki.3·글로벌 창작 프로젝트 공개 (디시 헝그리앱)",
+        "url": "https://gall.dcinside.com/board/view/?id=hungryapp&no=6193",
+        "type": "news",
+        "date": "2026-09-15"
+      },
+      {
+        "title": "픽스 출석이벤트 (디시 제타 갤러리)",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=zetam&no=1340000",
+        "type": "community",
+        "date": "2026-09-17"
+      }
+    ],
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "playground-image",
+    "category": "image",
+    "platform": "Playground",
+    "vendor": "Playground",
+    "url": "https://playground.com/",
+    "logo": "playground",
+    "logoDomain": "playground.com",
+    "models": [
+      "Muse Image",
+      "PGv3",
+      "Nano Banana",
+      "GPT Image 2.5",
+      "Seedream"
+    ],
+    "headline": "Muse Image·PGv3 → Playground 무료 3시간마다 최대 10장 + 프리미엄 모델 월 3회",
+    "description": "템플릿 기반 그래픽 디자인과 AI 이미지 생성을 합친 서비스. 무료 계정도 자체·기본 모델로 꾸준히 생성할 수 있고, 매달 Nano Banana, GPT Image 2/2.5, Seedream 같은 프리미엄 모델도 몇 번 써볼 수 있다. 무료 플랜도 상업 이용이 허용된다.",
+    "freeTier": {
+      "quota": "3시간마다 최대 10장(롤링, 비교표에는 PGv3 5장으로 표기) + 월 3크레딧(Muse Image, Nano Banana, GPT Image 2/2.5, Seedream 공용, 1장 1크레딧)",
+      "reset": "3시간 롤링 / 프리미엄 크레딧은 매월",
+      "watermark": "불명",
+      "commercialUse": "가능 (무료 포함 전 플랜 전 세계 로열티 프리 라이선스)",
+      "signup": "이메일, Google 등",
+      "korea": "가능",
+      "notes": "무료 사용자의 Auto 기본 모델은 Muse Image. 무료는 하루 다운로드 2회 제한(디자인 파일), 피크 시간 저속, 한도 후 대기 시간이 있다. 다중 계정 사용 금지. Nano Banana Pro는 무료에서 못 쓴다."
+    },
+    "howTo": [
+      "playground.com에 가입",
+      "Create에서 모델(Auto/PGv3 또는 월 3회 프리미엄 모델)을 고르고 프롬프트 입력",
+      "결과를 템플릿·디자인에 활용하거나 저장 (무료는 하루 다운로드 2회)"
+    ],
+    "tags": [
+      "시간충전",
+      "로그인필요",
+      "상업이용가능",
+      "템플릿"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Pricing - Playground",
+        "url": "https://www.playground.com/pricing",
+        "type": "official",
+        "date": "2026-09"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "monthly",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": true
+    }
+  },
+  {
+    "id": "pollinations-image",
+    "platform": "Pollinations",
+    "vendor": "Pollinations.AI",
+    "access": "opensource",
+    "url": "https://pollinations.ai",
+    "logo": "pollinations",
+    "logoDomain": "pollinations.ai",
+    "models": [
+      "Flux.1 Schnell",
+      "Z-Image Turbo",
+      "FLUX.2 Klein 4B",
+      "Flux.1 Kontext Pro",
+      "GPT Image 1 mini",
+      "MAI-Image 2.6"
+    ],
+    "headline": "Pollinations: 오픈소스 생성 API/웹 — 무료 'Quest Pollen'으로 Flux·Z-Image 등 (Nano Banana·Seedream은 유료 전용)",
+    "description": "오픈소스로 운영되는 멀티모달 생성 API·웹 플레이그라운드다. 예전엔 키 없이 무제한 호출이 가능했지만 지금은 Pollen 크레딧제($1≈1 Pollen)로 바뀌었다. 퀘스트·티어로 받는 무료 Pollen으로 유료 전용이 아닌 모델을 쓸 수 있어 개발자·봇 제작용으로 인기가 많다.",
+    "freeTier": {
+      "quota": "가입(API 키) 후 퀘스트/티어로 받는 무료 Pollen으로 '유료 전용'이 아닌 모델 사용. 지급량은 대시보드에 표시(공개 수치 미확인). Flux Schnell·Z-Image Turbo 같은 저가 모델은 장당 Pollen 소수점 이하",
+      "reset": "불명 (주 단위 티어 지급으로 보임)",
+      "watermark": "불명",
+      "commercialUse": "불명",
+      "signup": "enter.pollinations.ai 가입 (API 키)",
+      "korea": "가능",
+      "notes": "모델 목록 API 기준 유료 전용(paid_only): Nano Banana(모든 버전), Seedream 4.x/5.0, Qwen-Image, FLUX.2 Pro/Max, Ideogram v4, GPT Image 2.5, Grok Imagine 등. 웹 플레이그라운드: pollinations.ai/play."
+    },
+    "howTo": [
+      "enter.pollinations.ai 에서 가입·API 키 발급",
+      "pollinations.ai/play 또는 API(gen.pollinations.ai)에서 무료 허용 모델 선택",
+      "퀘스트로 무료 Pollen 적립 후 생성"
+    ],
+    "tags": [
+      "오픈소스",
+      "API",
+      "로그인필요",
+      "크레딧제"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "sources": [
+      {
+        "title": "pollinations/pollinations (GitHub)",
+        "url": "https://github.com/pollinations/pollinations",
+        "type": "official"
+      },
+      {
+        "title": "Pollinations Image Models API",
+        "url": "https://gen.pollinations.ai/image/models",
+        "type": "official"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "qwen-chat-image",
+    "category": "image",
+    "platform": "Qwen Chat",
+    "vendor": "Alibaba (Qwen)",
+    "url": "https://chat.qwen.ai/",
+    "logo": "qwen",
+    "logoDomain": "chat.qwen.ai",
+    "models": [
+      "Qwen-Image 계열"
+    ],
+    "headline": "Qwen-Image → Qwen Chat에서 구독 없이 무료 생성·편집",
+    "description": "알리바바의 챗봇 Qwen Chat에서 'Image Generation'을 골라 이미지를 만들고 편집한다. Qwen-Image는 긴 문장이나 중국어·영어 글자를 이미지에 정확하게 넣는 데 강하다. Qwen Chat에는 유료 구독 등급이 없다.",
+    "freeTier": {
+      "quota": "무료 (구독 등급 없음). 공식 일일 한도는 공개되지 않음",
+      "reset": "불명",
+      "watermark": "불명",
+      "commercialUse": "불명 (Qwen Chat 약관 따름)",
+      "signup": "이메일, Google 등",
+      "korea": "가능",
+      "notes": "Qwen Chat에 어떤 Qwen-Image 버전이 들어가 있는지는 명시되지 않는다. 최신 오픈 웨이트 모델 Qwen-Image 2.1은 2026년 9월 20일 공개됐다. 몰릴 때는 대기가 생기거나 속도가 제한될 수 있다."
+    },
+    "howTo": [
+      "chat.qwen.ai 접속 후 로그인",
+      "입력창 모드에서 'Image Generation'(이미지 생성) 선택",
+      "프롬프트를 입력하거나 이미지를 올려 편집 요청"
+    ],
+    "tags": [
+      "무료",
+      "로그인필요",
+      "글자렌더링"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Qwen-Image: Crafting with Native Text Rendering (Qwen Chat에서 'Image Generation' 선택)",
+        "url": "https://qwenlm.github.io/blog/qwen-image/",
+        "type": "official",
+        "date": "2025-08-04"
+      },
+      {
+        "title": "Qwen Chat",
+        "url": "https://chat.qwen.ai/",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Qwen Pricing (Qwen Chat is free, covers image tasks)",
+        "url": "https://felloai.com/qwen-pricing/",
+        "type": "community",
+        "date": "2026-09-18"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "recraft-image",
+    "category": "image",
+    "platform": "Recraft",
+    "vendor": "Recraft",
+    "url": "https://www.recraft.ai/",
+    "logo": "recraft",
+    "logoDomain": "recraft.ai",
+    "models": [
+      "Recraft V4.1",
+      "Recraft V4"
+    ],
+    "headline": "Recraft V4 → 무료 계정 스타일마다 하루 3회 생성 (개인용)",
+    "description": "벡터(SVG) 일러스트, 아이콘, 로고, 목업 생성에 특화된 디자인용 AI. 스타일 라이브러리와 직접 만든 스타일로 일관된 브랜드 그래픽을 뽑을 수 있다. 무료 플랜은 자체 Recraft 모델만 쓸 수 있다.",
+    "freeTier": {
+      "quota": "스타일당 하루 3회 생성, 생성 1회에 최대 2장, 하루 이미지 업로드 3장",
+      "reset": "매일",
+      "watermark": "불명",
+      "commercialUse": "불가 (무료 플랜 이미지는 Recraft 소유, 개인용만)",
+      "signup": "이메일, Google 등",
+      "korea": "가능",
+      "notes": "무료 이미지는 모두 커뮤니티 갤러리에 공개되고 동시 생성이 안 된다. Nano Banana, Seedream, GPT Image, Flux 같은 외부 모델은 유료(Basic 이상) 전용이다. 3월에는 '하루 30크레딧'이라는 보고도 있었지만 현재 공식 표기는 스타일별 횟수제다."
+    },
+    "howTo": [
+      "recraft.ai에 가입 후 프로젝트 열기",
+      "스타일(벡터, 아이콘, 사진 등)을 고르고 프롬프트 입력",
+      "결과를 PNG/SVG로 내보내기 (개인용)"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "벡터",
+      "비상업",
+      "공개갤러리"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Pricing and plans - Recraft",
+        "url": "https://www.recraft.ai/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Best free AI image generator (Recraft 항목)",
+        "url": "https://blog.laozhang.ai/en/posts/best-free-ai-image-generator",
+        "type": "community",
+        "date": "2026-03-27"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "sora-image",
+    "category": "image",
+    "platform": "Sora 앱",
+    "vendor": "OpenAI",
+    "url": "https://sora.com/",
+    "logo": "sora",
+    "logoDomain": "sora.com",
+    "models": [
+      "Sora",
+      "GPT Image"
+    ],
+    "headline": "Sora 앱 이미지 생성 → 2026년 4월 26일 앱 종료 (이미지는 ChatGPT에서)",
+    "description": "OpenAI의 Sora 앱과 웹에서도 이미지를 만들 수 있었지만, OpenAI가 2026년 3월에 Sora 종료를 발표했다. 앱과 웹은 4월 26일, Sora 2 API는 9월 24일에 끝났다. 무료 사용자의 Sora 이미지·영상 생성은 그보다 앞선 2026년 1월에 이미 막혔다.",
+    "freeTier": {
+      "quota": "서비스 종료",
+      "reset": "해당 없음",
+      "watermark": "해당 없음",
+      "commercialUse": "해당 없음",
+      "signup": "해당 없음",
+      "korea": "해당 없음",
+      "notes": "OpenAI 이미지 생성은 ChatGPT(Images 2.5)에서 이용. 기존 Sora 라이브러리 내보내기 기한도 지났다."
+    },
+    "howTo": [
+      "이미지 생성은 chatgpt.com의 Images 메뉴 사용",
+      "API가 필요하면 GPT-Image-2.5 모델 사용(유료)",
+      "Sora 앱은 더 이상 이용 불가"
+    ],
+    "tags": [
+      "서비스종료"
+    ],
+    "confidence": "high",
+    "status": "ended",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "What to know about the Sora discontinuation",
+        "url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+        "type": "official",
+        "date": "2026-03"
+      },
+      {
+        "title": "OpenAI's Sora ... now it's shutting down",
+        "url": "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/",
+        "type": "news",
+        "date": "2026-03-24"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "none",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "tencent-yuanbao-image",
+    "category": "image",
+    "platform": "Tencent Yuanbao (元宝)",
+    "vendor": "Tencent (Hunyuan / Hy)",
+    "url": "https://yuanbao.tencent.com/chat/ai-creation",
+    "logo": "tencent-yuanbao",
+    "logoDomain": "yuanbao.tencent.com",
+    "models": [
+      "Hy Image 3.5 preview",
+      "HY Image 3.0 Plus"
+    ],
+    "headline": "Hunyuan(Hy) Image 3.5 preview → 텐센트 위안바오 앱에서 사용 (무료 한도 미확인)",
+    "description": "텐센트의 Hunyuan 모델군이 'Hy'로 이름을 바꿨고, 2026년 9월 21일 Hy Image 3.5 preview가 공개됐다. 텐센트 AI 비서 앱 위안바오(元宝)가 이 모델을 먼저 적용해 포스터, 지식 카드, 인물 이미지, 사진 편집에 쓰고 있다. 중국어·영어 작은 글씨 표현이 좋아졌다는 평가다.",
+    "freeTier": {
+      "quota": "위안바오 앱은 무료로 제공되지만 이미지 생성 일일 한도는 확인 못 함",
+      "reset": "불명",
+      "watermark": "불명",
+      "commercialUse": "불명",
+      "signup": "위안바오 계정 (중국 휴대폰·WeChat 로그인이 필요할 수 있음)",
+      "korea": "불명 (중국 중심 서비스)",
+      "notes": "해외에서는 국제판 Hy AI Studio(aistudio.tencent.ai)에서 모델을 체험할 수 있다(무료 범위 미확인). 오픈소스판 Hunyuan Image 모델은 Hugging Face에도 공개돼 있다."
+    },
+    "howTo": [
+      "위안바오 앱 또는 yuanbao.tencent.com 접속 후 로그인",
+      "AI 창작(AI 创作)에서 이미지 생성 선택",
+      "중국어나 영어 프롬프트를 입력해 생성"
+    ],
+    "tags": [
+      "중국서비스",
+      "신모델",
+      "로그인필요"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Hy Image3.5 preview 发布",
+        "url": "https://hunyuan.tencent.com/research/hy-image35-preview",
+        "type": "official",
+        "date": "2026-09-21"
+      },
+      {
+        "title": "Tencent Hy (international)",
+        "url": "https://hy.tencent.ai/",
+        "type": "official",
+        "date": "2026-09"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "google-whisk-image",
+    "category": "image",
+    "platform": "Whisk / ImageFX",
+    "vendor": "Google",
+    "url": "https://labs.google/fx/tools/whisk",
+    "logo": "google-whisk",
+    "logoDomain": "labs.google",
+    "models": [
+      "Imagen 4",
+      "Nano Banana"
+    ],
+    "headline": "Whisk·ImageFX → 2026년 Google Flow로 통합, 단독 서비스 종료 (주소가 Flow로 연결됨)",
+    "description": "이미지 여러 장을 섞어 새 이미지를 만드는 Whisk와 Imagen 기반 ImageFX는 구글 Labs의 무료 이미지 도구였다. 2026년 2월 구글이 두 도구를 Flow에 통합한다고 발표했고, 지금 두 주소로 들어가면 flow.google.com으로 넘어간다.",
+    "freeTier": {
+      "quota": "단독 서비스 종료. 같은 기능은 Google Flow에서 무료 이미지 생성으로 이용",
+      "reset": "해당 없음",
+      "watermark": "해당 없음",
+      "commercialUse": "해당 없음",
+      "signup": "Google 계정 (Flow)",
+      "korea": "Flow로 이용 가능",
+      "notes": "2026년 3월부터 Whisk·ImageFX의 프로젝트와 에셋을 Flow 라이브러리로 옮기는 옵트인 이전이 제공됐다."
+    },
+    "howTo": [
+      "flow.google.com 접속 (기존 Whisk·ImageFX 주소는 자동으로 넘어감)",
+      "프로젝트 안에서 이미지 생성, 레퍼런스 이미지 드래그로 Whisk 방식 합성",
+      "필요하면 기존 Whisk·ImageFX 자산을 Flow 라이브러리로 이전"
+    ],
+    "tags": [
+      "서비스종료",
+      "Flow통합"
+    ],
+    "confidence": "high",
+    "status": "ended",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Flow update: Whisk와 ImageFX를 Flow로 통합",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-updates-february-2026/",
+        "type": "official",
+        "date": "2026-02"
+      },
+      {
+        "title": "Whisk (flow.google.com/?from=whisk 로 리다이렉트)",
+        "url": "https://labs.google/fx/tools/whisk",
+        "type": "official",
+        "date": "2026-09-29"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "none",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "arena-image",
+    "platform": "Arena (구 LMArena)",
+    "vendor": "Arena (LMArena)",
+    "access": "wrapper",
+    "url": "https://arena.ai/image",
+    "logo": "arena",
+    "logoDomain": "arena.ai",
+    "models": [
+      "Nano Banana (Gemini 2.5 Flash Image)",
+      "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+      "Seedream 5.0 Pro / Lite / 4.5",
+      "GPT Image 1",
+      "Qwen-Image 2.0 / 2512",
+      "FLUX.2 Pro / Dev",
+      "Grok Imagine Image",
+      "Ideogram v3",
+      "Krea 2",
+      "Recraft V4",
+      "Wan 2.7 Image",
+      "HunyuanImage 2.1"
+    ],
+    "headline": "Arena(구 LMArena) 무료: 배틀·직접 모드로 Nano Banana·Seedream 5.0·GPT Image·Qwen 등 최신 모델 무료 비교",
+    "description": "AI 모델 성능 순위를 매기는 평가 플랫폼으로, 이미지 아레나에서 두 모델의 결과를 비교 투표하거나(배틀) 원하는 모델을 골라(Direct) 무료로 생성할 수 있다. 배틀에는 출시 전 최신 모델이 익명으로 섞여 나오기도 해 '무료로 최신 모델 써보기' 용도로 인기가 많다. lmarena.ai 주소는 arena.ai로 이전됐다.",
+    "freeTier": {
+      "quota": "무료 — 공식 일일 한도 비공개(트래픽에 따라 제한될 수 있음). 배틀 모드는 익명 모델 2개 결과 비교, Direct 모드는 모델 지정",
+      "reset": "불명",
+      "watermark": "불명 (모델 제공사 워터마크, 예: Google SynthID는 유지될 수 있음)",
+      "commercialUse": "불명 — 연구·평가 목적 플랫폼",
+      "signup": "불명 (이미지 생성 시 로그인 요구될 수 있음)",
+      "korea": "가능",
+      "notes": "2026-09-24 리더보드 상위: gpt-image-2.5, mai-image-2.6, reve-2.1, grok-imagine-image-2.0, gemini-3.1-flash-image, seedream-5.0-pro, qwen-image-3.0-pro 등 — 배틀에서는 이런 최신/미공개 모델이 무작위로 나올 수 있음. Direct 목록은 사이트 데이터 기준(2026-09-29). 입력은 제3자 AI로 처리되고 데이터가 연구용으로 공유될 수 있으니 개인 사진 업로드 주의."
+    },
+    "howTo": [
+      "arena.ai/image 접속",
+      "Battle(익명 비교) 또는 Direct(모델 선택) 모드 선택",
+      "프롬프트 입력 → 결과 저장, 배틀은 투표 후 모델명 공개"
+    ],
+    "tags": [
+      "무료",
+      "최신모델",
+      "한도비공개",
+      "Nano Banana",
+      "Seedream"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "sources": [
+      {
+        "title": "Arena Text-to-Image Leaderboard",
+        "url": "https://arena.ai/leaderboard/text-to-image",
+        "type": "official",
+        "date": "2026-09-24"
+      },
+      {
+        "title": "Arena Image",
+        "url": "https://arena.ai/image",
+        "type": "official"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "civitai-image",
+    "platform": "Civitai",
+    "vendor": "Civitai",
+    "access": "wrapper",
+    "url": "https://civitai.com",
+    "logo": "civitai",
+    "logoDomain": "civitai.com",
+    "models": [
+      "SDXL·SD1.5 커뮤니티 체크포인트/LoRA",
+      "Flux 계열"
+    ],
+    "headline": "Civitai 무료: 매일 적립 Buzz(부스트 25 + 반응 최대 100 등)로 커뮤니티 모델·LoRA 생성",
+    "description": "세계 최대 오픈소스 이미지 모델·LoRA 공유 커뮤니티로, 사이트 안 생성기에서 수많은 커뮤니티 모델을 바로 돌릴 수 있다. 결제 없이도 매일 접속·활동으로 Buzz(사이트 재화)를 모아 생성에 쓸 수 있다.",
+    "freeTier": {
+      "quota": "매일 Daily Boost 25 Buzz(생성기에서 수령) + 이미지 반응 1회 2 Buzz(일 최대 100) + 첫 게시물 25 + 광고 시청 1 Buzz(일 최대 100) 등 — 활동량에 따라 하루 약 150~250 Buzz",
+      "reset": "매일 (UTC)",
+      "watermark": "불명",
+      "commercialUse": "모델별 라이선스 상이",
+      "signup": "이메일/Google/Discord 계정",
+      "korea": "가능",
+      "notes": "장당 Buzz 차감량은 모델·해상도·설정별로 다름. 제한 없는(성인) 콘텐츠 생성은 civitai.red로 분리됨. 유료 멤버십 Bronze $10(월 10,000 Buzz)부터. 적립량은 Civitai 오픈소스 코드의 보상 설정 기준."
+    },
+    "howTo": [
+      "civitai.com 가입",
+      "상단 Generate 열고 Daily Boost Buzz 수령, 이미지에 반응 달아 추가 적립",
+      "원하는 체크포인트/LoRA 선택 후 Buzz로 생성"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "커뮤니티모델",
+      "LoRA"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "sources": [
+      {
+        "title": "Civitai Memberships (Pricing)",
+        "url": "https://civitai.com/pricing",
+        "type": "official"
+      },
+      {
+        "title": "civitai/civitai GitHub — dailyBoost.reward.ts",
+        "url": "https://github.com/civitai/civitai/blob/main/src/server/rewards/active/dailyBoost.reward.ts",
+        "type": "official"
+      },
+      {
+        "title": "Using Civitai – The On-Site Image Generator",
+        "url": "https://education.civitai.com/using-civitai-the-on-site-image-generator/",
+        "type": "official"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "dzine-image",
+    "platform": "Dzine",
+    "vendor": "Dzine",
+    "access": "wrapper",
+    "url": "https://www.dzine.ai",
+    "logo": "dzine",
+    "logoDomain": "dzine.ai",
+    "models": [],
+    "headline": "Dzine 무료: 가입 시 100크레딧 1회(12개월 유효) — 매일 32크레딧 리셋은 폐지",
+    "description": "Nano Banana Pro, Seedream 4.5, Z-Image, GPT Image 등 여러 모델과 편집 도구(캐릭터 일관성, 생성형 채우기 등)를 제공하는 디자인형 AI 툴이다. 예전엔 무료 계정에 매일 32크레딧을 줬지만 지금은 가입 시 100크레딧을 한 번만 준다.",
+    "freeTier": {
+      "quota": "신규 가입 시 100크레딧 1회 (12개월 유효). 유료 기준 1,000크레딧 ≈ Nano Banana 2 66장 → 100크레딧은 약 6장 분량",
+      "reset": "가입 시 1회",
+      "watermark": "불명",
+      "commercialUse": "불가 (상업 이용·비공개 생성은 유료 플랜)",
+      "signup": "이메일/Google 계정",
+      "korea": "가능",
+      "notes": "'매일 32크레딧 리셋' 혜택 폐지(공식 요금 페이지 명시). 무료·Beginner는 추가 크레딧 구매 불가. 무료 크레딧으로 Nano Banana 등 모든 모델을 쓸 수 있는지는 확인 필요."
+    },
+    "howTo": [
+      "dzine.ai 가입 (100크레딧 지급)",
+      "Txt2Img/Img2Img에서 모델 선택 후 크레딧 차감 확인",
+      "크레딧 소진 시 유료 전환 필요"
+    ],
+    "tags": [
+      "가입1회",
+      "로그인필요",
+      "무료축소"
+    ],
+    "confidence": "high",
+    "status": "limited",
+    "sources": [
+      {
+        "title": "Dzine Pricing (Free Credits 안내)",
+        "url": "https://www.dzine.ai/pricing/",
+        "type": "official"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "once",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "felo-image",
+    "platform": "Felo",
+    "vendor": "Felo",
+    "access": "wrapper",
+    "url": "https://felo.ai",
+    "logo": "felo",
+    "logoDomain": "felo.ai",
+    "models": [
+      "Nano Banana",
+      "Nano Banana 2",
+      "GPT Image 1.5 / 2"
+    ],
+    "headline": "Felo 무료: 매일 200크레딧으로 Nano Banana 2·GPT Image 소량 (Nano Banana Pro는 제한)",
+    "description": "AI 검색 서비스 Felo에 이미지 생성 기능이 붙어 있어, 무료 계정도 매일 받는 200크레딧으로 Nano Banana·GPT Image를 쓸 수 있다. 국내 나노바나나 무료 사용 가이드에서도 우회 사용처로 소개된다.",
+    "freeTier": {
+      "quota": "매일 보너스 200크레딧 (1크레딧 ≈ $0.001). 이미지 모델별 크레딧 차감 — 장수는 모델·해상도별 상이(원가 기준 Nano Banana 2 몇 장 수준 추정)",
+      "reset": "매일 (자정 리셋, 이월 없음)",
+      "watermark": "불명",
+      "commercialUse": "불명",
+      "signup": "Felo 계정 (Google 등)",
+      "korea": "가능",
+      "notes": "크레딧은 검색·문서 등 다른 기능과 공유. 무료 제외: AI Designer·슬라이드·커스텀 에이전트·영상·API. Nano Banana Pro는 무료에서 '제한됨'. 사이트에 Nano Banana Pro 50%·GPT Image 30% 한시 할인 표시(무료 계정 적용 여부 불명)."
+    },
+    "howTo": [
+      "felo.ai 가입/로그인",
+      "이미지 생성(Image Generation)에서 Nano Banana 2 또는 GPT Image 선택",
+      "하루 200크레딧 안에서 생성"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "Nano Banana",
+      "검색AI"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "sources": [
+      {
+        "title": "Felo Pricing",
+        "url": "https://felo.ai/pricing",
+        "type": "official"
+      },
+      {
+        "title": "나노바나나 Pro로 무제한 이미지 생성하는 실전 가이드 (Tenorshare)",
+        "url": "https://pixpretty.tenorshare.ai/ko/ai-generator/how-to-use-nano-banana-for-free.html",
+        "type": "community",
+        "date": "2026-09-01"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "flora-image",
+    "platform": "FLORA",
+    "vendor": "FLORA",
+    "access": "wrapper",
+    "url": "https://www.flora.ai",
+    "logo": "flora",
+    "logoDomain": "flora.ai",
+    "models": [],
+    "headline": "FLORA 무료: 노드형 캔버스에서 최대 17회 무료 생성 + FAUNA 에이전트 무제한",
+    "description": "텍스트·이미지·영상 모델을 노드로 연결해 워크플로를 짜는 캔버스형 크리에이티브 툴이다. 무료 플랜으로 캔버스와 보조 에이전트 FAUNA를 써 보면서 제한된 횟수만큼 생성할 수 있다.",
+    "freeTier": {
+      "quota": "최대 17회 무료 생성, 활성 프로젝트 3개, FAUNA(보조 에이전트) 무제한 무료",
+      "reset": "불명 (각주 조건 미확인)",
+      "watermark": "불명",
+      "commercialUse": "불명",
+      "signup": "이메일/Google 계정",
+      "korea": "가능",
+      "notes": "무료는 텍스트·이미지 모델만(영상 불가). 전체 모델·API/MCP·실시간 협업은 Starter($18/좌석/월) 이상."
+    },
+    "howTo": [
+      "flora.ai 가입",
+      "새 캔버스에서 이미지 노드 추가 후 모델 선택",
+      "최대 17회 안에서 생성"
+    ],
+    "tags": [
+      "횟수제한",
+      "로그인필요",
+      "노드캔버스"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "sources": [
+      {
+        "title": "FLORA Pricing",
+        "url": "https://www.flora.ai/pricing",
+        "type": "official"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "getimg-image",
+    "platform": "getimg.ai",
+    "vendor": "getimg.ai",
+    "access": "wrapper",
+    "url": "https://getimg.ai",
+    "logo": "getimg",
+    "logoDomain": "getimg.ai",
+    "models": [],
+    "headline": "getimg.ai: 무료 플랜 폐지(2026) — 최저 Entry $10/월",
+    "description": "예전에는 월 수십 장 무료 생성으로 유명했던 이미지 생성 사이트지만 2026년 현재 무료 티어가 사라지고 유료 구독만 남았다. 무료 대안을 찾는다면 다른 항목을 쓰는 게 낫다.",
+    "freeTier": {
+      "quota": "없음 (무료 티어·무료 체험 모두 없음)",
+      "reset": "없음",
+      "watermark": "해당 없음",
+      "commercialUse": "해당 없음 (유료 플랜은 상업 이용 가능)",
+      "signup": "유료 구독 필요",
+      "korea": "가능",
+      "notes": "Entry($10/월, 3,000크레딧 ≈ 1K 이미지 약 60장)부터 시작. 이미지→영상은 유료 전용."
+    },
+    "howTo": [
+      "무료 사용 불가 — Raphael AI, Vheer, Perchance 등 무료 대안 이용"
+    ],
+    "tags": [
+      "무료종료"
+    ],
+    "confidence": "high",
+    "status": "ended",
+    "sources": [
+      {
+        "title": "getimg.ai Review: Is It Free, Safe (Krea)",
+        "url": "https://www.krea.ai/blog/getimg-ai-review-is-it-free-safe-and-how-to-use-it-in-2026",
+        "type": "community",
+        "date": "2026-09-14"
+      },
+      {
+        "title": "getimg.ai Pricing",
+        "url": "https://getimg.ai/pricing",
+        "type": "official"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "none",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "higgsfield-image",
+    "platform": "Higgsfield",
+    "vendor": "Higgsfield AI",
+    "access": "wrapper",
+    "url": "https://higgsfield.ai",
+    "logo": "higgsfield",
+    "logoDomain": "higgsfield.ai",
+    "models": [],
+    "headline": "Higgsfield 무료: 크레딧 0 — 사실상 인터페이스 체험용 (Nano Banana 등은 유료)",
+    "description": "Nano Banana, Seedance, Kling, Soul 등 이미지·영상 모델을 한데 모은 인기 크리에이터 플랫폼이다. 유료 플랜의 '무제한' 이벤트로 유명하지만 무료 계정 혜택은 매우 적다. 2026년 9월 기준 요금표상 Free 플랜은 크레딧 0, 동시 1건, 영상 불가로 체험용에 가깝다.",
+    "freeTier": {
+      "quota": "요금표 기준 0크레딧·동시 생성 1건·'Included' 표시된 일부 이미지 모델만 (보고). 일부 리뷰(2026-08)는 하루 약 10크레딧(Nano Banana Pro 2크레딧/장 → 약 5장)이라 보고해 정보가 엇갈림",
+      "reset": "불명",
+      "watermark": "가시 워터마크 있음 (보고)",
+      "commercialUse": "불가",
+      "signup": "Google/이메일 계정",
+      "korea": "가능",
+      "notes": "유료 전용: Nano Banana Pro/2, Seedance 2.x, Kling, MiniMax 등 대부분. 카드 없이 받던 1일 All Unlimited 체험은 2026-07-23 종료(보고), MCP 3일 체험은 카드 등록 필요. X(트위터)에서 비정기 크레딧 이벤트가 열리기도 함. 무료로 쓸 수 있는 모델명은 확인 못 함."
+    },
+    "howTo": [
+      "higgsfield.ai 가입",
+      "Image 메뉴에서 무료로 표시된(Included) 모델이 있는지 확인",
+      "무료로 생성 가능한 범위가 거의 없으면 다른 사이트 이용 권장"
+    ],
+    "tags": [
+      "크레딧0",
+      "체험용",
+      "워터마크",
+      "정보충돌"
+    ],
+    "confidence": "low",
+    "status": "ended",
+    "sources": [
+      {
+        "title": "Higgsfield Pricing (2026): Credits and Real Monthly Costs - Krea",
+        "url": "https://www.krea.ai/blog/higgsfield-pricing-explained-2026-unlimited-credits-and-real-monthly-costs",
+        "type": "community",
+        "date": "2026-09-05"
+      },
+      {
+        "title": "Is Higgsfield Free? Free plan, trials and promo codes (Creatify)",
+        "url": "https://creatify.ai/blog/is-higgsfield-free-free-plan-trials-and-promo-codes-explained-(2026)",
+        "type": "community",
+        "date": "2026-09-06"
+      },
+      {
+        "title": "Is Higgsfield AI Free? What the Free Tier Actually Gives You (RizzGen)",
+        "url": "https://www.rizzgen.ai/blogs/is-higgsfield-ai-free",
+        "type": "community",
+        "date": "2026-08-16"
+      },
+      {
+        "title": "Higgsfield Pricing",
+        "url": "https://higgsfield.ai/pricing",
+        "type": "official"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "visible",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "imagineart-image",
+    "platform": "ImagineArt",
+    "vendor": "Vyro AI",
+    "access": "wrapper",
+    "url": "https://www.imagine.art",
+    "logo": "imagineart",
+    "logoDomain": "imagine.art",
+    "models": [
+      "ImagineArt 1.0 Lite",
+      "Flux Dev"
+    ],
+    "headline": "ImagineArt 무료: 매일 100크레딧으로 ImagineArt 1.0 Lite·Flux Dev (프리미엄 모델 불가)",
+    "description": "이미지·영상·음악 생성을 한데 모은 올인원 크리에이티브 플랫폼이다. 무료 계정은 매일 100크레딧을 받아 자체 경량 모델과 Flux Dev로 이미지를 만들 수 있다. Nano Banana·Seedream 같은 프리미엄 모델과 영상 생성은 유료다.",
+    "freeTier": {
+      "quota": "매일 100크레딧 (ImagineArt 1.0 Lite, Flux Dev 등 지정 모델만)",
+      "reset": "매일",
+      "watermark": "불명",
+      "commercialUse": "조건부 — 무료 사용자는 Imagine.Art 출처 표기 시 상업 이용 가능, 무제한 상업 이용은 유료",
+      "signup": "이메일/Google 계정",
+      "korea": "가능",
+      "notes": "무료 동시 생성 이미지 4건. 유료 전용: Nano Banana, Seedream, GPT Image 등 프리미엄 모델, 영상 생성 전체. 모델별 장당 크레딧은 공개 페이지에 미표기."
+    },
+    "howTo": [
+      "imagine.art 가입",
+      "Image 생성에서 ImagineArt 1.0 Lite 또는 Flux Dev 선택",
+      "하루 100크레딧 안에서 생성"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "출처표기시상업가능"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "sources": [
+      {
+        "title": "ImagineArt Pricing (FAQ: Can I use imagineArt for free?)",
+        "url": "https://www.imagine.art/pricing",
+        "type": "official"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "krea-image",
+    "category": "image",
+    "platform": "Krea",
+    "vendor": "Krea",
+    "url": "https://www.krea.ai/",
+    "logo": "krea",
+    "logoDomain": "krea.ai",
+    "models": [
+      "Krea 2",
+      "Krea 실시간(Realtime) 모델",
+      "Krea Realtime (실시간 생성)"
+    ],
+    "headline": "Krea 2·실시간 생성 → Krea 무료 계정 매일 100 유닛",
+    "description": "타이핑하거나 그리는 즉시 이미지가 바뀌는 실시간 생성으로 유명한 크리에이티브 툴. 무료 플랜에서도 새 자체 모델 Krea 2와 실시간 모델, 에이전트, 소규모 LoRA 학습, 2K 업스케일을 쓸 수 있다.",
+    "freeTier": {
+      "quota": "매일 100 컴퓨트 유닛 (참고: 유료 5,000유닛 = Nano Banana 2 64회, 즉 1회 약 78유닛. 다만 외부 모델은 무료 플랜 대상이 아님)",
+      "reset": "매일",
+      "watermark": "불명",
+      "commercialUse": "불가 (상업 라이선스는 유료 플랜)",
+      "signup": "이메일, Google 등 (카드 불필요)",
+      "korea": "가능",
+      "notes": "무료 플랜에서 쓸 수 있는 것은 Krea 2, 실시간 모델, Krea Agent, LoRA 학습(이미지 50장까지), 2K 업스케일. '모든 이미지 모델', 영상 모델, Nodes, 상업 라이선스, 무제한 릴랙스 생성은 빠진다. 동시 생성 1개."
+    },
+    "howTo": [
+      "krea.ai에 가입 (카드 불필요)",
+      "Image 또는 Realtime을 열어 Krea 2 선택",
+      "프롬프트를 입력하거나 캔버스에 그려 실시간으로 결과 확인 후 저장"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "실시간생성",
+      "비상업"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Krea Pricing (Free 100 units/day)",
+        "url": "https://www.krea.ai/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "The 7 Best Free AI Image Generators in 2026 - Krea",
+        "url": "https://www.krea.ai/blog/best-free-ai-image-generators-in-2026",
+        "type": "official",
+        "date": "2026-08-26"
+      },
+      {
+        "title": "Krea Free Plan | PromoClock",
+        "url": "https://promoclock.co/en/tools/krea/",
+        "type": "community",
+        "date": "2026-09-17"
+      }
+    ],
+    "access": "wrapper",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "leonardo-image",
+    "category": "image",
+    "platform": "Leonardo.Ai",
+    "vendor": "Canva (Leonardo.Ai)",
+    "url": "https://app.leonardo.ai/",
+    "logo": "leonardo",
+    "logoDomain": "leonardo.ai",
+    "models": [
+      "Lucid Origin",
+      "Lucid Realism",
+      "Phoenix",
+      "FLUX",
+      "Nano Banana 등 외부 모델",
+      "Nano Banana",
+      "GPT Image 1"
+    ],
+    "headline": "Lucid·Phoenix 등 → Leonardo.Ai 무료 계정 매일 150 토큰",
+    "description": "캔바가 인수한 이미지 생성 플랫폼. 자체 모델(Lucid Origin, Phoenix 등)과 외부 모델을 고를 수 있고, 캐릭터·스타일 레퍼런스, 모델 학습, 업스케일, 배경 제거 같은 도구가 많다. 게임 에셋과 일러스트 작업에 인기가 많다.",
+    "freeTier": {
+      "quota": "매일 150 패스트 토큰 (소모량은 모델·해상도·장수에 따라 달라서 고정 장수 없음)",
+      "reset": "매일",
+      "watermark": "불명",
+      "commercialUse": "무료 사용자도 비독점 상업 이용 라이선스를 받는다. 다만 Leonardo가 이미지 이용 권리를 가지며 공개된다",
+      "signup": "이메일, Google, Apple 등",
+      "korea": "가능",
+      "notes": "무료 플랜은 토큰 이월, 탑업, 릴랙스(무제한 저속) 생성이 없다. Nano Banana, GPT-Image, Seedream 같은 외부 모델은 토큰을 더 많이 쓴다. 무료 이미지는 커뮤니티에 공개된다."
+    },
+    "howTo": [
+      "leonardo.ai 가입 후 앱 열기",
+      "Image Generation에서 모델(예: Lucid Origin)과 장수·해상도 선택 (토큰 소모량 표시 확인)",
+      "프롬프트 입력 후 생성하고 필요하면 업스케일·편집"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "상업이용가능",
+      "공개갤러리"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Leonardo.Ai Pricing (FREE: 150 Fast Tokens daily)",
+        "url": "https://leonardo.ai/pricing/",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Best free AI image generator",
+        "url": "https://blog.laozhang.ai/en/posts/best-free-ai-image-generator",
+        "type": "community",
+        "date": "2026-03-27"
+      },
+      {
+        "title": "Leonardo.ai Review: Is It Free, Any Good (Krea)",
+        "url": "https://www.krea.ai/blog/leonardo-ai-review-is-it-free-any-good-and-how-it-compares-in-2026",
+        "type": "community",
+        "date": "2026-09"
+      },
+      {
+        "title": "Leonardo Free Plan | PromoClock",
+        "url": "https://promoclock.co/en/tools/leonardo/",
+        "type": "community",
+        "date": "2026-09-17"
+      }
+    ],
+    "access": "wrapper",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "lovart-image",
+    "platform": "Lovart",
+    "vendor": "Lovart",
+    "access": "wrapper",
+    "url": "https://www.lovart.ai",
+    "logo": "lovart",
+    "logoDomain": "lovart.ai",
+    "models": [
+      "Nano Banana 2"
+    ],
+    "headline": "Lovart 무료: 매일 갱신 무료 크레딧으로 디자인 에이전트 체험 (모델 제한, 수량은 앱 내 표시)",
+    "description": "대화하듯 요청하면 포스터·브랜드 이미지·썸네일을 캔버스에 만들어 주는 AI 디자인 에이전트다. 유료에서는 여러 최신 이미지·영상 모델을 쓰지만 무료 플랜은 일부 모델로 제한된다.",
+    "freeTier": {
+      "quota": "매일 갱신되는 무료 크레딧(Free Daily Credits) — 정확한 수량은 공개 페이지에서 확인 불가. 데스크톱 앱 설치 시 300 보너스 크레딧, 초대 보상 크레딧",
+      "reset": "매일",
+      "watermark": "불명",
+      "commercialUse": "불가 (상업 라이선스는 유료)",
+      "signup": "이메일/Google 계정",
+      "korea": "가능",
+      "notes": "무료는 'Limited models', Brand Kit 1개. 유료 전용: 전체 이미지·편집·영상 모델, 상업 라이선스. 일부 블로그의 '월 100크레딧·하루 10회' 수치는 공식 확인 불가."
+    },
+    "howTo": [
+      "lovart.ai 가입",
+      "홈 입력창에 디자인 요청 입력",
+      "매일 지급 크레딧 잔량 확인하며 생성"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "디자인에이전트",
+      "수량불명"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "sources": [
+      {
+        "title": "Lovart Pricing",
+        "url": "https://www.lovart.ai/pricing",
+        "type": "official"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "magnific-image",
+    "platform": "Magnific (구 Freepik)",
+    "vendor": "Freepik Company (Magnific)",
+    "access": "wrapper",
+    "url": "https://www.magnific.com",
+    "logo": "magnific",
+    "logoDomain": "magnific.com",
+    "models": [
+      "Magnific 자체 이미지 모델(Auto)",
+      "Nano Banana 2",
+      "Nano Banana 2 Lite",
+      "Seedream 5",
+      "Ideogram 4",
+      "Flux.2",
+      "Mystic 등"
+    ],
+    "headline": "Magnific(구 Freepik) 무료: 자체 모델로 하루 최대 약 20장 (Nano Banana·Seedream 등은 유료)",
+    "description": "Freepik이 2026년 4월 Magnific으로 리브랜딩하며 스톡·이미지·영상·오디오 AI 도구를 한 곳에 합쳤다. 유료 플랜에서는 Nano Banana, Seedream, Flux, GPT Image 등 30개 이상 모델을 쓰지만, 무료 계정은 자체(in-house) 'Auto' 모델만 매일 소량 쓸 수 있다. 스톡 소스와 AI 생성을 같이 쓰는 개인 작업용으로 적당하다.",
+    "freeTier": {
+      "quota": "자체 모델로 하루 최대 약 20장 AI 이미지 + 무료 스톡 하루 10개 다운로드",
+      "reset": "매일",
+      "watermark": "불명 (스톡 사용 시 출처 표기 필요)",
+      "commercialUse": "불가 — 개인·비상업 용도만, 출처 표기 필요",
+      "signup": "무료 계정 (이메일/Google 등), 카드 불필요",
+      "korea": "가능",
+      "notes": "유료 전용: Nano Banana Pro/2, Seedream, Flux, GPT Image, Kling 등 프리미엄 모델 전부. 무료 플랜에는 자유롭게 쓰는 AI 크레딧 잔액이 없고 추가 구매도 불가. freepik.com 요금제 페이지는 magnific.com으로 리다이렉트됨. '하루 20장'은 여러 제3자 리뷰의 일치된 보고치(공식 페이지 직접 확인은 못 함)."
+    },
+    "howTo": [
+      "magnific.com 접속 후 무료 계정 가입",
+      "AI Image Generator에서 모델을 Auto(무료)로 둔 채 프롬프트 입력",
+      "하루 한도(약 20장) 안에서 생성·다운로드"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "비상업전용",
+      "자체모델만"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "sources": [
+      {
+        "title": "Freepik rebrands as Magnific (Tech.eu)",
+        "url": "https://tech.eu/2026/04/28/freepik-rebrands-as-magnific-unifying-its-ai-creative-stack-as-enterprise-and-no-collar-growth-accelerates/",
+        "type": "news",
+        "date": "2026-04-28"
+      },
+      {
+        "title": "Magnific AI in 2026: The Freepik Rebrand, Pricing, and What Changed",
+        "url": "https://oakgen.ai/blog/magnific-ai-freepik-rebrand-pricing",
+        "type": "community",
+        "date": "2026-09-26"
+      },
+      {
+        "title": "Freepik (Now Magnific) Pricing & Free Plan 2026 | PromoClock",
+        "url": "https://promoclock.co/en/tools/freepik/",
+        "type": "community",
+        "date": "2026-09"
+      },
+      {
+        "title": "Is Magnific AI Free? (AutoKeyWorder)",
+        "url": "https://autokeyworder.com/blog/magnific-ai-free/",
+        "type": "community",
+        "date": "2026-08-13"
+      },
+      {
+        "title": "Magnific Pricing",
+        "url": "https://www.magnific.com/pricing",
+        "type": "official"
+      },
+      {
+        "title": "Free AI Image Generator | Magnific (FAQ: 무료 플랜 일일 할당량)",
+        "url": "https://www.freepik.com/ai/image-generator",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Pricing plans | Magnific (formerly Freepik)",
+        "url": "https://www.freepik.com/pricing",
+        "type": "official",
+        "date": "2026-09"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "mediaio-image",
+    "category": "image",
+    "access": "wrapper",
+    "platform": "Media.io (ToMoviee)",
+    "vendor": "Wondershare",
+    "url": "https://www.media.io/ai/image-to-image/unlimited-ai-image-generator",
+    "logo": "mediaio",
+    "logoDomain": "media.io",
+    "models": [
+      "ToMoviee Lite (무제한 표기)"
+    ],
+    "headline": "Media.io 무료: 자체 ToMoviee Lite 모델 선택 시 이미지 생성 '무제한' (기간 한정 표기)",
+    "description": "Wondershare의 온라인 AI 미디어 도구 모음. Nano Banana Pro·Seedream 같은 외부 모델은 크레딧제지만, 자체 ToMoviee Lite 모델은 기간 한정으로 사용량 제한 없이 무료라고 안내한다.",
+    "freeTier": {
+      "quota": "ToMoviee Lite: 사용량 무제한 (기간 한정 표기) / 기타 모델은 크레딧",
+      "reset": "무제한 (이벤트 기간 중)",
+      "watermark": "불명",
+      "commercialUse": "불명",
+      "signup": "로그인 필요 (보고)",
+      "korea": "가능",
+      "notes": "무료 생성물은 7일간만 보관(멤버십은 영구 보관). 페이지에 무료 편집 횟수 카운터도 보여 '무제한' 범위가 모호함. 유료 전용(추정): Nano Banana Pro·Seedream 무제한."
+    },
+    "howTo": [
+      "media.io 무제한 이미지 생성기 페이지 접속 후 로그인",
+      "모델 목록에서 ToMoviee Lite 선택",
+      "프롬프트 입력 후 생성, 7일 안에 다운로드"
+    ],
+    "tags": [
+      "무제한",
+      "기간한정",
+      "이벤트",
+      "로그인필요"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "promo": {
+      "text": "ToMoviee Lite 모델 선택 시 이미지 생성 무제한 무료 (페이지에 '기간 한정' 표기, 2026-08 말 게시)",
+      "until": "불명"
+    },
+    "sources": [
+      {
+        "title": "Unlimited AI Image Generator – Free with ToMoviee Lite Model",
+        "url": "https://www.media.io/ai/image-to-image/unlimited-ai-image-generator",
+        "type": "official",
+        "date": "2026-08-27"
+      }
+    ],
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unlimited",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "moescape-image",
+    "platform": "Moescape (구 Yodayo)",
+    "vendor": "Moescape",
+    "access": "wrapper",
+    "url": "https://moescape.ai",
+    "logo": "moescape",
+    "logoDomain": "moescape.ai",
+    "models": [
+      "SD·Flux·Illustrious-XL 계열 애니메이션 모델"
+    ],
+    "headline": "Moescape(구 Yodayo) 무료: 가입 100 + 매일 50 무료 재화로 애니풍 이미지 생성",
+    "description": "애니메이션 팬을 위한 AI 아트·캐릭터 챗 플랫폼으로, Stable Diffusion·Flux·Illustrious-XL 계열 애니 모델 수천 개를 모델 허브에서 골라 쓸 수 있다. 매일 무료 재화를 받아 생성에 쓴다.",
+    "freeTier": {
+      "quota": "신규 가입 시 100 + 매일 수령 가능한 50 (사이트 재화), 퀘스트·마일스톤(예: 좋아요·수집 1,000개당 150)으로 추가 획득",
+      "reset": "매일 (수령형 — 기한 내 미사용 시 소멸)",
+      "watermark": "불명",
+      "commercialUse": "불명",
+      "signup": "이메일/Google 계정",
+      "korea": "가능",
+      "notes": "장당 차감량은 모델·설정별로 다르며 공개 페이지에서 확인 못 함. 애니·일러스트 특화, 실사·텍스트 렌더링용 최신 모델(Nano Banana 등)은 제공 여부 미확인."
+    },
+    "howTo": [
+      "moescape.ai 가입",
+      "매일 무료 재화 수령",
+      "Model Hub에서 애니 모델 선택 후 생성"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "애니특화"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "sources": [
+      {
+        "title": "Moescape (FAQ: How can I get free credits?)",
+        "url": "https://moescape.ai/",
+        "type": "official"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "nightcafe-image",
+    "platform": "NightCafe",
+    "vendor": "NightCafe Studio",
+    "access": "wrapper",
+    "url": "https://creator.nightcafe.studio",
+    "logo": "nightcafe",
+    "logoDomain": "nightcafe.studio",
+    "models": [
+      "Stable Diffusion 기본 모델 (base 생성 무제한)",
+      "Flux·Z-Image Turbo·Qwen Image·Nano Banana·Seedream·GPT Image 등 (크레딧 차감)"
+    ],
+    "headline": "NightCafe 무료: 기본 SD 무제한 + 매일 5~8크레딧으로 Flux·Nano Banana 등 소량",
+    "description": "오래된 AI 아트 커뮤니티로, 데일리 챌린지와 투표 문화가 활발하다. 기본 Stable Diffusion 생성은 무료로 무제한이고, 매일 받는 크레딧으로 Flux 2, Nano Banana, Seedream, GPT Image, Ideogram 3.0 같은 최신 모델도 조금씩 쓸 수 있다.",
+    "freeTier": {
+      "quota": "기본(base) Stable Diffusion 생성 무제한 + 로그인/앱 사용 시 매일 5크레딧, 데일리 챌린지 참여·투표 시 +3크레딧, 5일 연속 접속 보상 10크레딧",
+      "reset": "매일",
+      "watermark": "불명 (무료는 NightCafe 브랜딩 보고)",
+      "commercialUse": "불명",
+      "signup": "이메일/Google 계정",
+      "korea": "가능",
+      "notes": "'base 생성'은 시작 이미지·ControlNet 등 추가 비용 옵션이 없는 기본 생성만 해당. 모델별 장당 크레딧은 요금 페이지에 미표기 — Nano Banana Pro·GPT Image 같은 고급 모델은 1장에 여러 크레딧이 들 수 있음. 크레딧은 만료되지 않음."
+    },
+    "howTo": [
+      "creator.nightcafe.studio 가입",
+      "매일 로그인해 무료 크레딧 수령, 데일리 챌린지 투표로 추가 크레딧",
+      "기본 SD는 무제한, 최신 모델은 크레딧으로 선택 생성"
+    ],
+    "tags": [
+      "매일충전",
+      "무제한(기본모델)",
+      "로그인필요",
+      "커뮤니티"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "sources": [
+      {
+        "title": "NightCafe Pricing",
+        "url": "https://creator.nightcafe.studio/pricing",
+        "type": "official"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "raphael-image",
+    "platform": "Raphael AI",
+    "vendor": "Raphael AI",
+    "access": "wrapper",
+    "url": "https://raphael.app",
+    "logo": "raphael-ai",
+    "logoDomain": "raphael.app",
+    "models": [
+      "Seedream 3.5 (무료 Basic)",
+      "Nano Banana 2 / Pro (로그인 일일 크레딧)",
+      "Seedream 5.0 (로그인 일일 크레딧)"
+    ],
+    "headline": "Raphael AI 무료: 로그인 없이 기본 모델 무제한(대기열) + 로그인 시 일일 크레딧으로 Nano Banana·Seedream",
+    "description": "'가입 없이 무제한'을 내세우는 대표적인 무료 이미지 생성 사이트다. 기본 모드는 대기열만 기다리면 횟수 제한 없이 쓸 수 있고, 로그인하면 매일 주는 무료 크레딧으로 Nano Banana 2/Pro, Seedream 5.0 같은 상위 모델도 조금씩 써 볼 수 있다.",
+    "freeTier": {
+      "quota": "Basic 모드(Seedream 3.5, 0.5K) 무제한 — 짧은 대기열. 비로그인은 일일 한도에 걸리면 로그인 요구. 로그인 시 매일 무료 크레딧(수량 비공개)으로 Fast 모드·고해상도·Nano Banana/Seedream 사용",
+      "reset": "무제한 (크레딧은 매일)",
+      "watermark": "가시 워터마크 있음 (무료)",
+      "commercialUse": "불가 — 개인·비상업만",
+      "signup": "로그인 불필요 (로그인 시 추가 크레딧)",
+      "korea": "가능",
+      "notes": "무료 기본 모드는 AI Enhance 미지원, 해상도 낮음. 무료 이미지는 공개 갤러리에 노출될 수 있음. 유료 전용: 워터마크 제거, 우선 대기열, 최대 2K, 상업 이용. 사이트는 Qwen-Image도 지원 모델로 소개."
+    },
+    "howTo": [
+      "raphael.app 접속 (가입 없이 바로 사용 가능)",
+      "프롬프트 입력 후 Basic 모드로 생성 (대기열 대기)",
+      "Nano Banana 등 상위 모델은 로그인 후 일일 크레딧으로 선택"
+    ],
+    "tags": [
+      "무제한",
+      "로그인불필요",
+      "워터마크",
+      "비상업전용",
+      "Nano Banana"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "sources": [
+      {
+        "title": "Raphael AI (공식)",
+        "url": "https://raphael.app/",
+        "type": "official"
+      },
+      {
+        "title": "Raphael AI Pricing",
+        "url": "https://raphael.app/pricing",
+        "type": "official"
+      },
+      {
+        "title": "9 Best Free Unlimited AI Image Generators in 2026 (Morphed)",
+        "url": "https://morphed.app/blog/free-unlimited-ai-image-generators",
+        "type": "community",
+        "date": "2026-07-03"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unlimited",
+      "watermark": "visible",
+      "login": false,
+      "commercial": false
+    }
+  },
+  {
+    "id": "seaart-image",
+    "platform": "SeaArt",
+    "vendor": "SeaArt AI",
+    "access": "wrapper",
+    "url": "https://www.seaart.ai",
+    "logo": "seaart",
+    "logoDomain": "seaart.ai",
+    "models": [
+      "SD·Flux 계열 커뮤니티 모델·LoRA"
+    ],
+    "headline": "SeaArt 무료: 매일 150 스태미나로 커뮤니티 모델 생성 (Nano Banana 앱은 별도 차감)",
+    "description": "수천 개 커뮤니티 모델·LoRA와 ComfyUI 워크플로, 'AI 앱'을 모은 대형 생성 플랫폼이다. 매일 스태미나가 리필되고 과제 보상도 있어 무료로 꾸준히 쓰기 좋다. Nano Banana 2/Pro, GPT Image 2 기반 AI 앱도 있다.",
+    "freeTier": {
+      "quota": "Basic(무료) 사용자 매일 150 스태미나 + 과제(Task Center) 보상 크레딧",
+      "reset": "매일",
+      "watermark": "불명",
+      "commercialUse": "불명",
+      "signup": "이메일/Google/Discord 계정",
+      "korea": "가능",
+      "notes": "생성 시 스태미나를 먼저 쓰고 부족하면 크레딧 사용. Nano Banana 2/Pro, GPT Image 2, Seedream 기반 AI 앱이 있으나 무료 스태미나로 쓸 수 있는 범위와 차감량은 미확인. 150 스태미나 수치는 공식 가이드 문서 기준이며 최신값과 다를 수 있음."
+    },
+    "howTo": [
+      "seaart.ai 가입",
+      "Create에서 모델/LoRA 선택 후 생성 (스태미나 차감)",
+      "Task Center 과제로 크레딧 추가 획득"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "커뮤니티모델"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "sources": [
+      {
+        "title": "SeaArt Guide — 1-SeaArt AI Basic Page (Stamina)",
+        "url": "https://docs.seaart.ai/guide-1/1-seaart-ai-basic-page",
+        "type": "official"
+      },
+      {
+        "title": "SeaArt AI",
+        "url": "https://www.seaart.ai",
+        "type": "official"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "vheer-image",
+    "platform": "Vheer",
+    "vendor": "Vheer",
+    "access": "wrapper",
+    "url": "https://vheer.com",
+    "logo": "vheer",
+    "logoDomain": "vheer.com",
+    "models": [
+      "Vheer Quality (Flux Dev 기반)",
+      "Flux Kontext Dev (편집)"
+    ],
+    "headline": "Vheer 무료: 가입 없이 Flux 기반 무료 모델 무제한·워터마크 없음 + 무료 계정 월 50크레딧",
+    "description": "가입 없이 브라우저에서 바로 쓰는 이미지·영상 생성 사이트로, Flux Dev 기반 무료 모델은 횟수 제한 없이 워터마크 없이 받을 수 있다. Nano Banana 2/Pro, GPT-Image-2, Seedream 같은 프리미엄 모델도 올라와 있지만 크레딧이 필요하다.",
+    "freeTier": {
+      "quota": "무료 모델(Vheer Quality=Flux Dev, Flux Kontext Dev) 무제한·가입 불필요 + 무료 계정 월 50크레딧",
+      "reset": "무제한 (크레딧은 매월)",
+      "watermark": "없음 (공식: No watermark)",
+      "commercialUse": "불가 — 무료 플랜 개인 용도",
+      "signup": "로그인 불필요 (크레딧·기록은 로그인)",
+      "korea": "가능",
+      "notes": "유료/크레딧 전용: Nano Banana 2/Pro, GPT-Image-2, Seedream V4, Flux Klein, MiniMax Image 01, Veo 3.1·Sora 2 등 영상 모델. 월 50크레딧을 프리미엄 모델에 쓸 수 있는지는 불명확(요금표는 '모든 프리미엄 모델'을 Premium $9.99 이상에만 표기)."
+    },
+    "howTo": [
+      "vheer.com/app/text-to-image 접속",
+      "모델 선택에서 'Free' 표시 모델(Vheer Quality) 선택",
+      "프롬프트 입력 후 무제한 생성·다운로드"
+    ],
+    "tags": [
+      "무제한",
+      "로그인불필요",
+      "워터마크없음",
+      "비상업전용"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "sources": [
+      {
+        "title": "Vheer - Free AI Image & Video Generator",
+        "url": "https://vheer.com/",
+        "type": "official"
+      },
+      {
+        "title": "Vheer Pricing",
+        "url": "https://vheer.com/pricing",
+        "type": "official"
+      }
+    ],
+    "lastVerified": "2026-09-29",
+    "category": "image",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unlimited",
+      "watermark": "none",
+      "login": false,
+      "commercial": false
+    }
+  }
+]

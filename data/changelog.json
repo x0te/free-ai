@@ -1,0 +1,22 @@
+[
+  {
+    "date": "2026-09-29",
+    "summary": "사이트 오픈 — 공식 서비스와 wrapper 사이트 174곳의 무료 조건을 처음으로 정리했습니다. 최근 한 달 사이 눈에 띄는 변화도 함께 적습니다.",
+    "items": [
+      { "type": "new", "text": "174개 항목 등록 (이미지 43 · 영상 37 · 음악 17 · 음성 16 · 챗봇 27 · 코딩 19 · 3D·기타 15)" },
+      { "type": "promo", "id": "chatgpt-for-kakao-chat", "text": "카카오톡 ChatGPT: 만 19~34세 대상 ChatGPT Plus 2개월 무료 (결제수단 등록 불필요)" },
+      { "type": "promo", "id": "pixai-image", "text": "PixAI 4주년 출석 이벤트: 매일 체크인으로 최대 31.5만 크레딧" },
+      { "type": "update", "id": "claude-chat", "text": "Claude 무료 기본 모델이 9/28 출시된 Sonnet 5.5로 변경" },
+      { "type": "update", "id": "google-vids-video", "text": "Google Vids: 개인 계정에도 AI 영상 생성 월 6개 무료 개방 (9/23)" },
+      { "type": "update", "id": "google-ai-studio-voice", "text": "Gemini 3.8 Flash TTS 출시 — AI Studio에서 무료, 한국어 지원 (9/23)" },
+      { "type": "update", "id": "suno-music", "text": "Suno v6 출시 — 무료는 v6-mini만, 다운로드는 계정당 평생 7곡으로 제한 (9/3, 9/9)" },
+      { "type": "update", "id": "chatgpt-image", "text": "ChatGPT Images 2.5 출시, 무료 계정도 사용 가능 (9/8)" },
+      { "type": "new", "id": "huggingface-qwen-image", "text": "Qwen-Image 2.1 오픈 모델 공개 — Hugging Face 데모 로그인 없이 무료 (9/20)" },
+      { "type": "ended", "id": "sora-video", "text": "Sora 2 API 완전 제거 (9/24) — Sora 앱은 4/26 종료" },
+      { "type": "ended", "id": "getimg-image", "text": "getimg.ai 무료 플랜 폐지" },
+      { "type": "update", "id": "dzine-image", "text": "Dzine: 매일 32크레딧 리셋 폐지 → 가입 시 100크레딧 1회" },
+      { "type": "update", "id": "marble-3d", "text": "AMD가 World Labs 인수 발표 (9/28) — Marble 무료 플랜 향후 방침 미정" },
+      { "type": "ended", "id": "gemini-video", "text": "Gemini 앱 비구독자 무료 영상 프로모션 종료 (8/4) — 무료 Veo는 Google Flow에서" }
+    ]
+  }
+]

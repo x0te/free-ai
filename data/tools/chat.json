@@ -1,0 +1,1850 @@
+[
+  {
+    "id": "chatgpt-chat",
+    "category": "chat",
+    "platform": "ChatGPT",
+    "vendor": "OpenAI",
+    "url": "https://chatgpt.com",
+    "logo": "chatgpt",
+    "logoDomain": "chatgpt.com",
+    "models": [
+      "GPT-5.6 Luna",
+      "GPT-6 Luna (데스크톱 앱)"
+    ],
+    "headline": "ChatGPT 무료: GPT-5.6 Luna 텍스트 대화 무제한 + Think 버튼, 대신 한국에서도 답변 하단 광고 노출",
+    "description": "가장 널리 쓰이는 범용 AI 챗봇입니다. 2026년 8월 6일부터 무료·Go 사용자의 기본 모델이 GPT-5.6 Luna로 바뀌면서 일반 텍스트 대화의 메시지 한도가 사라졌고, 어려운 질문은 'Think' 버튼으로 더 오래 추론시킬 수 있습니다. 9월 22일 공개된 GPT-6 Luna는 무료 사용자도 데스크톱 앱에서 쓸 수 있습니다. 파일 업로드·이미지 생성·음성 등 도구는 여전히 별도 한도가 있습니다.",
+    "freeTier": {
+      "quota": "텍스트 대화 무제한(남용 방지 장치 적용), Think 버튼으로 추론 강화 가능. 파일 업로드·이미지 생성·음성·데이터 분석 등 도구는 별도 한도(이미지는 커뮤니티 보고 기준 하루 2~3장 수준)",
+      "reset": "텍스트는 무제한 / 도구 한도는 롤링 윈도우(불명확)",
+      "watermark": "없음 (텍스트 출력)",
+      "commercialUse": "OpenAI 약관상 출력물 권리는 사용자에게 귀속되어 상업적 활용 가능 (약관·정책 준수 조건)",
+      "signup": "로그인 없이도 제한적으로 사용 가능, 무제한 텍스트·Luna는 로그인한 무료 계정(이메일/Google/Apple/Microsoft) 대상",
+      "korea": "가능 (한국어 지원)",
+      "notes": "2026년 6월 19일부터 한국에서도 무료·Go 요금제 성인 로그인 사용자에게 답변 하단 'Sponsored' 카드형 광고가 표시됨. 유료 GPT-5.6 Sol·추론량 슬라이더는 Plus 이상. GPT-6 Luna는 무료 계정의 경우 데스크톱 앱에서만 제공."
+    },
+    "howTo": [
+      "chatgpt.com 접속 또는 모바일/데스크톱 앱 설치",
+      "무료 계정으로 로그인(무제한 텍스트 대화는 로그인 필요)",
+      "어려운 질문은 입력창의 'Think' 버튼을 켜고 질문",
+      "GPT-6 Luna를 써보려면 ChatGPT 데스크톱 앱에서 모델 선택"
+    ],
+    "tags": [
+      "텍스트무제한",
+      "광고있음",
+      "로그인권장",
+      "한국어지원",
+      "추론모드"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+        "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+        "type": "official",
+        "date": "2026-08-06"
+      },
+      {
+        "title": "Free ChatGPT Users Get Unlimited Text Chats and GPT-5.6 Luna - MacRumors",
+        "url": "https://www.macrumors.com/2026/08/06/chatgpt-free-unlimited-text-chats/",
+        "type": "news",
+        "date": "2026-08-06"
+      },
+      {
+        "title": "OpenAI launches GPT-6 Sol and Luna - TechCrunch",
+        "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+        "type": "news",
+        "date": "2026-09-22"
+      },
+      {
+        "title": "OpenAI upgrading ChatGPT and Codex with two more GPT-6 models - 9to5Mac",
+        "url": "https://9to5mac.com/2026/09/22/openai-upgrading-chatgpt-and-codex-with-two-more-gpt-6-models/",
+        "type": "news",
+        "date": "2026-09-22"
+      },
+      {
+        "title": "오픈AI, '챗GPT 광고 서비스' 한국 도입…무료·Go 요금제 대상 - 아시아경제",
+        "url": "https://www.asiae.co.kr/article/2026061909462074956",
+        "type": "news",
+        "date": "2026-06-19"
+      },
+      {
+        "title": "챗GPT 무료 무제한 개방 범위와 광고 조건 정리 - 준이아빠블로그",
+        "url": "https://www.digitalmarketer.co.kr/insights/chatgpt-luna-free-unlimited-ads",
+        "type": "community",
+        "date": "2026-09"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unlimited",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "chatgpt-for-kakao-chat",
+    "category": "chat",
+    "access": "official",
+    "platform": "ChatGPT for Kakao",
+    "vendor": "OpenAI · Kakao",
+    "url": "https://b.kakao.com/views/komi/promotions/young_adults",
+    "logo": "chatgpt-for-kakao",
+    "logoDomain": "kakao.com",
+    "models": [
+      "ChatGPT (연동한 OpenAI 계정 플랜 기준)",
+      "ChatGPT Image 2.0"
+    ],
+    "headline": "카카오톡 속 ChatGPT: 무료로 대화·이미지 하루 5~6장, 지금 만 19~34세는 ChatGPT Plus 2개월 무료",
+    "description": "카카오톡 채팅 탭에서 바로 ChatGPT를 쓰는 OpenAI·카카오 제휴 서비스(만 14세 이상). 카카오맵·예약 등과 연동되고, 무료 계정으로도 이미지 생성·재생성이 된다. 현재 청년 대상 Plus 2개월 무료 프로모션이 진행 중.",
+    "freeTier": {
+      "quota": "ChatGPT 무료 플랜과 비슷한 한도, 이미지 생성·재생성 하루 약 5~6장(IT동아 무료 계정 테스트)",
+      "reset": "매일 (이미지)",
+      "watermark": "불명",
+      "commercialUse": "OpenAI 약관 따름",
+      "signup": "카카오톡 + ChatGPT 계정 연결 (만 14세 이상)",
+      "korea": "가능",
+      "notes": "이미지 한도 소진 시 '이미지 생성 한도를 모두 사용했어요' 안내 후 다음 날 초기화. 유료 전환은 OpenAI 요금제(Go/Plus/Pro)로 연결."
+    },
+    "howTo": [
+      "카카오톡 채팅 탭에서 'ChatGPT' 진입 후 ChatGPT 계정 연결",
+      "프로모션은 모바일에서 카카오 프로모션 페이지 접속 → 채널 추가·동의 후 참여",
+      "적용 즉시 Plus 2개월 사용 (종료 후 자동결제 없음)"
+    ],
+    "tags": [
+      "한국서비스",
+      "이벤트",
+      "청년",
+      "결제수단불필요"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "promo": {
+      "text": "만 19~34세 · ChatGPT 유료 플랜 첫 이용(또는 유료 종료 후 90일 경과) 대상 ChatGPT Plus 2개월 무료 — 결제수단 등록 불필요, 자동결제 없음, 1인 1회, 모바일로 참여",
+      "until": "혜택 소진 시까지 (조기 종료 가능)"
+    },
+    "sources": [
+      {
+        "title": "카카오 청년 프로모션 - ChatGPT Plus 2개월 무료 (공식 페이지)",
+        "url": "https://b.kakao.com/views/komi/promotions/young_adults",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "[정보] 카카오 ChatGPT Plus 무료 이벤트 (디시 AI 활용 갤러리)",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=ai_utilize&no=61130",
+        "type": "community",
+        "date": "2026-09-09"
+      },
+      {
+        "title": "[AI써봄] ChatGPT 품은 카카오톡, 이미지 재생성 기능 어떤 모습일까 (IT동아)",
+        "url": "http://v.daum.net/v/20260827174501404",
+        "type": "news",
+        "date": "2026-08-27"
+      }
+    ],
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "claude-chat",
+    "category": "chat",
+    "platform": "Claude",
+    "vendor": "Anthropic",
+    "url": "https://claude.ai",
+    "logo": "claude",
+    "logoDomain": "claude.ai",
+    "models": [
+      "Claude Sonnet 5.5",
+      "Claude Haiku 4.5"
+    ],
+    "headline": "Claude 무료: 9월 28일 출시된 Sonnet 5.5가 곧바로 무료 기본 모델, 5시간 세션 단위 한도",
+    "description": "Anthropic의 AI 어시스턴트로 글쓰기·분석·코딩 설명에 강합니다. 2026년 9월 28일 공개된 Claude Sonnet 5.5가 무료 플랜 모델로 제공되며(이전에는 6월 30일부터 Sonnet 5), 웹 검색·파일 분석·코드 실행·아티팩트·파일 생성 같은 기능 대부분이 무료에서도 열려 있습니다. 메시지 수가 고정돼 있지 않고 5시간 롤링 세션 한도로 관리됩니다.",
+    "freeTier": {
+      "quota": "고정 메시지 수 비공개. 5시간 롤링 세션 한도(커뮤니티 측정 약 15~40메시지, 긴 문서·도구 사용 시 더 빨리 소진, 수요 많을 때 감소)",
+      "reset": "5시간마다 (무료 플랜은 주간 한도 없음으로 보고됨)",
+      "watermark": "없음 (텍스트 출력)",
+      "commercialUse": "Anthropic 소비자 약관상 출력물 권리는 사용자에게 이전 — 상업적 활용 가능 (이용정책 준수 조건)",
+      "signup": "이메일 또는 Google 계정 (카드 불필요)",
+      "korea": "가능 (한국어 지원)",
+      "notes": "컨텍스트 200K, 프로젝트 최대 5개. 상위 모델(Opus 5.5) 선택, Claude Code, 리서치 기능 등은 유료 전용."
+    },
+    "howTo": [
+      "claude.ai 접속 또는 Claude 앱 설치",
+      "이메일/Google 계정으로 가입(카드 불필요)",
+      "새 대화에서 바로 질문 — 파일 첨부·웹 검색 사용 가능",
+      "한도 메시지가 뜨면 표시된 시간(최대 5시간) 후 다시 사용"
+    ],
+    "tags": [
+      "최신모델",
+      "5시간리셋",
+      "로그인필요",
+      "한국어지원",
+      "파일분석"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Introducing Claude Sonnet 5 - Anthropic",
+        "url": "https://www.anthropic.com/news/claude-sonnet-5",
+        "type": "official",
+        "date": "2026-06-30"
+      },
+      {
+        "title": "Introducing Claude Sonnet 5.5 - Anthropic",
+        "url": "https://www.anthropic.com/claude-sonnet-5-5",
+        "type": "official",
+        "date": "2026-09-28"
+      },
+      {
+        "title": "Claude Sonnet 5.5 - Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+        "type": "community",
+        "date": "2026-09-28"
+      },
+      {
+        "title": "클로드(Claude) 무료로 어디까지 되나 - 준이아빠블로그",
+        "url": "https://www.digitalmarketer.co.kr/insights/claude-free-plan-guide",
+        "type": "community",
+        "date": "2026-09"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "clova-x-chat",
+    "category": "chat",
+    "platform": "CLOVA X",
+    "vendor": "NAVER",
+    "url": "https://clova-x.naver.com",
+    "logo": "clova-x",
+    "logoDomain": "naver.com",
+    "models": [
+      "HyperCLOVA X"
+    ],
+    "headline": "네이버 CLOVA X: 2026년 4월 9일 서비스 종료, 더 이상 사용 불가",
+    "description": "네이버의 초거대 AI HyperCLOVA X 기반 무료 대화형 AI였으나 2026년 4월 9일 서비스가 종료됐습니다. 한국어·국내 정보에 강점이 있었고 문서 업로드·이미지 분석·추론(THINK) 기능까지 무료로 제공했습니다. 현재 HyperCLOVA X 기술은 네이버 검색의 AI 기능 등 다른 서비스에서 활용되는 것으로 알려져 있습니다.",
+    "freeTier": {
+      "quota": "서비스 종료 (종료 전에는 전 기능 무료)",
+      "reset": "해당 없음",
+      "watermark": "해당 없음",
+      "commercialUse": "해당 없음",
+      "signup": "해당 없음 (종료 전 네이버 계정)",
+      "korea": "종료",
+      "notes": "대체 국내 무료 챗봇으로는 뤼튼 등이 있음. 네이버 HyperCLOVA X SEED 계열 오픈모델(Think 14B/32B, Omni 8B)은 별도로 공개돼 있음."
+    },
+    "howTo": [
+      "서비스 종료로 이용 불가",
+      "국내 무료 대안: 뤼튼(wrtn.ai) 또는 한국어 지원 글로벌 챗봇 이용"
+    ],
+    "tags": [
+      "서비스종료",
+      "국내서비스"
+    ],
+    "confidence": "medium",
+    "status": "ended",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "CLOVA X - 나무위키",
+        "url": "https://namu.wiki/w/CLOVA%20X",
+        "type": "community"
+      },
+      {
+        "title": "HyperCLOVA X - 나무위키",
+        "url": "https://namu.wiki/w/HyperCLOVA%20X",
+        "type": "community"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "deepseek-chat",
+    "category": "chat",
+    "platform": "DeepSeek",
+    "vendor": "DeepSeek",
+    "url": "https://chat.deepseek.com",
+    "logo": "deepseek",
+    "logoDomain": "deepseek.com",
+    "models": [
+      "DeepSeek-V4-Pro"
+    ],
+    "headline": "DeepSeek 무료: 웹·앱에 V4-Pro 정식 탑재, 요금제 자체가 없는 완전 무료 챗봇",
+    "description": "중국 DeepSeek의 챗봇으로, 웹과 앱에는 결제 버튼·요금제 없이 계정만 만들면 최신 모델을 쓸 수 있습니다. 2026년 8월 13일 DeepSeek-V4-Pro 정식판이 앱·웹·API에 적용됐고, 9월 10일에는 멀티모달을 지원하는 V4.1-Flash가 API로 공개됐습니다. 추론(DeepThink)·웹 검색을 켜고 끌 수 있으며 수학·코딩 질문에 강합니다.",
+    "freeTier": {
+      "quota": "무료(웹·앱 요금제 없음). 일일 한도는 공식 비공개 — 혼잡 시 '서버 바쁨' 대기 발생 가능",
+      "reset": "무제한 (공식 한도 비공개)",
+      "watermark": "없음 (텍스트 출력)",
+      "commercialUse": "불명 (DeepSeek 약관 확인 필요, 중국법 준거)",
+      "signup": "이메일/휴대폰 번호/Google 계정",
+      "korea": "가능 (2025년 개인정보위 점검 후 국내 앱스토어 다운로드 재개)",
+      "notes": "서버가 중국에 있다고 개인정보처리방침에 명시 — 업무·개인 민감 정보 입력 주의, 설정에서 '모두를 위해 모델 개선' 끄기 권장. API는 유료."
+    },
+    "howTo": [
+      "chat.deepseek.com 접속 또는 DeepSeek 앱 설치",
+      "이메일/Google 계정으로 가입",
+      "필요에 따라 'DeepThink'(추론)·'Search'(웹 검색) 토글 후 질문",
+      "설정에서 데이터 학습 사용 옵션 끄기"
+    ],
+    "tags": [
+      "완전무료",
+      "추론모드",
+      "로그인필요",
+      "데이터주의",
+      "한국어지원"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "DeepSeek API Docs - Change Log (V4-Pro GA rolled out on APP, Web, API)",
+        "url": "https://api-docs.deepseek.com/updates",
+        "type": "official",
+        "date": "2026-08-13"
+      },
+      {
+        "title": "DeepSeek-V4.1-Flash Release",
+        "url": "https://api-docs.deepseek.com/news/news260910",
+        "type": "official",
+        "date": "2026-09-10"
+      },
+      {
+        "title": "딥시크(DeepSeek) 정리: 무료 사용 범위와 데이터 처리 - 준이아빠블로그",
+        "url": "https://www.digitalmarketer.co.kr/insights/deepseek-overview-guide",
+        "type": "community",
+        "date": "2026-09"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unlimited",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "gemini-chat",
+    "category": "chat",
+    "platform": "Gemini",
+    "vendor": "Google",
+    "url": "https://gemini.google.com",
+    "logo": "gemini",
+    "logoDomain": "gemini.google.com",
+    "models": [
+      "Gemini 3.6 Flash",
+      "Gemini Flash-Lite",
+      "Gemini Pro (3.1 Pro)"
+    ],
+    "headline": "Gemini 무료: 3.6 Flash 기본 + Pro·Deep Research까지 열림, 한도는 5시간마다 충전(주간 상한)",
+    "description": "Google의 AI 챗봇으로 무료 계정에서도 Flash-Lite·Flash·Pro 세 모델을 모두 고를 수 있습니다. 2026년 7월 21일부터 Gemini 3.6 Flash가 기본 모델로 배포됐고, Deep Research·Canvas·Gems·이미지 생성(Nano Banana)·오디오 개요도 무료로 쓸 수 있습니다. 5월 20일부터는 메시지 수 대신 연산량 기반 한도로 바뀌어, Pro나 Deep Research처럼 무거운 기능일수록 한도를 빨리 소진합니다.",
+    "freeTier": {
+      "quota": "고정 메시지 수 없음. 연산량 기반 '표준 한도'(Plus 2배, Pro 4배 기준). 사용자 보고 기준 하루 Pro 프롬프트 몇 회 + Deep Research 보고서 1~2건 정도 후 Flash로 전환",
+      "reset": "5시간마다 충전 (주간 상한 도달 시 주간 리셋까지 대기)",
+      "watermark": "없음 (텍스트 출력) / 생성 이미지는 SynthID",
+      "commercialUse": "Google 약관상 생성 콘텐츠 소유권을 주장하지 않음 — 상업적 이용 가능하나 정책 준수 필요",
+      "signup": "Google 계정",
+      "korea": "가능 (한국어 지원)",
+      "notes": "무료 컨텍스트 창 32K 토큰(약 50쪽). Deep Research는 수요가 몰릴 때 무료 사용자에게 제한될 수 있음. 동영상 생성·Daily Brief·Gemini Spark·예약 작업은 유료 전용. Gemini 3.5 Pro는 9월 말 기준 아직 일반 공개 전."
+    },
+    "howTo": [
+      "gemini.google.com 접속 또는 Gemini 앱 설치 후 Google 계정 로그인",
+      "모델 선택 메뉴에서 Flash(빠름)/Pro(고성능) 선택",
+      "보고서가 필요하면 도구에서 'Deep Research' 선택 후 주제 입력",
+      "한도 도달 시 가벼운 모델로 자동 전환되며 5시간 뒤 다시 충전"
+    ],
+    "tags": [
+      "5시간충전",
+      "딥리서치",
+      "로그인필요",
+      "한국어지원",
+      "이미지생성"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Gemini Apps limits & upgrades for Google AI subscribers - Gemini Apps Help",
+        "url": "https://support.google.com/gemini/answer/16275805?hl=en",
+        "type": "official"
+      },
+      {
+        "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+        "type": "official",
+        "date": "2026-07-21"
+      },
+      {
+        "title": "Google adjusts Gemini's new usage limits in response to complaints - 9to5Google",
+        "url": "https://9to5google.com/2026/05/28/gemini-new-usage-limits/",
+        "type": "news",
+        "date": "2026-05-28"
+      },
+      {
+        "title": "Gemini Pricing in 2026: Plans, API Costs, and Is It Free?",
+        "url": "https://geotoolbox.ai/blog/gemini-pricing",
+        "type": "community",
+        "date": "2026-09-13"
+      },
+      {
+        "title": "제미나이(Gemini) 무료 범위와 한도 정리 - 준이아빠블로그",
+        "url": "https://www.digitalmarketer.co.kr/insights/gemini-free-limits-guide",
+        "type": "community",
+        "date": "2026-09-15"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "gemini-notebook-chat",
+    "category": "chat",
+    "platform": "Gemini Notebook (구 NotebookLM)",
+    "vendor": "Google",
+    "url": "https://notebook.google.com",
+    "logo": "gemini-notebook",
+    "logoDomain": "notebook.google.com",
+    "models": [
+      "Gemini 3.x"
+    ],
+    "headline": "Gemini Notebook(구 NotebookLM) 무료: 하루 채팅 50회·오디오 개요 3개, 딥리서치 월 10회",
+    "description": "PDF·구글 문서·웹 링크·유튜브 등 내 자료를 올리면 그 자료만 근거로 인용을 달아 답해 주는 AI 리서치 노트입니다. 2026년 7월 16일 NotebookLM에서 'Gemini Notebook'으로 이름이 바뀌었고(notebooklm.google.com → notebook.google.com), 팟캐스트형 오디오 개요·영상 개요·마인드맵·보고서·플래시카드·인포그래픽·슬라이드를 무료로 만들 수 있습니다.",
+    "freeTier": {
+      "quota": "노트북 100개, 노트북당 소스 50개, 채팅 하루 50회, 오디오 개요 하루 3개, 영상 개요 하루 3개, 보고서 하루 10개, 플래시카드 하루 10개, Deep Research 월 10회, 인포그래픽·슬라이드는 제한적",
+      "reset": "매일 (Deep Research는 매월)",
+      "watermark": "없음 (텍스트 출력)",
+      "commercialUse": "Google 약관상 생성 콘텐츠 소유권 주장 없음 — 업로드 자료의 저작권은 별도 확인 필요",
+      "signup": "Google 계정",
+      "korea": "가능 (한국어 오디오 개요 지원)",
+      "notes": "노트북 안에서는 업로드한 소스만 근거로 답변. Gemini 앱에서 노트북을 불러오면 웹 검색 등이 섞일 수 있음. 유료(AI Plus/Pro/Ultra)는 한도 2배 이상."
+    },
+    "howTo": [
+      "notebook.google.com 접속 후 Google 계정 로그인",
+      "새 노트북 만들기 → PDF·링크·유튜브 등 소스 추가",
+      "채팅으로 질문하거나 스튜디오에서 오디오/영상 개요·보고서 생성"
+    ],
+    "tags": [
+      "매일충전",
+      "출처기반",
+      "오디오개요",
+      "리브랜딩",
+      "한국어지원"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Gemini Notebook usage limits - Google Help",
+        "url": "https://support.google.com/notebooklm/answer/16213268?hl=en",
+        "type": "official"
+      },
+      {
+        "title": "NotebookLM (Gemini Notebook) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/NotebookLM",
+        "type": "news",
+        "date": "2026-07"
+      },
+      {
+        "title": "제미나이 노트북(Gemini Notebook) 사용법 - 준이아빠블로그",
+        "url": "https://www.digitalmarketer.co.kr/insights/gemini-notebook-guide",
+        "type": "community",
+        "date": "2026-09"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "google-ai-studio-chat",
+    "category": "chat",
+    "platform": "Google AI Studio",
+    "vendor": "Google",
+    "url": "https://aistudio.google.com",
+    "logo": "google-ai-studio",
+    "logoDomain": "aistudio.google.com",
+    "models": [
+      "Gemini 3.6 Flash",
+      "Gemini 3.5 Flash",
+      "Gemini 3.5 Flash-Lite"
+    ],
+    "headline": "Google AI Studio: 개발자용 놀이터에서 Gemini 3.6 Flash를 무료로, 100만 토큰 컨텍스트",
+    "description": "Google의 개발자용 웹 도구로, Gemini 모델을 채팅 형태로 직접 시험하고 앱까지 만들 수 있습니다. 공식 가격표상 'AI Studio 사용은 모든 제공 지역에서 무료'이며, Gemini 3.6 Flash·3.5 Flash·3.5 Flash-Lite는 API 무료 등급도 있습니다. Gemini 앱(무료 32K)보다 훨씬 긴 컨텍스트와 온도·시스템 프롬프트 등 세부 설정을 쓸 수 있는 것이 장점입니다.",
+    "freeTier": {
+      "quota": "AI Studio 사용 무료. Flash 계열은 API 무료 등급 있음(분당·일일 요청 한도는 계정별로 AI Studio에서 확인). Gemini 3.1 Pro Preview는 API 무료 등급 없음",
+      "reset": "매일 (일일 요청 한도 기준)",
+      "watermark": "없음 (텍스트 출력)",
+      "commercialUse": "가능 (Gemini API 약관 준수) — 단 무료 등급 입력·출력은 Google 제품 개선에 사용될 수 있음",
+      "signup": "Google 계정",
+      "korea": "가능",
+      "notes": "Pro 모델·이미지 생성 모델은 무료 등급이 없어 결제 계정이 필요할 수 있음. 공유한 앱이 API를 호출하거나 Cloud Run 배포 시 비용 발생 가능."
+    },
+    "howTo": [
+      "aistudio.google.com 접속 후 Google 계정 로그인",
+      "Chat(Playground)에서 모델을 Gemini 3.6 Flash로 선택",
+      "시스템 지시문·온도 등을 조절하며 대화",
+      "필요하면 'Get API key'로 무료 API 키 발급"
+    ],
+    "tags": [
+      "개발자용",
+      "긴컨텍스트",
+      "무료API",
+      "로그인필요"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Gemini Developer API pricing",
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "type": "official"
+      },
+      {
+        "title": "Google AI Studio 사용법: Gemini로 앱과 웹 만들기 - 준이아빠블로그",
+        "url": "https://www.digitalmarketer.co.kr/insights/google-ai-studio-guide",
+        "type": "community",
+        "date": "2026-09"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "na",
+      "login": true,
+      "commercial": true
+    }
+  },
+  {
+    "id": "grok-chat",
+    "category": "chat",
+    "platform": "Grok",
+    "vendor": "xAI",
+    "url": "https://grok.com",
+    "logo": "grok",
+    "logoDomain": "grok.com",
+    "models": [
+      "Grok 4.6 (무료는 Fast/경량 모드)"
+    ],
+    "headline": "Grok 무료: X·웹 실시간 검색 챗봇, 6월부터 주간 사용량 풀 하나로 통합(수치 비공개)",
+    "description": "xAI의 챗봇으로 X(트위터) 게시물과 웹을 실시간으로 검색해 답하는 것이 강점입니다. 2026년 6월부터 제품별 일일 한도가 사라지고 채팅·음성·이미지 등이 하나의 주간 사용량 풀을 공유하는 방식으로 바뀌었으며, 무료 한도 수치는 공식적으로 공개되지 않습니다. 무료 계정은 경량(Fast) 모드 위주이며 DeepSearch·Expert 등 고급 모드는 유료 플랜 중심입니다.",
+    "freeTier": {
+      "quota": "공식 수치 비공개. 설정 > 사용량에서 퍼센트로 확인. 과거 '2시간당 약 10회' 수치는 2026년 6월 이전 기준",
+      "reset": "주간 (계정별 리셋 시점 상이)",
+      "watermark": "없음 (텍스트 출력)",
+      "commercialUse": "불명 (xAI 약관 확인 필요)",
+      "signup": "로그인 없이 일부 사용 가능, X/Google/이메일 계정 권장",
+      "korea": "가능 (한국어 지원)",
+      "notes": "커뮤니티에서 무료 한도가 빨리 소진되고 리셋이 지연된다는 불만 다수. 이미지·영상 생성의 무료 제공 여부는 출처마다 엇갈림(2026년 초 유료 전환 보도 vs 워터마크 이미지 무료 보고). 최신 Grok 4.7(9/21)은 API·Build 중심 출시."
+    },
+    "howTo": [
+      "grok.com 접속 또는 Grok 앱/X 앱에서 Grok 탭 열기",
+      "X 또는 Google 계정으로 로그인(선택)",
+      "질문 입력 — 최신 이슈는 실시간 검색 결과와 함께 답변",
+      "설정 > 사용량에서 남은 주간 한도(%) 확인"
+    ],
+    "tags": [
+      "실시간검색",
+      "주간한도",
+      "한도비공개",
+      "한국어지원"
+    ],
+    "confidence": "medium",
+    "status": "limited",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Grok Limits in 2026: One Weekly Pool, a Percentage Bar, and No Published Numbers",
+        "url": "https://www.izzedo.chat/blog/grok-limits",
+        "type": "community",
+        "date": "2026-09-22"
+      },
+      {
+        "title": "Is Grok Free? Grok Pricing and Limits (2026) - Omid Saffari",
+        "url": "https://omidsaffari.com/blog/is-grok-free",
+        "type": "community",
+        "date": "2026-09-24"
+      },
+      {
+        "title": "Grok Is No Longer Free and Here Is What to Use Instead Now - Robo Rhythms",
+        "url": "https://www.roborhythms.com/grok-no-longer-free/",
+        "type": "community",
+        "date": "2026-09-21"
+      },
+      {
+        "title": "그록(Grok) 사용법 총정리: 가입, 무료 한도, 요금제 - 준이아빠블로그",
+        "url": "https://www.digitalmarketer.co.kr/insights/grok-usage-guide",
+        "type": "community",
+        "date": "2026-09"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "weekly",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "huggingchat-chat",
+    "category": "chat",
+    "access": "opensource",
+    "platform": "HuggingChat",
+    "vendor": "Hugging Face",
+    "url": "https://huggingface.co/chat",
+    "logo": "huggingface",
+    "logoDomain": "huggingface.co",
+    "models": [
+      "Omni (자동 라우터)",
+      "DeepSeek V4.1 Flash",
+      "오픈 모델 약 136종"
+    ],
+    "headline": "HuggingChat: 오픈모델 136종 채팅 앱이지만 무료 계정은 월 $0.10 크레딧 수준이라 사실상 맛보기",
+    "description": "Hugging Face가 운영하는 오픈소스 모델 전용 채팅 앱. Omni 라우터가 질문에 맞는 오픈모델을 골라주고, DeepSeek·Qwen·Kimi 같은 모델을 직접 선택할 수도 있다. 2025년 이후 Inference Providers 크레딧 기반으로 바뀌면서 무료 사용량이 크게 줄었다.",
+    "freeTier": {
+      "quota": "무료 계정은 Inference Providers 월 $0.10 크레딧(변동 가능) 범위 내 — 사용자 보고로는 대형 모델 메시지 1회 후 'PRO로 업그레이드' 안내가 뜨기도 함",
+      "reset": "매월",
+      "watermark": "해당 없음 (텍스트)",
+      "commercialUse": "모델 라이선스별 상이",
+      "signup": "Hugging Face 계정 로그인 필요",
+      "korea": "가능",
+      "notes": "PRO 구독은 월 $2 크레딧(ZeroGPU 등 다른 HF 컴퓨트에도 사용). 작은 모델을 고르면 무료 크레딧으로 조금 더 쓸 수 있음. 자주 쓸 거라면 OpenRouter·Groq 무료 모델이 현실적."
+    },
+    "howTo": [
+      "huggingface.co/chat 접속 후 HF 계정 로그인",
+      "모델 목록에서 Omni 또는 원하는 오픈모델 선택",
+      "한도 메시지가 뜨면 다음 달 크레딧 충전까지 대기"
+    ],
+    "tags": [
+      "오픈소스",
+      "월충전",
+      "로그인필요",
+      "한도적음"
+    ],
+    "confidence": "medium",
+    "status": "limited",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "HuggingChat",
+        "url": "https://huggingface.co/chat/",
+        "type": "official",
+        "date": "2026-09-29"
+      },
+      {
+        "title": "Inference Providers Pricing and Billing (무료 계정 월 $0.10)",
+        "url": "https://huggingface.co/docs/inference-providers/pricing",
+        "type": "official"
+      },
+      {
+        "title": "How to use Huggingchat for free? (Discussion #779)",
+        "url": "https://huggingface.co/spaces/huggingchat/chat-ui/discussions/779",
+        "type": "community",
+        "date": "2026-07"
+      }
+    ],
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "monthly",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "kimi-chat",
+    "category": "chat",
+    "platform": "Kimi",
+    "vendor": "Moonshot AI",
+    "url": "https://www.kimi.com",
+    "logo": "kimi",
+    "logoDomain": "kimi.com",
+    "models": [
+      "Kimi K3"
+    ],
+    "headline": "Kimi 무료: 2.8조 파라미터 오픈모델 Kimi K3를 채팅으로 무료 체험(속도 제한)",
+    "description": "중국 Moonshot AI의 챗봇으로, 2026년 7월 공개된 Kimi K3(2.8조 파라미터, 100만 토큰 컨텍스트, 이미지·영상 이해)를 채팅에서 쓸 수 있습니다. 긴 문서 분석과 에이전트형 리서치·슬라이드 생성이 강점이며, 기본 사용은 무료이고 유료 멤버십(음악 템포 이름의 4단계)에서 한도가 늘어납니다.",
+    "freeTier": {
+      "quota": "기본 무료 사용 (속도·횟수 제한 있음, 구체 수치 비공개). 에이전트·리서치·슬라이드 등 고급 기능은 유료 멤버십에서 확대",
+      "reset": "불명",
+      "watermark": "없음 (텍스트 출력)",
+      "commercialUse": "불명 (약관 확인 필요)",
+      "signup": "이메일/Google 계정",
+      "korea": "가능 (국제판 웹 기준)",
+      "notes": "2026년 9월 Anthropic이 Moonshot의 Claude 응답 무단 추출 의혹을 제기하는 등 논란 있음. 중국 기업 서비스이므로 민감 정보 입력 주의."
+    },
+    "howTo": [
+      "kimi.com 접속 후 계정 로그인",
+      "모델 선택에서 K3 확인 후 질문 또는 긴 문서 업로드",
+      "고급 에이전트 기능은 무료 한도 내에서 체험"
+    ],
+    "tags": [
+      "긴문서",
+      "오픈모델",
+      "로그인필요",
+      "한도비공개"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Moonshot AI - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Moonshot_AI",
+        "type": "news"
+      },
+      {
+        "title": "Kimi (chatbot) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kimi_(chatbot)",
+        "type": "news",
+        "date": "2026-09"
+      },
+      {
+        "title": "moonshotai/Kimi-K3 - Hugging Face",
+        "url": "https://huggingface.co/moonshotai/Kimi-K3",
+        "type": "official"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "meta-ai-chat",
+    "category": "chat",
+    "platform": "Meta AI",
+    "vendor": "Meta",
+    "url": "https://www.meta.ai",
+    "logo": "meta-ai",
+    "logoDomain": "meta.ai",
+    "models": [
+      "Muse Spark"
+    ],
+    "headline": "Meta AI 무료: Llama 대신 자체 신모델 Muse Spark로 교체, 기본 사용 무료(유료는 한도 확대)",
+    "description": "Meta가 Instagram·WhatsApp·Messenger와 단독 앱/웹(meta.ai)에서 제공하는 AI 비서입니다. 2026년 Meta Superintelligence Labs의 새 모델 Muse Spark(4월 공개, 7월 v1.1 정식)가 Llama 4를 대체했고, 텍스트 대화와 이미지 생성을 기본 무료로 제공합니다. 무거운 창작·추론 기능은 사용량 제한이 있고 유료 구독으로 한도를 늘릴 수 있습니다.",
+    "freeTier": {
+      "quota": "텍스트·이미지 생성 기본 한도 무료(구체 수치 비공개). 유료 구독(월 $7.99/$19.99로 보고됨)은 월간 사용량 확대",
+      "reset": "불명",
+      "watermark": "없음 (텍스트 출력) / 생성 이미지는 AI 표시",
+      "commercialUse": "불명 (Meta AI 약관 확인 필요)",
+      "signup": "Meta(Facebook/Instagram) 계정",
+      "korea": "불명 (한국어는 지원 언어에 포함되나 한국 정식 서비스 여부 미확인 — 지역 제한 가능성)",
+      "notes": "제공 국가가 제한적이라 한국 계정에서는 메뉴가 보이지 않을 수 있음. 한도·요금 정보는 커뮤니티 위키 기준이라 확인 필요."
+    },
+    "howTo": [
+      "meta.ai 접속 또는 Meta AI 앱 설치",
+      "Meta 계정(Facebook/Instagram)으로 로그인",
+      "대화 입력 또는 '이미지 만들기'로 생성"
+    ],
+    "tags": [
+      "로그인필요",
+      "이미지생성",
+      "지역제한가능"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Muse Spark - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Muse_Spark",
+        "type": "news",
+        "date": "2026-09"
+      },
+      {
+        "title": "Meta AI - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Meta_AI",
+        "type": "news"
+      },
+      {
+        "title": "Meta AI - 나무위키",
+        "url": "https://namu.wiki/w/Meta%20AI",
+        "type": "community",
+        "date": "2026-09"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "meta-muse-chat",
+    "category": "chat",
+    "access": "official",
+    "platform": "Meta Muse",
+    "vendor": "Meta",
+    "url": "https://www.meta.ai",
+    "logo": "meta-muse",
+    "logoDomain": "meta.com",
+    "models": [
+      "Muse (Meta AI 에이전트)"
+    ],
+    "headline": "Meta Muse 무료: 주당 입력 100만 토큰, 출시 기념 초대 코드 보너스 토큰 (미국 전용·VPN 필요)",
+    "description": "Meta가 2026-09-08 미국에서 출시한 개인 AI 에이전트 앱. 이메일·캘린더 연동, 웹 검색, 가격 비교, 폼 작성 같은 작업을 대신 수행한다. 출시 3주 만에 340만 다운로드로 미국 앱스토어 1위에 올랐고, 모든 기능이 무료 티어에서도 열려 있다.",
+    "freeTier": {
+      "quota": "주당 입력 토큰 100만 개 무료 (유료 Power $20/월 5억, Maximum $100/월 30억 토큰/주). 검색·이미지 생성 등 일부는 건당 약 $0.002~0.18 종량제",
+      "reset": "매주",
+      "watermark": "불명",
+      "commercialUse": "불명",
+      "signup": "Meta 계정 + 미국 앱스토어 계정(보고)",
+      "korea": "VPN 필요 (미국 전용 서비스, 초기 설정 시 미국/캐나다 VPN·미국 Apple ID 필요 보고)",
+      "notes": "'모든 기능이 모든 티어에서 사용 가능, 차이는 사용량뿐'이라고 보도됨. 저커버그는 '상당히 많은 토큰까지 무료 유지' 언급. 접속 경로: 미국 내 Meta iOS/Android 앱·WhatsApp·웹(정확한 웹 주소는 미확인). 지역 우회는 약관 위반 소지가 있으니 주의."
+    },
+    "howTo": [
+      "(미국 지역) Meta Muse 앱 또는 웹 접속",
+      "Meta 계정으로 가입",
+      "가입 후 48시간 내 초대 코드 입력 시 보너스 토큰 지급(보고)"
+    ],
+    "tags": [
+      "에이전트",
+      "주간충전",
+      "미국전용",
+      "VPN필요",
+      "이벤트"
+    ],
+    "confidence": "low",
+    "status": "limited",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Is Meta Muse Free? Here's A Breakdown Of The AI Agent's Cost (Her Campus)",
+        "url": "https://www.hercampus.com/culture/is-meta-muse-free-ai-agent-cost/",
+        "type": "news",
+        "date": "2026-09-16"
+      },
+      {
+        "title": "Meta's Muse AI Agent Tops 3.4 Million Downloads (IBTimes)",
+        "url": "https://www.ibtimes.com.au/meta-muse-ai-agent-downloads-trust-retailer-hurdles-1875940",
+        "type": "news",
+        "date": "2026-09-29"
+      },
+      {
+        "title": "Mark Zuckerberg Says Muse Will Stay Free for 'a Huge Number of Tokens' (Yahoo Finance)",
+        "url": "https://finance.yahoo.com/technology/ai/articles/mark-zuckerberg-says-muse-stay-043750111.html",
+        "type": "news",
+        "date": "2026-09-25"
+      },
+      {
+        "title": "This Meta Muse Invite Code Gives You 1 Billion Free Tokens (Gear Live)",
+        "url": "https://www.gearlive.com/news/article/muse-invite-code-1-billion-free-tokens",
+        "type": "news",
+        "date": "2026-09-19"
+      },
+      {
+        "title": "메타 뮤즈 AI 무료 (디시 비트코인 갤러리)",
+        "url": "https://gall.dcinside.com/board/view/?id=bitcoins_new1&no=9565127",
+        "type": "community",
+        "date": "2026-09-26"
+      }
+    ],
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "weekly",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "microsoft-copilot-chat",
+    "category": "chat",
+    "platform": "Microsoft Copilot",
+    "vendor": "Microsoft",
+    "url": "https://copilot.microsoft.com",
+    "logo": "microsoft-copilot",
+    "logoDomain": "copilot.microsoft.com",
+    "models": [
+      "GPT-5 계열 (Smart 모드)",
+      "Think Deeper"
+    ],
+    "headline": "Microsoft Copilot 무료: 로그인 없이 GPT-5 기반 대화·Bing 검색, 한도는 비공개(유료는 우선권만)",
+    "description": "Microsoft의 무료 AI 비서로 웹, Windows, Edge에서 바로 쓸 수 있습니다. GPT-5 기반 Smart 모드가 질문 난이도에 따라 빠른 답변과 깊은 추론(Think Deeper)을 오가며, Bing 웹 검색·이미지 생성·음성 대화를 지원합니다. 다만 2026년 8월 Microsoft가 소비자용 Copilot을 M365 Copilot과 통합한 새 앱으로 바꾸겠다고 발표해 Deep Research 등 일부 기능이 빠질 예정입니다.",
+    "freeTier": {
+      "quota": "공식 수치 비공개('표준 사용량'). 유료(Microsoft 365 Personal/Family/Premium)는 혼잡 시 우선 처리만 추가",
+      "reset": "불명 (용량 기반 동적 한도)",
+      "watermark": "없음 (텍스트 출력)",
+      "commercialUse": "불명 (Microsoft 서비스 약관 확인 필요)",
+      "signup": "로그인 불필요 (Microsoft 계정 로그인 시 대화 기록·긴 대화·이미지 생성·음성 등 추가)",
+      "korea": "가능 (한국어 지원)",
+      "notes": "파일 업로드 대화당 최대 20개·파일당 50MB로 보고됨(2025년 기준). Word·Excel 등 Office 내 Copilot은 유료. 2026년 8월 발표된 앱 통합으로 기능 구성 변동 가능성 큼."
+    },
+    "howTo": [
+      "copilot.microsoft.com 접속 또는 Windows의 Copilot 앱/Edge 사이드바 열기",
+      "로그인 없이 바로 질문(기록 저장·이미지 생성은 Microsoft 계정 로그인)",
+      "복잡한 질문은 Smart/Think Deeper 모드 선택"
+    ],
+    "tags": [
+      "로그인불필요",
+      "웹검색",
+      "한도비공개",
+      "한국어지원"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Microsoft Copilot - Wikipedia (2026년 8월 소비자·M365 Copilot 통합 발표)",
+        "url": "https://en.wikipedia.org/wiki/Microsoft_Copilot",
+        "type": "news",
+        "date": "2026-08"
+      },
+      {
+        "title": "Is Microsoft Copilot Free? What You Get in 2026 - Fello AI",
+        "url": "https://felloai.com/is-copilot-free/",
+        "type": "community",
+        "date": "2026-09-21"
+      },
+      {
+        "title": "Microsoft Copilot Free: features, limits, file uploads, Think Deeper - DataStudios",
+        "url": "https://www.datastudios.org/post/microsoft-copilot-free-trials-premium-access-and-hidden-offers-explained",
+        "type": "community",
+        "date": "2025-09-17"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "na",
+      "login": false,
+      "commercial": null
+    }
+  },
+  {
+    "id": "mistral-vibe-chat",
+    "category": "chat",
+    "platform": "Mistral Vibe (구 Le Chat)",
+    "vendor": "Mistral AI",
+    "url": "https://chat.mistral.ai",
+    "logo": "mistral",
+    "logoDomain": "mistral.ai",
+    "models": [
+      "Mistral Medium 3.5"
+    ],
+    "headline": "Mistral Vibe(구 Le Chat) 무료: 대화·웹검색·이미지 생성 + 월 $10 API 크레딧까지",
+    "description": "프랑스 Mistral AI의 챗봇 Le Chat이 2026년 5월 말 'Vibe'로 이름을 바꾸고 업무(Work)·코딩(Code)·채팅(Chat) 모드를 가진 통합 에이전트로 개편됐습니다. 무료 플랜에서도 웹·모바일 대화, 웹 검색, 이미지 생성, 100개 이상 커넥터, 제한적 코딩 세션을 쓸 수 있고 매월 $10 상당의 API 크레딧이 제공됩니다. 유럽 기업이라 개인정보 보호 측면에서 선호되기도 합니다.",
+    "freeTier": {
+      "quota": "메시지·웹 검색 제한적(구체 수치 비공개), 이미지 생성 가능, 코딩 세션 제한, 월 $10 API 크레딧",
+      "reset": "불명 (API 크레딧은 매월)",
+      "watermark": "없음 (텍스트 출력)",
+      "commercialUse": "가능 — 공식 도움말상 Vibe 입력·출력물은 사용자 소유, Mistral은 출력물 저작권을 주장하지 않음",
+      "signup": "이메일/Google/Apple 계정",
+      "korea": "가능",
+      "notes": "Pro($14.99/월, 학생 $5.99)는 더 많은 메시지·검색·이미지와 종일 코딩 제공. 기존 대화·설정·구독은 Vibe로 자동 이전됨."
+    },
+    "howTo": [
+      "chat.mistral.ai 접속 또는 Vibe(구 Le Chat) 앱 설치",
+      "계정 가입 후 Chat 모드에서 대화",
+      "웹 검색·이미지 생성은 입력창 도구에서 선택"
+    ],
+    "tags": [
+      "리브랜딩",
+      "이미지생성",
+      "API크레딧",
+      "로그인필요",
+      "유럽"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Mistral AI Pricing",
+        "url": "https://mistral.ai/pricing",
+        "type": "official"
+      },
+      {
+        "title": "Le Chat is now Vibe - Mistral Help Center",
+        "url": "https://help.mistral.ai/en/articles/682992-le-chat-is-now-vibe",
+        "type": "official",
+        "date": "2026-08-12"
+      },
+      {
+        "title": "Who owns input and output in Vibe and Mistral's APIs? - Mistral Help Center",
+        "url": "https://help.mistral.ai/en/articles/347630-who-owns-input-and-output-in-vibe-and-mistral-s-apis",
+        "type": "official"
+      },
+      {
+        "title": "Mistral AI - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mistral_AI",
+        "type": "news"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "na",
+      "login": true,
+      "commercial": true
+    }
+  },
+  {
+    "id": "perplexity-chat",
+    "category": "chat",
+    "platform": "Perplexity",
+    "vendor": "Perplexity AI",
+    "url": "https://www.perplexity.ai",
+    "logo": "perplexity",
+    "logoDomain": "perplexity.ai",
+    "models": [
+      "기본 검색 모델 (모델 선택은 Pro 이상)"
+    ],
+    "headline": "Perplexity 무료: 출처 달린 AI 검색 무제한에 가깝게, 고급 검색·딥리서치는 하루 소량",
+    "description": "질문하면 웹을 검색해 출처(인용)를 붙여 답해 주는 AI 검색 엔진입니다. 로그인 없이도 기본 검색을 쓸 수 있고, 무료 계정은 기본 모델로 제한되며 고급 검색·딥리서치는 하루 사용량이 제한됩니다. 무료 AI 브라우저 Comet(Windows·macOS·모바일)도 함께 제공합니다.",
+    "freeTier": {
+      "quota": "기본 검색은 사실상 무제한, 고급(Pro) 검색·딥리서치는 하루 소량 — 정확한 횟수는 공식 비공개(계정 화면에서 확인)",
+      "reset": "매일",
+      "watermark": "없음 (텍스트 출력)",
+      "commercialUse": "불명 (Perplexity 약관 확인 필요)",
+      "signup": "로그인 불필요(기본 검색), 이메일/Google/Apple 계정 가입 시 기록 저장·추가 기능",
+      "korea": "가능 (한국어 지원)",
+      "notes": "모델 직접 선택·Labs(문서/앱 생성)·높은 딥리서치 한도는 Pro($20) 이상. SKT 제휴 무료 Pro 혜택은 조건이 여러 번 바뀌어 통신사 공지 확인 필요."
+    },
+    "howTo": [
+      "perplexity.ai 접속(로그인 없이 바로 검색 가능)",
+      "질문 입력 → 답변 아래 출처 링크로 원문 확인",
+      "계정 가입 후 딥리서치 모드를 선택하면 하루 제한 횟수 내에서 보고서 생성"
+    ],
+    "tags": [
+      "출처표시",
+      "로그인불필요",
+      "매일충전",
+      "한국어지원",
+      "AI검색"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "퍼플렉시티(Perplexity) 사용법: 검색 모드와 출처 확인, 요금제 정리 - 준이아빠블로그",
+        "url": "https://www.digitalmarketer.co.kr/insights/perplexity-usage-guide",
+        "type": "community",
+        "date": "2026-09-15"
+      },
+      {
+        "title": "Perplexity AI - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Perplexity_AI",
+        "type": "news"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "na",
+      "login": false,
+      "commercial": null
+    }
+  },
+  {
+    "id": "qwen-chat",
+    "category": "chat",
+    "platform": "Qwen Chat",
+    "vendor": "Alibaba",
+    "url": "https://chat.qwen.ai",
+    "logo": "qwen",
+    "logoDomain": "qwen.ai",
+    "models": [
+      "Qwen3.8-Max",
+      "Qwen3.7 시리즈",
+      "Qwen3.5/3.6"
+    ],
+    "headline": "Qwen Chat 무료: 알리바바 최신 Qwen3.8 계열을 무료로, 이미지 생성·편집까지 한 곳에서",
+    "description": "알리바바의 Qwen 모델을 무료로 써볼 수 있는 공식 채팅 서비스입니다. 2026년 8월 3일 공개된 플래그십 Qwen3.8-Max를 비롯해 여러 세대 모델을 골라 쓸 수 있고, 이미지 생성·이미지 편집·멀티모달 입력 기능도 무료로 제공합니다. 201개 언어를 지원해 한국어 대화도 가능합니다.",
+    "freeTier": {
+      "quota": "무료 (구체 한도 비공개)",
+      "reset": "불명",
+      "watermark": "없음 (텍스트 출력)",
+      "commercialUse": "불명 (약관 확인 필요)",
+      "signup": "이메일/Google 계정 로그인",
+      "korea": "가능 (웹 기준, 모바일 앱은 지역 제한 보고)",
+      "notes": "Qwen3.8-Max-0902 업그레이드는 API 전용으로 보도됨 — 채팅에서 제공되는 정확한 버전은 모델 선택 메뉴에서 확인. 중국 기업 서비스이므로 민감 정보 입력 주의."
+    },
+    "howTo": [
+      "chat.qwen.ai 접속 후 이메일/Google 계정으로 로그인",
+      "상단 모델 선택에서 최신 Qwen 모델 선택",
+      "대화 또는 '이미지 생성/편집' 옵션 선택 후 입력"
+    ],
+    "tags": [
+      "무료",
+      "모델선택",
+      "이미지생성",
+      "로그인필요"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Qwen - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Qwen",
+        "type": "news",
+        "date": "2026-08"
+      },
+      {
+        "title": "Qwen - 나무위키",
+        "url": "https://namu.wiki/w/Qwen",
+        "type": "community"
+      },
+      {
+        "title": "Qwen3.8-Max 정리: 사양, 가격, 0902 업그레이드 - 준이아빠블로그",
+        "url": "https://www.digitalmarketer.co.kr/insights/qwen3-8-max-guide",
+        "type": "community",
+        "date": "2026-09"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "zai-chat",
+    "category": "chat",
+    "platform": "Z.ai",
+    "vendor": "Z.ai (구 Zhipu AI)",
+    "url": "https://chat.z.ai",
+    "logo": "zai",
+    "logoDomain": "z.ai",
+    "models": [
+      "GLM-5.3-Flash",
+      "GLM-5.3"
+    ],
+    "headline": "Z.ai 무료: 로그인 없이 GLM-5.3-Flash 채팅, 코딩·에이전트 작업에 강한 중국 오픈모델",
+    "description": "중국 Z.ai(구 Zhipu AI)의 GLM 모델을 쓰는 챗봇·에이전트 서비스입니다. chat.z.ai에서 로그인 없이 멀티모달 GLM-5.3-Flash로 대화할 수 있고, 2026년 8월 14일 공개된 GLM-5.3 등 최신 모델을 제공합니다. 코딩·웹페이지 생성·장기 에이전트 작업에 강점이 있으며, API에서는 GLM-4.7-Flash가 무료입니다.",
+    "freeTier": {
+      "quota": "웹 채팅 무료 (로그인 없이 GLM-5.3-Flash 사용 가능, 구체 한도 비공개)",
+      "reset": "불명",
+      "watermark": "없음 (텍스트 출력)",
+      "commercialUse": "불명 (서비스 약관 확인 필요, 모델 자체는 대부분 MIT 라이선스)",
+      "signup": "로그인 불필요 (계정 가입 시 기록 저장)",
+      "korea": "가능",
+      "notes": "Z.ai는 2025년 1월 미국 상무부 수출통제 명단(Entity List)에 오름. 중국 기업 서비스이므로 민감 정보 입력 주의. 개발자는 API의 GLM-4.7-Flash 무료 사용 가능."
+    },
+    "howTo": [
+      "chat.z.ai 접속(로그인 없이 바로 대화 가능)",
+      "모델 메뉴에서 GLM-5.3 / GLM-5.3-Flash 선택",
+      "대화·코딩·웹페이지 생성 요청 입력"
+    ],
+    "tags": [
+      "로그인불필요",
+      "오픈모델",
+      "코딩",
+      "무료API"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Zhipu AI (Z.ai) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Zhipu_AI",
+        "type": "news",
+        "date": "2026-08"
+      },
+      {
+        "title": "GLM 모델 정리: Z.ai 버전별 차이와 쓰는 방법 4가지 - 준이아빠블로그",
+        "url": "https://www.digitalmarketer.co.kr/insights/glm-model-guide",
+        "type": "community",
+        "date": "2026-09"
+      },
+      {
+        "title": "Z.ai Chat",
+        "url": "https://chat.z.ai",
+        "type": "official"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "na",
+      "login": false,
+      "commercial": null
+    }
+  },
+  {
+    "id": "wrtn-chat",
+    "category": "chat",
+    "platform": "뤼튼 (wrtn)",
+    "vendor": "뤼튼테크놀로지스",
+    "url": "https://wrtn.ai",
+    "logo": "wrtn",
+    "logoDomain": "wrtn.ai",
+    "models": [
+      "GPT-5 등 외부 모델 자동 라우팅"
+    ],
+    "headline": "뤼튼 무료: 로그인 없이도 무제한 대화, 가입하면 업무·과제용 도구 19종",
+    "description": "국내 스타트업 뤼튼테크놀로지스의 한국어 AI 서비스로, 2023년 12월부터 전면 무료로 운영되고 있습니다. 자체 모델 없이 질문 난이도에 따라 GPT-5 등 외부 모델로 자동 연결(라우팅)하는 방식이며, 로그인 없이도 채팅이 가능하고 가입하면 파일 첨부와 블로그·SNS·요약·녹음 요약 등 도구 19종을 쓸 수 있습니다.",
+    "freeTier": {
+      "quota": "대화 무제한 (비로그인 시 채팅방 1개)",
+      "reset": "무제한",
+      "watermark": "없음 (텍스트 출력)",
+      "commercialUse": "불명 (생성물은 서비스 개선에 저장될 수 있음, 약관 확인 필요)",
+      "signup": "로그인 불필요 (파일 첨부·저장·도구 19종은 로그인 필요)",
+      "korea": "가능 (한국 서비스)",
+      "notes": "어떤 모델이 답했는지 화면에 표시되지 않음. 약관상 원칙적으로 유료 서비스이며 무료 제공은 회사 재량. 검색 기능은 2026년 3월 9일 종료. 캐릭터챗(크랙)은 별도 유료 재화."
+    },
+    "howTo": [
+      "wrtn.ai 접속 또는 뤼튼 앱 설치",
+      "로그인 없이 바로 질문하거나, 가입 후 파일 첨부·도구 사용",
+      "업무용 도구(카피·블로그·요약 등)에서 원하는 템플릿 선택"
+    ],
+    "tags": [
+      "완전무료",
+      "로그인불필요",
+      "한국서비스",
+      "한국어특화"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "뤼튼(Wrtn) 사용법 정리: 도구 19종과 무료 범위 - 준이아빠블로그",
+        "url": "https://www.digitalmarketer.co.kr/insights/wrtn-usage-guide",
+        "type": "community",
+        "date": "2026-09-15"
+      },
+      {
+        "title": "뤼튼 - 나무위키",
+        "url": "https://namu.wiki/w/%EB%A4%BC%ED%8A%BC",
+        "type": "community",
+        "date": "2026-09-04"
+      }
+    ],
+    "access": "wrapper",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unlimited",
+      "watermark": "na",
+      "login": false,
+      "commercial": null
+    }
+  },
+  {
+    "id": "arena-chat",
+    "category": "chat",
+    "access": "wrapper",
+    "platform": "Arena (구 LMArena)",
+    "vendor": "Arena Intelligence",
+    "url": "https://arena.ai",
+    "logo": "arena",
+    "logoDomain": "arena.ai",
+    "models": [
+      "Arena 등록 텍스트 모델 전반 (배틀: 익명 2개 비교 / Direct: 직접 선택)",
+      "GPT·Gemini·Claude·Grok·DeepSeek 등 다수 최신 모델"
+    ],
+    "headline": "Arena 무료: 최신 프런티어 모델을 배틀·나란히·직접 모드로 무료 사용 (유료 요금제 자체가 없음)",
+    "description": "UC 버클리 Chatbot Arena에서 출발해 2026년 1월 'Arena'(arena.ai)로 이름을 바꾼 모델 비교 플랫폼. 배틀 모드에서는 익명 모델 두 개의 답을 받아 투표하고, Direct 모드에서는 모델을 골라 바로 대화한다. 출시 전 스텔스 모델이 익명으로 섞여 나오는 경우가 많아 신모델을 가장 먼저 무료로 써볼 수 있는 곳.",
+    "freeTier": {
+      "quota": "무료. 숫자로 공개된 일일 한도는 없고 모델별·전체 채팅 속도 제한(rate limit)만 존재. 한 세션이 토큰 한도에 도달하면 새 채팅을 열어야 함",
+      "reset": "불명 (속도 제한은 일정 시간 후 해제)",
+      "watermark": "해당 없음 (텍스트)",
+      "commercialUse": "불명 — 대화가 비식별화되어 공개 연구 데이터셋·모델 제공사에 공유될 수 있음",
+      "signup": "텍스트 배틀은 로그인 선택 사항(이력 저장 등은 계정 필요)",
+      "korea": "가능",
+      "notes": "Arena는 한도를 없애는 유료 서비스를 제공하지 않는다고 명시. 배틀 모드 투표만 리더보드에 반영. 코딩용 Agent 모드(GitHub 연동, 2026-08 블로그 소개)도 제공. 민감 정보 입력 금지 권고."
+    },
+    "howTo": [
+      "arena.ai 접속",
+      "상단에서 Battle / Side by Side / Direct 중 모드 선택",
+      "Direct에서 원하는 모델을 고르거나 Battle에서 익명 두 모델 답변 비교 후 투표"
+    ],
+    "tags": [
+      "무료",
+      "로그인불필요",
+      "최신모델",
+      "모델비교",
+      "데이터공유주의"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Arena FAQ",
+        "url": "https://arena.ai/faq",
+        "type": "official"
+      },
+      {
+        "title": "Arena Troubleshooting: Rate Limit",
+        "url": "https://help.arena.ai/articles/8931786544-arena-how-to-rate-limit",
+        "type": "official"
+      },
+      {
+        "title": "Arena Troubleshooting: Session Token Limits",
+        "url": "https://help.arena.ai/articles/3975292349-arena-troubleshooting-session-token-limits",
+        "type": "official"
+      },
+      {
+        "title": "Arena (AI platform) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Arena_(AI_platform)",
+        "type": "news",
+        "date": "2026"
+      },
+      {
+        "title": "LMArena (Arena) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/LMArena",
+        "type": "news",
+        "date": "2026-01"
+      },
+      {
+        "title": "Arena AI: The Official AI Ranking & LLM Leaderboard",
+        "url": "https://arena.ai/",
+        "type": "official"
+      }
+    ],
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "duckai-chat",
+    "category": "chat",
+    "access": "wrapper",
+    "platform": "Duck.ai",
+    "vendor": "DuckDuckGo",
+    "url": "https://duck.ai",
+    "logo": "duckai",
+    "logoDomain": "duck.ai",
+    "models": [
+      "Claude 4.5 Haiku",
+      "GPT-5.4 mini",
+      "GPT-5.4 nano",
+      "Mistral Small 4",
+      "gpt-oss-120b",
+      "Gemma 4 31B"
+    ],
+    "headline": "Duck.ai 무료: 가입 없이 Claude 4.5 Haiku·GPT-5.4 mini 등 6개 모델 익명 채팅 + 간단한 이미지 생성",
+    "description": "DuckDuckGo가 만든 프라이버시 중심 AI 채팅. 계정 없이 여러 회사 모델을 골라 쓸 수 있고, 대화 기록은 서버가 아닌 내 기기에 저장된다. 최근 국내 커뮤니티(클리앙)에서도 '무료 멀티모델 사이트'로 다시 주목받았다.",
+    "freeTier": {
+      "quota": "무료 — 수치가 공개되지 않은 일일 사용 한도 존재 (유료 Plus/Pro는 한도 상향·상위 모델)",
+      "reset": "매일 (추정)",
+      "watermark": "해당 없음 (텍스트) / 이미지는 불명",
+      "commercialUse": "불명 (각 모델 제공사 약관 따름)",
+      "signup": "로그인 불필요",
+      "korea": "가능 (한국어 대화 가능)",
+      "notes": "대화 기록은 서버가 아닌 기기에 로컬 저장. 간단한 이미지 생성 지원. 유료 전용: GPT-5.6 Terra·Claude Sonnet 4.6(Plus), Claude Opus 4.8·GPT-5.6 Sol(Pro, Plus 대비 2배 한도)."
+    },
+    "howTo": [
+      "duck.ai 접속 (또는 DuckDuckGo 앱)",
+      "상단에서 모델 선택",
+      "바로 대화 — 기록은 브라우저에 로컬 저장"
+    ],
+    "tags": [
+      "로그인불필요",
+      "익명",
+      "멀티모델",
+      "무료"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Duck.ai | DuckDuckGo Help Pages",
+        "url": "https://duckduckgo.com/duckduckgo-help-pages/duckai",
+        "type": "official"
+      },
+      {
+        "title": "DuckDuckGo AI 무료 웹사이트 (클리앙 유용한사이트)",
+        "url": "https://www.clien.net/service/board/useful/19269755",
+        "type": "community",
+        "date": "2026-09-26"
+      }
+    ],
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "na",
+      "login": false,
+      "commercial": null
+    }
+  },
+  {
+    "id": "genspark-chat",
+    "category": "chat",
+    "access": "wrapper",
+    "platform": "Genspark",
+    "vendor": "MainFunc",
+    "url": "https://www.genspark.ai",
+    "logo": "genspark",
+    "logoDomain": "genspark.ai",
+    "models": [
+      "Genspark AI Chat·Super Agent 기본 모델 (크레딧 차감, 모델 구성 수시 변경)"
+    ],
+    "headline": "Genspark 무료: 하루 100크레딧으로 AI 채팅·슈퍼에이전트·슬라이드 (단, 평생 무료 한도 소진 시 충전 중단)",
+    "description": "여러 LLM과 이미지·영상 모델을 묶어 채팅, 리서치, 슬라이드·문서 생성까지 해주는 '올인원 에이전트' 서비스. 무료 계정은 매일 크레딧을 받아 모든 기능을 조금씩 써볼 수 있다. 한국을 핵심 시장으로 공략 중이라 한국어 사용감이 좋은 편.",
+    "freeTier": {
+      "quota": "하루 100크레딧 (공식 도움말 기준, 일부 외부 글의 200크레딧은 구버전 정보). 무료 계정에는 '평생 무료 크레딧 한도'가 있어 누적 사용량이 이를 넘으면 일일 충전이 멈춤(총량 비공개)",
+      "reset": "매일 (한국·일본 기준 오전 9시경 충전 보고, 이월 없음)",
+      "watermark": "해당 없음 (텍스트) / 이미지·영상은 불명",
+      "commercialUse": "불명",
+      "signup": "Google·이메일 계정, 카드 불필요",
+      "korea": "가능 (한국어 지원)",
+      "notes": "영상 생성·슈퍼에이전트는 크레딧 소모가 커서 100크레딧이 금방 소진. 유료(Plus/Pro)는 핵심 AI Chat·AI Image 모델을 크레딧 차감 없이(한도 내) 사용. 정확한 무료 사용 가능 모델명은 공식 문서에 명시되지 않음."
+    },
+    "howTo": [
+      "genspark.ai 접속 후 Google 계정으로 가입",
+      "AI Chat 또는 Super Agent 선택 후 요청 입력",
+      "우측 상단 크레딧 잔액으로 남은 양 확인"
+    ],
+    "tags": [
+      "매일충전",
+      "에이전트",
+      "로그인필요",
+      "한국어지원",
+      "평생한도"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Credits Guide | Genspark Help Center",
+        "url": "https://www.genspark.ai/helpcenter?doc=general_Credits_Guide",
+        "type": "official"
+      },
+      {
+        "title": "Membership Plans | Genspark Help Center",
+        "url": "https://www.genspark.ai/helpcenter/membership-plans",
+        "type": "official"
+      },
+      {
+        "title": "When Do Genspark Credits Reset? | AI Dev Chronicles",
+        "url": "https://ai-dev-blog.com/en/post/114-genspark_credit_basics-en",
+        "type": "community",
+        "date": "2026-08-29"
+      },
+      {
+        "title": "Genspark Pricing 2026 | Lindy",
+        "url": "https://www.lindy.ai/blog/genspark-pricing",
+        "type": "news",
+        "date": "2026-08-31"
+      }
+    ],
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "groq-chat",
+    "category": "chat",
+    "access": "wrapper",
+    "platform": "GroqCloud Playground",
+    "vendor": "Groq",
+    "url": "https://console.groq.com/playground",
+    "logo": "groq",
+    "logoDomain": "groq.com",
+    "models": [
+      "gpt-oss-120b",
+      "gpt-oss-20b",
+      "Qwen3.8 27B",
+      "Whisper Large v3 / v3 Turbo (음성 인식)",
+      "Orpheus TTS (영어·아랍어)"
+    ],
+    "headline": "Groq 무료 API·플레이그라운드: gpt-oss-120b·Qwen3.8 27B를 하루 1,000요청, 초당 500~1000토큰 초고속",
+    "description": "자체 LPU 칩으로 오픈웨이트 모델을 초고속 추론해 주는 클라우드. 개발자 콘솔의 Playground에서 채팅처럼 바로 쓸 수 있고, 카드 없이 API 키도 발급된다. 응답 속도가 압도적으로 빨라 번역·요약 자동화에 좋다.",
+    "freeTier": {
+      "quota": "gpt-oss-120b·gpt-oss-20b·Qwen3.8 27B: 분당 30요청·하루 1,000요청, 분당 8K·하루 200K 토큰 / Whisper: 분당 20·하루 2,000요청 / Orpheus TTS: 하루 100요청",
+      "reset": "매일",
+      "watermark": "해당 없음",
+      "commercialUse": "모델 라이선스 및 Groq 약관 따름",
+      "signup": "GroqCloud 계정(이메일·Google·GitHub), 카드 불필요",
+      "korea": "가능",
+      "notes": "조직 단위로 한도 적용, 계정별 예외 가능. 일반 소비자용 채팅 앱이 아니라 개발자 콘솔 UI. MiniMax M2.7 등 프리뷰 모델은 평가용."
+    },
+    "howTo": [
+      "console.groq.com 가입",
+      "Playground에서 모델(gpt-oss-120b 등) 선택 후 대화",
+      "필요 시 API Keys에서 무료 키 발급"
+    ],
+    "tags": [
+      "매일충전",
+      "API",
+      "초고속",
+      "카드불필요",
+      "로그인필요"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Rate Limits | GroqDocs",
+        "url": "https://console.groq.com/docs/rate-limits",
+        "type": "official"
+      },
+      {
+        "title": "Supported Models | GroqDocs",
+        "url": "https://console.groq.com/docs/models",
+        "type": "official"
+      },
+      {
+        "title": "awesome-free-models (Groq: 무료, 카드 불필요)",
+        "url": "https://github.com/12britz/awesome-free-models",
+        "type": "community",
+        "date": "2026-09-27"
+      }
+    ],
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "hix-chat",
+    "category": "chat",
+    "access": "wrapper",
+    "platform": "HIX AI (HIX Chat)",
+    "vendor": "HIX.AI",
+    "url": "https://hix.ai",
+    "logo": "hix",
+    "logoDomain": "hix.ai",
+    "models": [
+      "표준(Standard) 채팅 모델 (구체 모델명 비공개)"
+    ],
+    "headline": "HIX AI 무료: 표준 채팅 모델 무제한 + 월 20크레딧 (고급 모델은 유료)",
+    "description": "글쓰기 도구로 시작해 멀티모델 채팅·에이전트로 확장한 서비스. 무료 플랜에서도 '표준 채팅 모델'은 횟수 제한 없이 쓸 수 있다고 요금표에 명시돼 있다. 다만 어떤 모델이 표준인지는 공개하지 않는다.",
+    "freeTier": {
+      "quota": "표준 채팅 모델 무제한 + 월 20크레딧, 예약 작업 20개",
+      "reset": "매월 (크레딧)",
+      "watermark": "해당 없음 (텍스트)",
+      "commercialUse": "불명",
+      "signup": "이메일·Google 계정",
+      "korea": "가능",
+      "notes": "고급(Advanced) 채팅 모델·이미지 에이전트 등은 Max/Pro 유료 플랜 대상으로 보임. 크레딧 용도는 요금표에 설명되지 않음."
+    },
+    "howTo": [
+      "hix.ai 접속 후 가입",
+      "HIX Chat에서 표준 모델 선택",
+      "요금표에서 크레딧 잔액 확인"
+    ],
+    "tags": [
+      "무제한",
+      "월충전",
+      "로그인필요"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "HIX AI Pricing",
+        "url": "https://hix.ai/pricing",
+        "type": "official"
+      }
+    ],
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "monthly",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "monica-chat",
+    "category": "chat",
+    "access": "wrapper",
+    "platform": "Monica",
+    "vendor": "Monica (Butterfly Effect)",
+    "url": "https://monica.im",
+    "logo": "monica",
+    "logoDomain": "monica.im",
+    "models": [
+      "기본(Basic) 채팅 모델 일부"
+    ],
+    "headline": "Monica 무료: 브라우저 확장으로 기본 모델 채팅·웹페이지 요약 (일일 한도 비공개, 고급 모델은 유료)",
+    "description": "크롬 확장·웹·앱으로 제공되는 AI 비서. 페이지 요약, 번역, 글쓰기 보조를 브라우저 옆 사이드바에서 바로 쓸 수 있다. GPT-5.5·Claude·Gemini·Nano Banana·Sora 2 등 많은 모델을 내세우지만 무료로는 기본 모델 위주.",
+    "freeTier": {
+      "quota": "일일 사용 한도 있음 (정확한 횟수 비공개)",
+      "reset": "매일",
+      "watermark": "해당 없음 (텍스트)",
+      "commercialUse": "불명",
+      "signup": "Google·이메일 계정",
+      "korea": "가능 (한국어 UI)",
+      "notes": "유료 전용(보고): GPT-5.5·Claude 4.7 Opus·Gemini 3.1 Pro 등 고급 모델, 이미지·영상 생성(Nano Banana Pro, Sora 2 등). Pro는 월 $9.90부터."
+    },
+    "howTo": [
+      "monica.im에서 'Add to Chrome' 설치 또는 웹 앱 접속",
+      "Google 계정으로 로그인",
+      "사이드바(Ctrl+M)에서 기본 모델로 채팅·요약"
+    ],
+    "tags": [
+      "브라우저확장",
+      "매일충전",
+      "로그인필요"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Monica - Your ChatGPT AI Assistant",
+        "url": "https://monica.im/",
+        "type": "official"
+      },
+      {
+        "title": "Is Monica Free? | HokAI",
+        "url": "https://hokai.io/hub/tools/monica",
+        "type": "community",
+        "date": "2026"
+      }
+    ],
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "openrouter-chat",
+    "category": "chat",
+    "access": "wrapper",
+    "platform": "OpenRouter",
+    "vendor": "OpenRouter",
+    "url": "https://openrouter.ai",
+    "logo": "openrouter",
+    "logoDomain": "openrouter.ai",
+    "models": [
+      "NVIDIA Nemotron 3 Ultra 550B",
+      "NVIDIA Nemotron 3 Super 120B",
+      "Thinking Machines Inkling / Inkling Small",
+      "Qwen3.8 27B",
+      "Poolside Laguna S 2.1",
+      "Cohere North Mini Code",
+      "Dots3-Note Preview",
+      "Space Bunny Alpha (스텔스)"
+    ],
+    "headline": "OpenRouter 무료(:free) 모델: 하루 50요청으로 Nemotron 3 Ultra·Inkling·Qwen3.8 등 20여 종 (웹 채팅·API)",
+    "description": "수백 개 LLM을 하나의 API·채팅 화면으로 묶은 라우터. 모델 ID 끝에 ':free'가 붙은 무료 모델은 카드 등록 없이 웹 채팅이나 API로 바로 쓸 수 있다. 신모델·스텔스 모델이 먼저 무료로 풀리는 경우가 많다.",
+    "freeTier": {
+      "quota": "무료 모델 합산 하루 50요청·분당 20요청 (누적 $10 이상 크레딧 구매 이력이 있으면 하루 1,000요청)",
+      "reset": "매일",
+      "watermark": "해당 없음 (텍스트)",
+      "commercialUse": "모델별 라이선스·제공사 약관 따름",
+      "signup": "이메일·Google·GitHub 계정 (무료 모델은 카드 불필요)",
+      "korea": "가능",
+      "notes": "무료 모델 목록은 수시로 바뀜(2026-09-29 기준 약 14~21종). 일부 무료 제공사는 입력·출력을 학습에 사용한다고 명시(Poolside Laguna, Liquid LFM 등). OpenRouter 자체는 프롬프트를 기본 로깅하지 않음."
+    },
+    "howTo": [
+      "openrouter.ai 가입",
+      "Models에서 가격 'Free' 필터 또는 ':free' 모델 선택",
+      "Chat 화면에서 바로 대화하거나 API 키 발급해 사용"
+    ],
+    "tags": [
+      "매일충전",
+      "API",
+      "신모델",
+      "카드불필요",
+      "로그인필요"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "promo": {
+      "text": "익명 제공사의 스텔스 모델 'Space Bunny Alpha'(1M 컨텍스트)를 테스트 기간 동안 $0로 제공 중",
+      "until": "불명"
+    },
+    "sources": [
+      {
+        "title": "API Rate Limits | OpenRouter Docs",
+        "url": "https://openrouter.ai/docs/api-reference/limits",
+        "type": "official"
+      },
+      {
+        "title": "Free Models collection | OpenRouter",
+        "url": "https://openrouter.ai/collections/free-models",
+        "type": "official",
+        "date": "2026-09-29"
+      },
+      {
+        "title": "OpenRouter FAQ",
+        "url": "https://openrouter.ai/docs/faq",
+        "type": "official"
+      },
+      {
+        "title": "awesome-free-models (2026-09-27 재검증)",
+        "url": "https://github.com/12britz/awesome-free-models",
+        "type": "community",
+        "date": "2026-09-27"
+      }
+    ],
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "poe-chat",
+    "category": "chat",
+    "access": "wrapper",
+    "platform": "Poe",
+    "vendor": "Quora",
+    "url": "https://poe.com",
+    "logo": "poe",
+    "logoDomain": "poe.com",
+    "models": [
+      "GPT-5 nano",
+      "Gemini Flash 계열",
+      "Claude Haiku 4.5 (하루 2~3회 수준)"
+    ],
+    "headline": "Poe 무료: 하루 300포인트로 GPT-5 nano급 저가 봇 수십 회, Claude Haiku급은 2~3회",
+    "description": "Quora가 운영하는 멀티모델 챗봇 모음 사이트로, 여러 회사의 LLM·이미지 봇을 한 계정에서 골라 쓸 수 있다. 모든 봇이 '컴퓨트 포인트'를 차감하는 방식이라 무료 계정은 싼 모델 위주로 쓰는 것이 요령. 2026년 3월 말 무료 포인트가 10분의 1로 줄어 예전만큼 넉넉하지는 않다.",
+    "freeTier": {
+      "quota": "하루 300 컴퓨트 포인트 (2026-03-30부터 3,000 → 300으로 축소). 메시지당 대략 GPT-5 nano 약 6pt, Gemini Flash 약 9pt, Claude Haiku 4.5 약 80~120pt (보고) → 저가 봇 약 30~50회",
+      "reset": "매일 (이월·누적 불가, 최대 보유 300pt)",
+      "watermark": "해당 없음 (텍스트) / 이미지 봇은 제공사 정책 따름",
+      "commercialUse": "불명 (각 모델 제공사 약관 따름)",
+      "signup": "이메일·Google·Apple 계정",
+      "korea": "가능",
+      "notes": "고가 추론 모델은 한 번에 하루 포인트 대부분을 소모하고, Manus 같은 에이전트 봇은 300pt로 부족. 유료 전용(보고): GPT-5.5, Claude Opus 4.7 등 프리미엄 모델·일부 독점 봇. 봇별 포인트 단가는 수시로 바뀜."
+    },
+    "howTo": [
+      "poe.com 접속 후 이메일/Google로 가입",
+      "좌측 봇 탐색에서 포인트 단가가 낮은 봇(nano·Flash·Haiku 등) 선택",
+      "설정 > 포인트 잔액에서 남은 일일 포인트 확인"
+    ],
+    "tags": [
+      "매일충전",
+      "멀티모델",
+      "로그인필요",
+      "포인트제"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Poe AI Compute Points Explained (2026-04 업데이트)",
+        "url": "https://carletontorpin.com/ai/poe-ai-compute-points-explained/",
+        "type": "community",
+        "date": "2026-04-05"
+      },
+      {
+        "title": "Poe Pricing 2026: The Points System Catch",
+        "url": "https://dailyaifixs.com/blog/poe-pricing-2026-the-points-system-catch",
+        "type": "news",
+        "date": "2026-08"
+      },
+      {
+        "title": "Poe Pricing 2026 | AI Productivity",
+        "url": "https://aiproductivity.ai/pricing/poe/",
+        "type": "news",
+        "date": "2026-08"
+      }
+    ],
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    }
+  }
+]

@@ -1,0 +1,1058 @@
+[
+  {
+    "id": "clova-dubbing-voice",
+    "category": "voice",
+    "platform": "클로바더빙 (CLOVA Dubbing)",
+    "vendor": "NAVER",
+    "url": "https://clovadubbing.naver.com",
+    "logo": "clova-dubbing",
+    "logoDomain": "clovadubbing.naver.com",
+    "models": [
+      "CLOVA Voice"
+    ],
+    "headline": "네이버 계정 → 매월 15,000자 · 다운로드 20회 무료 (출처 표기, 비영리)",
+    "description": "네이버의 AI 더빙 서비스로, 영상·PDF를 올리고 문장을 입력하면 자연스러운 한국어 AI 보이스로 더빙해 줍니다. 효과음 추가와 영상 타임라인 편집이 쉬워 유튜브·교육 영상 내레이션용으로 인기입니다. '나눔 보이스'는 출처 표기 없이 영리 목적으로도 무상 사용할 수 있습니다.",
+    "freeTier": {
+      "quota": "월 15,000자(다운로드된 콘텐츠의 입력 글자 수 기준) + 월 20회 다운로드. 친구 초대 시 추가 혜택(10회/3,000자) 이벤트 이력 있음",
+      "reset": "매월",
+      "watermark": "영상으로 다운로드 시 워터마크 자동 표기(삭제 불가), 오디오는 출처 표기 필요",
+      "commercialUse": "불가 — 비영리 목적 + 출처 표기 후 무료 채널 게시만 허용. 예외: '나눔 보이스'는 영리·비영리 모두 무상 사용 가능. 상업 이용은 NAVER CLOUD PLATFORM 유료 플랜",
+      "signup": "네이버 계정",
+      "korea": "가능 (한국 서비스)",
+      "notes": "개인·기업·단체 구분 없이 출처 표기 시 무료 채널 게시 가능. 모바일 앱(iOS/Android) 제공."
+    },
+    "howTo": [
+      "clovadubbing.naver.com 접속 후 네이버 로그인",
+      "새 프로젝트 만들기 → 영상/PDF 업로드(또는 오디오만)",
+      "보이스 선택 후 문장 입력 → 더빙 추가 → 오디오/영상 다운로드 후 출처 표기"
+    ],
+    "tags": [
+      "매월충전",
+      "한국어지원",
+      "로그인필요",
+      "출처표기",
+      "비상업",
+      "더빙",
+      "워터마크"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "클로바더빙 공식 사이트 (무료 사용 허용 범위 문구)",
+        "url": "https://clovadubbing.naver.com",
+        "type": "official",
+        "date": "2026-08"
+      },
+      {
+        "title": "클로바더빙 출처 표기 가이드 (네이버 고객센터)",
+        "url": "https://help.naver.com/alias/contents2/clovadubbing/dubbing06.naver",
+        "type": "official"
+      },
+      {
+        "title": "[2026 최신] 네이버 클로바 더빙 무료 사용법",
+        "url": "https://edimakor.hitpaw.kr/video-editing-tips/how-to-use-naver-clova-dubbing.html",
+        "type": "community",
+        "date": "2026"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "monthly",
+      "watermark": "visible",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "typecast-voice",
+    "category": "voice",
+    "platform": "타입캐스트 (Typecast)",
+    "vendor": "네오사피엔스",
+    "url": "https://typecast.ai/kr",
+    "logo": "typecast",
+    "logoDomain": "typecast.ai",
+    "models": [
+      "Typecast AI 보이스 (체험 캐릭터)"
+    ],
+    "headline": "가입 시 3,000크레딧(1글자=1크레딧 ≈ 약 5분 다운로드) 1회 + 음성 생성·미리듣기는 무제한",
+    "description": "한국어 감정 표현이 뛰어난 국내 AI 성우 서비스로, 유튜브 내레이션·오디오북용으로 많이 쓰입니다. 2026년 8월 1일 요금제가 '다운로드 시간'에서 '크레딧(1글자=1크레딧)' 체계로 개편되면서 음성 생성과 미리듣기는 무료·무제한이 되고, 다운로드할 때만 크레딧이 차감됩니다.",
+    "freeTier": {
+      "quota": "최초 3,000 크레딧(약 5분 분량) 1회 지급, 다운로드 시 글자 수(공백·기호 포함)만큼 차감. 생성·미리듣기는 무제한",
+      "reset": "가입 시 1회",
+      "watermark": "불명 (대신 출처 표기 의무)",
+      "commercialUse": "불가 — 개인 온라인 게시용만 가능, 출처 표기 필수",
+      "signup": "이메일/소셜 계정",
+      "korea": "가능 (한국 서비스)",
+      "notes": "무료 플랜은 '체험' 캐릭터만 사용 가능, 쉼 추가 외 세부 음성 조절 제한, 음질 16kHz, 프로젝트 3개, 영상 720p, 다운로드 기록 7일 보관. 보이스 클론은 유료."
+    },
+    "howTo": [
+      "typecast.ai/kr 에서 무료 가입",
+      "새 프로젝트 → 캐릭터 필터에서 '체험' 카테고리 선택",
+      "대본 입력 후 생성·미리듣기(무제한) → 필요한 부분만 다운로드(크레딧 차감)"
+    ],
+    "tags": [
+      "가입시1회",
+      "한국어지원",
+      "로그인필요",
+      "비상업",
+      "출처표기"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "타입캐스트 요금제",
+        "url": "https://typecast.ai/kr/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "타입캐스트 요금제 개편 및 8월 1일 서비스 점검 안내",
+        "url": "https://typecast.ai/kr/learn/typecast-pricing-plan-update-service-2608/",
+        "type": "official",
+        "date": "2026-07"
+      },
+      {
+        "title": "무료로 사용 가능한 캐릭터가 무엇인가요? (타입캐스트 FAQ)",
+        "url": "https://help.typecast.ai/ko/articles/15347827-%EB%AC%B4%EB%A3%8C%EB%A1%9C-%EC%82%AC%EC%9A%A9-%EA%B0%80%EB%8A%A5%ED%95%9C-%EC%BA%90%EB%A6%AD%ED%84%B0%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94",
+        "type": "official"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "once",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "cartesia-voice",
+    "category": "voice",
+    "platform": "Cartesia",
+    "vendor": "Cartesia",
+    "url": "https://play.cartesia.ai",
+    "logo": "cartesia",
+    "logoDomain": "cartesia.ai",
+    "models": [
+      "Sonic-3.6",
+      "Ink-2"
+    ],
+    "headline": "무료 계정 → 월 2만 크레딧 ≈ Sonic TTS 약 27분 + 음성인식 약 1시간 51분",
+    "description": "초저지연 음성 합성으로 유명한 Cartesia의 Sonic 모델을 웹 플레이그라운드와 API로 체험할 수 있습니다. 50개+ 언어를 지원하며 한국어 전용 보이스도 제공합니다. 음성 에이전트 개발자에게 특히 인기입니다.",
+    "freeTier": {
+      "quota": "월 20,000 크레딧 → Sonic-3.6 TTS 약 27분 또는 Ink-2 음성인식 약 1시간 51분. TTS 동시 요청 2개",
+      "reset": "매월",
+      "watermark": "불명",
+      "commercialUse": "불가 — 상업 이용 라이선스는 Pro($5/월)부터",
+      "signup": "이메일/Google 계정",
+      "korea": "가능 (한국어 지원)",
+      "notes": "보이스 클론의 무료 포함 여부는 요금표 해석이 엇갈려 불명(프로페셔널 클론은 유료). 개발자 중심 서비스."
+    },
+    "howTo": [
+      "play.cartesia.ai 에서 무료 가입",
+      "플레이그라운드에서 언어를 한국어로, 보이스 선택",
+      "텍스트 입력 → 생성 후 다운로드 (또는 API 키로 호출)"
+    ],
+    "tags": [
+      "매월충전",
+      "한국어지원",
+      "로그인필요",
+      "비상업",
+      "API"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Cartesia Pricing",
+        "url": "https://cartesia.ai/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Cartesia Languages",
+        "url": "https://cartesia.ai/languages",
+        "type": "official"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "monthly",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "copilot-audio-expressions-voice",
+    "category": "voice",
+    "platform": "Copilot Audio Expressions (Copilot Labs)",
+    "vendor": "Microsoft",
+    "url": "https://copilot.microsoft.com/labs/audio-expression",
+    "logo": "microsoft-copilot",
+    "logoDomain": "copilot.microsoft.com",
+    "models": [
+      "MAI-Voice-1"
+    ],
+    "headline": "로그인 없이 완전 무료 — Microsoft MAI-Voice 표현형 내레이션 생성, MP3 다운로드",
+    "description": "Microsoft Copilot Labs의 실험 기능으로, 자사 음성 모델 MAI-Voice를 이용해 감정이 실린 내레이션·스토리 음성을 만들어 줍니다. 자유롭게 연기하는 Emotive 모드, 여러 목소리로 이야기하는 Story 모드, 원문 그대로 읽는 Scripted 모드를 제공합니다. 크레딧·유료 요금제가 없는 무료 실험 도구입니다.",
+    "freeTier": {
+      "quota": "무료, 크레딧 개념 없음 (Emotive 모드는 약 59초 내외로 제한 보고)",
+      "reset": "무제한",
+      "watermark": "불명",
+      "commercialUse": "불명 (실험 기능)",
+      "signup": "로그인 불필요로 보고됨 (Microsoft 계정 로그인 시 기록 관리)",
+      "korea": "접속 가능 — 단, 영어 중심이라 한국어 품질·지원은 불확실",
+      "notes": "후속 모델 MAI-Voice-2(한국어 포함 17개 언어)는 MAI Playground(playground.microsoft.ai, Microsoft 계정)에서 체험 가능하나 미국 한정으로 보고됨."
+    },
+    "howTo": [
+      "copilot.microsoft.com/labs/audio-expression 접속",
+      "Emotive / Story / Scripted 모드 중 선택",
+      "스크립트 입력 → 목소리·스타일 선택 → 생성 후 MP3 다운로드"
+    ],
+    "tags": [
+      "로그인불필요",
+      "무제한",
+      "실험기능",
+      "영어중심"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Copilot Audio Expressions - A Copilot Labs experiment",
+        "url": "https://copilot.microsoft.com/labs/audio-expression",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Copilot Audio Expressions Review: Free AI Expressive Text-to-Speech (AllBestApps)",
+        "url": "https://allbestapps.net/ai-app/copilot-audio-expression/",
+        "type": "community",
+        "date": "2026-03"
+      },
+      {
+        "title": "Introducing MAI-Voice-2 | Microsoft AI",
+        "url": "https://microsoft.ai/news/mai-voice-2/",
+        "type": "official",
+        "date": "2026-06-02"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unlimited",
+      "watermark": "unknown",
+      "login": false,
+      "commercial": null
+    }
+  },
+  {
+    "id": "elevenlabs-voice",
+    "category": "voice",
+    "platform": "ElevenLabs",
+    "vendor": "ElevenLabs",
+    "url": "https://elevenlabs.io/app",
+    "logo": "elevenlabs",
+    "logoDomain": "elevenlabs.io",
+    "models": [
+      "Eleven v3",
+      "Multilingual v2",
+      "Flash v2.5"
+    ],
+    "headline": "무료 계정 → 월 1만 크레딧(1글자=1크레딧) ≈ 약 10분 음성, Eleven v3로 한국어 가능",
+    "description": "가장 널리 쓰이는 AI 음성 플랫폼으로, 감정 표현이 풍부한 Eleven v3 모델을 무료 플랜에서도 쓸 수 있습니다. TTS 외에 음성→텍스트, 효과음, 보이스 디자인(프롬프트로 목소리 만들기), Studio 프로젝트까지 한 계정에서 체험할 수 있습니다. 한국어는 Eleven v3(70개+ 언어)와 Multilingual v2 모두 지원합니다.",
+    "freeTier": {
+      "quota": "월 10,000 크레딧 (TTS 1글자=1크레딧 → 약 10분 분량). Studio 프로젝트 3개, 기본 보이스 라이브러리 사용",
+      "reset": "매월 (결제 주기 기준, 무료 플랜은 이월 없음)",
+      "watermark": "가시/가청 워터마크 없음 (단, ElevenLabs 출처 표기 필요)",
+      "commercialUse": "불가 — 무료 플랜은 상업 라이선스 없음, 출처(ElevenLabs) 표기 필수",
+      "signup": "이메일 또는 Google 계정",
+      "korea": "가능 (한국어 음성 생성 지원)",
+      "notes": "인스턴트/프로페셔널 보이스 클론은 유료 플랜부터. 음질 128kbps/44.1kHz. Eleven v3는 요청당 5,000자 제한. API도 같은 월 크레딧 풀에서 차감."
+    },
+    "howTo": [
+      "elevenlabs.io 에서 무료 가입(Google 계정 가능)",
+      "좌측 메뉴 Text to Speech 선택 후 모델을 Eleven v3로 지정",
+      "한국어 대본 입력 → 보이스 선택 → 생성 후 MP3 다운로드"
+    ],
+    "tags": [
+      "매월충전",
+      "한국어지원",
+      "로그인필요",
+      "비상업",
+      "출처표기",
+      "API"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "ElevenLabs Pricing",
+        "url": "https://elevenlabs.io/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "ElevenLabs Docs - Text to Speech models",
+        "url": "https://elevenlabs.io/docs/overview/capabilities/text-to-speech",
+        "type": "official"
+      },
+      {
+        "title": "Is ElevenLabs Free? Yes — What 10K Credits/Month Gets You (TextToLab)",
+        "url": "https://texttolab.com/blog/is-elevenlabs-free",
+        "type": "community",
+        "date": "2026"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "monthly",
+      "watermark": "none",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "fish-audio-voice",
+    "category": "voice",
+    "platform": "Fish Audio",
+    "vendor": "Fish Audio",
+    "url": "https://fish.audio",
+    "logo": "fish-audio",
+    "logoDomain": "fish.audio",
+    "models": [
+      "S2.1 Pro",
+      "OpenAudio S1"
+    ],
+    "headline": "웹 무료 월 8,000크레딧(약 7분)+보이스 클론 / 개발자용 S2.1 Pro API는 2026-11-30까지 사실상 무제한 무료",
+    "description": "15초 샘플로 목소리를 복제할 수 있는 TTS·보이스 클론 플랫폼으로, 커뮤니티가 올린 수많은 공개 보이스를 쓸 수 있습니다. 2026년 6월 23일부터 최신 S2.1 Pro 모델을 신용카드 없이 API로 무료 개방(공정 사용 정책, 하드 캡 없음)해 개발자들 사이에서 화제가 됐습니다. 한국어를 포함한 83개 언어를 한 모델로 지원합니다.",
+    "freeTier": {
+      "quota": "웹: 월 8,000크레딧(최대 약 7분 생성), 1회 생성 최대 500자, 공개 보이스 슬롯 3개, 보이스 클론 포함. API: 모델 's2.1-pro-free'를 2026-11-30까지 무료(하드 글자 수 제한 없음, 공정 사용 정책)",
+      "reset": "웹 매월 / API 무료 기간 한정(2026-11-30까지)",
+      "watermark": "불명",
+      "commercialUse": "웹 무료 플랜은 개인·비상업용(FAQ). 무료 API는 연매출 100만 달러 초과 기업은 사전 문의 필요",
+      "signup": "이메일/Google 계정 (API 키 발급에 신용카드 불필요)",
+      "korea": "가능 (한국어 지원)",
+      "notes": "무료 API는 SLA·지연시간 보장 없음, 요청 데이터가 모델 개선에 쓰일 수 있음. 웹은 표준 생성 속도. OpenRouter에서도 S2.1 Pro Free로 제공."
+    },
+    "howTo": [
+      "fish.audio 가입(카드 불필요)",
+      "웹: Text to Speech에서 보이스 선택(또는 15초 이상 샘플로 클론) → 한국어 텍스트 입력 → 생성",
+      "개발자: fish.audio/app/api-keys 에서 키 발급 후 모델 's2.1-pro-free' 지정해 호출"
+    ],
+    "tags": [
+      "매월충전",
+      "한국어지원",
+      "보이스클론",
+      "API",
+      "로그인필요",
+      "기간한정"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Pricing & Plans - Fish Audio",
+        "url": "https://fish.audio/plan/",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Fish Audio S2.1 Pro: Free Text-to-Speech API for Developers",
+        "url": "https://fish.audio/blog/s2-1-pro-free-api/",
+        "type": "official",
+        "date": "2026-06-23"
+      },
+      {
+        "title": "Fish Audio Opens S2.1 Pro to Developers With Free Unlimited API Access (AlphaSignal)",
+        "url": "https://alphasignal.ai/news/fish-audio-opens-s2-1-pro-to-developers-with-free-unlimited-api-access",
+        "type": "news",
+        "date": "2026-06"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "monthly",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "gemini-notebook-voice",
+    "category": "voice",
+    "platform": "Gemini Notebook (구 NotebookLM)",
+    "vendor": "Google",
+    "url": "https://notebook.google.com",
+    "logo": "gemini-notebook",
+    "logoDomain": "notebook.google.com",
+    "models": [
+      "Gemini",
+      "Gemini 3.8 Flash TTS"
+    ],
+    "headline": "무료 계정 → 자료를 팟캐스트로: AI 오디오 개요 하루 3개 + 동영상 개요 하루 3개 (한국어 지원)",
+    "description": "PDF·웹페이지·유튜브 등 자료를 올리면 두 명의 AI 진행자가 대화하는 팟캐스트형 '오디오 개요'를 만들어 줍니다. 2026년 7월 16일 NotebookLM에서 Gemini Notebook으로 이름이 바뀌었고, 9월부터 Gemini 3.8 Flash TTS가 적용됐습니다. 딥 다이브·요약·비평·토론 등 형식을 고를 수 있고, 한국어로 생성됩니다.",
+    "freeTier": {
+      "quota": "오디오 개요 하루 3개, 동영상 개요 하루 3개, 채팅 하루 50회, 노트북 100개, 노트북당 소스 50개, Deep Research 월 10회. 시네마틱 동영상은 무료 미제공",
+      "reset": "매일 (첫 사용 시점부터 24시간 기준으로 보고됨)",
+      "watermark": "오디오는 SynthID 등 비가시 워터마크. 한국 거주자는 생성 이미지·영상에 가시 워터마크 자동 적용",
+      "commercialUse": "불명 (개인 학습·연구용 도구)",
+      "signup": "Google 계정",
+      "korea": "가능 (한국어 오디오·동영상 개요 지원)",
+      "notes": "기존 notebooklm.google.com 링크는 notebook.google.com으로 자동 이동. 유료(Plus 6개/일, Pro 20개/일)로 한도 상향. 한국·인도·베트남은 가시 워터마크가 자동 적용되며 Pro/Ultra만 해제 가능."
+    },
+    "howTo": [
+      "notebook.google.com 접속 후 Google 계정 로그인",
+      "새 노트북 만들기 → PDF·링크·유튜브 등 소스 추가",
+      "스튜디오 패널에서 'AI 오디오 개요'(또는 동영상 개요) 선택, 맞춤설정에서 한국어·형식 지정 후 생성"
+    ],
+    "tags": [
+      "매일충전",
+      "한국어지원",
+      "로그인필요",
+      "팟캐스트",
+      "SynthID"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Upgrade Gemini Notebook - Gemini Notebook Help (사용 한도 표)",
+        "url": "https://support.google.com/notebooklm/answer/16213268",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "NotebookLM is now Gemini Notebook (Google Blog)",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+        "type": "official",
+        "date": "2026-07-16"
+      },
+      {
+        "title": "노트북LM 동영상 개요 및 AI 오디오 오버뷰 업데이트 (Google 코리아 블로그)",
+        "url": "https://blog.google/intl/ko-kr/products/notebook-lm-audio-video-overviews-more-languages-longer-content-kr/",
+        "type": "official"
+      },
+      {
+        "title": "NotebookLM Audio Overview Limits 2026: Daily Caps & Reset",
+        "url": "https://notebooklm-guide.com/notebooklm-audio-overview-limits/",
+        "type": "community",
+        "date": "2026"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "invisible",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "google-ai-studio-voice",
+    "category": "voice",
+    "platform": "Google AI Studio",
+    "vendor": "Google",
+    "url": "https://aistudio.google.com/generate-speech",
+    "logo": "google-ai-studio",
+    "logoDomain": "aistudio.google.com",
+    "models": [
+      "Gemini 3.8 Flash TTS",
+      "Gemini 3.8 Flash-Lite TTS",
+      "Gemini 3.1 Flash TTS Preview"
+    ],
+    "headline": "Google 계정만으로 Gemini 3.8 Flash TTS 무료 — 130개+ 언어(한국어)·2인 대화 음성, 요금 0원(요청 수 한도만 존재)",
+    "description": "Google AI Studio의 음성 생성(Generate speech) 플레이그라운드에서 최신 Gemini TTS 모델을 무료로 쓸 수 있습니다. 2026년 9월 23일 출시된 Gemini 3.8 Flash TTS는 대사 한 줄씩 연기 톤을 지시하고, 웃음·한숨 같은 음성 이벤트를 넣을 수 있으며 최대 2명 화자의 대화도 한 번에 생성합니다. 무료 등급 API 키로 코드에서도 바로 호출할 수 있습니다.",
+    "freeTier": {
+      "quota": "무료 등급에서 Gemini 3.8 Flash TTS / 3.8 Flash-Lite TTS / 3.1 Flash TTS Preview 입력·출력 모두 '무료'. 분당·일일 요청 수 한도는 프로젝트별로 AI Studio 콘솔에만 표시(공개 표 없음) — 커뮤니티에선 TTS 무료 한도가 매우 낮다는 보고(예: 3.1 Flash TTS 'limit: 3' 오류)",
+      "reset": "매일 (일일 요청 수 한도) + 분당 한도",
+      "watermark": "SynthID(비가청 워터마크)만",
+      "commercialUse": "불명확 — 무료 등급 입력·출력은 Google 제품 개선에 사용됨. 상업 서비스는 유료 등급 권장",
+      "signup": "Google 계정",
+      "korea": "가능 (한국어 지원 언어 목록에 포함)",
+      "notes": "Gemini 2.5 Pro Preview TTS는 무료 등급 미제공. 3.8 Flash TTS 입력 8,192토큰 제한. 30개 기본 보이스 + 확장 보이스 라이브러리(2,000개+), 보이스 디자인·보이스 복제(30초 샘플+음성 동의 필요) 기능 — 복제는 일부 지역(EEA·영국·인도 등) 미제공, 무료 등급 제공 범위는 불명."
+    },
+    "howTo": [
+      "aistudio.google.com 접속 후 Google 계정 로그인",
+      "좌측 메뉴에서 Generate speech(음성 생성) 선택, 모델을 Gemini 3.8 Flash TTS로 지정",
+      "스타일 지시문과 한국어 대본 입력(2인 대화는 Speaker 1/2 설정) → Run → 오디오 다운로드"
+    ],
+    "tags": [
+      "매일충전",
+      "한국어지원",
+      "로그인필요",
+      "SynthID",
+      "API",
+      "다화자"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS (Google Blog)",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+        "type": "official",
+        "date": "2026-09-23"
+      },
+      {
+        "title": "Gemini API Pricing",
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Text-to-speech generation (TTS) | Gemini API",
+        "url": "https://ai.google.dev/gemini-api/docs/speech-generation",
+        "type": "official"
+      },
+      {
+        "title": "Gemini-3.1-flash-tts-preview still hitting free-tier quota (limit 3) - Google AI Developers Forum",
+        "url": "https://discuss.ai.google.dev/t/gemini-3-1-flash-tts-preview-still-hitting-free-tier-quota-limit-3-despite-tier-2-billing/173252",
+        "type": "community",
+        "date": "2026-07-02"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "invisible",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "huggingface-spaces-voice",
+    "category": "voice",
+    "platform": "Hugging Face Spaces (오픈소스 TTS 데모)",
+    "vendor": "Hugging Face / Qwen / Resemble AI / hexgrad",
+    "url": "https://huggingface.co/spaces/Qwen/Qwen3-TTS",
+    "logo": "huggingface",
+    "logoDomain": "huggingface.co",
+    "models": [
+      "Qwen3-TTS",
+      "Chatterbox Multilingual",
+      "Kokoro-82M"
+    ],
+    "headline": "로그인 없이 하루 GPU 2분(무료 계정 5분) — Qwen3-TTS 3초 보이스 클론·한국어 오픈소스 TTS",
+    "description": "오픈소스 음성 모델의 공식 데모를 브라우저에서 바로 써볼 수 있습니다. Qwen3-TTS는 한국어 포함 10개 언어와 3초 샘플 보이스 클론을, Resemble AI의 Chatterbox Multilingual은 한국어 포함 23개 언어와 클론을 지원합니다(Kokoro는 가볍고 빠르지만 한국어 미지원). 모델이 Apache 2.0/MIT 라이선스라 직접 설치하면 상업적으로도 쓸 수 있습니다.",
+    "freeTier": {
+      "quota": "ZeroGPU 일일 GPU 시간: 비로그인 2분, 무료 계정 5분 (TTS 1회에 수 초~수십 초 소모)",
+      "reset": "매일 (첫 GPU 사용 후 24시간)",
+      "watermark": "Chatterbox는 비가청 Perth 워터마크 내장, 나머지는 없음",
+      "commercialUse": "모델 라이선스 기준 가능 — Qwen3-TTS·Kokoro Apache 2.0, Chatterbox MIT (클론 대상 목소리의 권리·동의는 별도)",
+      "signup": "로그인 불필요 (로그인 시 한도 증가)",
+      "korea": "가능",
+      "notes": "대기열이 생길 수 있고 Space가 일시 중지될 수 있음. PRO는 일일 40분. 한도 소진 시 다음 날까지 대기."
+    },
+    "howTo": [
+      "huggingface.co/spaces/Qwen/Qwen3-TTS 또는 huggingface.co/spaces/ResembleAI/Chatterbox-Multilingual-TTS 접속",
+      "언어를 Korean으로 선택하고 (클론 시) 참고 음성 3~10초 업로드",
+      "텍스트 입력 → Generate → 결과 오디오 다운로드"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인불필요",
+      "오픈소스",
+      "보이스클론",
+      "한국어지원",
+      "상업이용가능"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Spaces ZeroGPU (Hugging Face Docs, 일일 한도 표)",
+        "url": "https://huggingface.co/docs/hub/spaces-zerogpu",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Qwen/Qwen3-TTS-12Hz-1.7B-Base 모델 카드",
+        "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+        "type": "official",
+        "date": "2026-01-22"
+      },
+      {
+        "title": "resemble-ai/chatterbox (GitHub)",
+        "url": "https://github.com/resemble-ai/chatterbox",
+        "type": "official"
+      },
+      {
+        "title": "hexgrad/Kokoro-82M 모델 카드",
+        "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+        "type": "official"
+      }
+    ],
+    "access": "opensource",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "none",
+      "login": false,
+      "commercial": null
+    }
+  },
+  {
+    "id": "hume-voice",
+    "category": "voice",
+    "platform": "Hume AI (Octave)",
+    "vendor": "Hume AI",
+    "url": "https://app.hume.ai",
+    "logo": "hume",
+    "logoDomain": "hume.ai",
+    "models": [
+      "Octave 2",
+      "Octave 1",
+      "EVI"
+    ],
+    "headline": "무료 계정 → 월 10,000자(약 10분) TTS + 보이스 클론 무제한 생성 + 음성대화 EVI 5분",
+    "description": "LLM 기반으로 문장의 감정·의도를 이해해 억양과 속도를 조절하는 감정 표현형 TTS 'Octave'를 제공합니다. 무료 플랜에서도 15초 샘플 보이스 클론을 만들 수 있고, 실시간 음성 대화 AI(EVI)도 체험할 수 있습니다. Octave 2는 한국어를 포함한 11개 언어를 지원합니다.",
+    "freeTier": {
+      "quota": "월 TTS 10,000자(약 10분), 보이스 클론 '무제한(생성·사용)', EVI 음성대화 월 5분, 동시 연결 1개, 분당 15요청",
+      "reset": "매월",
+      "watermark": "불명",
+      "commercialUse": "불가 — 무료 플랜에 상업 라이선스 미포함",
+      "signup": "이메일/Google 계정",
+      "korea": "가능 (Octave 2에서 한국어 지원, Octave 1은 영어·스페인어만)",
+      "notes": "프롬프트로 목소리를 만드는 보이스 디자인은 영어 전용(다국어 예정). Octave 2는 프리뷰 상태."
+    },
+    "howTo": [
+      "app.hume.ai 에서 무료 가입",
+      "Text to Speech(Octave) 메뉴에서 모델을 Octave 2로 선택",
+      "보이스 선택 또는 샘플 업로드로 클론 → 한국어 텍스트 입력 → 생성·다운로드"
+    ],
+    "tags": [
+      "매월충전",
+      "한국어지원",
+      "보이스클론",
+      "로그인필요",
+      "비상업",
+      "API"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Hume AI Pricing",
+        "url": "https://www.hume.ai/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Octave Text-to-Speech Overview (Hume Docs)",
+        "url": "https://dev.hume.ai/docs/text-to-speech-tts/overview",
+        "type": "official"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "monthly",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "clipchamp-voice",
+    "category": "voice",
+    "platform": "Microsoft Clipchamp",
+    "vendor": "Microsoft",
+    "url": "https://app.clipchamp.com",
+    "logo": "clipchamp",
+    "logoDomain": "clipchamp.com",
+    "models": [
+      "Microsoft Neural TTS (Azure 기반)"
+    ],
+    "headline": "무료 플랜에서 AI 음성 무제한 — 80개+ 언어(한국어)·400개+ 보이스, 1회 최대 10분",
+    "description": "Microsoft의 브라우저 영상 편집기로, 무료 플랜에서도 텍스트 음성 변환(AI 보이스오버)을 제한 없이 쓸 수 있습니다. Azure 음성 기술 기반의 한국어 보이스 여러 개를 고를 수 있고, 영상 편집과 동시에 내레이션을 붙이기 좋습니다. 무료 플랜도 1080p·워터마크 없이 내보낼 수 있습니다.",
+    "freeTier": {
+      "quota": "AI 텍스트 음성 변환 무료·무제한 (음성 1개당 최대 10분, 언어별 글자 수 제한 있음)",
+      "reset": "무제한",
+      "watermark": "없음 (무료 플랜 1080p 내보내기 워터마크 없음)",
+      "commercialUse": "불명 (Clipchamp 약관 확인 필요)",
+      "signup": "Microsoft 계정 (개인/회사)",
+      "korea": "가능 (한국어 보이스 제공)",
+      "notes": "Windows 11 기본 앱으로도 제공. 음성만 따로 받으려면 오디오로 내보내기 사용. 속도·피치 조절 가능."
+    },
+    "howTo": [
+      "app.clipchamp.com 접속(또는 Windows의 Clipchamp 앱) 후 Microsoft 계정 로그인",
+      "새 영상 만들기 → 좌측 '녹음 및 만들기' → '텍스트 음성 변환'",
+      "언어를 한국어로, 보이스 선택 → 텍스트 입력 → 타임라인에 추가 후 내보내기"
+    ],
+    "tags": [
+      "무제한",
+      "한국어지원",
+      "로그인필요",
+      "워터마크없음"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "AI voiceover generator | Clipchamp",
+        "url": "https://clipchamp.com/en/features/ai-voice-over-generator/",
+        "type": "official",
+        "date": "2026"
+      },
+      {
+        "title": "AI text to speech: all the features to know about | Clipchamp Blog",
+        "url": "https://clipchamp.com/en/blog/text-to-speech-update/",
+        "type": "official",
+        "date": "2026-02-02"
+      },
+      {
+        "title": "Clipchamp Pricing",
+        "url": "https://clipchamp.com/en/pricing/",
+        "type": "official"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unlimited",
+      "watermark": "none",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "minimax-audio-voice",
+    "category": "voice",
+    "platform": "MiniMax Audio",
+    "vendor": "MiniMax",
+    "url": "https://www.minimax.io/audio",
+    "logo": "minimax",
+    "logoDomain": "minimax.io",
+    "models": [
+      "Speech 2.8 HD",
+      "Speech 2.8 Turbo"
+    ],
+    "headline": "가입 시 무료 크레딧 → 약 12분 음성 + 보이스 클론 최대 3개 (보고된 수치)",
+    "description": "중국 MiniMax의 음성 플랫폼으로, 2026년 1월 공개된 Speech 2.8은 (웃음)·(한숨) 같은 사운드 태그와 10초 샘플 보이스 클론, 노이즈 제거를 지원합니다. 한국어를 포함한 약 40개 언어를 지원해 다국어 내레이션에 쓰입니다.",
+    "freeTier": {
+      "quota": "무료 사용량 약 12분 분량 + 보이스 클론 최대 3개로 보고됨 (공식 페이지는 '무료 사용자에게 기간 한정 무료 크레딧 제공 가능, 변경될 수 있음'으로만 안내)",
+      "reset": "불명 (가입 시 지급 또는 일일 기간 한정 크레딧으로 보고)",
+      "watermark": "불명",
+      "commercialUse": "불명",
+      "signup": "이메일/Google 계정",
+      "korea": "가능 (한국어 지원)",
+      "notes": "API 기준 보이스 클론은 1개당 $1.5로 유료. 무료 허용량은 대시보드에서 확인 필요."
+    },
+    "howTo": [
+      "minimax.io/audio 접속 후 가입",
+      "Text to Speech에서 모델(Speech 2.8)과 보이스 선택, 언어는 Korean",
+      "텍스트 입력 → 생성 후 다운로드 (Voice Clone 메뉴에서 샘플 업로드로 복제)"
+    ],
+    "tags": [
+      "가입시1회",
+      "한국어지원",
+      "보이스클론",
+      "로그인필요"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "MiniMax Speech 2.8: Breathing life into AI voice",
+        "url": "https://www.minimax.io/news/minimax-speech-28",
+        "type": "official",
+        "date": "2026-01-23"
+      },
+      {
+        "title": "Best Free AI Voice Cloning Tools in 2026 (What's Actually Free)",
+        "url": "https://aicreatoru.com/blog/best-free-ai-voice-cloning-tools-2026",
+        "type": "community",
+        "date": "2026-07-04"
+      },
+      {
+        "title": "MiniMax Speech 2.8, 2.6, and Voice Design: The Full Audio Family (2026)",
+        "url": "https://invideo.io/blog/minimax-ai-voice-models/",
+        "type": "community",
+        "date": "2026-08"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "openai-fm-voice",
+    "category": "voice",
+    "platform": "OpenAI.fm",
+    "vendor": "OpenAI",
+    "url": "https://www.openai.fm",
+    "logo": "openai-fm",
+    "logoDomain": "openai.fm",
+    "models": [
+      "gpt-4o-mini-tts"
+    ],
+    "headline": "로그인 없이 무료 — gpt-4o-mini-tts 보이스를 '말투(Vibe)' 지시와 함께 바로 생성·다운로드",
+    "description": "OpenAI가 공개한 TTS 데모 사이트로, 보이스를 고르고 '차분한 상담원', '스포츠 캐스터' 같은 말투 지시문(Vibe)을 붙여 문장을 읽게 할 수 있습니다. 가입 없이 바로 들어보고 저장할 수 있어 성우 톤 테스트에 좋습니다. 한국어 문장도 읽을 수 있습니다(Whisper 지원 언어 수준).",
+    "freeTier": {
+      "quota": "로그인 없이 무료 체험 (공식 수치 한도 미공개, 과도한 요청 시 차단될 수 있음)",
+      "reset": "불명",
+      "watermark": "없음 (불명)",
+      "commercialUse": "불명 — OpenAI 사용 정책상 AI 생성 음성임을 청취자에게 고지해야 함",
+      "signup": "로그인 불필요",
+      "korea": "가능",
+      "notes": "데모 사이트라 긴 원고·대량 생성에는 부적합. 봇 차단(Vercel 보안 체크)이 있어 브라우저로 접속해야 함. 소스코드 MIT 공개."
+    },
+    "howTo": [
+      "openai.fm 접속 (가입 불필요)",
+      "보이스와 Vibe(말투) 프리셋 선택 또는 직접 지시문 작성",
+      "한국어 스크립트 입력 → Play로 듣고 Download로 저장"
+    ],
+    "tags": [
+      "로그인불필요",
+      "무제한",
+      "한국어지원",
+      "데모"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Text to speech | OpenAI API (OpenAI.fm 언급)",
+        "url": "https://developers.openai.com/api/docs/guides/text-to-speech",
+        "type": "official"
+      },
+      {
+        "title": "OpenAI showcase - OpenAI.fm",
+        "url": "https://developers.openai.com/showcase/openai-fm",
+        "type": "official"
+      },
+      {
+        "title": "openai/openai-fm (GitHub)",
+        "url": "https://github.com/openai/openai-fm",
+        "type": "official"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "none",
+      "login": false,
+      "commercial": null
+    }
+  },
+  {
+    "id": "vocalremover-voice",
+    "category": "voice",
+    "platform": "Vocal Remover (vocalremover.org)",
+    "vendor": "vocalremover.org",
+    "url": "https://vocalremover.org",
+    "logo": "vocalremover",
+    "logoDomain": "vocalremover.org",
+    "models": [
+      "AI 음원 분리"
+    ],
+    "headline": "로그인 없이 무료 — 노래를 보컬(아카펠라)과 반주(MR)로 약 10초 만에 분리",
+    "description": "음원 파일을 올리면 AI가 보컬과 반주를 분리해 노래방 MR과 아카펠라 두 트랙을 만들어 줍니다. 가입·결제 없이 브라우저에서 바로 쓸 수 있으며, 음정 변경·BPM/키 찾기·자르기·합치기 같은 오디오 도구도 함께 무료로 제공합니다. AI 커버·리믹스·더빙 전 배경음 제거용으로 유용합니다.",
+    "freeTier": {
+      "quota": "무료 (공식 수치 한도 미공개, 기부 기반 운영)",
+      "reset": "무제한",
+      "watermark": "없음 (불명)",
+      "commercialUse": "도구 자체 제한은 불명 — 원곡 저작권은 별도로 준수해야 함",
+      "signup": "로그인 불필요",
+      "korea": "가능",
+      "notes": "처리는 보통 약 10초. 드럼·베이스 등 세부 스템 분리는 Splitter 메뉴. 파일 크기 제한 등 세부 사양은 공개 문서 없음."
+    },
+    "howTo": [
+      "vocalremover.org 접속 (가입 불필요)",
+      "Browse my files로 음원 업로드",
+      "분리된 보컬/반주 트랙을 미리 듣고 다운로드"
+    ],
+    "tags": [
+      "로그인불필요",
+      "무제한",
+      "음원분리"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Vocal Remover and Isolation [AI]",
+        "url": "https://vocalremover.org",
+        "type": "official",
+        "date": "2026-09"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unlimited",
+      "watermark": "none",
+      "login": false,
+      "commercial": null
+    }
+  },
+  {
+    "id": "vrew-voice",
+    "category": "voice",
+    "platform": "Vrew (브루)",
+    "vendor": "보이저엑스",
+    "url": "https://vrew.ai/ko/",
+    "logo": "vrew",
+    "logoDomain": "vrew.ai",
+    "models": [
+      "Vrew AI 목소리",
+      "내 목소리 AI"
+    ],
+    "headline": "무료 플랜 → 매월 200크레딧(1크레딧=AI 목소리 100자) ≈ AI 목소리 최대 약 2만 자",
+    "description": "자막 자동 생성으로 유명한 AI 영상 편집기로, 대본만 넣으면 AI 목소리 내레이션과 자막이 함께 만들어집니다. 30개 문장을 읽어 '내 목소리 AI'를 만드는 기능도 있습니다. 2026년 4월 22일부터 음성 분석·AI 목소리·번역 등이 하나의 통합 크레딧을 공유합니다.",
+    "freeTier": {
+      "quota": "매월 200크레딧 (1크레딧 = 음성 분석 1분 = AI 목소리 100자 = 번역 300자). AI 목소리에만 쓰면 약 20,000자",
+      "reset": "매월 1일 (이월 없음)",
+      "watermark": "일부 기능 사용 시 워터마크 (보고됨)",
+      "commercialUse": "영상 수익화 가능으로 보고됨 — 무료 에셋별 라이선스 확인 필요",
+      "signup": "이메일/Google 계정 (PC 앱 설치 또는 웹)",
+      "korea": "가능 (한국 서비스)",
+      "notes": "크레딧이 자막(음성 분석)과 공유되므로 AI 목소리를 많이 쓰면 자막 분량이 줄어듦. 기본 편집·내보내기는 무료."
+    },
+    "howTo": [
+      "vrew.ai 에서 앱 설치 또는 웹 버전 접속 후 가입",
+      "새로 만들기 → 'AI 목소리로 시작하기' 선택",
+      "대본 입력 → 목소리 선택 → 영상/음성 내보내기"
+    ],
+    "tags": [
+      "매월충전",
+      "한국어지원",
+      "로그인필요",
+      "보이스클론",
+      "워터마크"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Vrew 요금제",
+        "url": "https://vrew.ai/ko/payment/pricepolicy",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "내 목소리 AI 만들기 | Vrew",
+        "url": "https://vrew.ai/ko/feature/ai-voice/",
+        "type": "official"
+      },
+      {
+        "title": "Vrew(브루) 무료 사용법 2026 | 통합 크레딧 개편 후 무료로 쓰는 법",
+        "url": "https://yuksunglife.com/vrew-subtitle-video-editor-guide/",
+        "type": "community",
+        "date": "2026"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "monthly",
+      "watermark": "visible",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "luvvoice-voice",
+    "category": "voice",
+    "access": "wrapper",
+    "platform": "LuvVoice",
+    "vendor": "LuvVoice",
+    "url": "https://luvvoice.com",
+    "logo": "luvvoice",
+    "logoDomain": "luvvoice.com",
+    "models": [
+      "200+ 음성 · 70+ 언어 (TTS 엔진 비공개)"
+    ],
+    "headline": "LuvVoice 무료 TTS: 월 1만~2만 자, 200여 개 음성·70여 개 언어",
+    "description": "브라우저에서 텍스트를 붙여넣으면 바로 음성 파일로 바꿔주는 간단한 TTS 사이트. 많은 언어·음성을 무료로 제공해 유튜브 내레이션 초안이나 학습용 음성 제작에 쓰인다.",
+    "freeTier": {
+      "quota": "월 10,000자(요금제 페이지) ~ 20,000자(메인 페이지) — 페이지마다 표기 상이",
+      "reset": "매월",
+      "watermark": "불명",
+      "commercialUse": "불명 (무료 플랜 명시 없음)",
+      "signup": "기본 변환의 로그인 필요 여부 불명, '일시정지(Pauses)' 등 일부 기능은 로그인 필요",
+      "korea": "불명 (한국어 음성 제공 여부 공식 언급 없음)",
+      "notes": "유료 Lite/Plus 등 월 $8~45. 엔진 출처가 공개되지 않아 품질·라이선스 확인 필요."
+    },
+    "howTo": [
+      "luvvoice.com 접속",
+      "언어·음성 선택 후 텍스트 입력",
+      "변환 후 MP3 다운로드"
+    ],
+    "tags": [
+      "월충전",
+      "TTS",
+      "다국어"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "LuvVoice - Free TTS",
+        "url": "https://luvvoice.com/",
+        "type": "official"
+      },
+      {
+        "title": "LuvVoice Pricing",
+        "url": "https://luvvoice.com/pricing",
+        "type": "official"
+      }
+    ],
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "monthly",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "title": "오늘의 무료 AI",
+  "tagline": "지금 무료로 쓸 수 있는 생성형 AI를 매일 찾아서 정리합니다.",
+  "baseUrl": "https://x0te.github.io/free-ai",
+  "basePath": "/free-ai",
+  "repo": "x0te/free-ai",
+  "giscus": {
+    "repoId": "R_kgDOUxlQBw",
+    "category": "Announcements",
+    "categoryId": "DIC_kwDOUxlQB84DGoCs"
+  }
+}

@@ -1,0 +1,1157 @@
+[
+  {
+    "id": "hf-ace-step-music",
+    "category": "music",
+    "platform": "ACE-Step 1.5 (Hugging Face Space)",
+    "vendor": "ACE Studio · StepFun (ACE-Step)",
+    "url": "https://huggingface.co/spaces/ACE-Step/Ace-Step-v1.5",
+    "logo": "huggingface",
+    "logoDomain": "huggingface.co",
+    "models": [
+      "ACE-Step 1.5",
+      "ACE-Step 1.5 XL"
+    ],
+    "headline": "ACE-Step 1.5 (Hugging Face): 로그인 없이도 무료, 최대 10분 곡 생성·MIT 라이선스",
+    "description": "오픈소스 음악 생성 모델 ACE-Step 1.5의 공식 무료 데모입니다. 가사와 스타일 태그를 넣으면 보컬곡을 만들며 50개 이상 언어를 지원하고, 생성 속도가 매우 빨라 GPU 할당량 안에서 여러 곡을 시도할 수 있습니다. 4월에 더 큰 XL(4B) 모델이 추가됐고, 공식 웹 UI(acemusic.ai)도 무료로 안내돼 있습니다.",
+    "freeTier": {
+      "quota": "Hugging Face ZeroGPU 할당량: 비로그인 하루 GPU 2분, 무료 계정 하루 5분 (모델이 빨라 여러 곡 가능, 곡 수는 길이·설정에 따라 다름)",
+      "reset": "매일 (첫 GPU 사용 후 24시간 뒤 초기화)",
+      "watermark": "없음 (오픈소스 모델, 워터마크 기능 언급 없음)",
+      "commercialUse": "가능 — MIT 라이선스 (단, 결과물 독창성 확인·AI 사용 고지 권장)",
+      "signup": "로그인 불필요 (로그인 시 할당량 증가)",
+      "korea": "가능",
+      "notes": "10초~10분 길이 생성. 사용자가 몰리면 대기열 발생. 로컬 설치 시 VRAM 4GB(양자화)~12GB 이상 권장. README에 acemusic.ai 웹 UI가 '100% 무료'로 소개돼 있음."
+    },
+    "howTo": [
+      "huggingface.co/spaces/ACE-Step/Ace-Step-v1.5 접속 (Hugging Face 로그인 시 할당량 증가)",
+      "스타일 태그(장르·악기·분위기)와 가사, 길이를 입력",
+      "Generate 후 결과 오디오를 재생·다운로드"
+    ],
+    "tags": [
+      "오픈소스",
+      "로그인불필요",
+      "상업이용가능",
+      "보컬곡",
+      "매일충전",
+      "Hugging Face"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "ACE-Step v1.5 - Hugging Face Space",
+        "url": "https://huggingface.co/spaces/ACE-Step/Ace-Step-v1.5",
+        "type": "official",
+        "date": "2026-04"
+      },
+      {
+        "title": "ace-step/ACE-Step-1.5 (GitHub)",
+        "url": "https://github.com/ace-step/ACE-Step-1.5",
+        "type": "official",
+        "date": "2026-04-02"
+      },
+      {
+        "title": "Spaces ZeroGPU - Hugging Face Docs (사용자 할당량)",
+        "url": "https://huggingface.co/docs/hub/spaces-zerogpu",
+        "type": "official"
+      }
+    ],
+    "access": "opensource",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "none",
+      "login": false,
+      "commercial": true
+    }
+  },
+  {
+    "id": "aiva-music",
+    "category": "music",
+    "platform": "AIVA",
+    "vendor": "AIVA Technologies",
+    "url": "https://www.aiva.ai",
+    "logo": "aiva",
+    "logoDomain": "aiva.ai",
+    "models": [
+      "AIVA"
+    ],
+    "headline": "AIVA 무료: 월 3곡 다운로드 (최대 3분, MP3+MIDI, 저작권은 AIVA·출처 표기 필수)",
+    "description": "250가지 이상 스타일의 연주곡(보컬 없음)을 작곡해 주는 오래된 AI 작곡 도구입니다. 결과를 MIDI로도 받을 수 있어 DAW에서 편곡하거나 악보 작업에 활용하기 좋습니다. 영상 BGM·게임 음악 스케치용으로 적합합니다.",
+    "freeTier": {
+      "quota": "월 3회 다운로드, 곡 길이 최대 3분 (MP3·MIDI)",
+      "reset": "매월",
+      "watermark": "없음 (대신 AIVA 출처 표기 의무)",
+      "commercialUse": "불가 — 무료 플랜은 저작권이 AIVA에 귀속되고 수익화 금지, 크레딧 표기 필수",
+      "signup": "이메일 계정 (카드 불필요)",
+      "korea": "가능",
+      "notes": "보컬 생성 없음(연주곡 전용). 트랙 편집기로 악기·구성 수정 가능. 수익화·저작권 보유는 유료 Standard/Pro 필요."
+    },
+    "howTo": [
+      "aiva.ai 가입 후 Create Track 선택",
+      "스타일(프리셋)·조성·길이·악기를 선택하거나 참고 음원 업로드",
+      "생성 후 편집기에서 다듬고 MP3/MIDI 다운로드 (월 3회)"
+    ],
+    "tags": [
+      "매월충전",
+      "연주곡",
+      "MIDI",
+      "출처표기",
+      "상업이용불가"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "AIVA Pricing",
+        "url": "https://www.aiva.ai/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "AIVA - The AI composing emotional soundtrack music",
+        "url": "https://www.aiva.ai/",
+        "type": "official",
+        "date": "2026-09"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "monthly",
+      "watermark": "none",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "elevenlabs-music",
+    "category": "music",
+    "platform": "ElevenLabs Music",
+    "vendor": "ElevenLabs",
+    "url": "https://elevenlabs.io/music",
+    "logo": "elevenlabs",
+    "logoDomain": "elevenlabs.io",
+    "models": [
+      "Eleven Music v2.5",
+      "Eleven Music v2"
+    ],
+    "headline": "ElevenLabs Music 무료: 월 10,000크레딧 ≈ 음악 약 11분(3~5곡), 개인 용도만",
+    "description": "음성 AI로 유명한 ElevenLabs의 작곡 모델로, 음반사·퍼블리셔와 라이선스 계약을 맺은 데이터로 학습한 것이 특징입니다. 프롬프트만으로 보컬곡·연주곡을 만들고 구간별 편집이 가능하며, 2026년 9월 11일부터 Music v2.5가 기본 모델이 됐습니다. 무료 크레딧은 TTS·효과음 등 다른 기능과 공유합니다.",
+    "freeTier": {
+      "quota": "월 10,000크레딧(전 기능 공유 풀) → 음악만 쓰면 약 11분, 3~5곡",
+      "reset": "매월",
+      "watermark": "불명",
+      "commercialUse": "불가 — 무료는 개인·비상업 용도만, 상업 라이선스는 Starter($6/월)부터",
+      "signup": "이메일 또는 Google 계정",
+      "korea": "가능 (단, 음악 모델 지원 언어 목록에 한국어는 명시되지 않음)",
+      "notes": "곡 길이 3초~5분. 크레딧을 TTS·효과음과 함께 쓰면 음악 분량이 줄어듦. 특정 아티스트명·곡명 사용 금지."
+    },
+    "howTo": [
+      "elevenlabs.io 가입 후 좌측 메뉴에서 Music 선택",
+      "원하는 장르·분위기·가사를 입력하고 길이 지정",
+      "생성 후 섹션별로 수정하고 다운로드(개인 용도)"
+    ],
+    "tags": [
+      "매월충전",
+      "보컬곡",
+      "라이선스학습",
+      "로그인필요",
+      "상업이용불가"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "AI Music Generator | ElevenLabs",
+        "url": "https://elevenlabs.io/music",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "ElevenLabs Pricing",
+        "url": "https://elevenlabs.io/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Eleven Music - ElevenLabs Docs",
+        "url": "https://elevenlabs.io/docs/overview/capabilities/music",
+        "type": "official"
+      },
+      {
+        "title": "Suno vs ElevenLabs Music 2026: V6 vs v2.5, Pricing and Licensing",
+        "url": "https://undetectr.com/blog/suno-vs-elevenlabs-music",
+        "type": "community",
+        "date": "2026-09-25"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "monthly",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "elevenlabs-sfx-music",
+    "category": "music",
+    "platform": "ElevenLabs Sound Effects",
+    "vendor": "ElevenLabs",
+    "url": "https://elevenlabs.io/sound-effects",
+    "logo": "elevenlabs",
+    "logoDomain": "elevenlabs.io",
+    "models": [
+      "ElevenLabs Sound Effects"
+    ],
+    "headline": "ElevenLabs Sound Effects 무료: 월 10,000크레딧 ≈ 효과음 약 250초 (1개 최대 30초)",
+    "description": "'비 오는 골목의 발소리'처럼 문장으로 설명하면 효과음·폴리·앰비언스를 만들어 주는 기능입니다. 끊김 없이 반복되는 루프 사운드도 만들 수 있어 영상·게임 제작에 유용합니다. 무료 크레딧은 음악·TTS와 같은 풀에서 차감됩니다.",
+    "freeTier": {
+      "quota": "월 10,000크레딧, 길이를 지정하면 초당 40크레딧 → 효과음만 쓰면 약 250초(예: 5초짜리 약 50개)",
+      "reset": "매월",
+      "watermark": "불명",
+      "commercialUse": "불가 — 무료는 개인 용도만, 상업 이용은 Starter($6/월)부터",
+      "signup": "이메일 또는 Google 계정",
+      "korea": "가능",
+      "notes": "1회 생성 최대 30초, 루프 옵션 지원. 크레딧은 음악·TTS와 공유."
+    },
+    "howTo": [
+      "elevenlabs.io 가입 후 Sound Effects 메뉴 선택",
+      "원하는 소리를 영어 문장으로 설명하고 길이·루프 여부 설정",
+      "생성된 후보 중 골라 다운로드"
+    ],
+    "tags": [
+      "효과음",
+      "매월충전",
+      "루프",
+      "로그인필요",
+      "상업이용불가"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "AI Sound Effects Generator | ElevenLabs",
+        "url": "https://elevenlabs.io/sound-effects",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Sound effects - ElevenLabs Docs",
+        "url": "https://elevenlabs.io/docs/overview/capabilities/sound-effects",
+        "type": "official"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "monthly",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "gemini-music",
+    "category": "music",
+    "platform": "Gemini 앱",
+    "vendor": "Google",
+    "url": "https://gemini.google.com",
+    "logo": "gemini",
+    "logoDomain": "gemini.google.com",
+    "models": [
+      "Lyria 3.5"
+    ],
+    "headline": "Gemini 앱: Lyria 3.5로 최대 3분 보컬곡 무료 (하루 약 5곡 보고, 공식 한도 비공개)",
+    "description": "Gemini 채팅창에서 분위기·장르·가사를 설명하거나 사진·영상을 올리면 Google DeepMind의 음악 모델 Lyria가 보컬이 들어간 곡을 만들어 줍니다. 2월 Lyria 3(30초 곡)로 시작해 2026년 9월 4일 Lyria 3.5로 업그레이드되며 최대 3분 길이의 완성곡이 가능해졌습니다. 한국어 가사를 지원하고 결과물을 다운로드·공유할 수 있습니다.",
+    "freeTier": {
+      "quota": "무료 계정도 사용 가능하나 공식 수치 비공개 — 사용자 보고로 하루 약 5곡(3분 곡) 수준, 한도를 넘으면 알림이 뜨고 대기 또는 업그레이드 필요 (하루 10곡이라는 국내 보고도 있음)",
+      "reset": "불명 (일 단위 한도로 보고됨)",
+      "watermark": "SynthID(비가시)만",
+      "commercialUse": "공식 상업 이용 조건 미공개 — 수익화 전 약관 확인 필요",
+      "signup": "Google 계정 (만 18세 이상)",
+      "korea": "가능 (한국어 가사 지원, 구글코리아 공식 발표)",
+      "notes": "표준(약 2~3분)·짧은 곡(약 1분) 선택 가능, 보컬/연주곡 선택, 이미지·영상 기반 작곡 가능. 특정 아티스트 목소리·저작권 가사 요청은 차단. AI Plus/Pro/Ultra 구독 시 한도 상향. 개발자용 Lyria 3.5 API는 곡당 $0.08이며 무료 티어 없음."
+    },
+    "howTo": [
+      "gemini.google.com 또는 Gemini 앱에 Google 계정으로 로그인",
+      "도구(+) 메뉴에서 '음악 만들기'를 선택하거나 '○○ 분위기의 노래 만들어줘'라고 입력",
+      "길이·보컬 여부를 고른 뒤 생성된 곡을 재생·다운로드·공유"
+    ],
+    "tags": [
+      "매일충전",
+      "보컬곡",
+      "한국어지원",
+      "로그인필요",
+      "SynthID",
+      "3분곡"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Gemini AI 음악 및 노래 생성기 - Lyria 3.5",
+        "url": "https://gemini.google/overview/music-generation/",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "나를 표현하는 새로운 방식: 이제 제미나이로 음악을 만들어 보세요",
+        "url": "https://blog.google/intl/ko-kr/products/lyria-3-kr/",
+        "type": "official",
+        "date": "2026-02-19"
+      },
+      {
+        "title": "Gemini Apps limits & upgrades",
+        "url": "https://support.google.com/gemini/answer/16275805?hl=en",
+        "type": "official"
+      },
+      {
+        "title": "Lyria 3.5 in Gemini: Free 3-Minute AI Songs for Everyone",
+        "url": "https://www.genmedialab.com/news/google-lyria-3-5-gemini-launch/",
+        "type": "news",
+        "date": "2026-09"
+      },
+      {
+        "title": "Google releases Lyria 3.5 music generation in Gemini and its API",
+        "url": "https://mlq.ai/news/google-releases-lyria-35-music-generation-in-gemini-and-its-api/",
+        "type": "news",
+        "date": "2026-09-04"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "invisible",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "google-flow-music-music",
+    "category": "music",
+    "platform": "Google Flow Music",
+    "vendor": "Google",
+    "url": "https://www.flowmusic.app",
+    "logo": "google-flow-music",
+    "logoDomain": "flowmusic.app",
+    "models": [
+      "Lyria 3.5"
+    ],
+    "headline": "Google Flow Music: Lyria 3.5 무료 + 매일 크레딧 자동 충전, MP3·WAV 다운로드 가능",
+    "description": "Google이 2026년 2월 인수한 ProducerAI(구 Riffusion)를 Google Labs에서 개편해 4월에 내놓은 AI 음악 스튜디오입니다. 대화형으로 곡을 만들고 특정 구간만 고치거나 스템 분리·뮤직비디오 생성까지 할 수 있으며, 7월 29일부터 Lyria 3.5가 무료로 적용됐습니다. 예전 MusicFX·MusicFX DJ 주소와 riffusion.com·producer.ai도 모두 이곳으로 연결됩니다.",
+    "freeTier": {
+      "quota": "매일 무료 크레딧 자동 충전(정확한 양은 공식 비공개). 가입 시 500크레딧 지급이 보고됨. 유료 플랜 환산 기준 곡당 약 5크레딧, 사용자 보고로는 하루 약 20곡 수준",
+      "reset": "매일 (Daily top-up)",
+      "watermark": "SynthID(비가시)만",
+      "commercialUse": "불명확 — 공식 도움말은 유료(Starter·Plus·Member 또는 Google AI Plus/Pro/Ultra) 플랜에 상업 이용 권리를 명시, 무료 계정은 명시 없음. Google은 생성물 소유권을 주장하지 않음",
+      "signup": "Google 계정 (만 18세 이상, 지원 지역 거주)",
+      "korea": "가능한 것으로 보임 (한국어 도움말 제공, 공식 지원 국가 목록은 미확인)",
+      "notes": "무료도 Lyria 모델·Producer·프로젝트·MP3/WAV/M4A 다운로드 등 핵심 기능 사용 가능, 동시 생성 2개. 스템 다운로드와 추가 크레딧 구매는 유료(Starter $6/월~). 곡 최대 약 3분. Turntable에서 샘플 투표로 크레딧 추가 획득 가능."
+    },
+    "howTo": [
+      "flowmusic.app 접속 후 Google 계정으로 가입(무료, 카드 불필요)",
+      "채팅창에 원하는 곡의 장르·분위기·가사를 설명해 생성",
+      "마음에 드는 구간을 대화로 수정한 뒤 MP3/WAV로 다운로드"
+    ],
+    "tags": [
+      "매일충전",
+      "보컬곡",
+      "다운로드가능",
+      "로그인필요",
+      "SynthID",
+      "Google Labs"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Pricing - Google Flow Music",
+        "url": "https://www.flowmusic.app/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Get started with Google Flow Music - Google Flow Help",
+        "url": "https://support.google.com/flow/answer/17083868?hl=en",
+        "type": "official"
+      },
+      {
+        "title": "We're launching Lyria 3.5 in Google Flow Music",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/",
+        "type": "official",
+        "date": "2026-07-29"
+      },
+      {
+        "title": "Google buys AI-music startup ProducerAI – formerly Riffusion (Music Ally)",
+        "url": "https://musically.com/2026/02/25/google-buys-ai-music-startup-producerai-formerly-riffusion/",
+        "type": "news",
+        "date": "2026-02-25"
+      },
+      {
+        "title": "MusicFX AI Review 2026: What Happened to Google's Music Generator",
+        "url": "https://undetectr.com/blog/musicfx-ai-review",
+        "type": "community",
+        "date": "2026-09-25"
+      },
+      {
+        "title": "Lyria 3.5 in Flow Music: Google's music model upgrade",
+        "url": "https://www.orcarouter.ai/blog/lyria-3-5-launch",
+        "type": "community",
+        "date": "2026-08"
+      },
+      {
+        "title": "Google Flow Music Rights & Commercial Use 2026",
+        "url": "https://jackrighteous.com/en-us/blogs/music-creation-process-guide/google-flow-music-rights-commercial-use-2026",
+        "type": "community",
+        "date": "2026"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "invisible",
+      "login": true,
+      "commercial": null
+    }
+  },
+  {
+    "id": "hf-minimax-music3-music",
+    "category": "music",
+    "platform": "MiniMax Music 3 Studio (Hugging Face Space)",
+    "vendor": "MiniMax",
+    "url": "https://huggingface.co/spaces/MiniMaxAI/MiniMax-Music3",
+    "logo": "huggingface",
+    "logoDomain": "huggingface.co",
+    "models": [
+      "MiniMax-Music3"
+    ],
+    "headline": "MiniMax Music 3 (Hugging Face): 8월 공개된 오픈 모델로 최대 5분 보컬곡 무료 데모",
+    "description": "중국 MiniMax가 2026년 8월 13일 오픈 가중치로 공개한 작곡 모델 MiniMax-Music3의 공식 데모입니다. 가사와 음악 설명을 넣으면 작곡·편곡·믹싱까지 된 최대 5분 길이의 완성곡(32kHz 스테레오)을 만들어 줍니다. 공개 직후 커뮤니티에서 파생 Space가 수십 개 생길 만큼 화제가 됐습니다.",
+    "freeTier": {
+      "quota": "Hugging Face ZeroGPU 할당량: 비로그인 하루 GPU 2분, 무료 계정 하루 5분 (곡 길이에 따라 하루 몇 곡 수준)",
+      "reset": "매일 (첫 GPU 사용 후 24시간 뒤 초기화)",
+      "watermark": "불명",
+      "commercialUse": "조건부 가능 — MiniMax-Music3 Community License: 상업 제품에 'MiniMax-Music3' 표기, 연매출 2천만 달러 초과 시 별도 허가, AI 생성물 고지 필요",
+      "signup": "로그인 불필요 (로그인 시 할당량 증가)",
+      "korea": "가능 (한국어 가사 품질은 미확인)",
+      "notes": "예시는 주로 영어·중국어. MiniMax Audio 웹 플랫폼에서도 가입 시 무료 크레딧 제공으로 소개됨(수치 미확인). 로컬 실행은 약 24GB VRAM(오프로딩 시 8GB급도 가능)."
+    },
+    "howTo": [
+      "huggingface.co/spaces/MiniMaxAI/MiniMax-Music3 접속",
+      "가사와 곡 스타일 설명(장르·템포·보컬)을 입력",
+      "생성 후 WAV 결과를 재생·다운로드"
+    ],
+    "tags": [
+      "오픈소스",
+      "로그인불필요",
+      "보컬곡",
+      "신규",
+      "Hugging Face",
+      "조건부상업이용"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "MiniMax Music 3.0: next-generation open weights music model",
+        "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model",
+        "type": "official",
+        "date": "2026-08-13"
+      },
+      {
+        "title": "MiniMax Music 3 Studio - Hugging Face Space",
+        "url": "https://huggingface.co/spaces/MiniMaxAI/MiniMax-Music3",
+        "type": "official",
+        "date": "2026-08-13"
+      },
+      {
+        "title": "MiniMax-Music3 LICENSE",
+        "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3/blob/main/LICENSE",
+        "type": "official"
+      }
+    ],
+    "access": "opensource",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": false,
+      "commercial": null
+    }
+  },
+  {
+    "id": "mubert-music",
+    "category": "music",
+    "platform": "Mubert Render",
+    "vendor": "Mubert",
+    "url": "https://mubert.com/render",
+    "logo": "mubert",
+    "logoDomain": "mubert.com",
+    "models": [
+      "Mubert"
+    ],
+    "headline": "Mubert 무료(Ambassador): 월 25곡 생성·5곡 다운로드 (비상업·출처 표기)",
+    "description": "텍스트나 장르·분위기 태그로 영상·팟캐스트용 로열티프리 배경음악을 뽑아 주는 서비스입니다. 보컬 없는 BGM 위주이며 스템(악기별 트랙) 편집도 지원합니다.",
+    "freeTier": {
+      "quota": "월 25곡 생성, 월 5곡 다운로드 (MP3, 고정 길이)",
+      "reset": "매월",
+      "watermark": "불명 (출처 표기 의무)",
+      "commercialUse": "불가 — 개인·비상업 SNS·팟캐스트·스트리밍만, 수익화 채널·광고·음원 유통·Content ID 등록 금지",
+      "signup": "계정 필요",
+      "korea": "가능",
+      "notes": "Mubert 출처 표기 필수. 길이 지정·WAV는 유료 플랜."
+    },
+    "howTo": [
+      "mubert.com/render 접속 후 가입",
+      "프롬프트 입력 또는 장르·무드 선택",
+      "생성된 트랙을 미리 듣고 MP3로 다운로드 (월 5곡)"
+    ],
+    "tags": [
+      "매월충전",
+      "BGM",
+      "연주곡",
+      "출처표기",
+      "상업이용불가"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Mubert Render Pricing",
+        "url": "https://mubert.com/render/pricing",
+        "type": "official",
+        "date": "2026-09"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "monthly",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "mureka-music",
+    "category": "music",
+    "platform": "Mureka",
+    "vendor": "Kunlun Tech (Mureka)",
+    "url": "https://www.mureka.ai",
+    "logo": "mureka",
+    "logoDomain": "mureka.ai",
+    "models": [
+      "Mureka V7.5"
+    ],
+    "headline": "Mureka 무료: 하루 4곡 (V7.5 모델, 다운로드·상업 이용 불가)",
+    "description": "최대 5분 길이의 보컬곡을 만드는 중국 쿤룬테크 계열 AI 작곡 서비스로, 한국어를 포함한 10개 언어 가사를 지원합니다. 유료는 V9.5·V9·V8·O2 등 최신 모델을 쓰지만 무료는 V7.5 모델로 맛보기만 가능합니다.",
+    "freeTier": {
+      "quota": "하루 4곡 (무료 모델 V7.5, 공유 대기열, 동시 2곡)",
+      "reset": "매일",
+      "watermark": "불명",
+      "commercialUse": "불가 — 무료 플랜은 오디오 다운로드·상업 권리·연장·리믹스·스템이 모두 잠김",
+      "signup": "계정 필요 (Google 등)",
+      "korea": "가능 (한국어 가사·UI 지원)",
+      "notes": "무료는 사이트 안에서 듣기용. 다운로드·상업 이용은 Pro($8~10/월)부터. 공식 사이트엔 '무료 사용자는 품질·월 생성량 제한'이라고만 표기돼 있어 수치는 리뷰 기준."
+    },
+    "howTo": [
+      "mureka.ai 접속 후 로그인",
+      "가사(한국어 가능)와 스타일을 입력하거나 레퍼런스를 지정",
+      "생성된 곡을 사이트에서 재생 (다운로드는 유료)"
+    ],
+    "tags": [
+      "매일충전",
+      "보컬곡",
+      "한국어지원",
+      "다운로드불가",
+      "상업이용불가"
+    ],
+    "confidence": "medium",
+    "status": "limited",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Mureka - AI Music Generator",
+        "url": "https://www.mureka.ai/",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Mureka AI Review 2026: Pricing, V9.5 and Mureka vs Suno V6",
+        "url": "https://undetectr.com/blog/mureka-ai-review",
+        "type": "community",
+        "date": "2026-09-25"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "musicgpt-music",
+    "category": "music",
+    "access": "official",
+    "platform": "MusicGPT",
+    "vendor": "MusicGPT",
+    "url": "https://musicgpt.com",
+    "logo": "musicgpt",
+    "logoDomain": "musicgpt.com",
+    "models": [
+      "MusicGPT v6 (표준 모델)"
+    ],
+    "headline": "MusicGPT 무료: 월 500크레딧으로 v6 모델 곡 약 10~15곡 (최대 2분, 개인용)",
+    "description": "자체 음악 모델을 내세우는 AI 작곡 서비스로, 프롬프트·가사로 보컬 곡을 만들고 효과음 등 부가 도구도 제공한다. 무료 플랜도 '데모가 아닌 실제 생성'을 강조하지만, 길이·음질·상업 이용에 제한이 있다.",
+    "freeTier": {
+      "quota": "월 500크레딧 → 풀곡 약 10~15곡 (길이·설정에 따라 다름, 보고), 무료는 곡당 최대 2분",
+      "reset": "매월 (미사용 크레딧 이월 없음)",
+      "watermark": "불명",
+      "commercialUse": "불가 (개인 비상업 용도만, 상업 라이선스는 Plus 이상)",
+      "signup": "이메일·Google 계정 (비회원은 미리듣기 수준)",
+      "korea": "가능",
+      "notes": "대기열 기반 중간 속도(우선순위 없음), 다운로드는 MP3·제한된 품질. 유료 전용: 고속 생성·고음질 다운로드·상업 라이선스."
+    },
+    "howTo": [
+      "musicgpt.com 접속 후 'Start Creating – Free'로 가입",
+      "프롬프트 또는 가사 입력 후 생성",
+      "MP3로 저장 (개인 용도)"
+    ],
+    "tags": [
+      "월충전",
+      "보컬곡",
+      "로그인필요",
+      "상업이용불가"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Free AI Music Generator (No Sign-Up, Real Access) – MusicGPT 2026",
+        "url": "https://musicgpt.com/blog/free-ai-music-generator",
+        "type": "official",
+        "date": "2026-05-04"
+      },
+      {
+        "title": "MusicGPT Review 2026: Is It Free, Pricing, App & API (MelodyCraft)",
+        "url": "https://melodycraft.app/tutorials/musicgpt-review",
+        "type": "community",
+        "date": "2026-06-16"
+      }
+    ],
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "monthly",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "hf-stable-audio-3-music",
+    "category": "music",
+    "platform": "Stable Audio 3 (Hugging Face Space)",
+    "vendor": "Stability AI",
+    "url": "https://huggingface.co/spaces/stabilityai/stable-audio-3",
+    "logo": "stability-ai",
+    "logoDomain": "stability.ai",
+    "models": [
+      "Stable Audio 3.0 Medium",
+      "Stable Audio 3.0 Small Music",
+      "Stable Audio 3.0 Small SFX"
+    ],
+    "headline": "Stable Audio 3 (Hugging Face): 보컬 없는 BGM·효과음 무료 데모, 소규모 상업 이용 가능",
+    "description": "Stability AI가 2026년 5월 20일 공개한 Stable Audio 3.0 계열(라이선스·CC 데이터로 학습)의 공식 데모로, 음악용 Medium·Small Music과 효과음용 Small SFX 모델을 골라 쓸 수 있습니다. 노래(보컬)는 만들지 않지만 영상·게임·팟캐스트용 연주곡과 효과음 제작에 강합니다.",
+    "freeTier": {
+      "quota": "Hugging Face ZeroGPU 할당량: 비로그인 하루 GPU 2분, 무료 계정 하루 5분",
+      "reset": "매일 (첫 GPU 사용 후 24시간 뒤 초기화)",
+      "watermark": "불명",
+      "commercialUse": "조건부 가능 — Stability AI Community License: 연매출 100만 달러 미만 개인·기업은 결과물 상업 이용 가능",
+      "signup": "로그인 불필요 (로그인 시 할당량 증가)",
+      "korea": "가능",
+      "notes": "보컬·가사 생성 불가(연주곡·효과음 전용). Small은 최대 약 2분, Medium은 최대 6분 20초. 공식 웹 stableaudio.com은 월 50크레딧 무료 플랜이 있다는 리뷰가 있으나 공식 요금표엔 미표기(미확인)."
+    },
+    "howTo": [
+      "huggingface.co/spaces/stabilityai/stable-audio-3 접속",
+      "모델(Medium / Small Music / Small SFX) 선택 후 영어 프롬프트와 길이 입력",
+      "생성 후 오디오 재생·다운로드"
+    ],
+    "tags": [
+      "오픈소스",
+      "로그인불필요",
+      "연주곡",
+      "효과음",
+      "조건부상업이용",
+      "Hugging Face"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Stable Audio 3 - Hugging Face Space",
+        "url": "https://huggingface.co/spaces/stabilityai/stable-audio-3",
+        "type": "official",
+        "date": "2026-05-22"
+      },
+      {
+        "title": "Meet Stable Audio 3",
+        "url": "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
+        "type": "official",
+        "date": "2026-05-20"
+      },
+      {
+        "title": "Stable Audio 3.0 Review: Pricing, Free Plan, Licence vs Suno",
+        "url": "https://undetectr.com/blog/stable-audio-review",
+        "type": "community",
+        "date": "2026-09"
+      }
+    ],
+    "access": "opensource",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": false,
+      "commercial": null
+    }
+  },
+  {
+    "id": "suno-music",
+    "category": "music",
+    "platform": "Suno",
+    "vendor": "Suno",
+    "url": "https://suno.com",
+    "logo": "suno",
+    "logoDomain": "suno.com",
+    "models": [
+      "Suno v6-mini"
+    ],
+    "headline": "Suno 무료 계정: 매일 50크레딧 = 하루 약 10곡 (v6-mini, 다운로드는 평생 7곡·상업 이용 불가)",
+    "description": "가사와 스타일만 입력하면 보컬이 들어간 완성곡을 만들어 주는 대표 AI 작곡 서비스입니다. 2026년 9월 9일 워너뮤직·BMG·Believe 라이선스 음원으로 학습한 v6 계열을 내놓으면서 이전 모델(v4.5·v5 등)을 모두 은퇴시켰고, 무료 계정은 경량 모델 v6-mini만 쓸 수 있습니다. 9월 3일부터는 다운로드 상한이 생겨 무료 계정은 사이트 안에서 듣고 공유하는 용도에 가깝습니다.",
+    "freeTier": {
+      "quota": "매일 50크레딧(곡당 약 5크레딧 → 하루 약 10곡). 다운로드는 계정당 평생 최대 7곡(체험 다운로드, 개인·비상업 용도)",
+      "reset": "매일 (크레딧 이월 없음) / 다운로드는 평생 누적",
+      "watermark": "불명",
+      "commercialUse": "불가 — 무료로 만든 곡은 나중에 유료로 전환해도 상업 이용 권리가 생기지 않음",
+      "signup": "계정 필요 (Google·Apple·Microsoft 등 소셜 로그인)",
+      "korea": "가능 (한국 앱스토어 앱 제공)",
+      "notes": "무료는 v6-mini만 사용 가능(v6·v6-wild는 Pro $8/월 이상). 공유 대기열에서 동시 4곡 생성, 오디오 업로드 최대 8분, 스템 분리 불가, 추가 크레딧 구매 불가. 9월 3일 이전 곡도 다운로드 상한에 포함되며, 한도를 넘기면 다운로드를 따로 구매해야 함. 곡 재생·공유·커버/리믹스는 계속 가능."
+    },
+    "howTo": [
+      "suno.com 접속 후 Google 등으로 로그인",
+      "Create에서 곡 설명(또는 Custom 모드로 가사·스타일) 입력",
+      "Create를 누르면 한 번에 2곡 생성, 라이브러리에서 재생·공유 (파일 다운로드는 평생 7곡 한도)"
+    ],
+    "tags": [
+      "매일충전",
+      "보컬곡",
+      "한국어가사",
+      "로그인필요",
+      "상업이용불가",
+      "다운로드제한"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Suno | Pricing",
+        "url": "https://suno.com/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Upcoming Changes FAQ: Downloads, Models, and Terms of Service",
+        "url": "https://help.suno.com/en/articles/13614785",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Suno | An update to our downloads policy and Terms of Service",
+        "url": "https://suno.com/blog/suno-updates-tos",
+        "type": "official",
+        "date": "2026-08-10"
+      },
+      {
+        "title": "Suno launches its v6 AI-music models (Music Ally)",
+        "url": "https://musically.com/2026/09/09/suno-launches-its-v6-ai-music-models-heres-what-you-need-to-know/",
+        "type": "news",
+        "date": "2026-09-09"
+      },
+      {
+        "title": "Suno Launches v6 Models With Support from Warner Music, BMG",
+        "url": "https://www.digitalmusicnews.com/2026/09/09/suno-v6-launch/",
+        "type": "news",
+        "date": "2026-09-09"
+      },
+      {
+        "title": "Suno v6 Is Live: Every Feature and the 96% Credit Trap",
+        "url": "https://roo.beehiiv.com/p/suno-v6-features",
+        "type": "community",
+        "date": "2026-09"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "udio-music",
+    "category": "music",
+    "platform": "Udio",
+    "vendor": "Udio",
+    "url": "https://www.udio.com",
+    "logo": "udio",
+    "logoDomain": "udio.com",
+    "models": [
+      "Udio"
+    ],
+    "headline": "Udio 무료: 하루 10크레딧(월 100 한도) ≈ 하루 최대 약 3곡, 단 다운로드는 전면 불가",
+    "description": "음질과 보컬 표현으로 Suno와 양강을 이루던 AI 작곡 서비스입니다. 2025년 10월 유니버설뮤직(UMG), 11월 워너뮤직과 합의한 뒤 오디오·영상·스템 다운로드를 모두 막았고, 라이선스 기반 '월드 가든(walled garden)' 서비스로 전환 중입니다. 지금은 사이트 안에서 만들고 듣는 아이디어 스케치 용도로만 쓸 수 있습니다.",
+    "freeTier": {
+      "quota": "하루 10크레딧, 월 최대 100크레딧 → 하루 약 3곡(곡당 약 2분 10초) 수준",
+      "reset": "매일 (월 100크레딧 상한)",
+      "watermark": "불명 (향후 비가청 워터마크·핑거프린팅 도입 예정으로 보도)",
+      "commercialUse": "불가 — 모든 플랜에서 파일 추출·외부 업로드 불가",
+      "signup": "계정 필요 (Google 등)",
+      "korea": "가능",
+      "notes": "2025-10-29부터 모든 플랜의 다운로드 비활성화(2025년 11월 48시간 한시 허용 후 재차 차단), 2026년 9월 현재 재개 일정 없음. 라이선스 신규 플랫폼(모바일 앱 'Starstruck' 보도)은 2026년 중 출시 예정이며 역시 다운로드 불가 구조. 소니뮤직과는 소송 진행 중."
+    },
+    "howTo": [
+      "udio.com 접속 후 로그인",
+      "프롬프트나 가사를 입력해 곡 생성",
+      "사이트 안에서만 재생·공유 (다운로드 불가)"
+    ],
+    "tags": [
+      "매일충전",
+      "보컬곡",
+      "다운로드불가",
+      "상업이용불가",
+      "로그인필요"
+    ],
+    "confidence": "medium",
+    "status": "limited",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Udio Review 2026: Pricing, Free Plan and the Download Ban",
+        "url": "https://undetectr.com/blog/udio-review-2026",
+        "type": "community",
+        "date": "2026-09-25"
+      },
+      {
+        "title": "UMG-Udio AI Deal FAQ: Artist Payments, User Downloads, Lawsuits & More (Billboard)",
+        "url": "https://www.billboard.com/pro/umg-udio-ai-deal-faq-artist-payments-user-downloads-lawsuit/",
+        "type": "news",
+        "date": "2025-10"
+      },
+      {
+        "title": "Udio Fortifies the Walls of Its Walled Garden Under BuyDRM Deal",
+        "url": "https://www.digitalmusicnews.com/2026/07/17/udio-buydrm-deal-walled-garden/",
+        "type": "news",
+        "date": "2026-07-17"
+      },
+      {
+        "title": "Udio Pricing (2026): Plans, Credits & Hidden Limits",
+        "url": "https://pricemyai.com/pricing/udio/",
+        "type": "community",
+        "date": "2026-06-10"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "youtube-dream-track-music",
+    "category": "music",
+    "platform": "YouTube Shorts Dream Track",
+    "vendor": "Google",
+    "url": "https://support.google.com/youtube/answer/14151606",
+    "logo": "youtube",
+    "logoDomain": "youtube.com",
+    "models": [
+      "Lyria 3"
+    ],
+    "headline": "YouTube Shorts Dream Track: 쇼츠 배경음악을 Lyria로 무료 생성 (기기 언어 영어 필요, 파일 다운로드 불가)",
+    "description": "YouTube 앱에서 쇼츠를 만들 때 짧은 영어 프롬프트로 가사·반주가 있는 AI 배경음악을 바로 생성해 붙이는 기능입니다. Lyria 3 적용 후 미국 외 국가로 확대됐고, 만든 곡은 쇼츠 안에서만 쓰입니다. 쇼츠 크리에이터가 저작권 걱정 없이 BGM을 붙이기에 편리합니다.",
+    "freeTier": {
+      "quota": "무료 (별도 생성 한도 공개 안 됨)",
+      "reset": "불명",
+      "watermark": "'Dream Track으로 제작' 텍스트 라벨 표시",
+      "commercialUse": "쇼츠 내 사용 한정 — 일반 채널·쇼츠 수익화 정책을 따름, 음원 단독 사용 불가",
+      "signup": "YouTube(Google) 계정",
+      "korea": "EEA(유럽경제지역) 외 대부분 국가 제공 → 한국도 대상이나 YouTube 기기 언어를 영어로 설정해야 함",
+      "notes": "프롬프트는 영어 최대 50자(YouTube Create 앱은 85자). 생성 음원 파일은 다운로드 불가(해당 음원이 들어간 쇼츠 일부만 다운로드 가능). 다른 사용자가 이 사운드로 리믹스 가능."
+    },
+    "howTo": [
+      "휴대폰의 YouTube 앱 언어를 영어로 설정",
+      "만들기(+) → Short → Add sound → Create Music 선택",
+      "영어로 원하는 곡을 설명(50자 이내)하고 생성해 쇼츠에 추가"
+    ],
+    "tags": [
+      "무료",
+      "쇼츠전용",
+      "모바일",
+      "로그인필요",
+      "영어프롬프트"
+    ],
+    "confidence": "medium",
+    "status": "limited",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Create AI-generated soundtrack in Shorts with Dream Track - YouTube Help",
+        "url": "https://support.google.com/youtube/answer/14151606?hl=en",
+        "type": "official"
+      },
+      {
+        "title": "Dream Track 한국어 도움말",
+        "url": "https://support.google.com/youtube/answer/14151606?hl=ko",
+        "type": "official"
+      },
+      {
+        "title": "Use Lyria 3 to create music tracks in the Gemini app",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/",
+        "type": "official",
+        "date": "2026-02-18"
+      }
+    ],
+    "access": "official",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "unknown",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "hf-yue2-music",
+    "category": "music",
+    "platform": "YuE2-3B (Hugging Face Space)",
+    "vendor": "M-A-P (Multimodal Art Projection)",
+    "url": "https://huggingface.co/spaces/mrfakename/yue2-3b",
+    "logo": "huggingface",
+    "logoDomain": "huggingface.co",
+    "models": [
+      "YuE2-3B"
+    ],
+    "headline": "YuE2-3B (Hugging Face): 9월 공개 오픈 모델, 가사→보컬곡·커버 무료 데모 (비상업)",
+    "description": "2026년 9월 9일 공개된 오픈소스 작곡 모델 YuE2-3B를 무료로 돌려볼 수 있는 커뮤니티 데모입니다. 스타일 프롬프트와 가사로 48kHz 스테레오 보컬곡을 만들고, 기존 음원을 바탕으로 한 커버·멀티턴 수정도 지원합니다. 공개 2주 만에 허밍→노래 변환 등 파생 Space가 여럿 등장했습니다.",
+    "freeTier": {
+      "quota": "Hugging Face ZeroGPU 할당량: 비로그인 하루 GPU 2분, 무료 계정 하루 5분 (곡당 생성 시간이 길어 하루 1~3곡 수준으로 추정)",
+      "reset": "매일 (첫 GPU 사용 후 24시간 뒤 초기화)",
+      "watermark": "없음 (오픈소스 모델, 워터마크 기능 언급 없음)",
+      "commercialUse": "불가 — CC BY-NC 4.0 (비상업)",
+      "signup": "로그인 불필요 (로그인 시 할당량 증가)",
+      "korea": "가능 (공식 문서상 영어·중국어 중심, 한국어 미명시)",
+      "notes": "커뮤니티(mrfakename) 운영 Space라 예고 없이 중단될 수 있음. 로컬 실행은 24GB GPU 권장, RTX 4090 기준 곡당 약 71초."
+    },
+    "howTo": [
+      "huggingface.co/spaces/mrfakename/yue2-3b 접속",
+      "장르·분위기 스타일 프롬프트와 가사(verse/chorus 구분) 입력",
+      "생성 후 결과를 재생·다운로드 (비상업 용도)"
+    ],
+    "tags": [
+      "오픈소스",
+      "로그인불필요",
+      "보컬곡",
+      "신규",
+      "Hugging Face",
+      "비상업"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "m-a-p/YuE2-3B (Hugging Face 모델 카드)",
+        "url": "https://huggingface.co/m-a-p/YuE2-3B",
+        "type": "official",
+        "date": "2026-09-09"
+      },
+      {
+        "title": "YuE2-3B Music Generator - Hugging Face Space",
+        "url": "https://huggingface.co/spaces/mrfakename/yue2-3b",
+        "type": "community",
+        "date": "2026-09-17"
+      }
+    ],
+    "access": "opensource",
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "none",
+      "login": false,
+      "commercial": false
+    }
+  },
+  {
+    "id": "musicful-music",
+    "category": "music",
+    "access": "wrapper",
+    "platform": "Musicful",
+    "vendor": "Musicful",
+    "url": "https://www.musicful.ai",
+    "logo": "musicful",
+    "logoDomain": "musicful.ai",
+    "models": [
+      "Musicful V1.0 (무료)"
+    ],
+    "headline": "Musicful 무료: 매일 소량 크레딧으로 V1.0 모델 곡 생성 (다운로드 불가, 감상용)",
+    "description": "텍스트·가사·허밍으로 곡을 만드는 AI 음악 사이트로 100여 개 스타일과 뮤직비디오 생성을 지원한다. 유료 V3.0은 한국어 가사도 수노·뮤레카에 견줄 만하다는 국내 커뮤니티 평이 있지만, 무료로는 구형 V1.0만 쓸 수 있다.",
+    "freeTier": {
+      "quota": "매일 소량의 무료 크레딧 (정확한 수치 비공개)",
+      "reset": "매일",
+      "watermark": "있음 (보고)",
+      "commercialUse": "불가 (무료 곡 상업 이용 금지)",
+      "signup": "이메일·Google 계정, 카드 불필요",
+      "korea": "가능 (한국어 가사 지원)",
+      "notes": "무료는 다운로드 불가(보고). 저가 Basic 구독도 상업 이용 불가·생성곡 7일 후 삭제(커뮤니티 보고). 유료 전용: V2.0·V3.0. 모델 출처(자체/타사)는 공개되지 않음."
+    },
+    "howTo": [
+      "musicful.ai 접속 후 가입",
+      "AI Music Generator에서 텍스트·가사 입력 또는 허밍 업로드",
+      "무료 곡은 사이트 안에서 감상"
+    ],
+    "tags": [
+      "매일충전",
+      "워터마크",
+      "다운로드불가",
+      "로그인필요"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "Musicful AI Review 2026: Pricing, Free Plan & Hands-On Test (MelodyCraft)",
+        "url": "https://melodycraft.app/tutorials/musicful-ai-review",
+        "type": "community",
+        "date": "2026-04-17"
+      },
+      {
+        "title": "suno 와 musicful 음악생성물 비교 (디시 수노AI 갤러리)",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=sunoai&no=2048",
+        "type": "community",
+        "date": "2026-09-08"
+      },
+      {
+        "title": "Musicful 공식 사이트",
+        "url": "https://www.musicful.ai/",
+        "type": "official"
+      }
+    ],
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "visible",
+      "login": true,
+      "commercial": false
+    }
+  },
+  {
+    "id": "topmediai-music",
+    "category": "music",
+    "access": "wrapper",
+    "platform": "TopMediai AI Music",
+    "vendor": "TopMediai",
+    "url": "https://www.topmediai.com/app/ai-music/",
+    "logo": "topmediai",
+    "logoDomain": "topmediai.com",
+    "models": [
+      "V3.5 (무료 계정용 하위 모델, 보고)"
+    ],
+    "headline": "TopMediai 무료: 하루 5크레딧으로 V3.5 모델 맛보기 (128kbps·워터마크, 사실상 데모)",
+    "description": "음악·보이스·영상 도구를 한데 묶은 크레딧제 플랫폼. 간편/커스텀/사운드트랙/레퍼런스/싱어 모드와 AI 커버를 지원하지만, 무료 계정은 가장 낮은 모델과 저음질 출력으로 제한된다.",
+    "freeTier": {
+      "quota": "하루 5크레딧 (보고) — 곡 수는 소량",
+      "reset": "매일 (보고)",
+      "watermark": "있음 (무료 128kbps 워터마크 출력, 보고)",
+      "commercialUse": "불가 (무료 곡은 개인 비상업용)",
+      "signup": "이메일·Google 계정",
+      "korea": "가능",
+      "notes": "공식 페이지는 '무료 사용량은 계정에서 확인'이라고만 표기해 수치가 불투명. 유료 전용: V4.0·V5.0·v6 Pro/v6-mini, 보이스 클로닝, MIDI, 상업 라이선스."
+    },
+    "howTo": [
+      "topmediai.com AI Music 접속 후 가입",
+      "Easy 또는 Custom 모드에서 프롬프트·가사 입력",
+      "생성 후 MP3로 미리듣기/저장"
+    ],
+    "tags": [
+      "매일충전",
+      "워터마크",
+      "로그인필요",
+      "데모수준"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "lastVerified": "2026-09-29",
+    "sources": [
+      {
+        "title": "TopMediai Review 2026: Is It Legit, Free, and Worth Paying For? (MelodyCraft)",
+        "url": "https://melodycraft.app/tutorials/topmediai-review-2026",
+        "type": "community",
+        "date": "2026"
+      },
+      {
+        "title": "TopMediai AI Music Generator",
+        "url": "https://www.topmediai.com/app/ai-music/",
+        "type": "official"
+      }
+    ],
+    "added": "2026-09-29",
+    "updated": "2026-09-29",
+    "flags": {
+      "reset": "daily",
+      "watermark": "visible",
+      "login": true,
+      "commercial": false
+    }
+  }
+]
