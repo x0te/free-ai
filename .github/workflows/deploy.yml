@@ -28,6 +28,10 @@ jobs:
       - name: 누락된 로고 가져오기
         run: node scripts/fetch-logos.mjs
         continue-on-error: true
+      - name: 화제성 갱신 (커뮤니티 언급량, 실패 시 저장된 값 사용)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: node scripts/hot.mjs
+        continue-on-error: true
       - name: 빌드
         run: node scripts/build.mjs
       - uses: actions/configure-pages@v6

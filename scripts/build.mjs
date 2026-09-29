@@ -1,6 +1,7 @@
 // 데이터(data/*.json) → 정적 사이트(dist/) 빌드. 외부 의존성 없음.
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -93,6 +94,16 @@ function deriveFlags(t) {
 }
 for (const t of tools) t.flags = deriveFlags(t);
 
+// ── 화제성 (scripts/hot.mjs 가 만든 data/hot.json) ─────────────────
+const hotData = fs.existsSync(path.join(ROOT, 'data/hot.json')) ? readJSON('data/hot.json') : { items: {} };
+const hotTerms = readJSON('data/hot-terms.json');
+for (const t of tools) {
+  t.hotKey = hotTerms[t.id] ? t.id : t.logo;
+  t.hot = hotData.items[t.hotKey] || { score: 0, dc: 0, clien: 0, hn: 0 };
+  // 정렬용 점수: 무료가 제한적인 항목은 조금 뒤로
+  t.rank = t.hot.score * (t.status === 'limited' ? 0.75 : 1);
+}
+
 const RESET_LABEL = { unlimited: '무제한', daily: '매일 충전', weekly: '매주 충전', monthly: '매월 충전', once: '가입 시 1회' };
 const WM_LABEL = { none: '워터마크 없음', invisible: '비가시 워터마크', visible: '워터마크' };
 const CONF_LABEL = { high: '확실', medium: '대체로 확실', low: '확인 필요' };
@@ -110,12 +121,19 @@ const sortTools = (list) =>
   [...list].sort(
     (a, b) =>
       (a.status === 'ended') - (b.status === 'ended') ||
-      isPromoActive(b) - isPromoActive(a) ||
-      b.updated.localeCompare(a.updated) ||
+      b.rank - a.rank ||
       (CONF_RANK[b.confidence] || 0) - (CONF_RANK[a.confidence] || 0) ||
       (a.access === 'wrapper') - (b.access === 'wrapper') ||
       a.platform.localeCompare(b.platform)
   );
+
+// 🔥: 전체 화제성 상위 HOT_TOP개 플랫폼 + 카테고리별 상위 3개(점수 0.3 이상)
+const HOT_TOP = 12;
+const byScore = tools.filter((t) => t.status !== 'ended').sort((a, b) => b.rank - a.rank);
+const hotKeys = new Set([...new Set(byScore.map((t) => t.hotKey))].slice(0, HOT_TOP));
+for (const t of byScore) t.isHot = hotKeys.has(t.hotKey);
+for (const c of categories) byScore.filter((t) => t.category === c.id && t.rank >= 0.3).slice(0, 3).forEach((t) => (t.isHot = true));
+const hotBadge = (t) => (t.isHot ? '<span class="hot" title="최근 30일 커뮤니티 언급 상위">🔥</span>' : '');
 
 // 모델명 정규화: 괄호 부연 제거
 const modelKey = (m) => m.replace(/\s*[\(（].*?[\)）]\s*/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
@@ -159,11 +177,11 @@ function row(t, { showCat = true } = {}) {
     isNew(t) ? '<span class="badge badge-new">NEW</span>' : isUpdated(t) ? '<span class="badge">UP</span>' : '',
   ].join('');
   const q = [t.platform, t.vendor, ...t.models, t.headline, ...t.tags, catById[t.category].name].join(' ').toLowerCase();
-  return `<li class="row${t.status === 'ended' ? ' is-ended' : ''}" data-flags="${flagData(t)}" data-q="${esc(q)}">
+  return `<li class="row${t.status === 'ended' ? ' is-ended' : ''}" data-flags="${flagData(t)}" data-q="${esc(q)}" data-score="${t.status === 'ended' ? -1 : t.rank.toFixed(3)}" data-updated="${t.updated}">
   <a href="${url('t/' + t.id + '/')}">
     ${logo(t)}
     <div class="row-main">
-      <div class="row-title"><strong>${esc(t.platform)}</strong>${t.models.length ? `<span class="row-models">${esc(t.models.slice(0, 4).join(' · '))}${t.models.length > 4 ? ` 외 ${t.models.length - 4}` : ''}</span>` : ''}${badges}</div>
+      <div class="row-title">${hotBadge(t)}<strong>${esc(t.platform)}</strong>${t.models.length ? `<span class="row-models">${esc(t.models.slice(0, 4).join(' · '))}${t.models.length > 4 ? ` 외 ${t.models.length - 4}` : ''}</span>` : ''}${badges}</div>
       <div class="row-head">${esc(t.headline)}</div>
       <div class="row-meta">${meta}</div>
     </div>
@@ -183,12 +201,19 @@ const toolbar = () => `<div class="toolbar" role="search">
     <button type="button" class="chip" data-f="commercial">상업 이용 가능</button>
     <button type="button" class="chip" data-f="promo">이벤트 중</button>
   </div>
+  <div class="sortbar">
+    <div class="seg" role="group" aria-label="정렬">
+      <button type="button" data-sort="hot" aria-pressed="true">🔥 인기순</button>
+      <button type="button" data-sort="new" aria-pressed="false">최신순</button>
+    </div>
+    <span class="hot-note">🔥 최근 30일 디시인사이드·클리앙·Hacker News 언급량 상위${hotData.updated ? ` · ${hotData.updated} 기준` : ''}</span>
+  </div>
 </div>
 <p class="empty" id="empty" hidden>조건에 맞는 글이 없습니다.</p>`;
 
 const lastUpdate = changelog[0]?.date || today;
 
-function layout({ title, desc, path: p, body, active = '' }) {
+function layout({ title, desc, path: p, body, active = '', hero = '' }) {
   const fullTitle = title ? `${title} · ${config.title}` : `${config.title} — 무료 생성형 AI 게시판`;
   const nav = [
     ['', '전체'],
@@ -207,6 +232,7 @@ function layout({ title, desc, path: p, body, active = '' }) {
 <meta property="og:title" content="${esc(fullTitle)}">
 <meta property="og:description" content="${esc(desc || config.tagline)}">
 <meta property="og:url" content="${abs(p)}">
+<script>try{var m=localStorage.getItem('theme');if(m==='light'||m==='dark')document.documentElement.dataset.theme=m}catch(e){}</script>
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0e0e0e" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="${url('favicon.svg')}" type="image/svg+xml">
@@ -223,12 +249,17 @@ function layout({ title, desc, path: p, body, active = '' }) {
       <a href="${url('models/')}"${active === 'models' ? ' aria-current="page"' : ''}>모델별</a>
       <a href="${url('updates/')}"${active === 'updates' ? ' aria-current="page"' : ''}>업데이트</a>
       <a href="${url('board/')}"${active === 'board' ? ' aria-current="page"' : ''}>제보·질문</a>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="라이트/다크 테마 전환" title="테마 전환">
+        <svg class="i-moon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
     </nav>
   </div>
   <nav class="wrap cat-nav" aria-label="카테고리">
     ${nav.map(([h, n]) => `<a href="${url(h)}"${active === (h || 'home') ? ' aria-current="page"' : ''}>${esc(n)}</a>`).join('')}
   </nav>
 </header>
+${hero}
 <main class="wrap">
 ${body}
 </main>
@@ -246,13 +277,13 @@ function comments(term) {
   if (!g.repoId || !g.categoryId) {
     return `<p class="muted">댓글 기능 준비 중입니다. <a href="https://github.com/${config.repo}/discussions">GitHub 토론</a>에 남겨주세요.</p>`;
   }
-  return `<script src="https://giscus.app/client.js"
+  // giscus 스크립트는 app.js가 현재 테마(라이트/다크)에 맞춰 삽입
+  return `<div class="giscus-slot"
   data-repo="${esc(config.repo)}" data-repo-id="${esc(g.repoId)}"
   data-category="${esc(g.category)}" data-category-id="${esc(g.categoryId)}"
   data-mapping="specific" data-term="${esc(term)}" data-strict="1"
   data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top"
-  data-theme="preferred_color_scheme" data-lang="ko" data-loading="lazy"
-  crossorigin="anonymous" async></script>`;
+  data-lang="ko" data-loading="lazy"></div>`;
 }
 
 function changeItems(entry, limit = Infinity) {
@@ -285,14 +316,38 @@ const pages = {};
 </section>`;
     })
     .join('');
+  // 히어로 배경: 화제성 순 로고가 3줄로 흐름 (각 줄은 두 번 반복해 끊김 없이 순환)
+  // 같은 이미지를 쓰는 플랫폼(예: ChatGPT·Codex)은 한 번만
+  const logoTools = [];
+  const seenLogo = new Set();
+  for (const t of byScore) {
+    const f = logoMap[t.logo];
+    if (!f) continue;
+    const digest = crypto.createHash('md5').update(fs.readFileSync(path.join(ROOT, 'public/logos', f))).digest('hex');
+    if (seenLogo.has(digest)) continue;
+    seenLogo.add(digest);
+    logoTools.push(t);
+  }
+  const PER_ROW = 14;
+  const mqRows = [0, 1, 2].map((r) => logoTools.slice(r * PER_ROW, (r + 1) * PER_ROW)).filter((r) => r.length);
+  const tile = (t, hidden) =>
+    `<a class="mq-tile" href="${url('t/' + t.id + '/')}" title="${esc(t.platform)}"${hidden ? ' tabindex="-1" aria-hidden="true"' : ''}><img src="${url('logos/' + logoMap[t.logo])}" alt="${hidden ? '' : esc(t.platform)}" width="30" height="30"></a>`;
+  const hero = `<section class="hero">
+  <div class="hero-bg">${mqRows
+    .map((r, i) => `<div class="mq-row mq-row-${i}"><div class="mq-track">${r.map((t) => tile(t)).join('')}${r.map((t) => tile(t, true)).join('')}</div></div>`)
+    .join('')}</div>
+  <div class="hero-fg wrap">
+    <p class="hero-kicker">무료 생성형 AI 종합 게시판</p>
+    <h1>${esc(config.tagline)}</h1>
+    <p class="muted">공식 서비스부터 Magnific(구 Freepik)·Krea·Higgsfield 같은 Wrapper 사이트까지, 무료 계정으로 무엇을 몇 개 만들 수 있는지 적어둡니다. 매일 커뮤니티와 공식 공지를 확인해 갱신합니다.</p>
+    <p class="stats"><span><b>${active.length}</b>개 서비스</span><span><b>${new Set(tools.flatMap((t) => t.models.map(modelKey))).size}</b>개 모델</span><span>업데이트 <b>${lastUpdate}</b></span></p>
+  </div>
+</section>`;
   pages['index.html'] = layout({
     path: '',
     active: 'home',
-    body: `<section class="intro">
-  <h1>${esc(config.tagline)}</h1>
-  <p class="muted">공식 서비스부터 Magnific(구 Freepik)·Krea·Higgsfield 같은 Wrapper 사이트까지, 무료 계정으로 무엇을 몇 개 만들 수 있는지 적어둡니다. 매일 커뮤니티와 공식 공지를 확인해 갱신합니다.</p>
-  <p class="stats"><span><b>${active.length}</b>개 서비스</span><span><b>${new Set(tools.flatMap((t) => t.models.map(modelKey))).size}</b>개 모델</span><span>업데이트 <b>${lastUpdate}</b></span></p>
-</section>
+    hero,
+    body: `
 ${promos.length ? `<section class="panel panel-promo"><h2>진행 중인 무료 이벤트</h2><ul class="promo-list">${promos
       .map((t) => `<li><a href="${url('t/' + t.id + '/')}">${logo(t, 18)}<b>${esc(t.platform)}</b><span>${esc(t.promo.text)}</span>${t.promo.until && /^\d/.test(t.promo.until) ? `<time>~${shortDate(t.promo.until)}</time>` : ''}</a></li>`)
       .join('')}</ul></section>` : ''}
@@ -352,7 +407,7 @@ for (const t of tools) {
   <header class="post-head">
     ${logo(t, 44)}
     <div>
-      <h1>${esc(t.platform)}</h1>
+      <h1>${hotBadge(t)}${esc(t.platform)}</h1>
       <p class="muted">${esc(t.vendor || '')}${t.vendor ? ' · ' : ''}<span class="tag tag-line">${ACCESS_LABEL[t.access] || esc(t.access)}</span>${t.status === 'ended' ? ' <span class="badge badge-end">무료 불가</span>' : t.status === 'limited' ? ' <span class="badge">제한적</span>' : ''}</p>
     </div>
   </header>
@@ -369,7 +424,7 @@ for (const t of tools) {
   ${t.sources.length ? `<h2>출처</h2><ul class="sources">${t.sources
       .map((s) => `<li><span class="stype">${s.type === 'official' ? '공식' : s.type === 'community' ? '커뮤니티' : '뉴스'}</span><a href="${safeHref(s.url)}" target="_blank" rel="noopener nofollow">${esc(s.title || s.url)}</a>${s.date ? `<span class="muted"> · ${esc(s.date)}</span>` : ''}</li>`)
       .join('')}</ul>` : ''}
-  <p class="verify">마지막 확인 ${esc(t.lastVerified || t.updated)} · 신뢰도 <span class="conf conf-${esc(t.confidence)}">${CONF_LABEL[t.confidence] || esc(t.confidence)}</span> · 등록 ${esc(t.added)}<br>무료 조건은 예고 없이 바뀝니다. 틀리거나 바뀐 정보는 아래 댓글로 알려주세요.</p>
+  <p class="verify">${t.status !== 'ended' ? `${t.isHot ? '🔥 ' : ''}화제성: 최근 30일 커뮤니티 언급 약 ${(t.hot.dc + t.hot.clien + t.hot.hn).toLocaleString('ko-KR')}건 (디시 ${t.hot.dc.toLocaleString('ko-KR')} · 클리앙 ${t.hot.clien.toLocaleString('ko-KR')} · HN ${t.hot.hn.toLocaleString('ko-KR')})<br>` : ''}마지막 확인 ${esc(t.lastVerified || t.updated)} · 신뢰도 <span class="conf conf-${esc(t.confidence)}">${CONF_LABEL[t.confidence] || esc(t.confidence)}</span> · 등록 ${esc(t.added)}<br>무료 조건은 예고 없이 바뀝니다. 틀리거나 바뀐 정보는 아래 댓글로 알려주세요.</p>
   <section class="comments"><h2>댓글 · 사용 후기</h2>${comments('tool:' + t.id)}</section>
 </article>`,
   });

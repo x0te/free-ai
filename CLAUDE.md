@@ -1,12 +1,14 @@
 # 오늘의 무료 AI — 운영 지침
 
 무료 계정으로 쓸 수 있는 생성형 AI(공식 서비스 + Freepik·Higgsfield 같은 wrapper 사이트)를 카테고리별로 정리하는 정적 사이트.
-데이터는 `data/`의 JSON, `node scripts/build.mjs`가 `dist/`로 빌드, `main`에 푸시하면 GitHub Actions가 GitHub Pages로 배포한다.
+데이터는 `data/`의 JSON, `node scripts/build.mjs`가 `dist/`로 빌드, `main`에 푸시하면 GitHub Actions가 GitHub Pages(https://free-ai.today, GoDaddy 도메인)로 배포한다.
 
 - `data/tools/<category>.json` — 서비스 항목 배열 (category: image, video, music, voice, chat, code, 3d)
 - `data/changelog.json` — 날짜별 변경 기록 (최신이 맨 앞)
 - `data/categories.json` — 카테고리 이름/설명
 - `data/logos.json` — 자동 수집이 안 되는 로고의 직접 URL (선택)
+- `data/hot-terms.json` — 화제성(🔥) 검색어. 키는 logo 키 또는 항목 id(id 우선). 동음이의어는 구체적인 구로
+- `data/hot.json` — `node scripts/hot.mjs` 결과 (디시·클리앙·Hacker News 최근 30일 언급량 → score). 목록 기본 정렬과 🔥 표시에 쓰임
 - `public/logos/<logo>.<ext>` — 공식 아이콘 (`node scripts/fetch-logos.mjs` 로 수집)
 - `site.config.json` — 사이트 이름, 주소, giscus 댓글 설정
 
@@ -33,7 +35,7 @@
    ] }
    ```
    type: `new`(신규) · `update`(변경) · `ended`(무료 종료) · `promo`(이벤트) · `fix`(정정) · `check`(점검, id 없이 "N개 항목 재확인")
-5. **빌드 검증**: `node scripts/fetch-logos.mjs` (새 logo 키만 받아옴) → `node scripts/build.mjs`. 빌드가 데이터 오류를 출력하면 고친다.
+5. **화제성·빌드**: 새 플랫폼을 넣었으면 `data/hot-terms.json`에 검색어 추가 → `node scripts/hot.mjs` (약 2~3분) → `node scripts/fetch-logos.mjs` (새 logo 키만 받아옴) → `node scripts/build.mjs`. 빌드가 데이터 오류를 출력하면 고친다.
 6. **커밋·푸시**: `git add -A && git commit -m "update: YYYY-MM-DD <요약>" && git push`. 푸시하면 자동 배포된다.
 
 ## 판단 기준
@@ -86,4 +88,4 @@
 
 ## 로컬 미리보기
 
-`npm run dev` → http://localhost:4173/free-ai/
+`npm run dev` → http://localhost:4173/

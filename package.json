@@ -6,6 +6,7 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "logos": "node scripts/fetch-logos.mjs",
+    "hot": "node scripts/hot.mjs",
     "dev": "node scripts/build.mjs && node scripts/serve.mjs"
   }
 }
