@@ -12,7 +12,8 @@ const config = readJSON('site.config.json');
 const categories = readJSON('data/categories.json');
 const changelog = readJSON('data/changelog.json').sort((a, b) => b.date.localeCompare(a.date));
 const catById = Object.fromEntries(categories.map((c) => [c.id, c]));
-const BASE = config.basePath.replace(/\/$/, '');
+// BASE_PATH 환경변수로 덮어쓸 수 있음: free-ai.today 용은 '', x0te.github.io/free-ai 용은 '/free-ai'
+const BASE = (process.env.BASE_PATH ?? config.basePath).replace(/\/$/, '');
 const url = (p = '') => `${BASE}/${p}`.replace(/\/+/g, '/');
 const abs = (p = '') => config.baseUrl.replace(/\/$/, '') + '/' + p.replace(/^\//, '');
 

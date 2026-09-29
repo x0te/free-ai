@@ -1,11 +1,15 @@
 name: deploy
 
+# 한 번의 빌드로 두 주소에 배포
+#   x0te.github.io/free-ai/  ← 이 저장소의 GitHub Pages (BASE_PATH=/free-ai)
+#   free-ai.today            ← x0te/free-ai-today 의 gh-pages 브랜치 (BASE_PATH='', 배포 키로 푸시)
+
 on:
   push:
     branches: [main]
   workflow_dispatch:
   schedule:
-    # 매일 00:10 KST 재빌드 (NEW 배지·이벤트 만료 반영)
+    # 매일 00:10 KST 재빌드 (NEW 배지·이벤트 만료·화제성 반영)
     - cron: '10 15 * * *'
 
 permissions:
@@ -32,12 +36,32 @@ jobs:
         if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: node scripts/hot.mjs
         continue-on-error: true
-      - name: 빌드
+
+      - name: 빌드 — x0te.github.io/free-ai
         run: node scripts/build.mjs
+        env:
+          BASE_PATH: /free-ai
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:
           path: dist
+
+      - name: 빌드 — free-ai.today
+        run: node scripts/build.mjs
+        env:
+          BASE_PATH: ''
+      - name: free-ai.today 저장소로 배포
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.FREE_AI_TODAY_DEPLOY_KEY }}
+          external_repository: x0te/free-ai-today
+          publish_branch: gh-pages
+          publish_dir: ./dist
+          cname: free-ai.today
+          force_orphan: true
+          user_name: github-actions[bot]
+          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          full_commit_message: 'deploy: x0te/free-ai@${{ github.sha }}'
 
   deploy:
     needs: build

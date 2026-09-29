@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIST = path.join(ROOT, 'dist');
-const BASE = JSON.parse(fs.readFileSync(path.join(ROOT, 'site.config.json'), 'utf8')).basePath.replace(/\/$/, '');
+const BASE = (process.env.BASE_PATH ?? JSON.parse(fs.readFileSync(path.join(ROOT, 'site.config.json'), 'utf8')).basePath).replace(/\/$/, '');
 const PORT = Number(process.env.PORT) || 4173;
 const TYPES = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png', '.ico': 'image/x-icon', '.jpg': 'image/jpeg', '.webp': 'image/webp', '.xml': 'application/xml', '.txt': 'text/plain' };
 
