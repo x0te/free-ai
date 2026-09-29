@@ -105,12 +105,14 @@ const launchDate = changelog.length ? changelog[changelog.length - 1].date : tod
 const isNew = (t) => t.added > launchDate && daysBetween(t.added, today) <= 3;
 const isUpdated = (t) => !isNew(t) && t.updated > launchDate && daysBetween(t.updated, today) <= 3;
 
+const CONF_RANK = { high: 3, medium: 2, low: 1 };
 const sortTools = (list) =>
   [...list].sort(
     (a, b) =>
       (a.status === 'ended') - (b.status === 'ended') ||
       isPromoActive(b) - isPromoActive(a) ||
       b.updated.localeCompare(a.updated) ||
+      (CONF_RANK[b.confidence] || 0) - (CONF_RANK[a.confidence] || 0) ||
       (a.access === 'wrapper') - (b.access === 'wrapper') ||
       a.platform.localeCompare(b.platform)
   );
