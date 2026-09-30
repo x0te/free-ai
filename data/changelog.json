@@ -1,22 +1,472 @@
 [
   {
+    "date": "2026-09-30",
+    "summary": "2차 검증: 공식 요금제 + 미국·중국·일본·한국 커뮤니티 교차 확인. 무료 조건 63건 정정, 신규 14곳 추가 (Dreamina 영상 무료 사실상 막힘, Hailuo 매일 크레딧 폐지 등)",
+    "items": [
+      {
+        "type": "new",
+        "id": "codebuddy-code",
+        "text": "CodeBuddy — 무료 → 월 100크레딧 + 가입 보너스 250크레딧(14일) + 대화한 날마다 30크레딧(기간 한정), 자동완성 월 5,000회"
+      },
+      {
+        "type": "new",
+        "id": "qoder-code",
+        "text": "Qoder — 무료 → 첫 로그인 시 Pro 14일 체험(300크레딧, 카드 불필요) 후 기본 모델로 일일 한도 내 계속 사용"
+      },
+      {
+        "type": "new",
+        "id": "mistral-vibe-image",
+        "text": "Mistral Vibe(구 Le Chat) → 무료 계정도 채팅에서 이미지 생성 (한도 비공개, Pro는 무료의 최대 40배)"
+      },
+      {
+        "type": "new",
+        "id": "treblo-music",
+        "text": "Treblo(구 Sonauto): 무료 계정으로 곡 생성 무제한 + 모든 포맷 다운로드, 사용 제한 없음"
+      },
+      {
+        "type": "new",
+        "id": "happyshrimp-music",
+        "text": "HappyShrimp(알리바바): 매일 로그인 120크레딧 ≈ 하루 약 6곡 + 가입 시 320크레딧, MP3 다운로드"
+      },
+      {
+        "type": "new",
+        "id": "minimax-audio-music",
+        "text": "MiniMax Audio 음악: 무료 월 1만 크레딧 ≈ Music-3.0 노래 약 33곡 (TTS와 크레딧 공유)"
+      },
+      {
+        "type": "new",
+        "id": "ttsmaker-voice",
+        "text": "TTSMaker: 로그인 없이 무료 TTS — 한국어 보이스 포함, 1회 최대 500자, 상업 이용도 무료"
+      },
+      {
+        "type": "new",
+        "id": "wan-video",
+        "text": "Wan 공식 사이트 무료: 매일 출석 체크 크레딧(보고 50/일) → Wan 3.0 짧은 영상 하루 약 5개, 워터마크"
+      },
+      {
+        "type": "new",
+        "id": "qwen-chat-video",
+        "text": "Qwen Chat 영상 생성 → 구독 없이 무료, 하루 몇 개 수준 (공식 한도 비공개, 사용자 보고 약 4개)"
+      },
+      {
+        "type": "new",
+        "id": "bandicam-ai-video",
+        "text": "반디캠 AI 스튜디오(9/28 출시): 가입 시 100크레딧 1회 → 480p 5초 영상 약 5개 (또는 이미지 약 100장)"
+      },
+      {
+        "type": "new",
+        "id": "bandicam-ai-image",
+        "text": "반디캠 AI 스튜디오(9/28 출시): 가입 시 100크레딧 1회 → 1024×1024 이미지 약 100장 (기본 모델 기준)"
+      },
+      {
+        "type": "new",
+        "id": "viggle-video",
+        "text": "Viggle 무료: 하루 영상 5개 (사진 속 인물 춤·캐릭터 스왑), 워터마크"
+      },
+      {
+        "type": "new",
+        "id": "venice-chat",
+        "text": "Venice 무료: 하루 텍스트 10회 + 이미지 15회 — 대화를 서버에 저장하지 않는 프라이버시형 AI"
+      },
+      {
+        "type": "new",
+        "id": "aihorde-image",
+        "text": "AI Horde: 자원봉사자 GPU로 돌아가는 완전 무료 이미지 생성 — 로그인 없이 무제한 (대기열 있음)"
+      },
+      {
+        "type": "update",
+        "id": "google-ai-studio-chat",
+        "text": "Google AI Studio: 무료 모델을 Gemini 3.8 Flash(9/2 GA)·3.7 Flash(8/13 GA)로 갱신"
+      },
+      {
+        "type": "update",
+        "id": "grok-chat",
+        "text": "Grok: 무료는 텍스트·음성 전용 확인(이미지·영상 3/19 유료화), 리셋 주기 불명으로 정정"
+      },
+      {
+        "type": "update",
+        "id": "microsoft-copilot-chat",
+        "text": "Microsoft Copilot: 8/18 앱 통합으로 무료 Deep Research·팟캐스트·그룹 채팅 종료 반영 (채팅·이미지 생성은 무료 유지)"
+      },
+      {
+        "type": "update",
+        "id": "kimi-chat",
+        "text": "Kimi: K3는 유료 멤버십 기능으로 확인 — 무료는 일반 채팅(K2.6 보고)만"
+      },
+      {
+        "type": "update",
+        "id": "meta-muse-chat",
+        "text": "Meta Muse: 무료 한도 정정(주 100만 → 주 1억 토큰), 웹 주소 muse.ai·캐나다 확대 반영"
+      },
+      {
+        "type": "update",
+        "id": "hix-chat",
+        "text": "HIX AI: 무료 예약 작업 20개·표준 모델 무제한 표기 정정 (요금표 재확인)"
+      },
+      {
+        "type": "update",
+        "id": "monica-chat",
+        "text": "Monica: 무료 기본 모델명(Claude 4.5 Haiku·Gemini 3.1 Flash-Lite) 확인"
+      },
+      {
+        "type": "update",
+        "id": "kiro-code",
+        "text": "Kiro: 신규 가입 보너스 500크레딧(14일)은 2026-05-08 폐지 확인 — 무료는 월 50크레딧만 (정정)"
+      },
+      {
+        "type": "update",
+        "id": "trae-code",
+        "text": "Trae: SOLO 모드는 무료 플랜에 포함되지 않음 (정정)"
+      },
+      {
+        "type": "update",
+        "id": "openai-codex-code",
+        "text": "Codex: 무료 계정은 ChatGPT 데스크톱 앱에서만 사용 (CLI·IDE·클라우드는 유료) — 정정"
+      },
+      {
+        "type": "update",
+        "id": "hi3d-3d",
+        "text": "Hi3D: 무료 계정은 모델 파일 다운로드 불가(공식 요금표) 확인 — 제한적(limited)으로 변경"
+      },
+      {
+        "type": "update",
+        "id": "krea-3d",
+        "text": "Krea 3D: 공식 요금표 기준 무료 3D 하루 약 2개·업스케일 하루 약 4장으로 한도 구체화"
+      },
+      {
+        "type": "update",
+        "id": "removebg-3d",
+        "text": "remove.bg: 무료 결과물은 개인 용도만(상업 이용 불가), 앱·API 월 50회 무료 미리보기 확인"
+      },
+      {
+        "type": "update",
+        "id": "meta-sam3d-3d",
+        "text": "SAM 3D Playground: 개인·비상업 용도 전용 연구 데모임을 확인"
+      },
+      {
+        "type": "update",
+        "id": "clipdrop-3d",
+        "text": "Clipdrop: Text to image·Uncrop·배경 교체는 무료 제외(Pro 전용) 확인"
+      },
+      {
+        "type": "update",
+        "id": "dreamina-image",
+        "text": "Dreamina: 무료 일일 크레딧은 남아 있지만 축소·계정별 편차 보고 반영 (중국판 즉梦은 하루 10~30으로 급감), 무료 결과물 워터마크 명시"
+      },
+      {
+        "type": "update",
+        "id": "gemini-app-image",
+        "text": "Gemini 앱: 이미지 한도는 매일 초기화(5시간 충전은 대화 한도)로 정정, 무료 이미지의 가시 워터마크(반짝이) 반영"
+      },
+      {
+        "type": "update",
+        "id": "meta-ai-image",
+        "text": "Meta AI: 9/15 Meta One 유료 구독 정식 출시 반영 (무료 이미지 생성은 유지)"
+      },
+      {
+        "type": "update",
+        "id": "tencent-yuanbao-image",
+        "text": "텐센트 위안바오: Hy Image 3.5 preview 무료 생성 확인 (최대 2K, 횟수 비공개)"
+      },
+      {
+        "type": "update",
+        "id": "kling-image",
+        "text": "Kling AI: 글로벌판 주소가 kling.ai로 바뀜 (무료 매일 66크레딧은 그대로 보고됨)"
+      },
+      {
+        "type": "update",
+        "id": "playground-image",
+        "text": "Playground: 주소가 playgroundai.com으로 바뀜 (무료 3시간 10장 + 월 3크레딧은 그대로)"
+      },
+      {
+        "type": "update",
+        "id": "krea-image",
+        "text": "Krea: 무료 플랜에서도 Flux·Qwen·Z-Image 같은 오픈모델을 쓸 수 있음을 확인하고 모델별 하루 장수(Krea 2 Turbo 50장 등) 반영"
+      },
+      {
+        "type": "update",
+        "id": "nightcafe-image",
+        "text": "NightCafe 정정: 무료(Relax) 크레딧으로는 Z-Image·Flux Schnell 등만 쓸 수 있고 Nano Banana·Seedream·GPT Image는 PRO 전용"
+      },
+      {
+        "type": "update",
+        "id": "seaart-image",
+        "text": "SeaArt 정정: 무료 일일 스태미나 150 → 130(약 21장)"
+      },
+      {
+        "type": "update",
+        "id": "felo-image",
+        "text": "Felo: 모델별 차감량 확인 — 무료 200크레딧으로 Nano Banana 하루 4장 수준"
+      },
+      {
+        "type": "update",
+        "id": "flora-image",
+        "text": "FLORA: 무료 17회는 사용량 $2.50 한도(Nano Banana 2 기준)로 확인"
+      },
+      {
+        "type": "update",
+        "id": "imagineart-image",
+        "text": "ImagineArt: 무료 100크레딧으로 Flux Dev 하루 약 20장 (장당 5크레딧) 계산 추가"
+      },
+      {
+        "type": "update",
+        "id": "pollinations-image",
+        "text": "Pollinations: 무료 Pollen은 퀘스트 보상 방식이며 GPT Image 2·1.5 등도 무료 Pollen으로 사용 가능 확인"
+      },
+      {
+        "type": "update",
+        "id": "perchance-image",
+        "text": "Perchance 정정: 사용 모델 구형 SD → Flux 계열 Chroma(보고)"
+      },
+      {
+        "type": "update",
+        "id": "raphael-image",
+        "text": "Raphael AI: 로그인 무료 일일 크레딧 약 10(보고) 반영"
+      },
+      {
+        "type": "update",
+        "id": "dzine-image",
+        "text": "Dzine: 가입 100크레딧 기준 모델별 장수(Nano Banana 2 약 6장, Seedream 약 12장) 추가"
+      },
+      {
+        "type": "update",
+        "id": "magnific-image",
+        "text": "Magnific: 요금제 페이지에서 무료 플랜 표기가 사라졌지만 도움말 기준 무료 하루 20장은 유지 확인"
+      },
+      {
+        "type": "update",
+        "id": "elevenlabs-voice",
+        "text": "ElevenLabs: 9/28 출시 Eleven v4(90개+ 언어·한국어) 무료 계정에서도 사용 가능"
+      },
+      {
+        "type": "update",
+        "id": "musicgpt-music",
+        "text": "MusicGPT: 무료 모델이 v7로 바뀌고, 무료 다운로드는 곡당 50크레딧 차감 확인"
+      },
+      {
+        "type": "update",
+        "id": "mureka-music",
+        "text": "Mureka: 무료 매일 50 Gold(V7.5-all 최대 4곡)·다운로드 구독 전용을 공식 FAQ로 확인"
+      },
+      {
+        "type": "update",
+        "id": "topmediai-music",
+        "text": "TopMediai: 무료용 모델이 V3.5에서 v6-mini로 바뀜 (무료 크레딧 수치는 여전히 불명확)"
+      },
+      {
+        "type": "update",
+        "id": "musicful-music",
+        "text": "Musicful: 생성 화면에 최신 V3.0 1회 무료 체험 표시 확인"
+      },
+      {
+        "type": "update",
+        "id": "youtube-dream-track-music",
+        "text": "YouTube Dream Track: 프롬프트는 영어뿐 아니라 지원 언어로 입력 가능하도록 정정"
+      },
+      {
+        "type": "update",
+        "id": "copilot-audio-expressions-voice",
+        "text": "Copilot Audio Expressions: MAI-Voice-2(한국어 포함 15개+ 언어) 무료 체험처로 공식 안내 확인"
+      },
+      {
+        "type": "update",
+        "id": "minimax-audio-voice",
+        "text": "MiniMax Audio: 무료 월 1만 크레딧(HD 음성 약 12분)·보이스 슬롯 3개 공식 요금표로 확인"
+      },
+      {
+        "type": "update",
+        "id": "luvvoice-voice",
+        "text": "LuvVoice: 한국어 음성 제공·비로그인 1회 3,000자 변환 확인"
+      },
+      {
+        "type": "update",
+        "id": "vrew-voice",
+        "text": "Vrew: 무료 플랜 Vrew 워터마크 표시·'AI 내 목소리' 1개 무료를 공식 요금표로 확인"
+      },
+      {
+        "type": "update",
+        "id": "typecast-voice",
+        "text": "타입캐스트: 무료 플랜 영상 워터마크(베이직 이상에서 제거) 확인"
+      },
+      {
+        "type": "update",
+        "id": "cartesia-voice",
+        "text": "Cartesia: 보이스 클론은 무료 미포함(Pro부터)으로 정정"
+      },
+      {
+        "type": "update",
+        "id": "hf-stable-audio-3-music",
+        "text": "Stable Audio 3: 공식 웹 stableaudio.com 무료 플랜(매월 1일 갱신) 존재 확인"
+      },
+      {
+        "type": "update",
+        "id": "hf-minimax-music3-music",
+        "text": "MiniMax Music 3 (HF): MiniMax Audio 웹 무료 한도(월 약 33곡) 확인 반영"
+      },
+      {
+        "type": "update",
+        "id": "dreamina-video",
+        "text": "Dreamina: 무료 계정 영상 생성 사실상 막힘 — 일일 크레딧 축소·미지급, 생성 시 구독 결제창 보고 (중국판 즉몽은 일일 10~30으로 축소)"
+      },
+      {
+        "type": "update",
+        "id": "hailuo-video",
+        "text": "Hailuo: 매일 주던 무료 크레딧 없어짐 — 가입 체험 크레딧 1회(약 200, 3일 안에 소멸 보고)만. MiniMax H3 모델 추가"
+      },
+      {
+        "type": "update",
+        "id": "vidu-video",
+        "text": "Vidu: 무료 한도 정정 — 공식 요금표상 월 크레딧·Off-Peak 무제한 없음, 가입·매일 로그인 보너스만 (10/6 요금제 개편 예정)"
+      },
+      {
+        "type": "update",
+        "id": "pixverse-video",
+        "text": "PixVerse: 최신 모델 V6 기준으로 무료 개수 재계산 (360p 5초 약 25크레딧 → 하루 1개)"
+      },
+      {
+        "type": "update",
+        "id": "capcut-video",
+        "text": "CapCut: Seedance 2.5는 구독 계정부터 적용이라는 공식 안내 반영, 신뢰도 하향"
+      },
+      {
+        "type": "update",
+        "id": "gemini-video",
+        "text": "Gemini 앱: 무료 영상 프로모션 종료일 정정 (8/4 → 8/11로 연장 후 종료)"
+      },
+      {
+        "type": "update",
+        "id": "luma-video",
+        "text": "Luma: 모델명 Ray3.2로 정정 (무료 플랜은 여전히 없음)"
+      },
+      {
+        "type": "update",
+        "id": "bing-video-creator-video",
+        "text": "Bing Video Creator: '종료 추정' 정정 — Sora 2 영상 생성이 페이지에 아직 노출, Azure Sora 2 은퇴 예정일(2026-10-15)까지 쓸 수 있을 가능성"
+      },
+      {
+        "type": "update",
+        "id": "vheer-video",
+        "text": "Vheer 영상: 무료는 이미지→영상(768p)만 — 텍스트→영상·프리미엄 모델은 유료 전용, 무료는 개인 용도로 정정"
+      },
+      {
+        "type": "update",
+        "id": "genspark-video",
+        "text": "Genspark 영상: 무료 일일 100크레딧에 계정당 평생 한도가 있다고 공식 가이드에서 확인"
+      },
+      {
+        "type": "update",
+        "id": "seaart-video",
+        "text": "SeaArt 영상: 무료 130 스태미나 공식 확인 — 최신 모델 영상은 1개도 어려움, 무료 영상은 워터마크"
+      },
+      {
+        "type": "update",
+        "id": "vrew-video",
+        "text": "브루 AI 비디오: 무료는 브루 워터마크, AI 비디오 원본 다운로드는 Light 이상임을 확인"
+      },
+      {
+        "type": "update",
+        "id": "leonardo-video",
+        "text": "Leonardo 영상: 무료 영상 워터마크, 내 이미지 업로드는 유료 전용임을 확인"
+      },
+      {
+        "type": "update",
+        "id": "pollo-ai-video",
+        "text": "Pollo AI: 무료 20크레딧은 매월 충전이 아니라 가입 보너스로 정정 (공식 크레딧 FAQ)"
+      },
+      {
+        "type": "update",
+        "id": "wavespeed-video",
+        "text": "WaveSpeedAI: 체험 $1 크레딧으로 일부 프리미엄 모델은 못 쓸 수 있다는 공식 FAQ 반영"
+      },
+      {
+        "type": "update",
+        "id": "pixelbin-video",
+        "text": "Pixelbin 영상: 공식 모델별 단가표(Seedance Lite 2크레딧) 반영, 무료 10크레딧 개수를 약 1~5개로 정정"
+      },
+      {
+        "type": "update",
+        "id": "elevenlabs-voice",
+        "text": "ElevenLabs: 새 음성 모델 Eleven v4·v4 Turbo 출시(9/28), 무료 계정도 사용 가능 (크레딧 3배 이벤트는 Creator 이상 유료 플랜만, 10/12까지)"
+      },
+      {
+        "type": "check",
+        "text": "2차 검증: 전체 188개 중 186개 재확인 (공식 요금제 + 미국·중국·한국 커뮤니티 교차 확인)"
+      }
+    ]
+  },
+  {
     "date": "2026-09-29",
     "summary": "사이트 오픈 — 공식 서비스와 wrapper 사이트 174곳의 무료 조건을 처음으로 정리했습니다. 최근 한 달 사이 눈에 띄는 변화도 함께 적습니다.",
     "items": [
-      { "type": "new", "text": "174개 항목 등록 (이미지 43 · 영상 37 · 음악 17 · 음성 16 · 챗봇 27 · 코딩 19 · 3D·기타 15)" },
-      { "type": "promo", "id": "chatgpt-for-kakao-chat", "text": "카카오톡 ChatGPT: 만 19~34세 대상 ChatGPT Plus 2개월 무료 (결제수단 등록 불필요)" },
-      { "type": "promo", "id": "pixai-image", "text": "PixAI 4주년 출석 이벤트: 매일 체크인으로 최대 31.5만 크레딧" },
-      { "type": "update", "id": "claude-chat", "text": "Claude 무료 기본 모델이 9/28 출시된 Sonnet 5.5로 변경" },
-      { "type": "update", "id": "google-vids-video", "text": "Google Vids: 개인 계정에도 AI 영상 생성 월 6개 무료 개방 (9/23)" },
-      { "type": "update", "id": "google-ai-studio-voice", "text": "Gemini 3.8 Flash TTS 출시 — AI Studio에서 무료, 한국어 지원 (9/23)" },
-      { "type": "update", "id": "suno-music", "text": "Suno v6 출시 — 무료는 v6-mini만, 다운로드는 계정당 평생 7곡으로 제한 (9/3, 9/9)" },
-      { "type": "update", "id": "chatgpt-image", "text": "ChatGPT Images 2.5 출시, 무료 계정도 사용 가능 (9/8)" },
-      { "type": "new", "id": "huggingface-qwen-image", "text": "Qwen-Image 2.1 오픈 모델 공개 — Hugging Face 데모 로그인 없이 무료 (9/20)" },
-      { "type": "ended", "id": "sora-video", "text": "Sora 2 API 완전 제거 (9/24) — Sora 앱은 4/26 종료" },
-      { "type": "ended", "id": "getimg-image", "text": "getimg.ai 무료 플랜 폐지" },
-      { "type": "update", "id": "dzine-image", "text": "Dzine: 매일 32크레딧 리셋 폐지 → 가입 시 100크레딧 1회" },
-      { "type": "update", "id": "marble-3d", "text": "AMD가 World Labs 인수 발표 (9/28) — Marble 무료 플랜 향후 방침 미정" },
-      { "type": "ended", "id": "gemini-video", "text": "Gemini 앱 비구독자 무료 영상 프로모션 종료 (8/4) — 무료 Veo는 Google Flow에서" }
+      {
+        "type": "new",
+        "text": "174개 항목 등록 (이미지 43 · 영상 37 · 음악 17 · 음성 16 · 챗봇 27 · 코딩 19 · 3D·기타 15)"
+      },
+      {
+        "type": "promo",
+        "id": "chatgpt-for-kakao-chat",
+        "text": "카카오톡 ChatGPT: 만 19~34세 대상 ChatGPT Plus 2개월 무료 (결제수단 등록 불필요)"
+      },
+      {
+        "type": "promo",
+        "id": "pixai-image",
+        "text": "PixAI 4주년 출석 이벤트: 매일 체크인으로 최대 31.5만 크레딧"
+      },
+      {
+        "type": "update",
+        "id": "claude-chat",
+        "text": "Claude 무료 기본 모델이 9/28 출시된 Sonnet 5.5로 변경"
+      },
+      {
+        "type": "update",
+        "id": "google-vids-video",
+        "text": "Google Vids: 개인 계정에도 AI 영상 생성 월 6개 무료 개방 (9/23)"
+      },
+      {
+        "type": "update",
+        "id": "google-ai-studio-voice",
+        "text": "Gemini 3.8 Flash TTS 출시 — AI Studio에서 무료, 한국어 지원 (9/23)"
+      },
+      {
+        "type": "update",
+        "id": "suno-music",
+        "text": "Suno v6 출시 — 무료는 v6-mini만, 다운로드는 계정당 평생 7곡으로 제한 (9/3, 9/9)"
+      },
+      {
+        "type": "update",
+        "id": "chatgpt-image",
+        "text": "ChatGPT Images 2.5 출시, 무료 계정도 사용 가능 (9/8)"
+      },
+      {
+        "type": "new",
+        "id": "huggingface-qwen-image",
+        "text": "Qwen-Image 2.1 오픈 모델 공개 — Hugging Face 데모 로그인 없이 무료 (9/20)"
+      },
+      {
+        "type": "ended",
+        "id": "sora-video",
+        "text": "Sora 2 API 완전 제거 (9/24) — Sora 앱은 4/26 종료"
+      },
+      {
+        "type": "ended",
+        "id": "getimg-image",
+        "text": "getimg.ai 무료 플랜 폐지"
+      },
+      {
+        "type": "update",
+        "id": "dzine-image",
+        "text": "Dzine: 매일 32크레딧 리셋 폐지 → 가입 시 100크레딧 1회"
+      },
+      {
+        "type": "update",
+        "id": "marble-3d",
+        "text": "AMD가 World Labs 인수 발표 (9/28) — Marble 무료 플랜 향후 방침 미정"
+      },
+      {
+        "type": "ended",
+        "id": "gemini-video",
+        "text": "Gemini 앱 비구독자 무료 영상 프로모션 종료 (8/4) — 무료 Veo는 Google Flow에서"
+      }
     ]
   }
 ]

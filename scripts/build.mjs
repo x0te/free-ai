@@ -101,7 +101,7 @@ for (const t of tools) {
   t.hotKey = hotTerms[t.id] ? t.id : t.logo;
   t.hot = hotData.items[t.hotKey] || { score: 0, dc: 0, clien: 0, hn: 0 };
   // 정렬용 점수: 무료가 제한적인 항목은 조금 뒤로
-  t.rank = t.hot.score * (t.status === 'limited' ? 0.75 : 1);
+  t.rank = t.hot.score * (t.status === 'limited' ? 0.5 : 1);
 }
 
 const RESET_LABEL = { unlimited: '무제한', daily: '매일 충전', weekly: '매주 충전', monthly: '매월 충전', once: '가입 시 1회' };
@@ -131,8 +131,8 @@ const sortTools = (list) =>
 const HOT_TOP = 12;
 const byScore = tools.filter((t) => t.status !== 'ended').sort((a, b) => b.rank - a.rank);
 const hotKeys = new Set([...new Set(byScore.map((t) => t.hotKey))].slice(0, HOT_TOP));
-for (const t of byScore) t.isHot = hotKeys.has(t.hotKey);
-for (const c of categories) byScore.filter((t) => t.category === c.id && t.rank >= 0.3).slice(0, 3).forEach((t) => (t.isHot = true));
+for (const t of byScore) t.isHot = t.status === 'active' && hotKeys.has(t.hotKey);
+for (const c of categories) byScore.filter((t) => t.category === c.id && t.status === 'active' && t.rank >= 0.3).slice(0, 3).forEach((t) => (t.isHot = true));
 const hotBadge = (t) => (t.isHot ? '<span class="hot" title="최근 30일 커뮤니티 언급 상위">🔥</span>' : '');
 
 // 모델명 정규화: 괄호 부연 제거

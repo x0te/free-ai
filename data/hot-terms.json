@@ -156,5 +156,18 @@
   "arena-video": { "ko": [], "en": ["Video Arena"] },
   "elevenlabs-music": { "ko": ["일레븐랩스 음악"], "en": ["Eleven Music", "ElevenLabs Music"] },
   "elevenlabs-sfx-music": { "ko": ["일레븐랩스 효과음"], "en": ["ElevenLabs Sound Effects"] },
-  "gemini-notebook-voice": { "ko": ["오디오 오버뷰"], "en": ["Audio Overview"] }
+  "gemini-notebook-voice": { "ko": ["오디오 오버뷰"], "en": ["Audio Overview"] },
+  "venice": { "ko": ["베니스 AI"], "en": ["Venice AI"] },
+  "codebuddy": { "ko": ["코드버디"], "en": ["CodeBuddy"] },
+  "qoder": { "ko": ["큐더"], "en": ["Qoder"] },
+  "bandicam": { "ko": ["반디캠 AI"], "en": ["Bandicam AI"] },
+  "aihorde": { "ko": [], "en": ["AI Horde", "Stable Horde"] },
+  "treblo": { "ko": ["트레블로"], "en": ["Treblo", "Sonauto"] },
+  "happyshrimp": { "ko": [], "en": ["HappyShrimp"] },
+  "wan": { "ko": ["완 3.0"], "en": ["Wan 3.0", "Wan AI"] },
+  "viggle": { "ko": ["비글 AI"], "en": ["Viggle"] },
+  "ttsmaker": { "ko": ["TTS메이커"], "en": ["TTSMaker"] },
+  "qwen-chat-video": { "ko": ["큐웬 영상"], "en": ["Qwen video"] },
+  "minimax-audio-music": { "ko": ["미니맥스 음악"], "en": ["MiniMax Music"] },
+  "mistral-vibe-image": { "ko": [], "en": ["Mistral image"] }
 }

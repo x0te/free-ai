@@ -38,7 +38,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Understanding your AI usage (Canva Help Center)",
@@ -87,7 +87,7 @@
       "commercialUse": "불명",
       "signup": "일부 도구는 로그인 없이 이용 가능. 무료 로그인을 하면 횟수가 늘어남",
       "korea": "가능",
-      "notes": "무료는 한 장씩만 처리 가능(일괄 처리 불가)하고 해상도 제한이 있음(Pro는 고해상도, 업스케일 최대 16배). 사용자가 몰리면 무료 대기열이 꽉 찰 수 있음. Text to image, Uncrop, 배경 교체의 무료 제공 여부는 요금표에서 명확하지 않음."
+      "notes": "Text to image, Uncrop, 배경 교체(Replace Background)는 요금표에서 무료 플랜에 제외(취소선) 표시 → Pro 전용. 무료는 한 장씩만 처리 가능(일괄 처리 불가)하고 해상도 제한이 있음(Pro는 고해상도, 업스케일 최대 16배). 사용자가 몰리면 무료 대기열이 꽉 찰 수 있음"
     },
     "howTo": [
       "clipdrop.co 에 접속해 쓰려는 도구(예: Remove background)를 고릅니다.",
@@ -103,7 +103,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Clipdrop Pricing (공식)",
@@ -114,7 +114,7 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "daily",
       "watermark": "unknown",
@@ -159,7 +159,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "How do credits work in Gamma? (Gamma Help Center)",
@@ -193,37 +193,43 @@
     "logo": "hi3d",
     "logoDomain": "hi3d.ai",
     "models": [
-      "Sparc3D",
-      "Ultra3D",
-      "Hitem3D 2.x"
+      "Hi3D v3.0",
+      "Hi3D v2.1"
     ],
-    "headline": "가입 시 평생 100크레딧 → 텍스처 모델 약 3개(Fast 30크레딧 기준), 작업당 재생성 3회 무료",
-    "description": "고해상도 3D 생성 모델 Sparc3D와 Ultra3D를 바탕으로 만든 이미지→3D 서비스입니다. 날카로운 모서리와 세밀한 형상을 잘 살려서 피규어나 3D 프린팅용 모델에 강점이 있습니다. FBX·GLB·OBJ·STL·USDZ로 내보낼 수 있습니다. 무료 크레딧은 한 번만 주어지므로 맛보기 용도로 적합합니다.",
+    "headline": "가입 시 평생 100크레딧 → 3D 약 3개 생성 체험, 단 무료는 모델 파일 다운로드 불가 (프린터 전송만 월 5개)",
+    "description": "Hitem3D에서 이름을 바꾼 Hi3D의 이미지→3D 서비스로, 자체 모델 Hi3D v3.0·v2.1을 씁니다. 날카로운 모서리와 세밀한 형상을 잘 살려서 피규어나 3D 프린팅용 모델에 강점이 있습니다. 유료 플랜은 FBX·GLB·OBJ·STL·USDZ로 내보낼 수 있지만, 무료 계정은 공식 요금표상 다운로드가 막혀 있어 품질 확인과 프린터 전송 체험 용도입니다.",
     "freeTier": {
-      "quota": "평생 100크레딧 (1회 지급), 무료 생성 에셋 최대 10개, 저장 최대 7개. 리뷰 기준 Fast 모드 텍스처 포함 1회 약 30크레딧(Pro 모드는 약 2배)",
-      "reset": "가입 시 1회 (추천·공유 이벤트로 추가 적립 가능)",
+      "quota": "평생 100크레딧 (1회 지급), 무료 생성 에셋 최대 10개, 저장 최대 7개. 리뷰 기준 Fast 모드 텍스처 포함 1회 약 30크레딧(Pro 모드는 약 2배). 공식 요금표상 무료는 모델 다운로드 불가(Download limit: Not available), 'Send to printer'로 연동 슬라이서에 보내기만 월 5개",
+      "reset": "가입 시 1회 (추천·앱 내 과제·이벤트로 추가 적립 가능)",
       "watermark": "불명",
       "commercialUse": "무료 모델은 공개(CC BY 4.0) 처리되어 출처 표기가 필요. 비공개·상업 전용 권리는 유료",
       "signup": "계정 가입 필요 (카드 불필요)",
       "korea": "가능",
-      "notes": "작업당 무료 재시도 3회. 공유 링크로 신규 가입자가 생기면 1명당 10크레딧 적립 (하루 최대 50크레딧, 공식 X 공지). 유료는 월 1,000~8,000크레딧."
+      "notes": "작업당 무료 재시도 3회, 동시 작업 1개, 표준 채널. Text to Image·Image to 3D 등 일부 기능은 '체험(Trial some features)' 수준으로 표기. 공유 링크로 신규 가입자가 생기면 1명당 10크레딧 적립(하루 최대 50크레딧, 2025-12 공식 X 공지). 2026-08 Hi3D v3.0 출시(출시 기념 48시간 무료 이벤트는 종료). v3.0을 무료 크레딧으로 쓸 수 있는지는 확인되지 않음. 유료는 월 1,000~8,000크레딧"
     },
     "howTo": [
       "hi3d.ai 에서 'Try for free'로 가입합니다.",
-      "Image to 3D에 이미지를 올리고 Fast 모드와 텍스처 여부를 선택합니다.",
-      "결과가 마음에 들지 않으면 무료 재시도 3회를 쓰고, 완성본을 STL/GLB 등으로 내보냅니다."
+      "Image to 3D에 이미지를 올리고 모드와 텍스처 여부를 선택합니다.",
+      "결과는 웹에서 확인하거나 'Send to printer'로 Bambu Studio·OrcaSlicer 등 연동 슬라이서에 보낼 수 있습니다 (파일 다운로드는 유료 플랜 필요)."
     ],
     "tags": [
       "가입시1회",
       "로그인필요",
       "CC BY 4.0",
       "이미지→3D",
-      "3D프린팅"
+      "3D프린팅",
+      "다운로드유료"
     ],
     "confidence": "medium",
-    "status": "active",
-    "lastVerified": "2026-09-29",
+    "status": "limited",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "Hi3D V3.0 is FREE to use for 48 hours! (Hi3D X)",
+        "url": "https://x.com/Hitem3D/status/2090032772492800386",
+        "type": "official",
+        "date": "2026-08-19"
+      },
       {
         "title": "Hi3D Pricing (공식)",
         "url": "https://www.hi3d.ai/pricing",
@@ -244,7 +250,7 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "once",
       "watermark": "unknown",
@@ -290,7 +296,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Spaces ZeroGPU: Usage Tiers (Hugging Face Docs)",
@@ -366,7 +372,7 @@
     ],
     "confidence": "medium",
     "status": "limited",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Hyper3D Pricing (공식)",
@@ -430,7 +436,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "What Is Included on the Free Plan (Meshy Help Center)",
@@ -479,26 +485,33 @@
       "quota": "공식 사용 한도 비공개 (웹 데모로 무료 제공)",
       "reset": "불명",
       "watermark": "불명",
-      "commercialUse": "불명 (모델 코드는 오픈소스, 인체 파라메트릭 모델 MHR은 상업 허용 라이선스)",
-      "signup": "불명",
+      "commercialUse": "불가 (Segment Anything Playground는 개인·비상업 용도 전용 연구 데모. 오픈소스 모델 코드와 인체 파라메트릭 모델 MHR은 별도 라이선스)",
+      "signup": "불명 (이용 전 Playground 약관 동의 필요, 로그인 버튼 있음)",
       "korea": "불명",
-      "notes": "연구용 데모라 예고 없이 바뀌거나 지역 제한이 있을 수 있음. 로컬에서 쓰려면 GitHub의 sam-3d-objects, sam-3d-body 저장소를 이용."
+      "notes": "Playground의 'Create 3D scenes'(SAM 3D Objects)·'Create 3D bodies'(SAM 3D Body) 메뉴에서 이용 (2026-09 확인). 연구용 데모라 예고 없이 바뀌거나 지역 제한이 있을 수 있음. 로컬에서 쓰려면 GitHub의 sam-3d-objects, sam-3d-body 저장소를 이용"
     },
     "howTo": [
-      "aidemos.meta.com/segment-anything 에 접속합니다.",
-      "이미지를 업로드하고 3D로 만들 물체나 사람을 클릭해 선택합니다.",
-      "생성된 3D 복원 결과를 확인하고 저장합니다."
+      "aidemos.meta.com/segment-anything/gallery 에 접속해 약관에 동의합니다.",
+      "'Create 3D scenes'(물체·장면) 또는 'Create 3D bodies'(사람)를 고릅니다.",
+      "이미지를 업로드하고 3D로 만들 대상을 클릭해 선택한 뒤 결과를 확인합니다."
     ],
     "tags": [
       "무료데모",
       "이미지→3D",
       "오픈소스",
-      "연구용"
+      "연구용",
+      "비상업"
     ],
     "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "Segment Anything Playground (Create 3D scenes / Create 3D bodies)",
+        "url": "https://www.aidemos.meta.com/segment-anything/gallery/",
+        "type": "official",
+        "date": "2026-09"
+      },
       {
         "title": "SAM 3D (Meta AI Blog)",
         "url": "https://ai.meta.com/blog/sam-3d/",
@@ -513,12 +526,12 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "unknown",
       "watermark": "unknown",
       "login": true,
-      "commercial": null
+      "commercial": false
     }
   },
   {
@@ -557,7 +570,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Napkin AI Pricing (공식)",
@@ -593,10 +606,10 @@
       "quota": "웹 미리보기 이미지(최대 0.25MP, 예: 625×400) 무료·무제한. 처음 가입해 로그인하면 고해상도 다운로드 1크레딧 제공",
       "reset": "무제한 (미리보기), 가입 시 1회 (고해상도 크레딧)",
       "watermark": "없음 (미리보기는 해상도만 제한)",
-      "commercialUse": "불명",
+      "commercialUse": "불가 (무료·비로그인 결과는 개인 용도만. 상업 이용은 구독이나 크레딧으로 받은 원본 해상도 이미지에만 허용)",
       "signup": "로그인 불필요 (미리보기)",
       "korea": "가능",
-      "notes": "데스크톱 앱·API에서는 미리보기도 0.25크레딧이 차감됨. 원본 해상도는 최대 50MP."
+      "notes": "데스크톱 앱·API는 월 50회 무료 미리보기가 있고, 그 이상은 미리보기에도 크레딧이 차감됨(기존 안내 0.25크레딧). 원본 해상도는 최대 50MP"
     },
     "howTo": [
       "remove.bg 에 접속해 이미지를 업로드하거나 붙여넣습니다.",
@@ -607,12 +620,25 @@
       "무제한",
       "로그인불필요",
       "배경제거",
-      "저해상도"
+      "저해상도",
+      "비상업"
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "Is remove.bg free? (remove.bg Help)",
+        "url": "https://www.remove.bg/help/a/is-remove-bg-free-",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Can I use remove.bg for commercial purposes? (remove.bg Help)",
+        "url": "https://www.remove.bg/help/a/can-i-use-remove-bg-for-commercial-purposes",
+        "type": "official",
+        "date": "2026-09"
+      },
       {
         "title": "remove.bg Pricing & Credits FAQ (공식)",
         "url": "https://www.remove.bg/pricing",
@@ -627,12 +653,12 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "unlimited",
       "watermark": "none",
       "login": false,
-      "commercial": null
+      "commercial": false
     }
   },
   {
@@ -672,7 +698,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Tencent Announces Global Launch of Hunyuan 3D Engine",
@@ -745,7 +771,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Tripo AI Pricing (공식)",
@@ -814,7 +840,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Upscayl 공식 사이트",
@@ -874,7 +900,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Subscriptions & billing - Marble (World Labs Docs)",
@@ -925,16 +951,16 @@
       "Tripo",
       "Krea Enhance"
     ],
-    "headline": "하루 100 컴퓨트 유닛 → Hunyuan3D·TRELLIS·Tripo 3D 생성, 업스케일은 가입 없이 체험",
+    "headline": "하루 100 컴퓨트 유닛 → 3D 모델 하루 약 2개 (Hunyuan3D·TRELLIS·Tripo), Enhance 업스케일 하루 약 4장",
     "description": "이미지·영상 생성으로 유명한 Krea에서 3D 탭을 열면 Hunyuan3D, TRELLIS, Tripo 같은 여러 3D 모델을 한곳에서 바꿔 가며 쓸 수 있습니다. 무료 플랜은 매일 채워지는 100 유닛을 이미지·영상·3D가 함께 나눠 쓰는 구조입니다. Enhance(업스케일러)는 가입하지 않아도 제한된 횟수만큼 써 볼 수 있습니다.",
     "freeTier": {
-      "quota": "하루 100 컴퓨트 유닛 (이미지·영상·3D 공용). 3D 모델별 유닛 소모량은 공개되지 않음. 참고로 Nano Banana 2 이미지 1장이 약 78유닛. 업스케일은 기본 모델로 최대 2K까지",
+      "quota": "하루 100 컴퓨트 유닛 (이미지·영상·3D 공용). 공식 요금표 기준 무료로 3D 모델만 만들면 하루 약 2개, Enhancer 업스케일만 하면 하루 약 4장. 업스케일은 기본 모델로 최대 2K까지",
       "reset": "매일",
       "watermark": "불명",
       "commercialUse": "불가 (상업 라이선스는 Basic 이상 유료 플랜에 포함)",
       "signup": "3D 생성은 가입 필요 (카드 불필요). Enhance는 로그인 없이 제한적으로 이용 가능",
       "korea": "가능",
-      "notes": "무료는 이미지 동시 작업 1개. 유닛이 다 떨어지면 다음 날 충전될 때까지 기다려야 함. 고급 업스케일(최대 8K 등)은 유료."
+      "notes": "무료는 3D 모델 접근이 '제한적(Limited)'으로 표기되어 일부 모델만 가능할 수 있음. 무료는 이미지 동시 작업 1개. 유닛이 다 떨어지면 다음 날 충전될 때까지 기다려야 함. 고급 업스케일(최대 8K 등)은 유료"
     },
     "howTo": [
       "krea.ai 에 가입하고 krea.ai/3d 로 이동합니다.",
@@ -948,9 +974,9 @@
       "멀티모델",
       "업스케일"
     ],
-    "confidence": "medium",
+    "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Krea Pricing (공식)",
@@ -971,7 +997,7 @@
     ],
     "access": "wrapper",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "daily",
       "watermark": "unknown",

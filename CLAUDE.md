@@ -29,7 +29,7 @@
 3. **데이터 수정** (아래 스키마 준수)
    - 새 항목: `added`, `updated`, `lastVerified` = 오늘
    - 내용이 바뀐 항목: `updated` = 오늘, 바뀐 필드만 수정
-   - 무료가 끝난 항목: 지우지 말고 `status: "ended"`, headline에 언제 끝났는지. ended 된 지 30일 넘은 항목은 삭제
+   - 무료가 끝난 항목: 지우지 말고 `status: "ended"`, headline에 언제 끝났는지. 사이트에서 ended로 바꾼 날(`updated`)로부터 30일이 지나면 삭제 (실제 종료일 기준 아님 — 종료 소식도 한 달은 보여준다)
    - 만료된 이벤트(`promo.until` < 오늘)는 `promo` 필드를 지운다
    - id는 절대 바꾸지 않는다 (댓글이 id에 묶여 있음)
 4. **변경 기록**: `data/changelog.json` 맨 앞에 오늘 항목 추가. 바뀐 게 없어도 점검 기록은 남긴다.

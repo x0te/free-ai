@@ -35,7 +35,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Base44 Pricing",
@@ -90,7 +90,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Plans & pricing: Bolt",
@@ -150,7 +150,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Claude Pricing",
@@ -211,7 +211,7 @@
     ],
     "confidence": "medium",
     "status": "limited",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Cursor Pricing",
@@ -277,7 +277,7 @@
     ],
     "confidence": "medium",
     "status": "limited",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Devin Pricing",
@@ -341,7 +341,7 @@
     ],
     "confidence": "high",
     "status": "ended",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Firebase Studio sunset and project migration",
@@ -400,7 +400,7 @@
     ],
     "confidence": "high",
     "status": "ended",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "An important update: Transitioning Gemini CLI to Antigravity CLI",
@@ -473,7 +473,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "GitHub Copilot · Plans & pricing",
@@ -548,7 +548,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Deploying from Google AI Studio (Starter Tier)",
@@ -627,7 +627,7 @@
     ],
     "confidence": "medium",
     "status": "limited",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Google Antigravity - Pricing",
@@ -700,7 +700,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Limits and Plans | Jules",
@@ -740,18 +740,24 @@
     "logoDomain": "kiro.dev",
     "models": [
       "Claude Sonnet 4.5",
-      "오픈 웨이트 모델"
+      "Claude Sonnet 4.0",
+      "Auto",
+      "Qwen3 Coder Next",
+      "DeepSeek 3.2",
+      "GLM-5",
+      "MiniMax M2.5",
+      "MiniMax M2.1"
     ],
-    "headline": "무료 → 매달 50크레딧 (Claude Sonnet 4.5) + 신규 가입 보너스 500크레딧(14일)",
+    "headline": "무료 → 매달 50크레딧 (Claude Sonnet 4.5·Qwen3 Coder Next 등 오픈 웨이트 모델), 카드 불필요",
     "description": "AWS가 만든 스펙 기반(spec-driven) AI IDE로, 요구사항·설계·작업 목록 문서를 먼저 만든 뒤 에이전트가 단계별로 구현합니다. IDE와 Kiro CLI를 모두 제공하며 무료 플랜에서도 Claude Sonnet 4.5를 쓸 수 있습니다. 즉흥적인 바이브 코딩보다 구조를 잡고 개발하고 싶을 때 적합합니다.",
     "freeTier": {
-      "quota": "월 50크레딧 (짧은 질문은 1크레딧 미만, 스펙 작업 1개는 보통 1크레딧 이상, 0.01 단위 차감). 신규 계정은 14일간 쓸 수 있는 보너스 500크레딧",
+      "quota": "월 50크레딧 (0.01 단위 차감). 모델별 배수: Claude Sonnet 4.5 1.3배, Auto 1배, GLM-5 0.5배, DeepSeek 3.2·MiniMax M2.5 0.25배, MiniMax M2.1 0.15배, Qwen3 Coder Next 0.05배라 오픈 웨이트 모델을 쓰면 훨씬 오래 감. 사용량 제한(rate limit)과 주간 쿼터가 함께 적용",
       "reset": "매월 (결제 월 시작 시, 이월 없음)",
       "watermark": "해당 없음(코드 생성)",
       "commercialUse": "불명 (명시적 금지 없음)",
-      "signup": "Google, GitHub 또는 AWS Builder ID",
+      "signup": "Google, GitHub 또는 AWS Builder ID (카드 불필요)",
       "korea": "가능 (보고됨)",
-      "notes": "무료는 Claude Sonnet 4.5와 오픈 웨이트 모델만 사용, 프리미엄 모델·Kiro Web 불가. 첫 유료 전환 시 20달러 크레딧 제공"
+      "notes": "신규 가입 보너스 500크레딧(14일)은 2026-05-08에 폐지되고 '첫 유료 전환 시 20달러 크레딧(카드 필요)'으로 바뀜 (그 전 가입자의 미사용분만 유지). 무료는 프리미엄 모델(Claude Opus·Sonnet 5, GPT-5.6 등)·Kiro Web 불가. 무료 사용자 요청은 미국 리전에서 처리"
     },
     "howTo": [
       "kiro.dev에서 IDE 다운로드(또는 Kiro CLI 설치)",
@@ -761,14 +767,26 @@
     "tags": [
       "스펙기반",
       "매월충전",
-      "신규보너스",
       "CLI",
+      "카드불필요",
       "로그인필요"
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "More room to explore: $20 paid tier sign-up bonus (Kiro Blog)",
+        "url": "https://kiro.dev/blog/new-paid-tier-bonus/",
+        "type": "official",
+        "date": "2026-05-08"
+      },
+      {
+        "title": "Models - Kiro Docs (요금제별 사용 가능 모델·배수)",
+        "url": "https://kiro.dev/docs/models/",
+        "type": "official",
+        "date": "2026-09"
+      },
       {
         "title": "Pricing - Kiro",
         "url": "https://kiro.dev/pricing/",
@@ -788,7 +806,7 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "monthly",
       "watermark": "na",
@@ -833,7 +851,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Lovable Pricing",
@@ -873,20 +891,20 @@
     "models": [
       "GPT-6 Luna"
     ],
-    "headline": "무료 ChatGPT 계정 → Codex로 가벼운 코딩 작업 체험 (GPT-6 Luna Standard 속도, 한도 비공개)",
-    "description": "OpenAI의 코딩 에이전트 Codex는 데스크톱 앱, CLI, IDE 확장, 웹(클라우드)에서 코드를 읽고 수정하며 명령을 실행합니다. 공식 요금 안내상 ChatGPT Free 플랜에도 Codex가 포함되어 '빠른 코딩 작업'으로 체험할 수 있습니다. 다만 무료 한도는 공개되지 않았고 첫 실전 작업에서 금방 막힌다는 평이 많아 맛보기 용도로 보는 것이 좋습니다.",
+    "headline": "무료 ChatGPT 계정 → ChatGPT 데스크톱 앱에서 Codex로 가벼운 코딩 작업 (GPT-6 Luna Standard 속도, 한도 비공개)",
+    "description": "OpenAI의 코딩 에이전트 Codex는 데스크톱 앱, CLI, IDE 확장, 웹(클라우드)에서 코드를 읽고 수정하며 명령을 실행합니다. 공식 요금 안내상 ChatGPT Free 플랜에도 Codex가 포함되지만, 무료는 ChatGPT 데스크톱 앱에서 GPT-6 Luna로 '빠른 코딩 작업'을 하는 범위로 한정됩니다. 무료 한도는 공개되지 않았고 첫 실전 작업에서 금방 막힌다는 평이 많아 맛보기 용도로 보는 것이 좋습니다.",
     "freeTier": {
-      "quota": "수치 비공개 (5시간 창 단위 사용 한도 + 주간 한도 적용 가능). 무료는 가장 낮은 한도",
-      "reset": "5시간 단위 + 주간 (추정, 공식 수치 없음)",
+      "quota": "수치 비공개. 공식 요금표는 '빠른 코딩 작업 체험용'으로만 안내하며, 무료는 추가 사용량 구매 불가로 보고됨",
+      "reset": "불명 (유료 플랜은 5시간 창 + 주간 한도, 무료는 공식 수치 없음)",
       "watermark": "해당 없음(코드 생성)",
       "commercialUse": "불명 (명시적 금지 없음)",
       "signup": "ChatGPT 계정",
       "korea": "가능",
-      "notes": "공식 안내: 무료·Go는 데스크톱 앱에서 GPT-6 Luna(Standard 속도), 순차 롤아웃. 클라우드 작업·자동 코드 리뷰·Slack 연동은 Plus 이상. 사용 표면(CLI·IDE)의 무료 지원 범위는 출처마다 설명이 달라 확인 필요"
+      "notes": "공식 요금표: 무료·Go는 ChatGPT 데스크톱 앱에서 GPT-6 Luna(Standard 속도)만, 순차 롤아웃. Codex CLI·IDE 확장·웹(클라우드) 작업·자동 코드 리뷰·Slack 연동은 Plus 이상 기준으로 안내되며, 무료는 CLI 불가로 보도됨. Codex 안 이미지 생성도 무료 불가"
     },
     "howTo": [
       "chatgpt.com 무료 계정으로 로그인",
-      "Codex 데스크톱 앱(또는 CLI) 설치 후 ChatGPT 계정으로 로그인",
+      "ChatGPT 데스크톱 앱을 설치하고 Codex를 연다 (무료는 순차 롤아웃)",
       "작업 폴더를 열고 간단한 수정 작업부터 지시"
     ],
     "tags": [
@@ -897,8 +915,14 @@
     ],
     "confidence": "low",
     "status": "limited",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "ChatGPT Free gets GPT-6 Luna, but only in the desktop app (Notebookcheck)",
+        "url": "https://www.notebookcheck.net/ChatGPT-Free-gets-GPT-6-Luna-but-only-in-the-desktop-app.1407282.0.html",
+        "type": "news",
+        "date": "2026-09"
+      },
       {
         "title": "Pricing | ChatGPT Learn (Codex)",
         "url": "https://learn.chatgpt.com/docs/pricing",
@@ -919,9 +943,9 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
-      "reset": "weekly",
+      "reset": "unknown",
       "watermark": "na",
       "login": true,
       "commercial": false
@@ -961,7 +985,7 @@
     ],
     "confidence": "high",
     "status": "ended",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Authentication | Qwen Code Docs",
@@ -1028,7 +1052,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Starter Plan - Replit Docs",
@@ -1098,7 +1122,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Stitch - Design with AI",
@@ -1139,21 +1163,21 @@
     "models": [
       "Auto 모드"
     ],
-    "headline": "무료 → 월 자동완성 5,000회 + 제한적 에이전트 사용(Auto 모델, 일반 대기열), SOLO 모드 일부",
+    "headline": "무료 → 월 자동완성 5,000회 + 제한적 에이전트 사용 (Auto 모델만, 일반 대기열)",
     "description": "ByteDance가 만든 VS Code 기반 AI IDE로, 채팅·에이전트 기능과 자율 개발 모드인 SOLO를 제공합니다. 무료 플랜에서도 월 5,000회 자동완성과 제한된 에이전트 사용량, 클라우드 작업 2개 동시 실행을 지원합니다. 2026년 2월 토큰 기반 4단계 요금제로 바뀐 뒤 무료는 모델 선택 없이 Auto 모드만 가능합니다.",
     "freeTier": {
-      "quota": "월 자동완성 5,000회 + '제한적' 월 사용량(토큰 기반, 수치 비공개), 클라우드 작업 동시 2개, SOLO 모드 제한적",
+      "quota": "월 자동완성 5,000회 + '제한적' 월 사용량(토큰 비용을 달러로 환산해 차감, 수치 비공개), 클라우드 작업 동시 2개",
       "reset": "매월",
       "watermark": "해당 없음(코드 생성)",
       "commercialUse": "불명 (명시적 금지 없음)",
       "signup": "이메일, Google 또는 GitHub 계정",
       "korea": "가능",
-      "notes": "무료 요청은 일반(Standard) 대기열이라 피크 시간에 대기 발생. 모델 직접 선택 불가(Auto 모드). 데이터 수집·개인정보 정책에 대한 우려가 커뮤니티에서 제기됨"
+      "notes": "무료 요청은 일반(Standard) 대기열이라 피크 시간에 대기 발생. 모델 직접 선택 불가(Auto 모드만). 공식 문서 기준 TraeCode SOLO 모드는 유료 플랜 전용(무료 미포함). 중국판(trae.cn)은 별도 운영되며 국산 모델 중심, 매일 출석 포인트(200→150)로 쓰는 방식이라는 보고가 있음(V2EX, 2026-09). 데이터 수집·개인정보 정책에 대한 우려가 커뮤니티에서 제기됨"
     },
     "howTo": [
       "trae.ai에서 IDE 다운로드",
       "계정 가입 후 VS Code 설정 가져오기",
-      "채팅/Builder 또는 SOLO 모드에서 작업 지시"
+      "채팅/Builder 모드에서 작업 지시 (SOLO 모드는 유료 플랜 전용)"
     ],
     "tags": [
       "AI에디터",
@@ -1164,8 +1188,20 @@
     ],
     "confidence": "medium",
     "status": "limited",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "Plans & billing - TRAE Documentation",
+        "url": "https://docs.trae.ai/ide/new-plans-and-billing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "有没有可能，AI 始于 token，也止于 token（信任） (V2EX, Trae 출석 포인트 후기)",
+        "url": "https://www.v2ex.com/t/1241633",
+        "type": "community",
+        "date": "2026-09-13"
+      },
       {
         "title": "Pricing | TRAE",
         "url": "https://www.trae.ai/pricing",
@@ -1180,7 +1216,7 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "monthly",
       "watermark": "na",
@@ -1224,7 +1260,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "v0 Pricing",
@@ -1246,6 +1282,183 @@
       "watermark": "na",
       "login": true,
       "commercial": false
+    }
+  },
+  {
+    "id": "codebuddy-code",
+    "category": "code",
+    "platform": "CodeBuddy (국제판)",
+    "vendor": "Tencent",
+    "access": "official",
+    "url": "https://www.codebuddy.ai",
+    "logo": "codebuddy",
+    "logoDomain": "codebuddy.ai",
+    "models": [
+      "Auto 모델 라우팅 (Hunyuan·DeepSeek 등)",
+      "프로모션 기간 무료 플랜도 전체 모델 선택 가능"
+    ],
+    "headline": "CodeBuddy 무료: 월 100크레딧 + 대화한 날마다 30크레딧 추가(기간 한정) + 가입 250크레딧, 프로모션 중 전 모델·코드 완성 무제한",
+    "description": "텐센트 클라우드의 AI 코딩 IDE·CLI 국제판입니다. 무료 플랜에 월 100크레딧이 기본으로 나오고, 기간 한정 프로모션으로 하루 한 번이라도 대화하면 다음 날 30크레딧이 추가됩니다. 프로모션 동안에는 무료 플랜도 모든 모델을 고를 수 있고 코드 자동완성이 무제한입니다.",
+    "freeTier": {
+      "quota": "월 100크레딧(이월 없음) + 활동 보상 30크레딧/일 (그날 채팅 1회 이상이면 다음 날 지급, 기간 한정) + 신규 가입 250크레딧 1회. 코드 자동완성 월 5,000회(프로모션 중 무제한), 자동화 작업 3개(프로모션 중 99개). 크레딧 차감량은 모델 등급·작업 복잡도·대화 길이에 따라 다름",
+      "reset": "매월 + 매일 (활동 보상, 기간 한정)",
+      "watermark": "해당 없음(코드 생성)",
+      "commercialUse": "불명",
+      "signup": "codebuddy.ai 계정 가입",
+      "korea": "가능한 것으로 보임 (해외용 국제판. 중국판 CodeBuddy·WorkBuddy는 별도 서비스)",
+      "notes": "7일 Pro 체험이나 Pro 구독을 시작하면 무료 월 100크레딧은 따로 지급되지 않음. 'promo' 표시 혜택(활동 보상·전 모델·완성 무제한·자동화 99개)은 종료일이 정해지지 않은 기간 한정. 중국판에서는 Tencent HY3 모델이 오랫동안 무료였다는 사용자 보고가 있음. Pro 첫 달 $7(이후 $10/월)."
+    },
+    "flags": {
+      "reset": "daily",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    },
+    "promo": {
+      "text": "무료 플랜도 대화한 날마다 30크레딧 추가 + 전 모델 사용·코드 자동완성 무제한 (기간 한정)",
+      "until": "불명"
+    },
+    "howTo": [
+      "codebuddy.ai에서 가입 (250크레딧 지급) 후 IDE 또는 CLI 설치",
+      "매일 한 번 이상 채팅해 다음 날 30크레딧 활동 보상 받기",
+      "codebuddy.ai 프로필 → Usage에서 남은 크레딧 확인"
+    ],
+    "tags": [
+      "매월충전",
+      "매일충전",
+      "이벤트",
+      "가입보너스",
+      "CLI",
+      "로그인필요"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "added": "2026-09-30",
+    "updated": "2026-09-30",
+    "lastVerified": "2026-09-30",
+    "sources": [
+      {
+        "title": "Subscription & Limited-Time Daily Active Bonus - CodeBuddy Docs",
+        "url": "https://www.codebuddy.ai/docs/ide/Account/Subscription",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "CodeBuddy Pricing (Free: 100 credits/month, Daily active reward 30 credits/day, 250 welcome credits)",
+        "url": "https://www.codebuddy.ai/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "CodeBuddy Docs — Pricing (Free 플랜 프로모션 조건)",
+        "url": "https://www.codebuddy.ai/docs/ide/Account/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "用免费 codebuddy 站起来蹬了款盯盘软件 (V2EX, 중국판 무료 사용 후기)",
+        "url": "https://www.v2ex.com/t/1237335",
+        "type": "community",
+        "date": "2026-08-26"
+      }
+    ]
+  },
+  {
+    "id": "qoder-code",
+    "category": "code",
+    "platform": "Qoder",
+    "vendor": "Alibaba",
+    "access": "official",
+    "url": "https://qoder.com",
+    "logo": "qoder",
+    "logoDomain": "qoder.com",
+    "models": [
+      "Qwen3.8-Flash (이벤트 기간 0크레딧)",
+      "Qwen3.8-Max 등 상위 모델 (크레딧 차감)",
+      "Free 플랜 기본(basic) 모델"
+    ],
+    "headline": "Qoder 무료: 매일 100크레딧 수령 + Qwen3.8-Flash 기간 한정 0크레딧(무제한) + 가입 시 2주 Pro 체험 300크레딧",
+    "description": "알리바바가 만든 에이전트형 AI 코딩 도구(국제판)로, 데스크톱 IDE·JetBrains 플러그인·CLI·웹/모바일을 한 계정으로 씁니다. 9월 18일부터 무료 계정도 데스크톱 앱에서 매일 100크레딧을 받을 수 있고, Qwen3.8-Flash 모델은 크레딧 차감 없이 쓸 수 있습니다. 9월 30일 끝날 예정이던 Qwen3.8-Flash 무료 이벤트는 종료일 미정으로 연장됐습니다.",
+    "freeTier": {
+      "quota": "① 매일 100크레딧 수동 수령 (데스크톱 앱 Usage 패널 선물 아이콘, 매일 10:00 SGT(한국 11:00) 갱신, 받은 크레딧은 30일 유효, 놓친 날 몫은 소멸) ② Qwen3.8-Flash 호출은 0크레딧 (원래 0.1배율) — 크레딧 잔액이 0이어도 사용 가능 ③ 신규 가입 시 2주 Pro 체험 + 300크레딧 (체험 종료 시 남은 체험 크레딧 소멸) ④ 체험 후 Free 플랜은 기본 모델을 일·월 한도 안에서 사용",
+      "reset": "매일 (100크레딧 수령) + 이벤트 기간 Qwen3.8-Flash 무제한",
+      "watermark": "해당 없음(코드 생성)",
+      "commercialUse": "불명 (명시적 금지 없음)",
+      "signup": "이메일, Google 또는 GitHub 계정",
+      "korea": "가능 (국제판 Qoder International. 중국 본토용 Qoder CN은 별도)",
+      "notes": "100크레딧 이벤트·Qwen3.8-Flash 무료 모두 종료일 미정(끝나기 전에 공지한다고 명시). Pro 체험은 1인 1계정, 가상머신에서는 체험 불가, 중복 계정은 정지. 이벤트 기간 Qwen3.8-Flash는 몰리면 응답이 느려질 수 있음. 팀·엔터프라이즈 계정은 이벤트 제외."
+    },
+    "flags": {
+      "reset": "daily",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "qoder.com에서 데스크톱 앱을 받아 이메일·Google·GitHub로 가입 (2주 Pro 체험 자동 시작)",
+      "앱 왼쪽 아래 Usage 패널의 선물 아이콘에서 매일 100크레딧 받기",
+      "모델 선택에서 Qwen3.8-Flash를 고르면 크레딧 차감 없이 사용"
+    ],
+    "tags": [
+      "매일충전",
+      "이벤트",
+      "가입보너스",
+      "코딩에이전트",
+      "CLI",
+      "로그인필요"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "added": "2026-09-30",
+    "updated": "2026-09-30",
+    "lastVerified": "2026-09-30",
+    "sources": [
+      {
+        "title": "Pricing - Qoder Docs (Free/Pro 비교, 체험 조건)",
+        "url": "https://docs.qoder.com/account/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Alibaba Launches a Rebuilt Qoder Coding Agent Aimed at Non-Developers (Pandaily)",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PSzd2anJibHF1a0N2d2JBaXE4TjNTbXV2Rk1vVlVyeG1UbHpjd3NhX0NhcVVWMUhQUEJJNWRCUjZIYjlDRC1DRlZfNXRBblNJeHQ0bFcyOUFERnVyYnlKRDdjXzdQMmxJQnpQMkJzalRMdw?oc=5",
+        "type": "news",
+        "date": "2026-08-28"
+      },
+      {
+        "title": "Qoder Events — Claim 100 Credits Every Day",
+        "url": "https://docs.qoder.com/events/100credits",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Qoder Events — Qwen3.8-Flash: Free for a Limited Time (9/30 이후 연장 공지)",
+        "url": "https://docs.qoder.com/events/flashoffer",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Qoder Pricing",
+        "url": "https://qoder.com/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Qwen3.8-Flash 限时免费使用 至 9 月 30 日 (V2EX, Qoder CN 동일 이벤트)",
+        "url": "https://www.v2ex.com/t/1242948",
+        "type": "community",
+        "date": "2026-09-18"
+      },
+      {
+        "title": "Free Qwen3.8-Flash API (V2EX)",
+        "url": "https://www.v2ex.com/t/1244647",
+        "type": "community",
+        "date": "2026-09-24"
+      }
+    ],
+    "promo": {
+      "text": "무료 계정도 매일 100크레딧 수령 + Qwen3.8-Flash 크레딧 차감 없이 무제한 (9/30 종료 예정에서 연장)",
+      "until": "불명"
     }
   }
 ]

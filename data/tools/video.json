@@ -37,7 +37,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Adobe Firefly 요금제 (Not ready to buy a plan? … free daily generations … Nano Banana and Luma Ray3.14)",
@@ -83,13 +83,13 @@
     "headline": "CapCut 무료: 가입 시 200크레딧으로 Seedance(2.x) 영상 체험 — 영상당 소모 크레딧 비공개라 개수 불명",
     "description": "CapCut(캡컷)은 ByteDance의 영상 편집기로, 같은 회사의 Seedance 2.5(최대 30초 원테이크)·2.0 모델을 웹·PC·모바일에서 바로 쓸 수 있게 넣었습니다. 신규 가입 시 200크레딧 웰컴 보너스를 주며 'Seedance 영상 생성을 무료로 체험'하라고 안내합니다. 생성 후 자막·음악 편집까지 한 앱에서 끝낼 수 있는 게 장점입니다.",
     "freeTier": {
-      "quota": "가입 시 웰컴 보너스 200크레딧 (Seedance 영상 생성에 사용)",
+      "quota": "가입 시 웰컴 보너스 200크레딧 (Seedance 영상 생성에 사용하라고 안내)",
       "reset": "가입 시 1회",
       "watermark": "불명",
       "commercialUse": "불명",
       "signup": "CapCut 계정(이메일·Google·TikTok 등)",
-      "korea": "가능",
-      "notes": "Seedance 2.5는 4~30초, 480p/720p. 영상 1개당 크레딧 소모량이 공개 페이지에 없어 실제 개수는 계정에서 확인 필요. CapCut은 Seedance 제작사(ByteDance) 계열 앱이라 공식 서비스로 분류할 수도 있음."
+      "korea": "가능 (Seedance 2.5는 아시아 포함 지역별 순차 적용, 한국어 프롬프트 지원)",
+      "notes": "Seedance 2.5는 4~30초, 480p/720p. 영상 1개당 크레딧 소모량이 공개 페이지에 없어 실제 개수는 계정에서 확인 필요. 공식 페이지 안내가 엇갈림: 'Seedance 2.5는 구독 계정부터 지역별로 순차 적용'이라고 하면서 '무료 일일 크레딧으로 시작 가능'이라고도 적음. 같은 회사의 Dreamina에서는 크레딧이 있어도 무료 계정이 영상 생성 시 구독 결제창을 만났다는 보고(2026-08)가 있어, 무료로 실제 생성되는지 확인되지 않음. CapCut은 Seedance 제작사(ByteDance) 계열 앱이라 공식 서비스로 분류할 수도 있음."
     },
     "howTo": [
       "capcut.com 웹 또는 CapCut PC/모바일 앱 로그인 (200크레딧 지급)",
@@ -103,10 +103,16 @@
       "편집기통합",
       "한국어지원"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "Seedance 2.5 for Video Editor - CapCut (구독 계정부터 지역별 순차 적용)",
+        "url": "https://www.capcut.com/features/seedance-2-5-for-video-editor",
+        "type": "official",
+        "date": "2026-09"
+      },
       {
         "title": "CapCut Seedance 2.5 (Sign up and get 200 credits! Try Seedance video creation for free)",
         "url": "https://www.capcut.com/tools/seedance-2-5",
@@ -121,7 +127,7 @@
       }
     ],
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "once",
       "watermark": "unknown",
@@ -138,34 +144,65 @@
     "logo": "dreamina",
     "logoDomain": "dreamina.capcut.com",
     "models": [
-      "Seedance 2.0"
+      "Seedance 2.0",
+      "Seedance 2.0 Lite"
     ],
-    "headline": "무료 계정 → 매일 크레딧(약 120~225, 이미지·영상 공유)으로 Seedance 짧은 영상 하루 1~2개 (보고치)",
-    "description": "바이트댄스(CapCut)의 AI 이미지·영상 생성 사이트로, 화제의 Seedance 2.0 영상 모델을 쓸 수 있다. 매일 무료 크레딧이 들어오지만 이미지·영상·편집이 같은 크레딧을 나눠 쓰고, 고화질·긴 영상은 한 번에 하루치를 다 쓸 수 있다.",
+    "headline": "무료 계정 영상은 사실상 막힘: 일일 무료 크레딧이 줄거나 안 들어오고, 크레딧이 있어도 Seedance 생성 시 구독 결제창이 뜬다는 보고 (2026-08~09)",
+    "description": "바이트댄스(CapCut)의 AI 이미지·영상 생성 사이트로, Seedance 2.0·2.5 영상 모델을 공식으로 제공한다. 공식 안내 페이지는 아직 '매일 무료 크레딧(8월 기준 120)으로 Seedance 체험 가능'이라고 적고 있다. 하지만 2026년 8월 이후 무료 계정에서 크레딧이 남아 있어도 영상 생성 버튼을 누르면 구독 결제창이 뜬다는 보고가 있고, 일일 크레딧이 줄거나 들어오지 않는다는 제보도 이어진다. 무료로 Seedance를 쓰려는 목적이라면 기대하지 않는 편이 낫다.",
     "freeTier": {
-      "quota": "매일 무료 크레딧 약 225(2026-06 보고) ~ 약 120(2026-08 보고), 이미지·영상·편집 공유 → 짧은 영상 하루 1~2개 수준. 480p 5초 약 25, 720p 10초 약 60크레딧 보고",
-      "reset": "매일 (보고)",
-      "watermark": "무료 생성물 워터마크 보고 + 비가시 워터마크",
+      "quota": "공식 안내는 매일 무료 크레딧 약 120(2026-08 기준)이지만 실제 지급량은 계정마다 다르고 줄어드는 추세. 유료 Basic 구독자도 일일 보너스가 120 → 80 → 63으로 줄었다는 보고(2026-08). 무료 계정은 Seedance 2.0(119크레딧)·Seedance 2.0 Lite 5초(40크레딧)처럼 잔액으로 충분한 설정도 생성 시 구독 결제창이 떴다는 보고(2026-08-23). 사용자 제보로는 2026-09 무료 크레딧이 사라진 것으로 보임",
+      "reset": "불명 (공식 안내는 매일 지급·당일 소멸, 실제로는 계정별로 축소·미지급 보고)",
+      "watermark": "가시 워터마크 있음 (유료 플랜 혜택에 'Dreamina 워터마크 제거'가 들어 있음) + 비가시 워터마크",
       "commercialUse": "불명",
       "signup": "CapCut·TikTok·Google 계정 등",
-      "korea": "불명 (Seedance 2.0 해외 출시는 국가별 순차 적용)",
-      "notes": "실존 인물 얼굴 업로드·저작권 IP 생성 차단. 최신 Seedance 2.5(2026-07-31)는 중국 Jimeng·Doubao에 먼저 적용."
+      "korea": "불명 (일부 지역은 참조 이미지 업로드가 막혔다는 보고)",
+      "notes": "공식 요금표(2026-09): Basic 월 $15(첫 달 90% 할인 이벤트 2026-09-23~10-09, 유료 전용), 1,575크레딧으로 10초 영상 19개. 중국판 즉몽(即梦)은 무료 일일 크레딧이 8월 초 66~100 → 8/8 무렵 30~50 → 9/10~11 무렵 10~30으로 공지 없이 줄었고, 무료 영상은 대기열이 10시간 이상이라는 보고. 즉몽 약관(2026-08-03 개정)은 일일 증정 크레딧이 고정 권리가 아니라 수시로 조정될 수 있다고 명시. Seedance 2.5(2026-07-31)는 글로벌판에서도 Dreamina에 먼저 적용됐지만 사실상 유료. 실존 인물 얼굴 업로드·저작권 IP 생성 차단."
     },
     "howTo": [
       "dreamina.capcut.com 접속 후 CapCut/Google 계정으로 로그인",
-      "AI Video에서 Seedance 2.0 선택, 480p·5초 등 낮은 설정으로 시작",
-      "남은 일일 크레딧을 확인하며 생성 (이미지 생성과 크레딧 공유 주의)"
+      "우측 상단에서 오늘 받은 무료 크레딧이 있는지 먼저 확인",
+      "AI Video → Seedance 2.0 Lite·5초·낮은 해상도로 시도해 보고, 구독 결제창이 뜨면 무료 영상 생성이 막힌 계정"
     ],
     "tags": [
-      "매일충전",
       "워터마크",
       "로그인필요",
-      "크레딧공유"
+      "크레딧공유",
+      "계정별차이"
     ],
-    "confidence": "low",
-    "status": "active",
-    "lastVerified": "2026-09-29",
+    "confidence": "medium",
+    "status": "limited",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "Dreamina Reviews - Trustpilot (2026-08-23 'False Advertising': 무료 120크레딧으로 Seedance 생성 시 결제창)",
+        "url": "https://www.trustpilot.com/review/dreamina.com",
+        "type": "community",
+        "date": "2026-08"
+      },
+      {
+        "title": "即梦每日赠送积分砍到10块：两个月缩水时间线 - 什么值得买",
+        "url": "https://post.smzdm.com/p/ad793rex/",
+        "type": "community",
+        "date": "2026-09"
+      },
+      {
+        "title": "드리미나 일일크레딧 얼마씩 줘? 사람마다 다른가본데.. - 디시 AI창작 갤러리",
+        "url": "https://gall.dcinside.com/mgallery/board/view/?id=aicreate&no=67271",
+        "type": "community",
+        "date": "2026-08"
+      },
+      {
+        "title": "Dreamina Free AI Video Generator: Credits and Paid Plans (공식, 8월 기준 일일 120크레딧 안내)",
+        "url": "https://dreamina.capcut.com/ai-video/free-ai-video-generator-usable-clips-guide-2026",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Dreamina Pricing: Plans, Credits & Costs (공식)",
+        "url": "https://dreamina.capcut.com/pricing/dreamina-price",
+        "type": "official",
+        "date": "2026-09"
+      },
       {
         "title": "Dreamina (Seedance) Pricing (2026) - PriceMyAI",
         "url": "https://pricemyai.com/pricing/dreamina/",
@@ -187,10 +224,10 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
-      "reset": "daily",
-      "watermark": "invisible",
+      "reset": "unknown",
+      "watermark": "visible",
       "login": true,
       "commercial": null
     }
@@ -206,16 +243,16 @@
     "models": [
       "Gemini Omni 1.1 Flash"
     ],
-    "headline": "무료 계정 → 영상 생성 불가 (비구독자 Omni 영상 10개 프로모션 2026-08-04 종료, Google AI Plus 이상 필요)",
+    "headline": "무료 계정 → 영상 생성 불가 (비구독자 Omni 영상 10개 프로모션은 8/4에서 8/11로 연장된 뒤 종료, Google AI Plus 이상 필요)",
     "description": "Gemini 앱의 영상 생성은 Veo 3.1에서 Gemini Omni(1.1 Flash)로 바뀌었고 최대 10초 영상을 만든다. 하지만 공식 요금 비교표상 영상 생성은 Google AI Plus·Pro·Ultra 구독자 전용이며, 무료 사용자는 한시 프로모션 때만 쓸 수 있었다. 무료로 Google 영상 모델을 쓰려면 Flow·Vids·YouTube Shorts를 이용하는 편이 낫다.",
     "freeTier": {
-      "quota": "0 (구독 필요). 과거 프로모션: 2026-08-04까지 비구독 개인 계정에 Omni 영상 10개 무료",
+      "quota": "0 (구독 필요). 과거 프로모션: 비구독 개인 계정에 Omni 영상 최대 10개 무료, 당초 2026-08-04까지였다가 2026-08-11 12시(PT)까지 연장 후 종료",
       "reset": "해당 없음",
       "watermark": "SynthID(비가시)",
       "commercialUse": "해당 없음",
       "signup": "Google 계정 + Google AI Plus(한국 월 7,500원) 이상 구독",
       "korea": "가능 (유료 구독 시)",
-      "notes": "만 18세 이상. 학생 인증 시 1년 무료 이용 안내가 있으나 국가·자격별로 다름. 이미지 생성(Nano Banana 2)은 무료 사용자도 가능."
+      "notes": "만 18세 이상. 공식 도움말 요금 비교표상 'Google AI 플랜 없음'은 동영상 생성 불가. 학생 인증 시 1년 무료 이용 안내가 있으나 국가·자격별로 다름. 이미지 생성(Nano Banana 2)은 무료 사용자도 가능."
     },
     "howTo": [
       "gemini.google.com 또는 Gemini 앱 로그인",
@@ -229,8 +266,14 @@
     ],
     "confidence": "medium",
     "status": "ended",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "Google extends free Gemini Omni video generation offer - Android Authority",
+        "url": "https://www.androidauthority.com/free-gemini-omni-videos-3695658/",
+        "type": "news",
+        "date": "2026-08-07"
+      },
       {
         "title": "Gemini Apps limits & upgrades - Gemini Apps Help",
         "url": "https://support.google.com/gemini/answer/16275805?hl=en",
@@ -252,7 +295,7 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "unknown",
       "watermark": "invisible",
@@ -300,7 +343,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Manage your Google Flow credits - Google Flow Help",
@@ -380,7 +423,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Anyone can make stunning HD videos with Gemini Omni in Google Vids",
@@ -446,7 +489,7 @@
     ],
     "confidence": "low",
     "status": "limited",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Grok Imagine Free Tier Is Back for Some Accounts, Not Others - RoboRhythms",
@@ -480,36 +523,60 @@
     "logo": "hailuo",
     "logoDomain": "hailuoai.video",
     "models": [
-      "Hailuo 2.3",
-      "Hailuo 02"
+      "MiniMax H3",
+      "Hailuo 2.3"
     ],
-    "headline": "무료 계정 → 매일 지급 크레딧으로 6초 영상 하루 약 2~3개 (워터마크, 보고치)",
-    "description": "MiniMax의 영상 생성 서비스로 인물 표정·전신 움직임과 애니메이션 스타일 표현이 강점이다. 매일 무료 크레딧이 지급돼 짧은 클립을 꾸준히 시험해 볼 수 있다. 무료 결과물에는 워터마크가 붙고 상업 이용은 유료 플랜부터다.",
+    "headline": "무료 계정 → 가입 시 체험 크레딧 1회(약 200, 3일 안에 소멸 보고)로 6초 영상 몇 개. 매일 주던 무료 크레딧은 없어진 것으로 보임",
+    "description": "MiniMax의 영상 생성 서비스로, 2026-07-31부터 영상과 오디오를 한 번에 만드는 새 모델 MiniMax H3를 제공한다. 예전에는 매일 무료 크레딧을 줬지만 지금 요금표의 무료 칸에는 '1회 체험 크레딧'만 적혀 있어 가입 직후 몇 개만 시험해 볼 수 있다. 무료 결과물에는 워터마크가 붙고 상업 이용은 유료 구독부터다.",
     "freeTier": {
-      "quota": "매일 무료 크레딧 (하루 영상 약 2~5개 분량으로 출처마다 다르게 보고됨) + 신규 가입 보너스 크레딧 보고",
-      "reset": "매일 (보고, 이월 없음)",
+      "quota": "가입 시 1회 체험 크레딧 (공식 요금표 무료 칸 표기 'One-time trial credits', 양 비공개). 약 200크레딧, 가입 후 3일 안에 소멸된다는 보고 → 테스트 영상 약 4~8개 분량(보고치)",
+      "reset": "가입 시 1회 (보고: 3일 안에 소멸)",
       "watermark": "가시 워터마크 있음",
-      "commercialUse": "불가 (유료 플랜부터 상업 이용 가능)",
+      "commercialUse": "불가 (유료 구독 중 다운로드한 결과물만 상업 이용 가능)",
       "signup": "이메일 또는 Google 계정",
       "korea": "가능 (한국 앱스토어 앱 등록)",
-      "notes": "무료는 720p~768p, 6초 클립, 대기열 최대 3개. 유료 크레딧을 먼저 소진해야 일일 보너스가 쓰인다는 사용자 보고 있음."
+      "notes": "일일 로그인 크레딧은 2025년 여름 폐지 보고. 일부 가격 비교 사이트(CostBench)는 아직 '매일 무료 크레딧(하루 3~5개)'로 적지만, 2026-08~09 리뷰는 요금표에서 1회 체험 크레딧만 확인. 무료는 768p·6초, 가장 느린 대기열. MiniMax H3가 기본 모델로 노출되지만 체험 크레딧으로 쓸 수 있는지·소모량은 불명. 설문 참여 등 이벤트로 크레딧을 주기도 함."
     },
     "howTo": [
-      "hailuoai.video 접속 또는 Hailuo AI 앱 설치 후 로그인",
-      "Video → 텍스트/이미지→영상 선택, 모델 Hailuo 2.3, 6초·768p 설정",
+      "hailuoai.video 접속 또는 Hailuo AI 앱 설치 후 로그인 (가입 체험 크레딧은 며칠 안에 소멸하니 바로 사용)",
+      "Video → 텍스트/이미지→영상 선택, 짧은 길이·낮은 해상도로 설정",
       "생성 후 워터마크 포함 파일 다운로드"
     ],
     "tags": [
-      "매일충전",
+      "가입보너스",
       "워터마크",
       "로그인필요",
       "상업이용불가",
       "앱지원"
     ],
     "confidence": "low",
-    "status": "active",
-    "lastVerified": "2026-09-29",
+    "status": "limited",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "Hailuo AI Review: Pricing, Credits, and H3 Access - Kingy AI (요금표 무료 칸 'One-time trial credits', 2026-09-20 재확인)",
+        "url": "https://kingy.ai/ai-tools/hailuo-ai/",
+        "type": "news",
+        "date": "2026-09"
+      },
+      {
+        "title": "Hailuo AI Free Credits Expired? - Atlas Cloud (가입 200크레딧, 3일 안에 소멸)",
+        "url": "https://www.atlascloud.ai/blog/guides/hailuo-ai-free-credits",
+        "type": "news",
+        "date": "2026-07"
+      },
+      {
+        "title": "Hailuo AI Paid Plans - Age of LLMs (2025년 여름 일일 로그인 크레딧 폐지)",
+        "url": "https://ageofllms.com/ai-news/ai-fun/hailuo-ai-paind-plans",
+        "type": "community",
+        "date": "2025-06"
+      },
+      {
+        "title": "Hailuo AI 공식 사이트 (MiniMax H3 LIVE NOW)",
+        "url": "https://hailuoai.video/",
+        "type": "official",
+        "date": "2026-09"
+      },
       {
         "title": "Is Hailuo AI Free? Free Plan Limits & Upgrade Triggers (2026) - CostBench",
         "url": "https://costbench.com/software/ai-video-generators/hailuo-ai/free-plan/",
@@ -530,9 +597,9 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
-      "reset": "daily",
+      "reset": "once",
       "watermark": "visible",
       "login": true,
       "commercial": false
@@ -574,7 +641,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "HeyGen Pricing",
@@ -641,7 +708,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Hugging Face Docs: ZeroGPU (Usage tiers: Unauthenticated 2 min, Free account 5 min, PRO 40 min)",
@@ -720,7 +787,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "KlingAI Daily Free Credits – Claim Yours",
@@ -765,7 +832,7 @@
     "logo": "luma",
     "logoDomain": "lumalabs.ai",
     "models": [
-      "Ray3"
+      "Ray3.2"
     ],
     "headline": "무료 플랜 없음 — Dream Machine은 유료(Plus 월 $30~)만, 대신 Adobe Firefly 무료 생성에서 Luma Ray3.14 사용 가능",
     "description": "Luma AI의 영상 생성 서비스 Dream Machine(Ray 모델). 현재 공식 요금표에는 Plus·Pro·Ultra 유료 플랜만 있고 상시 무료 플랜이 없다. Luma 모델을 무료로 써 보려면 Adobe Firefly의 일일 무료 생성을 이용하는 방법이 있다.",
@@ -787,7 +854,7 @@
     ],
     "confidence": "medium",
     "status": "ended",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Luma AI Pricing",
@@ -804,7 +871,7 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "unknown",
       "watermark": "none",
@@ -848,7 +915,7 @@
     ],
     "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Vibes: Generate free AI videos - Meta AI",
@@ -909,7 +976,7 @@
     ],
     "confidence": "medium",
     "status": "ended",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Pika Pricing",
@@ -943,18 +1010,18 @@
     "logo": "pixverse",
     "logoDomain": "pixverse.ai",
     "models": [
-      "PixVerse"
+      "PixVerse V6"
     ],
-    "headline": "무료 계정 → 매일 30크레딧 + 가입 60크레딧, 540p 이하 짧은 영상 하루 약 1개 안팎 (워터마크, 추정)",
+    "headline": "무료 계정 → 매일 30크레딧 + 가입 60크레딧: PixVerse V6 360p 5초(무음) 영상 하루 약 1개 (워터마크)",
     "description": "이펙트·템플릿 기반 숏폼 영상 생성으로 유명한 서비스. 사진 한 장으로 밈·특수효과 영상을 빠르게 만들 수 있다. 무료 계정은 매일 크레딧이 초기화되지만 영상 1개 비용이 커서 저해상도 위주로 소량만 가능하다.",
     "freeTier": {
-      "quota": "매일 30크레딧(초기화) + 가입 시 60크레딧. 기본 영상 1개 약 45크레딧 수준 보고(해상도·길이·오디오에 따라 증감)",
+      "quota": "매일 30크레딧(초기화, 이월 없음) + 가입 시 60크레딧. PixVerse V6는 360p·무음 기준 초당 5크레딧 → 5초 영상 25크레딧, 하루 1개 (해상도·길이·오디오를 올리면 더 소모)",
       "reset": "매일 (+가입 시 1회)",
       "watermark": "가시 워터마크 있음",
       "commercialUse": "불명",
       "signup": "이메일 또는 Google 계정",
       "korea": "가능 (글로벌 웹·앱)",
-      "notes": "무료는 최대 540p, 동시 생성 2개. 1개당 소모량이 일일 크레딧보다 클 수 있어 저해상도·짧은 설정 필요."
+      "notes": "무료는 최대 540p, 동시 생성 2개. 일부 리뷰는 가입 90 + 매일 60크레딧으로 보고(유료 Standard가 매일 60이라 혼동 가능성). PixVerse에서 Seedance 2.5·MiniMax H3 같은 타사 모델도 제공하지만, 무료 크레딧으로 쓸 수 있는지와 소모량은 불명."
     },
     "howTo": [
       "app.pixverse.ai 접속 또는 PixVerse 앱 설치 후 로그인",
@@ -970,8 +1037,14 @@
     ],
     "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "Is PixVerse AI Free? Free Credits & Daily Limits 2026 - Atlas Cloud (V6 360p 초당 5크레딧)",
+        "url": "https://www.atlascloud.ai/blog/tips/pixverse-ai-free",
+        "type": "news",
+        "date": "2026-07-14"
+      },
       {
         "title": "PixVerse Free Plan - CostBench",
         "url": "https://costbench.com/software/ai-video-generators/pixverse/free-plan/",
@@ -987,7 +1060,7 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "daily",
       "watermark": "visible",
@@ -1030,7 +1103,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Runway Pricing",
@@ -1085,7 +1158,7 @@
     ],
     "confidence": "high",
     "status": "ended",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "OpenAI's Sora was the creepiest app on your phone -- now it's shutting down - TechCrunch",
@@ -1128,33 +1201,44 @@
       "Vidu Q3",
       "Vidu Q2"
     ],
-    "headline": "무료 계정 → 월 40크레딧(표준 4초 영상 약 8개) + 비혼잡 시간 무제한 모드 (보고치)",
-    "description": "중국 성수기술(Shengshu)과 칭화대가 만든 영상 생성 서비스. 레퍼런스(캐릭터 일관성) 기능과 오디오 포함 최대 16초 생성(Q3)이 특징이다. 무료 플랜에도 비혼잡 시간대 무제한 생성(Off-Peak) 모드가 있다고 알려져 느리지만 많이 만들어 볼 수 있다.",
+    "headline": "무료 계정 → 가입 체험 크레딧 + 매일 로그인 보너스(양 비공개)로 짧은 영상 몇 개 (워터마크). 10/6 요금제 개편 예정",
+    "description": "중국 성수기술(Shengshu)과 칭화대가 만든 영상 생성 서비스. 레퍼런스(캐릭터 일관성) 기능과 오디오 포함 최대 16초 생성(Q3)이 특징이다. 공식 요금표의 무료 플랜에는 월 크레딧이 없고, 가입 체험 크레딧과 매일 로그인 보너스 크레딧만 안내된다. 예전에 알려진 'Off-Peak 무제한'은 지금 요금표에서 최상위 유료 플랜 혜택으로만 적혀 있다.",
     "freeTier": {
-      "quota": "월 40크레딧 보고 (표준 화질 4초 클립 약 5크레딧 → 약 8개) + Off-Peak 무제한 모드 + 신규 가입 체험 크레딧",
-      "reset": "매월 (+가입 시 1회)",
-      "watermark": "가시 워터마크 있음",
-      "commercialUse": "불가 (무료 플랜 상업 라이선스 없음)",
-      "signup": "이메일 또는 Google 계정",
+      "quota": "가입 시 체험 크레딧 + 매일 로그인 보너스 크레딧 (공식 FAQ, 양 비공개). 요금표 무료 칸에는 월 크레딧 없이 'Log in to Get Bonus Credits'만 표기. 서드파티 자료는 '월 40~80크레딧 + Off-Peak 무제한'으로 적어 공식과 다름. 참고: 유료 Standard 800크레딧 = 영상 최대 200개(1개 최소 약 4크레딧)",
+      "reset": "매일 (로그인 보너스, 공식) + 가입 시 1회",
+      "watermark": "가시 워터마크 있음 (워터마크 없는 다운로드는 유료)",
+      "commercialUse": "불가 (상업 이용은 유료 플랜)",
+      "signup": "이메일·Google·Apple 계정",
       "korea": "가능 (글로벌 웹 서비스)",
-      "notes": "Off-Peak 모드는 대기 시간이 길고 이용 시간대가 제한됨. 고화질(Cinema) 설정은 1.5~2.5배 크레딧 소모."
+      "notes": "공식 요금표에는 'Off-Peak 모드(하루 최대 200개 제출)'가 Ultimate($79/월) 혜택으로 적혀 있어 무료 계정의 Off-Peak 무제한은 확인되지 않음. 무료 레퍼런스 월 10개. 요금표에 '10월 6일 요금제 개편 예정' 공지."
     },
     "howTo": [
-      "vidu.com 접속 후 로그인",
-      "텍스트/이미지/레퍼런스→영상 중 선택, 표준 화질·짧은 길이로 설정",
-      "크레딧이 없으면 Off-Peak 모드로 대기열에 넣어 생성"
+      "vidu.com 접속 후 로그인 (매일 로그인해 보너스 크레딧 받기)",
+      "텍스트/이미지/레퍼런스→영상 중 선택, 짧은 길이·낮은 화질로 설정",
+      "남은 크레딧 안에서 생성 (10/6 요금제 개편 뒤 조건 재확인)"
     ],
     "tags": [
-      "매월충전",
+      "매일충전",
       "워터마크",
       "로그인필요",
-      "상업이용불가",
-      "오프피크무제한"
+      "상업이용불가"
     ],
     "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "Vidu Pricing Plans (공식 요금표·FAQ)",
+        "url": "https://www.vidu.com/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Vidu Free Tier Details - yangmao.ai (월 80크레딧 + Off-Peak 무제한 보고)",
+        "url": "https://yangmao.ai/en/providers/vidu/",
+        "type": "news",
+        "date": "2026-09"
+      },
       {
         "title": "Vidu AI 공식 사이트",
         "url": "https://www.vidu.com/",
@@ -1169,9 +1253,9 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
-      "reset": "monthly",
+      "reset": "daily",
       "watermark": "visible",
       "login": true,
       "commercial": false
@@ -1213,7 +1297,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Introducing Gemini Omni - Google Blog",
@@ -1288,7 +1372,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "How to Generate Videos with Video Arena | Arena Help Center",
@@ -1331,22 +1415,24 @@
     "url": "https://www.bing.com/images/create",
     "logo": "bing",
     "logoDomain": "bing.com",
-    "models": [],
-    "headline": "Bing Video Creator: Sora 2 기반 무료 영상 — OpenAI Sora API가 2026-09-24 종료돼 사실상 중단(추정)",
+    "models": [
+      "Sora 2 (Azure OpenAI)"
+    ],
+    "headline": "Bing Video Creator 무료: Sora 2로 8초 영상 — 빠른 모드 10회 + 표준 속도(수 시간 대기) 무제한. 단 Azure의 Sora 2가 2026-10-15 은퇴 예정",
     "description": "Bing Video Creator는 2025년 6월 Sora로 무료 영상 생성을 열었고 2026년 3월 Sora 2로 업그레이드됐습니다. 하지만 OpenAI는 Sora 앱을 2026년 4월 26일, Sora 2 API를 9월 24일에 종료했고, 2026-09-29 확인 시 Bing의 영상 생성 경로(ai-video-generator)가 이미지 생성기로 리다이렉트됐습니다. 공식 종료 공지는 찾지 못했습니다.",
     "freeTier": {
-      "quota": "현재 사용 불가로 보임 (과거: 무료 Fast 생성 일부 + 이후 Microsoft Rewards 포인트 또는 표준 속도)",
-      "reset": "해당 없음",
-      "watermark": "해당 없음",
-      "commercialUse": "해당 없음",
+      "quota": "로그인 시 빠른(Fast) 생성 10회 무료, 이후 빠른 생성은 1회당 Microsoft Rewards 100포인트, 아니면 표준(Standard) 속도로 무제한. 영상 길이 8초, 9:16/16:9",
+      "reset": "무제한 (표준 속도) / 빠른 모드는 계정당 10회 + Rewards 포인트로 추가",
+      "watermark": "불명 (C2PA 콘텐츠 자격 증명 메타데이터 포함)",
+      "commercialUse": "불명 (약관상 '오락 목적' 서비스, Microsoft에 생성물 사용권 부여)",
       "signup": "Microsoft 계정",
-      "korea": "불명",
-      "notes": "Sora 2 종료 여파. Bing Image Creator(MAI-Image 등 이미지)는 계속 운영. 상태 확인 필요 시 bing.com/images/create에서 Video 탭 존재 여부 확인."
+      "korea": "가능 (중국·러시아 제외 전 세계 출시)",
+      "notes": "OpenAI의 Sora 앱·API는 종료(API 2026-09-24)됐지만 Bing은 Azure OpenAI의 Sora 2를 쓴다. 2026-09-30 기준 bing.com/images/create 페이지 설정에 Sora 영상 모델(8초, Standard/Fast)이 그대로 노출됨. Microsoft Foundry 모델 은퇴 일정상 sora-2(2025-12-08)는 2026-10-15 은퇴, 대체 모델 없음 → 10월 중순 이후 중단 가능성 큼. 실제 생성 성공 여부는 직접 확인 못 함. 표준 속도는 1개에 수 시간 걸릴 수 있음."
     },
     "howTo": [
-      "bing.com/images/create 접속",
-      "Video 탭이 보이지 않으면 서비스 종료 상태",
-      "대안: Google Flow·Vids 등 공식 무료 영상 서비스"
+      "bing.com/images/create 접속 후 Microsoft 계정으로 로그인",
+      "생성 유형에서 Video(동영상)를 고르고 프롬프트 입력",
+      "속도 Fast(무료 10회) 또는 Standard를 고른 뒤 생성, 완료 알림이 오면 다운로드"
     ],
     "tags": [
       "종료",
@@ -1354,9 +1440,27 @@
       "Microsoft"
     ],
     "confidence": "low",
-    "status": "ended",
-    "lastVerified": "2026-09-29",
+    "status": "active",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "Bing Image Creator / Video Creator 생성 페이지",
+        "url": "https://www.bing.com/images/create/ai-video-generator",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Introducing Bing Video Creator (Bing 블로그)",
+        "url": "https://blogs.bing.com/search/June-2025/Introducing-Bing-Video-Creator",
+        "type": "official",
+        "date": "2025-06"
+      },
+      {
+        "title": "Foundry Models retirement schedule (sora-2 은퇴 2026-10-15)",
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+        "type": "official",
+        "date": "2026-09"
+      },
       {
         "title": "What to know about the Sora discontinuation (OpenAI Help Center)",
         "url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
@@ -1383,10 +1487,10 @@
       }
     ],
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
-      "reset": "unknown",
-      "watermark": "none",
+      "reset": "unlimited",
+      "watermark": "unknown",
       "login": true,
       "commercial": null
     }
@@ -1424,7 +1528,7 @@
     ],
     "confidence": "high",
     "status": "ended",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Canva AI Video Generator (Pro, Business, Enterprise, and Nonprofit users can use Create a Video Clip)",
@@ -1484,7 +1588,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Dzine Pricing (Free Credits: 신규 100크레딧, 일일 32 리셋 폐지 / 모델별 크레딧)",
@@ -1543,7 +1647,7 @@
     ],
     "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "EaseMate Pricing (Basic $0: 30 free credits on sign-up, 5 images + 2 videos per day)",
@@ -1581,16 +1685,16 @@
       "Vidu",
       "Happy Horse"
     ],
-    "headline": "Genspark 무료: 매일 100크레딧(무료 회원 50% 할인 적용)으로 Veo·Kling·Seedance 등 14+ 모델 — 모델별 단가 비공개, '몇 개' 수준",
+    "headline": "Genspark 무료: 매일 100크레딧(무료 회원 50% 할인)으로 Veo·Kling·Seedance 등 14+ 모델 — 단 계정당 '평생 무료 한도'를 다 쓰면 매일 충전 중단",
     "description": "Genspark는 슈퍼 에이전트형 AI 워크스페이스로, AI Video 에이전트에서 Veo 3.1·Seedance 2.x·Kling V3·MiniMax H3·PixVerse V6 등 14개 이상 모델을 고르거나 MOA가 자동 선택하게 할 수 있습니다. 공식 페이지는 무료 회원에게 매일 100크레딧을 50% 할인가로 준다고 안내합니다. 한국 사용자가 많고 한국어 페이지가 있습니다.",
     "freeTier": {
-      "quota": "무료 회원 매일 100크레딧 (공식: 'at a 50% discount') — 모델별 소모량 비공개, '모델에 따라 여러 개' 수준으로 안내",
-      "reset": "매일",
+      "quota": "무료 회원 매일 100크레딧 (공식: 'at a 50% discount'). 단 무료 계정에는 평생(lifetime) 무료 크레딧 한도가 있어 다 쓰면 매일 충전이 멈춤(총량 비공개). 모델별 영상 단가는 비공개, 모델에 따라 '여러 개' 수준으로 안내",
+      "reset": "매일 (계정 평생 한도에 도달하면 중단)",
       "watermark": "불명",
       "commercialUse": "모델별 약관에 따름 (공식 FAQ)",
       "signup": "Google·Microsoft·Apple·이메일 계정",
       "korea": "가능 (한국어 지원)",
-      "notes": "슬라이드·딥리서치 등 다른 기능과 크레딧 공유. 고가 모델(Veo 3.1·Seedance 2.5)은 100크레딧으로 1개도 어려울 수 있음 — 계정에서 단가 확인 필요. Sora는 2026-09-24 API 종료로 사용 불가 추정."
+      "notes": "공식 크레딧 가이드: 'Free accounts have a lifetime allowance of free credits. Once your account has used its lifetime allowance, the daily free refill stops'. 슬라이드·딥리서치 등 다른 기능과 크레딧 공유. 영상은 가장 비싼 작업이라 고가 모델(Veo 3.1·Seedance 2.5)은 100크레딧으로 1개도 어려울 수 있음. 페이지에 Sora가 아직 표기돼 있으나 2026-09-24 API 종료로 사용 불가 추정."
     },
     "howTo": [
       "genspark.ai 가입",
@@ -1607,8 +1711,14 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "Genspark Credits Guide",
+        "url": "https://www.genspark.ai/helpcenter/credits-guide",
+        "type": "official",
+        "date": "2026-09"
+      },
       {
         "title": "Genspark AI Video Generator — Free Daily Credits (FAQ: Free members get 100 credits daily at a 50% discount)",
         "url": "https://www.genspark.ai/tools/ai-video-generator",
@@ -1629,7 +1739,7 @@
       }
     ],
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "daily",
       "watermark": "unknown",
@@ -1672,7 +1782,7 @@
     ],
     "confidence": "medium",
     "status": "ended",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Higgsfield Free Tier Overview (Creatify, 공식 도움말 인용: free users … receive no credits, 2026-09-06)",
@@ -1740,7 +1850,7 @@
     ],
     "confidence": "high",
     "status": "ended",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "The 7 Best Free AI Image Generators in 2026 - Krea (free tier is images-only)",
@@ -1768,18 +1878,18 @@
     "logo": "leonardo",
     "logoDomain": "leonardo.ai",
     "models": [
-      "일부 영상 모델만 (무료 허용 모델 목록 비공개)"
+      "일부 영상 모델만 (무료 허용 목록 비공개, 기본값 Motion 2.0 Fast)"
     ],
-    "headline": "Leonardo 무료: 매일 150토큰, 단 '모든 영상 모델이 무료 사용자에게 열려 있지 않음' — Veo·Kling·Sora 등 외부 모델은 토큰 소모, 개수 불명",
+    "headline": "Leonardo 무료: 매일 150토큰, 일부 영상 모델만 (기본값 Motion 2.0 Fast) — 무료 영상은 워터마크, 내 이미지 업로드는 유료",
     "description": "Leonardo.Ai는 이미지 생성으로 유명하지만 Motion 2.0 같은 자체 영상 모델과 Veo 3/3.1·Kling 2.5/2.1·LTX-2·Hailuo·Wan 등 외부 모델도 제공합니다. 무료 계정은 매일 150토큰을 받지만, 공식 도움말은 비용 때문에 일부 영상 모델은 무료 사용자에게 제공되지 않는다고 밝힙니다. 영상은 토큰 소모가 커서 무료로는 매우 제한적입니다.",
     "freeTier": {
-      "quota": "매일 150 Fast 토큰 (이미지 기본 1~26토큰, 영상 모델별 토큰 비용은 앱에서 표시)",
+      "quota": "매일 150 Fast 토큰 (영상 모델별 토큰 비용은 생성 버튼에만 표시, 공개 단가표 없음)",
       "reset": "매일 (24시간마다)",
-      "watermark": "불명",
+      "watermark": "가시 워터마크 있음 (공식 도움말: 워터마크 없는 영상은 유료 플랜)",
       "commercialUse": "가능 (무료 사용자도 비독점 상업 이용 라이선스 부여, 단 Leonardo가 결과물 사용권 보유·공개됨)",
       "signup": "이메일/Google/Apple 계정",
       "korea": "가능",
-      "notes": "외부 모델(Veo 3/3.1/3.1 Fast, Kling 2.5 Turbo/2.1 Pro, Sora 2, LTX-2 등)은 매번 토큰 소모, Relaxed 무제한 대상 아님. 무료 사용자에게 어떤 영상 모델이 열려 있는지는 공개 목록 없음. 결과물은 기본 공개."
+      "notes": "공식 도움말: '비용이 높아 일부 영상 모델만 무료 사용자에게 제공', '내 이미지를 올려 영상 만들기는 유료 사용자만' → 무료는 Leonardo에서 만든 이미지로만 이미지→영상. 외부 모델(Veo 3/3.1/3.1 Fast, Kling 2.5 Turbo/2.1 Pro, Sora 2, LTX-2 등)은 매번 토큰 소모. 결과물은 기본 공개."
     },
     "howTo": [
       "app.leonardo.ai 가입",
@@ -1794,7 +1904,7 @@
     ],
     "confidence": "low",
     "status": "limited",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Leonardo.Ai Pricing (FREE: 150 Fast Tokens daily, 외부 모델 토큰 규정)",
@@ -1816,10 +1926,10 @@
       }
     ],
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "daily",
-      "watermark": "unknown",
+      "watermark": "visible",
       "login": true,
       "commercial": true
     }
@@ -1866,7 +1976,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Lovart Pricing (무료 30/d, 모델별 크레딧 표)",
@@ -1917,7 +2027,7 @@
     ],
     "confidence": "medium",
     "status": "ended",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Magnific Pricing (freepik.com/pricing → magnific.com/pricing, 유료 플랜만 표시)",
@@ -1979,7 +2089,7 @@
     ],
     "confidence": "medium",
     "status": "ended",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "OpenArt Pricing (모델별 크레딧·유료 플랜)",
@@ -2013,18 +2123,19 @@
     "logo": "pixelbin",
     "logoDomain": "pixelbin.io",
     "models": [
-      "Seedance Lite"
+      "Seedance 1.0 Lite",
+      "Seedance 1.0 Fast"
     ],
-    "headline": "Pixelbin 무료: 가입 시 10크레딧 1회 → Seedance Lite 영상 약 1개",
+    "headline": "Pixelbin 무료: 가입 시 10크레딧 1회 → Seedance 1.0 Lite/Fast 영상 약 1~5개 (공식 단가 표기가 서로 다름)",
     "description": "Pixelbin은 이미지 편집 도구에 Veo·Kling·Hailuo·Seedance·Wan·LTX 영상 모델을 더한 크리에이티브 플랫폼입니다. 가입 시 10크레딧을 주는데, 요금표 환산(250크레딧 ≈ Seedance Lite 35개)으로 1개당 약 7크레딧이라 무료로는 Seedance Lite 1개 정도가 한도입니다.",
     "freeTier": {
-      "quota": "가입 시 10크레딧 1회 (Seedance Lite 1개 ≈ 7크레딧 → 약 1개)",
+      "quota": "가입 시 10크레딧 1회. 공식 모델별 표: Seedance 1.0 Lite·Fast 2크레딧, Seedance 1.0 Pro 4, Hailuo 02 20, Kling 2.6 30 → 표대로면 Seedance Lite 약 5개. 그러나 같은 페이지 플랜 설명(250크레딧 = Seedance Lite 영상 35개)은 1개 약 7크레딧 → 약 1개",
       "reset": "가입 시 1회",
-      "watermark": "불명",
+      "watermark": "불명 (영상 생성기 소개 페이지는 'No watermarks' 표기)",
       "commercialUse": "불명",
       "signup": "이메일/Google 계정",
       "korea": "가능",
-      "notes": "Veo·Kling 등 상위 모델은 단가가 더 높아 10크레딧으로는 사실상 불가. 개수는 요금표 환산 추정."
+      "notes": "공식 단가 표기가 서로 달라 실제 개수는 계정에서 확인 필요. 표에는 Veo 3가 10크레딧(Veo 2는 35)으로 적혀 있어 표기 오류 가능성. 표의 'OpenAI Sora 2'는 API 종료로 작동하지 않을 가능성."
     },
     "howTo": [
       "pixelbin.io 가입 (10크레딧)",
@@ -2037,10 +2148,16 @@
       "로그인필요",
       "Seedance"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "Pixelbin AI Video Generator",
+        "url": "https://www.pixelbin.io/ai-tools/video-generator",
+        "type": "official",
+        "date": "2026-09"
+      },
       {
         "title": "Pixelbin Pricing (Sign up to get 10 free credits / 250 credits ≈ 35 Seedance Lite videos)",
         "url": "https://www.pixelbin.io/pricing",
@@ -2055,7 +2172,7 @@
       }
     ],
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "once",
       "watermark": "unknown",
@@ -2079,13 +2196,13 @@
     "headline": "Pollo AI 무료: 20크레딧으로 자체 Pollo 2.5 720p 5초 약 4개 (Seedance 2.5·Veo·Kling은 사실상 유료)",
     "description": "Pollo AI는 Kling·Veo·Hailuo·Vidu·Seedance 등 수십 개 영상 모델과 자체 Pollo 모델을 모은 애그리게이터입니다. 무료 플랜은 20크레딧뿐이라 공식 요금표 기준 자체 모델 Pollo 2.5(5초 5크레딧)로 4개 정도가 현실적인 한도입니다. 2026년 들어 일일 로그인 무료 크레딧이 사라졌다는 사용자 보고가 있습니다.",
     "freeTier": {
-      "quota": "무료 20크레딧 (공식 비교표: Pollo 2.5 720p 5초=5크레딧 → 4개, Pollo 2.0 720p 5초=10크레딧 → 2개, Seedance 2.5 480p는 무료 칸 비어 있음)",
-      "reset": "매월(리뷰 기준 '20 credits/month'로 보고) — 공식 표에는 '20 credits'만 표기",
-      "watermark": "가시 워터마크 있음 (유료 플랜에만 'Watermark-free outputs')",
+      "quota": "무료 20크레딧 (공식 비교표: Pollo 2.5 720p 5초=5크레딧 → 4개, Pollo 2.0 720p 5초=10크레딧 → 2개, Seedance 2.5 480p 5초=30크레딧 → 불가)",
+      "reset": "가입 시 1회로 보임 — 공식 FAQ상 무료 크레딧은 가입 보너스·일일 체크인·추천 등 '보너스 크레딧'(만료 없음). '월 20크레딧'은 일부 리뷰 보고뿐",
+      "watermark": "가시 워터마크 있음 (공식 FAQ: 워터마크 없는 다운로드는 구독 필요)",
       "commercialUse": "불명 (무료는 사실상 체험용)",
       "signup": "이메일/Google 계정 가입",
       "korea": "가능 (한국어 페이지 제공)",
-      "notes": "동시 작업 1개. 유료 전용: Seedance 2.5 및 Veo·Kling 등 고가 모델(20크레딧으로 사실상 불가). 과거의 일일 로그인·체크인 크레딧은 2026년 축소/폐지 보고(Reddit r/generativeAI)."
+      "notes": "동시 작업 1개. 유료 전용: Seedance 2.5 및 Veo·Kling 등 고가 모델(20크레딧으로 사실상 불가). 앱에 '디스코드 가입 시 20크레딧' 문구가 있음(유효성 미확인). 과거 일일 로그인·체크인 크레딧은 2026년 축소/폐지 보고(Reddit r/generativeAI)."
     },
     "howTo": [
       "pollo.ai 가입",
@@ -2100,8 +2217,14 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "Pollo AI Credits FAQs",
+        "url": "https://pollo.ai/credits-faqs",
+        "type": "official",
+        "date": "2026-09"
+      },
       {
         "title": "Pollo AI Plans & Pricing (Compare Plans: Free 20 credits)",
         "url": "https://pollo.ai/pricing",
@@ -2122,9 +2245,9 @@
       }
     ],
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
-      "reset": "monthly",
+      "reset": "once",
       "watermark": "visible",
       "login": true,
       "commercial": null
@@ -2140,20 +2263,20 @@
     "logo": "seaart",
     "logoDomain": "seaart.ai",
     "models": [
-      "Seedance 2.5 (유료 여부 불명)",
-      "MiniMax H3 (유료 여부 불명)",
-      "Kling (유료 여부 불명)"
+      "SeaArt 표준 영상 모델 (저가, 모델명 비공개)",
+      "Wan 3.0 (1개 300 스태미나 — 무료 한도 초과)",
+      "Seedance 2.5·MiniMax H3·Kling 3.0 (무료 한도로는 사실상 불가)"
     ],
-    "headline": "SeaArt 무료: 매일 약 130~150 스태미나(보고) — 영상은 스태미나 소모가 커서 하루 0~1개 수준, 모델별 단가 비공개",
+    "headline": "SeaArt 무료: 매일 130 스태미나 — Wan 3.0급 영상(1개 300)은 불가, 저가 '표준 영상'(30)이면 하루 최대 약 4개 (워터마크 있음)",
     "description": "SeaArt는 이미지·영상·캐릭터 챗을 제공하는 크리에이티브 커뮤니티로, 영상 메뉴에서 Seedance 2.5·MiniMax H3·Kling 등과 자체 모델을 내세웁니다. 무료 계정은 매일 스태미나(크레딧)를 받지만 고해상도 영상 하나가 기본 이미지 수십 장 분량을 소모한다고 리뷰됩니다. 무료 계정의 영상 모델 접근 범위는 공식적으로 확인하지 못했습니다.",
     "freeTier": {
-      "quota": "매일 약 130~150 스태미나 (2026-06 리뷰 보고, 기본 이미지 20여 장 분량) — 영상 단가 비공개",
-      "reset": "매일",
-      "watermark": "불명",
+      "quota": "매일 130 스태미나 (공식). 공식 비교표의 '표준 영상' 30크레딧 기준이면 하루 최대 약 4개, 공식 플랜 환산 기준(Wan 3.0 영상 1개 = 300 스태미나)이면 무료로는 0개. 스태미나가 모자라면 보유 크레딧에서 차감",
+      "reset": "매일 (스태미나는 당일만 유효)",
+      "watermark": "가시 워터마크 있음 (워터마크 없는 영상 다운로드는 유료 SVIP 혜택)",
       "commercialUse": "불명",
       "signup": "SeaArt 계정 (이메일·Google 등)",
       "korea": "가능",
-      "notes": "영상 모델별 스태미나 소모량과 무료 계정 사용 가능 모델은 미확인. NSFW 필터·커뮤니티 공개 설정 확인 필요."
+      "notes": "공식 FAQ: 무료 130 스태미나 ≈ 이미지 약 21장. 고화질 영상·첫/끝 프레임 영상은 유료 혜택. 모델별 스태미나 단가는 생성 화면에만 표시(공개 목록 없음). 제3자 리뷰는 영상 1개 260~1,300 스태미나로 보고. 몰 페이지의 'Seedance 2.5 무제한'(~10/04)은 구매형 이용권이라 무료 계정과 무관."
     },
     "howTo": [
       "seaart.ai 가입",
@@ -2167,8 +2290,20 @@
     ],
     "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "SeaArt Mall (요금제·스태미나)",
+        "url": "https://www.seaart.ai/mall",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "SeaArt Pricing 2026: Free, SVIP Stamina, Credits",
+        "url": "https://flowith.io/blog/seaart-pricing-free-vs-standard-vs-pro-plan/",
+        "type": "news",
+        "date": "2026"
+      },
       {
         "title": "SeaArt AI (Make Videos: Seedance 2.5, MiniMax H3)",
         "url": "https://www.seaart.ai/",
@@ -2183,10 +2318,10 @@
       }
     ],
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "daily",
-      "watermark": "unknown",
+      "watermark": "visible",
       "login": true,
       "commercial": null
     }
@@ -2201,27 +2336,23 @@
     "logo": "vheer",
     "logoDomain": "vheer.com",
     "models": [
-      "Vheer 자체 모델(무료 도구)",
-      "Veo3 Fast",
-      "SeeDance V1 Pro Fast",
-      "MiniMax Hailuo 2.3 Fast",
-      "LTX Video 2.3 Fast"
+      "Vheer 이미지→영상 무료 모델 (768p, 모델명 비공개)"
     ],
-    "headline": "Vheer 무료: 로그인 없이 자체 무료 도구 무제한 + 무료 플랜 월 50크레딧으로 Veo3 Fast·Seedance·Hailuo 체험 (단가 비공개)",
+    "headline": "Vheer 무료: 로그인 없이 이미지→영상 768p(5·10초), 워터마크 없음 — 텍스트→영상과 Veo·Seedance·Hailuo 등 프리미엄 모델은 유료 구독 전용",
     "description": "Vheer는 '무제한·가입 불필요·워터마크 없음'을 내세우는 무료 이미지/영상 생성 사이트로, 커뮤니티에서 무료 image-to-video 사이트로 자주 언급됩니다. 기본 무료 도구는 로그인 없이 쓸 수 있고, 가입하면 무료 플랜으로 월 50크레딧을 받아 Veo3 Fast·SeeDance V1 Pro Fast·Hailuo 2.3 Fast 같은 외부 모델을 써볼 수 있습니다.",
     "freeTier": {
-      "quota": "무료 도구(자체 모델) 무제한·가입 불필요 + 무료 플랜 월 50크레딧(외부 프리미엄 모델용, 모델별 단가 비공개)",
-      "reset": "무제한(무료 도구) / 매월(50크레딧)",
-      "watermark": "없음 (공식 표기 'No watermark')",
-      "commercialUse": "불명",
-      "signup": "무료 도구는 로그인 불필요, 크레딧 사용은 가입 필요",
+      "quota": "이미지→영상 무료 도구: 768p, 5초 또는 10초, 횟수 제한 표기 없음(공식은 '무제한' 표방). 무료 플랜 월 50크레딧은 '기본 이미지 생성'용. 텍스트→영상과 프리미엄 영상 모델(Veo 3.1 Fast, Seedance 1.5 Pro, Hailuo 2.3, LTX 2.3 등)은 유료 구독 필요",
+      "reset": "무제한 (무료 이미지→영상) / 매월 (50크레딧)",
+      "watermark": "없음 (공식 요금표 Free 플랜 'No watermark')",
+      "commercialUse": "불가 (무료 플랜은 'Personal use', 상업 이용은 Premium 이상)",
+      "signup": "로그인 불필요 (기록 저장은 로그인 필요)",
       "korea": "가능",
-      "notes": "홈페이지에 Sora 2도 표기돼 있으나 OpenAI Sora API가 2026-09-24 종료돼 현재 작동하지 않을 가능성이 큼. 무료 플랜은 광고 표시. 50크레딧으로 Veo3 Fast를 몇 개 만들 수 있는지는 확인 못함."
+      "notes": "공식 텍스트→영상 FAQ: 'this tool is not available for free use… you need an active subscription'. 1080p는 유료 전용. 무료 플랜은 광고 표시. Sora 2는 OpenAI API 종료로 작동하지 않을 가능성이 큼."
     },
     "howTo": [
-      "vheer.com 접속 → Start Creating Free",
-      "Image to Video 등 무료 도구는 바로 사용 (로그인 불필요)",
-      "외부 모델(Veo3 Fast 등)은 가입 후 월 50크레딧으로 사용"
+      "vheer.com/ai-image-to-video 접속 (로그인 불필요)",
+      "이미지를 올리고 자동 생성된 프롬프트를 필요하면 수정",
+      "길이 5초 또는 10초를 고르고 생성, 768p로 다운로드"
     ],
     "tags": [
       "로그인불필요",
@@ -2229,10 +2360,22 @@
       "워터마크없음",
       "매월충전"
     ],
-    "confidence": "low",
+    "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
+      {
+        "title": "Vheer Text to Video FAQ",
+        "url": "https://vheer.com/text-to-video",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Vheer Image to Video",
+        "url": "https://vheer.com/ai-image-to-video",
+        "type": "official",
+        "date": "2026-09"
+      },
       {
         "title": "Vheer - Free AI Image & Video Generator (Unlimited, No Signup)",
         "url": "https://vheer.com/",
@@ -2247,12 +2390,12 @@
       }
     ],
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "unlimited",
       "watermark": "none",
       "login": false,
-      "commercial": null
+      "commercial": false
     }
   },
   {
@@ -2267,16 +2410,16 @@
     "models": [
       "Vrew AI 비디오 (사용 모델 비공개)"
     ],
-    "headline": "브루(Vrew) 무료: 월 200크레딧으로 AI 비디오 최대 20개 (다른 AI 기능과 크레딧 공유)",
+    "headline": "브루(Vrew) 무료: 월 200크레딧으로 AI 비디오 최대 20개 — 단 브루 워터마크가 붙고, AI 비디오 원본 다운로드는 Light 이상",
     "description": "브루는 국내 보이저엑스의 텍스트 기반 영상 편집기로, AI 이미지·AI 비디오 생성과 AI 목소리·자막을 한 프로그램에서 제공합니다. 무료 플랜도 매월 200크레딧이 지급되며 공식 요금표상 이를 AI 비디오에만 쓰면 최대 20개를 만들 수 있습니다. 생성 영상을 곧바로 쇼츠·유튜브 편집에 넣을 수 있는 점이 강점입니다.",
     "freeTier": {
       "quota": "월 200크레딧 — AI 비디오만 쓰면 최대 20개 (AI 이미지 최대 200개, AI 목소리 2만 자 등과 공유)",
       "reset": "매월 (결제일/가입일 기준, 이월 없음)",
-      "watermark": "불명",
+      "watermark": "가시 워터마크 있음 (브루 워터마크 — 삭제는 Light 이상)",
       "commercialUse": "불명 (브루 이용약관 확인 필요)",
       "signup": "브루 계정 (이메일·Google 등)",
       "korea": "가능 (국내 서비스, 한국어)",
-      "notes": "AI 비디오에 쓰이는 기반 모델명은 공식 요금 페이지에 표기되지 않음. 이미지로부터 'AI로 비디오 생성' 방식, 한 번에 최대 5개까지 생성. PC 앱/웹 체험판 모두 제공."
+      "notes": "요금표상 'AI 이미지·비디오 다운로드'와 'Vrew 워터마크 삭제'는 Light 플랜 이상 기능 → 무료는 만든 AI 비디오를 브루 프로젝트 안에서 편집해 워터마크가 붙은 영상으로 내보내는 방식. 기반 모델명은 비공개. 이미지로부터 'AI로 비디오 생성', 한 번에 최대 5개. PC 앱/웹 모두 제공."
     },
     "howTo": [
       "vrew.ai에서 PC 앱 설치 또는 웹 체험하기 → 로그인",
@@ -2292,7 +2435,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "Vrew 가격 정책 (Free ₩0 · 200 크레딧/월 · AI 비디오 최대 20개)",
@@ -2308,10 +2451,10 @@
       }
     ],
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "monthly",
-      "watermark": "unknown",
+      "watermark": "visible",
       "login": true,
       "commercial": null
     }
@@ -2333,16 +2476,16 @@
       "Wan 3.0",
       "MiniMax H3"
     ],
-    "headline": "WaveSpeedAI 무료: 신규 $1 크레딧 1회 → Veo 3.1 Fast 8초 1개 또는 MiniMax H3 5초 5개 또는 Wan 3.0 5초 4개",
+    "headline": "WaveSpeedAI 무료: 신규 $1 크레딧 1회 → MiniMax H3 5초 5개 또는 Wan 3.0 5초 4개 (Veo 3.1 Fast 등 일부 프리미엄 모델은 체험 크레딧으로 못 쓸 수 있음)",
     "description": "WaveSpeedAI는 Seedance·Veo·Kling·Wan·MiniMax 등 최신 영상 모델을 초당 과금으로 제공하는 API/플레이그라운드 애그리게이터입니다. 카드 없이 가입한 신규 계정에 $1 무료 크레딧을 주므로, 공개된 초당 단가로 정확히 몇 초를 만들 수 있는지 계산됩니다. 웹 플레이그라운드에서 코딩 없이도 쓸 수 있습니다.",
     "freeTier": {
-      "quota": "신규 가입 $1 무료 크레딧(자격 계정 한정). 공식 단가: Veo 3.1 Fast $0.10/초(→약 10초), Seedance 2.5 $0.18/초(→5.5초), Seedance 2.0 $0.12/초(→8.3초), Kling 3.0 Std $0.084/초(→11.9초), Wan 3.0 $0.05/초(→20초), MiniMax H3 $0.04/초(→25초)",
+      "quota": "신규 가입 $1 무료 크레딧(자격 계정 한정). 공식 최저 단가: MiniMax H3 $0.04/초(→25초, 5초 5개), Wan 3.0 $0.05/초(→20초, 5초 4개), Kling 3.0 Std $0.084/초(→11.9초), Veo 3.1 Fast $0.10/초(→10초), Seedance 2.0 $0.12/초(→8.3초), Seedance 2.5 $0.18/초(→5.5초)",
       "reset": "가입 시 1회",
       "watermark": "불명 (API 원본 파일 출력)",
       "commercialUse": "불명 (모델별 약관 확인 필요)",
       "signup": "이메일/Google 계정, 신용카드 불필요",
       "korea": "가능",
-      "notes": "개발자용 성격이라 UI가 단순함. '$1 free credits'는 'Eligible new accounts' 조건. 이후는 선불 충전."
+      "notes": "공식 FAQ: 'Some premium models may not be available with trial credits' → Veo 3.1 Fast·Seedance 등은 체험 크레딧으로 막힐 수 있음. 가격은 최저 해상도 기준 표시가. 개발자용 성격이라 UI가 단순함. 이후는 선불 충전."
     },
     "howTo": [
       "wavespeed.ai 가입 (카드 없이 $1 크레딧)",
@@ -2357,9 +2500,9 @@
       "Veo",
       "MiniMax H3"
     ],
-    "confidence": "high",
+    "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-09-30",
     "sources": [
       {
         "title": "WaveSpeedAI Pricing (No credit card required • Eligible new accounts get $1 in free credits)",
@@ -2375,12 +2518,259 @@
       }
     ],
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-09-30",
     "flags": {
       "reset": "once",
       "watermark": "unknown",
       "login": true,
       "commercial": null
     }
+  },
+  {
+    "id": "wan-video",
+    "category": "video",
+    "platform": "Wan (공식 사이트)",
+    "vendor": "Alibaba",
+    "access": "official",
+    "url": "https://create.wan.video",
+    "logo": "wan",
+    "logoDomain": "wan.video",
+    "models": [
+      "Wan 3.0"
+    ],
+    "headline": "Wan 공식 사이트 무료: 매일 출석 체크 크레딧(보고 50/일) → Wan 3.0 짧은 영상 하루 약 5개, 워터마크",
+    "description": "알리바바의 영상 생성 모델 Wan 3.0(8월 24일 정식 출시)을 공식 글로벌 사이트에서 직접 쓰는 방법입니다. 텍스트·이미지는 물론 문서·웹페이지까지 참고 자료로 넣어 영상을 만들고, 기존 영상을 고치거나 이어 붙이는 편집도 됩니다. 무료 계정은 매일 출석 체크로 크레딧을 받아 쓰며, 1080p·10~30초 긴 영상과 워터마크 제거는 유료입니다.",
+    "freeTier": {
+      "quota": "매일 출석 체크(Check In)로 무료 크레딧 적립. Kapwing(9/1) 보도 기준 가입 시 50 + 출석 50크레딧/일, 영상 1개 10크레딧 → 하루 약 5개. 공식 요금표는 Pro 300크레딧 = 영상 최대 60개(개당 약 5크레딧)로 표기해 설정에 따라 차감량이 다를 수 있음. 영상·이미지 동시 제출 각 1개",
+      "reset": "매일 (출석 체크)",
+      "watermark": "가시 워터마크 있음 (워터마크 없는 다운로드는 유료)",
+      "commercialUse": "불명 (약관 확인 필요)",
+      "signup": "계정 가입 필요 (국제판 create.wan.video)",
+      "korea": "가능한 것으로 보임 (국제판 웹. 앱은 지역에 따라 미제공이라 모바일 웹 안내. 중국판 通义万相은 별도)",
+      "notes": "무료는 이미지 스타일 6종만, 1080p·10~30초 긴 영상은 유료(Pro 월 $10, 연 결제 시 $5/월~). 결과물 공개·평가로 추가 크레딧을 준다는 보고 있음. 영상 입력이 들어가는 작업은 입력+출력 합계 최대 30초. 오픈웨이트 Wan 모델은 Hugging Face 항목 참고."
+    },
+    "flags": {
+      "reset": "daily",
+      "watermark": "visible",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "create.wan.video 접속 후 가입",
+      "로그인 후 매일 Check In 버튼으로 무료 크레딧 받기",
+      "Generate에서 텍스트/이미지로 짧은 영상 생성 (무료는 워터마크)"
+    ],
+    "tags": [
+      "매일충전",
+      "출석체크",
+      "워터마크",
+      "로그인필요",
+      "신모델"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-09-30",
+    "updated": "2026-09-30",
+    "lastVerified": "2026-09-30",
+    "sources": [
+      {
+        "title": "Wan AI Pricing (Free: Daily check-in to earn free credits / 워터마크 제거·1080p·10~30초는 유료)",
+        "url": "https://create.wan.video/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Alibaba launches Wan3.0 AI video model after $10 billion share sale (Reuters via Yahoo Finance)",
+        "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-launches-wan3-0-ai-081504479.html",
+        "type": "news",
+        "date": "2026-08-24"
+      },
+      {
+        "title": "How to Use Wan 3.0: Alibaba's AI Video Generator (Kapwing) — 가입 50·출석 50크레딧, 영상 1개 10크레딧",
+        "url": "https://www.kapwing.com/resources/how-to-use-wan-ai-video-generator-alibaba/",
+        "type": "news",
+        "date": "2026-09-01"
+      }
+    ]
+  },
+  {
+    "id": "qwen-chat-video",
+    "category": "video",
+    "platform": "Qwen Chat",
+    "vendor": "Alibaba",
+    "access": "official",
+    "url": "https://chat.qwen.ai",
+    "logo": "qwen",
+    "logoDomain": "chat.qwen.ai",
+    "models": [
+      "Wan 계열 (버전 비공개)"
+    ],
+    "headline": "Qwen Chat 영상 생성 → 구독 없이 무료, 하루 몇 개 수준 (공식 한도 비공개, 사용자 보고 약 4개)",
+    "description": "알리바바 챗봇 Qwen Chat의 'Video Generation' 메뉴로 텍스트나 이미지를 넣어 짧은 영상을 만듭니다. 엔진은 같은 회사의 Wan 영상 모델 계열입니다. Qwen Chat에는 유료 구독 등급이 없어 로그인만 하면 무료로 쓸 수 있습니다.",
+    "freeTier": {
+      "quota": "무료 (공식 일일 한도 비공개). 사용자 보고로는 하루 약 4개에서 한도에 걸리거나, 연속 6~7개 이후 속도가 느려지는 소프트 제한",
+      "reset": "불명 (일일 소프트 한도로 보고됨)",
+      "watermark": "불명",
+      "commercialUse": "불명 (Qwen Chat 약관 따름)",
+      "signup": "이메일, Google 등",
+      "korea": "가능 (웹 기준)",
+      "notes": "영상 길이는 약 5초로 보고됨. 어떤 Wan 버전이 들어가 있는지 명시되지 않음. 최신 Wan 3.0 전체 기능(30초·문서 입력)은 Wan 공식 사이트(create.wan.video)에서. 한도 보고는 2025~2026년 사용자 글 기준이라 현재와 다를 수 있음."
+    },
+    "flags": {
+      "reset": "unknown",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "chat.qwen.ai 접속 후 이메일·Google로 로그인",
+      "입력창 아래 'Video Generation' 선택",
+      "장면을 설명하거나 이미지를 올려 영상 생성"
+    ],
+    "tags": [
+      "무료",
+      "한도비공개",
+      "로그인필요"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "added": "2026-09-30",
+    "updated": "2026-09-30",
+    "lastVerified": "2026-09-30",
+    "sources": [
+      {
+        "title": "Qwen Chat (Image Generation / Video Generation 메뉴)",
+        "url": "https://chat.qwen.ai",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Just got FREE access to QWEN AI Video generation! (DEV Community, 하루 4개 한도 보고)",
+        "url": "https://dev.to/fm/just-got-free-access-to-qwen-ai-video-generation-awesome-36of",
+        "type": "community"
+      },
+      {
+        "title": "Qwen AI Video Review 2026 (Filmora) — 약 5초 클립",
+        "url": "https://filmora.wondershare.com/video-editor-review/qwen-ai-review.html",
+        "type": "news",
+        "date": "2026"
+      }
+    ]
+  },
+  {
+    "id": "bandicam-ai-video",
+    "category": "video",
+    "platform": "반디캠 AI 스튜디오 (Bandicam AI Studio)",
+    "vendor": "반디캠컴퍼니 (Bandicam Company)",
+    "access": "wrapper",
+    "url": "https://bandicam.ai",
+    "logo": "bandicam",
+    "logoDomain": "bandicam.com",
+    "models": [
+      "모델명 비공개 (가장 저렴한 기본 모델 기준 480p)",
+      "AI 디렉터 (장면 구성·프롬프트 자동 작성)"
+    ],
+    "headline": "반디캠 AI 스튜디오(9/28 출시): 가입 시 100크레딧 1회 → 480p 5초 영상 약 5개 (또는 이미지 약 100장)",
+    "description": "화면 녹화 프로그램 '반디캠'을 만든 국내 기업 반디캠컴퍼니가 9월 28일 정식 출시한 올인원 AI 영상 제작 플랫폼입니다. 아이디어 한 줄을 넣으면 대화형 'AI 디렉터'가 장면별 스토리보드와 프롬프트를 짜서 여러 장면짜리 영상을 만들어 주고, 립싱크·모션 컨트롤·업스케일·자막 생성도 한곳에서 됩니다. 출시 기념으로 신규 가입자에게 무료 크레딧을 줍니다.",
+    "freeTier": {
+      "quota": "가입 시 100크레딧 1회. 공식 안내: 이미지 최대 100장 또는 영상 5개 (가장 저렴한 모델 기준 480p 5초 영상 1개 = 20크레딧). 무료 계정은 월 충전 크레딧 없음, 프리미엄 모델은 더 많이 차감",
+      "reset": "가입 시 1회",
+      "watermark": "불명",
+      "commercialUse": "불명 (약관 확인 필요)",
+      "signup": "계정 가입 필요",
+      "korea": "가능 (국내 기업, 한국어 서비스)",
+      "notes": "비구독 계정은 저장공간 1GB, 파일은 7일 뒤 삭제. 유료는 월 1,000크레딧 $7.99(연 결제 $6)부터. Claude·ChatGPT·Cursor에서 MCP로 연결해 같은 크레딧으로 생성 가능."
+    },
+    "flags": {
+      "reset": "once",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "bandicam.ai 접속 후 가입 (100크레딧 지급)",
+      "AI Director에 만들고 싶은 영상 아이디어를 한 줄로 입력",
+      "제안된 장면 구성을 확인하고 영상 생성 (결과는 7일 안에 다운로드)"
+    ],
+    "tags": [
+      "가입시1회",
+      "한국서비스",
+      "에이전트",
+      "신규",
+      "로그인필요"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-09-30",
+    "updated": "2026-09-30",
+    "lastVerified": "2026-09-30",
+    "sources": [
+      {
+        "title": "Bandicam AI Studio Pricing (Get 100 free credits when you sign up — Up to 100 images or 5 videos)",
+        "url": "https://bandicam.ai/pricing",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "반디캠컴퍼니, AI 영상툴 '반디캠 AI 스튜디오' 출시 (인공지능신문)",
+        "url": "https://www.aitimes.kr/news/articleView.html?idxno=42083",
+        "type": "news",
+        "date": "2026-09-28"
+      }
+    ]
+  },
+  {
+    "id": "viggle-video",
+    "category": "video",
+    "platform": "Viggle AI",
+    "vendor": "Viggle",
+    "access": "official",
+    "url": "https://viggle.ai",
+    "logo": "viggle",
+    "logoDomain": "viggle.ai",
+    "models": [
+      "Viggle 자체 모션 전이·캐릭터 스왑 모델"
+    ],
+    "headline": "Viggle 무료: 하루 영상 5개 (사진 속 인물 춤·캐릭터 스왑), 워터마크",
+    "description": "사진 속 인물을 다른 영상의 동작대로 움직이게 하거나(모션 전이) 영상 속 인물을 내 캐릭터로 바꾸는 밈 영상 특화 서비스입니다. 무료 계정은 하루 5개 영상을 만들 수 있고, 카메라 앞에서 실시간으로 캐릭터를 바꾸는 Real-Time Swap도 5분 체험할 수 있습니다. Kling·Veo·Wan·Nano Banana 같은 외부 모델은 유료 크레딧이 필요합니다.",
+    "freeTier": {
+      "quota": "하루 5개 영상 (동시 생성 1개), Real-Time Swap 세션 5분, 업로드 영상 최대 1분. 월 크레딧 0 → 크레딧이 드는 외부 모델(Kling·Veo·Wan·Nano Banana·Seedance 등)은 사용 불가",
+      "reset": "매일",
+      "watermark": "가시 워터마크 있음 (유료부터 제거)",
+      "commercialUse": "불명",
+      "signup": "계정 가입 필요",
+      "korea": "가능한 것으로 보임 (지역 제한 공지 없음)",
+      "notes": "생성물·에셋은 7일만 보관. 여러 캐릭터 멀티트랙 세션은 제한적. 유료 Pro $9.99/월(연 결제 $7.99)부터 무제한 영상."
+    },
+    "flags": {
+      "reset": "daily",
+      "watermark": "visible",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "viggle.ai 가입",
+      "움직일 인물 사진과 따라 할 동작 영상(또는 템플릿) 선택",
+      "생성 후 7일 안에 다운로드 (무료는 워터마크)"
+    ],
+    "tags": [
+      "매일충전",
+      "워터마크",
+      "캐릭터스왑",
+      "로그인필요"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "added": "2026-09-30",
+    "updated": "2026-09-30",
+    "lastVerified": "2026-09-30",
+    "sources": [
+      {
+        "title": "Viggle Pricing (Free: 5 free videos/day, 1 at a time, watermark, 7-day storage)",
+        "url": "https://viggle.ai/pricing",
+        "type": "official",
+        "date": "2026-09"
+      }
+    ]
   }
 ]
