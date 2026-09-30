@@ -9,7 +9,7 @@
   --accent-soft: #e8f7f0;
   --warn: #c2410c;
   --radius: 8px;
-  --tile-opacity: 0.62;
+  --mark-opacity: 0.38;
   color-scheme: light;
 }
 /* 다크: 시스템이 다크이고 라이트로 고정하지 않았을 때, 또는 다크로 고정했을 때 */
@@ -24,7 +24,7 @@
     --accent: #34d399;
     --accent-soft: #10251d;
     --warn: #fb923c;
-    --tile-opacity: 0.3;
+    --mark-opacity: 0.42;
     color-scheme: dark;
   }
   :root:not([data-theme="light"]) .i-sun { display: block; }
@@ -40,7 +40,7 @@
   --accent: #34d399;
   --accent-soft: #10251d;
   --warn: #fb923c;
-  --tile-opacity: 0.3;
+  --mark-opacity: 0.42;
   color-scheme: dark;
 }
 :root[data-theme="dark"] .i-sun { display: block; }
@@ -209,24 +209,22 @@ h1, h2 { letter-spacing: -0.02em; line-height: 1.3; }
   .model-item { grid-template-columns: 1fr; gap: 6px; }
 }
 
-/* ── 히어로: 흐르는 로고 배너 ── */
+/* ── 히어로: 흐르는 로고 배너 (단색 마크, 위·아래 두 줄) ── */
 .hero { position: relative; overflow: hidden; border-bottom: 1px solid var(--line); }
-.hero-bg { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: space-between; padding-block: 26px; }
-.hero-bg::after { content: ""; position: absolute; inset: 0; pointer-events: none;
-  background:
-    radial-gradient(ellipse 40% 50% at 50% 50%, var(--bg) 45%, transparent 100%),
-    linear-gradient(to right, var(--bg), transparent 12%, transparent 88%, var(--bg)); }
-.mq-row { overflow: hidden; }
-.mq-track { display: flex; gap: 14px; width: max-content; animation: mq 70s linear infinite; }
-.mq-row-1 .mq-track { animation-duration: 85s; animation-direction: reverse; }
-.mq-row-2 .mq-track { animation-duration: 60s; }
+.mq-sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
+.hero-bg { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: space-between; padding-block: 30px; }
+.mq-row { overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 14%, #000 86%, transparent);
+          mask-image: linear-gradient(to right, transparent, #000 14%, #000 86%, transparent); }
+.mq-track { display: flex; width: max-content; animation: mq var(--dur, 70s) linear infinite; will-change: transform; }
+.mq-row-1 .mq-track { animation-direction: reverse; }
 .mq-row:hover .mq-track { animation-play-state: paused; }
-@keyframes mq { to { transform: translateX(calc(-50% - 7px)); } }
-.mq-tile { flex: none; display: grid; place-items: center; width: 54px; height: 54px; border-radius: 15px; background: #fff; border: 1px solid var(--line);
-  opacity: var(--tile-opacity); filter: grayscale(1); transition: opacity .2s, filter .2s, transform .2s; }
-.mq-tile:hover { opacity: 1; filter: none; transform: translateY(-2px); text-decoration: none; }
-.mq-tile img { width: 30px; height: 30px; object-fit: contain; border-radius: 6px; }
-.hero-fg { position: relative; z-index: 1; text-align: center; padding-block: 112px 108px; pointer-events: none; }
+@keyframes mq { to { transform: translateX(-50%); } }
+.mq-item { flex: none; display: grid; place-items: center; width: 84px; height: 44px; color: var(--fg); opacity: var(--mark-opacity); transition: opacity .2s, transform .2s; }
+.mq-item svg { width: 30px; height: 30px; fill: currentColor; fill-rule: evenodd; }
+.mq-item:hover { opacity: 1; transform: scale(1.15); text-decoration: none; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.hero-fg { position: relative; z-index: 1; text-align: center; padding-block: 124px 120px; pointer-events: none; }
 .hero-fg > * { pointer-events: auto; }
 .hero-fg h1 { font-size: clamp(24px, 4.4vw, 34px); margin: 0 auto 10px; max-width: 20ch; font-weight: 750; }
 .hero-fg p { margin: 8px auto; max-width: 56ch; }
@@ -234,11 +232,10 @@ h1, h2 { letter-spacing: -0.02em; line-height: 1.3; }
 .hero-kicker { display: inline-block; font-size: 12.5px; font-weight: 600; color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent); background: var(--bg); border-radius: 99px; padding: 3px 11px; }
 @media (prefers-reduced-motion: reduce) { .mq-track { animation: none; } }
 @media (max-width: 560px) {
-  .hero-fg { padding-block: 84px 80px; }
-  .hero-bg { padding-block: 16px; }
-  .hero-bg::after { background: radial-gradient(ellipse 90% 58% at 50% 50%, var(--bg) 50%, transparent 100%); }
-  .mq-tile { width: 44px; height: 44px; border-radius: 12px; }
-  .mq-tile img { width: 24px; height: 24px; }
+  .hero-bg { padding-block: 18px; }
+  .hero-fg { padding-block: 92px 88px; }
+  .mq-item { width: 64px; height: 36px; }
+  .mq-item svg { width: 24px; height: 24px; }
 }
 
 /* ── 🔥 · 정렬 ── */

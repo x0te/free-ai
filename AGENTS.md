@@ -12,8 +12,6 @@
 - `data/hot-terms.json` — 화제성(🔥) 검색어. 키는 logo 키 또는 항목 id(id 우선). 동음이의어는 구체적인 구로
 - `data/hot.json` — `node scripts/hot.mjs` 결과 (디시·클리앙·Hacker News 최근 30일 언급량 → score). 목록 기본 정렬과 🔥 표시에 쓰임
 - `public/logos/<logo>.<ext>` — 공식 아이콘 (`node scripts/fetch-logos.mjs` 로 수집)
-- `data/marks.json` → `public/marks/*.svg` — 홈 배너에 흐르는 단색 로고 마크 (`node scripts/fetch-marks.mjs`, @lobehub/icons 아이콘 이름). 새 플랫폼에 마크가 있으면 매핑 추가
-- `public/og.png`, `apple-touch-icon.png`, `icon-512.png` — 링크 미리보기 썸네일·앱 아이콘 (`node scripts/make-og.mjs`, 로컬 Chrome 필요)
 - `site.config.json` — 사이트 이름, 주소, giscus 댓글 설정
 
 ## 매일 업데이트 절차

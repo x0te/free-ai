@@ -1,7 +1,6 @@
 // 데이터(data/*.json) → 정적 사이트(dist/) 빌드. 외부 의존성 없음.
 import fs from 'node:fs';
 import path from 'node:path';
-import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -233,10 +232,21 @@ function layout({ title, desc, path: p, body, active = '', hero = '' }) {
 <meta property="og:title" content="${esc(fullTitle)}">
 <meta property="og:description" content="${esc(desc || config.tagline)}">
 <meta property="og:url" content="${abs(p)}">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="${abs('og.png')}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${esc(config.title)} — 지금 무료로 쓸 수 있는 생성형 AI, 매일 정리">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(fullTitle)}">
+<meta name="twitter:description" content="${esc(desc || config.tagline)}">
+<meta name="twitter:image" content="${abs('og.png')}">
 <script>try{var m=localStorage.getItem('theme');if(m==='light'||m==='dark')document.documentElement.dataset.theme=m}catch(e){}</script>
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0e0e0e" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="${url('favicon.svg')}" type="image/svg+xml">
+<link rel="icon" href="${url('icon-512.png')}" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="${url('apple-touch-icon.png')}">
 <link rel="alternate" type="application/rss+xml" title="${esc(config.title)} 업데이트" href="${url('feed.xml')}">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
@@ -317,26 +327,40 @@ const pages = {};
 </section>`;
     })
     .join('');
-  // 히어로 배경: 화제성 순 로고가 3줄로 흐름 (각 줄은 두 번 반복해 끊김 없이 순환)
-  // 같은 이미지를 쓰는 플랫폼(예: ChatGPT·Codex)은 한 번만
-  const logoTools = [];
-  const seenLogo = new Set();
+  // 히어로 배경: 화제성 순 단색 로고 마크(public/marks, data/marks.json)가 위·아래 두 줄로 흐름.
+  // 마크는 한 번만 <symbol>로 정의하고 <use>로 재사용. 한 줄의 절반(=한 바퀴)이 넓은 화면보다 길도록
+  // 반복해 채운 뒤 통째로 한 번 더 이어 붙여 -50% 이동으로 끊김 없이 순환한다.
+  const marks = readJSON('data/marks.json');
+  const markTools = [];
+  const seenMark = new Set();
   for (const t of byScore) {
-    const f = logoMap[t.logo];
-    if (!f) continue;
-    const digest = crypto.createHash('md5').update(fs.readFileSync(path.join(ROOT, 'public/logos', f))).digest('hex');
-    if (seenLogo.has(digest)) continue;
-    seenLogo.add(digest);
-    logoTools.push(t);
+    const m = marks[t.id] || marks[t.logo];
+    if (!m || seenMark.has(m) || !fs.existsSync(path.join(ROOT, 'public/marks', m + '.svg'))) continue;
+    seenMark.add(m);
+    markTools.push({ t, m });
   }
-  const PER_ROW = 14;
-  const mqRows = [0, 1, 2].map((r) => logoTools.slice(r * PER_ROW, (r + 1) * PER_ROW)).filter((r) => r.length);
-  const tile = (t, hidden) =>
-    `<a class="mq-tile" href="${url('t/' + t.id + '/')}" title="${esc(t.platform)}"${hidden ? ' tabindex="-1" aria-hidden="true"' : ''}><img src="${url('logos/' + logoMap[t.logo])}" alt="${hidden ? '' : esc(t.platform)}" width="30" height="30"></a>`;
+  const sprite = markTools
+    .map(({ m }) => {
+      const svg = fs.readFileSync(path.join(ROOT, 'public/marks', m + '.svg'), 'utf8');
+      const viewBox = svg.match(/viewBox="([^"]+)"/)?.[1] || '0 0 24 24';
+      const inner = svg.replace(/^[\s\S]*?<svg[^>]*>/, '').replace(/<\/svg>\s*$/, '').replace(/<title>[\s\S]*?<\/title>/, '');
+      return `<symbol id="mk-${m}" viewBox="${viewBox}">${inner}</symbol>`;
+    })
+    .join('');
+  const ITEM_W = 84; // CSS .mq-item 폭(마크 30 + 좌우 여백 27×2)
+  const MIN_HALF = 2600; // 한 바퀴 최소 폭(px) — 초광폭 화면에서도 빈 곳이 보이지 않게
+  const rowsOf = [markTools.filter((_, i) => i % 2 === 0), markTools.filter((_, i) => i % 2 === 1)].filter((r) => r.length);
+  const item = ({ t, m }, hidden) =>
+    `<a class="mq-item" href="${url('t/' + t.id + '/')}" title="${esc(t.platform)}"${hidden ? ' tabindex="-1" aria-hidden="true"' : ''}><svg aria-hidden="true"><use href="#mk-${m}"/></svg>${hidden ? '' : `<span class="sr-only">${esc(t.platform)}</span>`}</a>`;
+  const rowHtml = (list, i) => {
+    let half = [...list];
+    while (half.length * ITEM_W < MIN_HALF) half = half.concat(list);
+    const seconds = Math.round((half.length * ITEM_W) / 38); // 약 38px/s
+    return `<div class="mq-row mq-row-${i}"><div class="mq-track" style="--dur:${seconds}s">${half.map((x, j) => item(x, j >= list.length)).join('')}${half.map((x) => item(x, true)).join('')}</div></div>`;
+  };
   const hero = `<section class="hero">
-  <div class="hero-bg">${mqRows
-    .map((r, i) => `<div class="mq-row mq-row-${i}"><div class="mq-track">${r.map((t) => tile(t)).join('')}${r.map((t) => tile(t, true)).join('')}</div></div>`)
-    .join('')}</div>
+  <svg class="mq-sprite" aria-hidden="true">${sprite}</svg>
+  <div class="hero-bg">${rowsOf.map(rowHtml).join('')}</div>
   <div class="hero-fg wrap">
     <p class="hero-kicker">무료 생성형 AI 종합 게시판</p>
     <h1>${esc(config.tagline)}</h1>
