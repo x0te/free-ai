@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30",
+ "updated": "2026-10-15",
  "windowDays": 30,
  "sources": [
   "디시인사이드",
@@ -8,562 +8,598 @@
  ],
  "items": {
   "claude": {
-   "dc": 4669,
-   "clien": 213,
-   "hn": 6861,
-   "score": 0.983
+   "dc": 3940,
+   "clien": 209,
+   "hn": 6871,
+   "score": 0.963
   },
   "gemini": {
-   "dc": 6309,
-   "clien": 99,
-   "hn": 1398,
-   "score": 0.918
+   "dc": 7554,
+   "clien": 204,
+   "hn": 1383,
+   "score": 0.944
   },
   "chatgpt": {
    "dc": 3000,
-   "clien": 161,
-   "hn": 2048,
-   "score": 0.906
-  },
-  "openai-codex": {
-   "dc": 3000,
-   "clien": 35,
-   "hn": 1862,
-   "score": 0.847
+   "clien": 211,
+   "hn": 1809,
+   "score": 0.903
   },
   "grok": {
-   "dc": 3752,
-   "clien": 13,
-   "hn": 678,
-   "score": 0.79
+   "dc": 3076,
+   "clien": 14,
+   "hn": 557,
+   "score": 0.766
+  },
+  "openai-codex": {
+   "dc": 710,
+   "clien": 38,
+   "hn": 1621,
+   "score": 0.755
   },
   "deepseek": {
-   "dc": 1407,
-   "clien": 18,
-   "hn": 1010,
-   "score": 0.759
+   "dc": 1769,
+   "clien": 12,
+   "hn": 1033,
+   "score": 0.75
   },
   "qwen": {
-   "dc": 722,
-   "clien": 13,
-   "hn": 744,
-   "score": 0.699
-  },
-  "meta-muse": {
-   "dc": 999,
-   "clien": 6,
-   "hn": 68,
-   "score": 0.611
+   "dc": 826,
+   "clien": 11,
+   "hn": 722,
+   "score": 0.692
   },
   "google-antigravity": {
-   "dc": 314,
+   "dc": 731,
    "clien": 8,
-   "hn": 183,
-   "score": 0.588
+   "hn": 179,
+   "score": 0.628
   },
   "suno": {
-   "dc": 897,
-   "clien": 6,
-   "hn": 41,
-   "score": 0.588
-  },
-  "openrouter": {
-   "dc": 156,
-   "clien": 7,
-   "hn": 472,
-   "score": 0.576
-  },
-  "chatgpt-image": {
-   "dc": 499,
-   "clien": 8,
-   "hn": 48,
+   "dc": 1372,
+   "clien": 3,
+   "hn": 27,
    "score": 0.569
   },
   "devin-desktop": {
-   "dc": 159,
-   "clien": 15,
-   "hn": 125,
-   "score": 0.558
-  },
-  "mistral": {
-   "dc": 91,
-   "clien": 6,
-   "hn": 283,
-   "score": 0.523
-  },
-  "gemini-app-image": {
-   "dc": 431,
-   "clien": 4,
-   "hn": 16,
-   "score": 0.503
-  },
-  "meta-ai": {
-   "dc": 100,
-   "clien": 13,
-   "hn": 41,
-   "score": 0.489
-  },
-  "perplexity": {
-   "dc": 90,
-   "clien": 4,
-   "hn": 119,
-   "score": 0.48
+   "dc": 213,
+   "clien": 11,
+   "hn": 141,
+   "score": 0.562
   },
   "google-ai-studio": {
-   "dc": 164,
-   "clien": 3,
-   "hn": 39,
-   "score": 0.469
+   "dc": 608,
+   "clien": 6,
+   "hn": 43,
+   "score": 0.56
+  },
+  "openrouter": {
+   "dc": 115,
+   "clien": 7,
+   "hn": 415,
+   "score": 0.549
+  },
+  "gemini-app-image": {
+   "dc": 619,
+   "clien": 5,
+   "hn": 19,
+   "score": 0.529
+  },
+  "meta-muse": {
+   "dc": 152,
+   "clien": 9,
+   "hn": 96,
+   "score": 0.523
+  },
+  "mistral": {
+   "dc": 116,
+   "clien": 2,
+   "hn": 258,
+   "score": 0.496
+  },
+  "meta-ai": {
+   "dc": 224,
+   "clien": 5,
+   "hn": 34,
+   "score": 0.491
   },
   "zai": {
-   "dc": 49,
+   "dc": 143,
    "clien": 0,
-   "hn": 501,
-   "score": 0.435
+   "hn": 465,
+   "score": 0.487
   },
-  "dreamina-video": {
-   "dc": 196,
+  "minimax": {
+   "dc": 207,
+   "clien": 4,
+   "hn": 40,
+   "score": 0.485
+  },
+  "opencode": {
+   "dc": 78,
    "clien": 1,
-   "hn": 14,
-   "score": 0.42
+   "hn": 513,
+   "score": 0.482
   },
-  "google-flow": {
-   "dc": 769,
-   "clien": 0,
-   "hn": 2,
-   "score": 0.417
+  "perplexity": {
+   "dc": 113,
+   "clien": 4,
+   "hn": 49,
+   "score": 0.458
   },
-  "kimi": {
-   "dc": 65,
+  "chatgpt-image": {
+   "dc": 409,
    "clien": 0,
-   "hn": 135,
-   "score": 0.406
+   "hn": 27,
+   "score": 0.45
   },
   "gemini-notebook": {
-   "dc": 72,
-   "clien": 6,
-   "hn": 8,
-   "score": 0.392
+   "dc": 121,
+   "clien": 4,
+   "hn": 10,
+   "score": 0.41
   },
-  "kling": {
+  "kimi": {
    "dc": 83,
-   "clien": 2,
-   "hn": 16,
-   "score": 0.39
-  },
-  "pixai": {
-   "dc": 861,
    "clien": 0,
-   "hn": 0,
-   "score": 0.386
-  },
-  "canva": {
-   "dc": 46,
-   "clien": 1,
-   "hn": 44,
-   "score": 0.375
-  },
-  "kiro": {
-   "dc": 26,
-   "clien": 2,
-   "hn": 60,
-   "score": 0.369
-  },
-  "wrtn": {
-   "dc": 505,
-   "clien": 0,
-   "hn": 0,
-   "score": 0.356
-  },
-  "gemini-music": {
-   "dc": 194,
-   "clien": 0,
-   "hn": 3,
-   "score": 0.348
-  },
-  "qwen-chat-image": {
-   "dc": 70,
-   "clien": 0,
-   "hn": 20,
-   "score": 0.347
+   "hn": 97,
+   "score": 0.404
   },
   "elevenlabs": {
-   "dc": 38,
-   "clien": 0,
-   "hn": 56,
-   "score": 0.347
+   "dc": 84,
+   "clien": 1,
+   "hn": 42,
+   "score": 0.402
   },
-  "world-labs": {
-   "dc": 19,
+  "kling": {
+   "dc": 129,
    "clien": 2,
-   "hn": 35,
-   "score": 0.334
+   "hn": 12,
+   "score": 0.401
   },
-  "krea": {
-   "dc": 103,
+  "dreamina-video": {
+   "dc": 241,
    "clien": 0,
+   "hn": 13,
+   "score": 0.397
+  },
+  "canva": {
+   "dc": 61,
+   "clien": 0,
+   "hn": 54,
+   "score": 0.367
+  },
+  "gemini-music": {
+   "dc": 115,
+   "clien": 1,
    "hn": 6,
-   "score": 0.331
+   "score": 0.358
+  },
+  "qwen-chat-image": {
+   "dc": 67,
+   "clien": 0,
+   "hn": 29,
+   "score": 0.352
+  },
+  "pixai": {
+   "dc": 477,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.345
+  },
+  "wrtn": {
+   "dc": 421,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.338
   },
   "github-copilot": {
-   "dc": 19,
+   "dc": 27,
    "clien": 0,
-   "hn": 92,
-   "score": 0.325
+   "hn": 86,
+   "score": 0.338
   },
-  "meshy": {
-   "dc": 80,
+  "world-labs": {
+   "dc": 16,
+   "clien": 4,
+   "hn": 30,
+   "score": 0.335
+  },
+  "kiro": {
+   "dc": 23,
    "clien": 0,
-   "hn": 5,
-   "score": 0.312
+   "hn": 54,
+   "score": 0.314
   },
-  "lovable": {
-   "dc": 22,
-   "clien": 0,
-   "hn": 46,
-   "score": 0.31
-  },
-  "grok-imagine-video": {
-   "dc": 86,
+  "krea": {
+   "dc": 102,
    "clien": 0,
    "hn": 4,
-   "score": 0.31
+   "score": 0.314
   },
-  "tripo": {
-   "dc": 130,
+  "lovable": {
+   "dc": 23,
    "clien": 0,
-   "hn": 1,
-   "score": 0.302
+   "hn": 47,
+   "score": 0.309
   },
   "adobe-firefly": {
-   "dc": 58,
-   "clien": 1,
-   "hn": 1,
-   "score": 0.282
-  },
-  "groq": {
-   "dc": 20,
+   "dc": 243,
    "clien": 0,
-   "hn": 18,
-   "score": 0.274
-  },
-  "hf-yue2-music": {
-   "dc": 21,
-   "clien": 1,
-   "hn": 7,
-   "score": 0.273
-  },
-  "google-search": {
-   "dc": 19,
-   "clien": 0,
-   "hn": 14,
-   "score": 0.263
-  },
-  "replit": {
-   "dc": 15,
-   "clien": 0,
-   "hn": 16,
-   "score": 0.255
-  },
-  "genspark": {
-   "dc": 24,
-   "clien": 5,
    "hn": 0,
-   "score": 0.251
+   "score": 0.308
+  },
+  "google-flow": {
+   "dc": 105,
+   "clien": 0,
+   "hn": 3,
+   "score": 0.308
   },
   "huggingface-qwen-image": {
-   "dc": 10,
+   "dc": 25,
    "clien": 0,
-   "hn": 20,
-   "score": 0.24
+   "hn": 29,
+   "score": 0.298
+  },
+  "grok-imagine-video": {
+   "dc": 83,
+   "clien": 0,
+   "hn": 3,
+   "score": 0.295
+  },
+  "tripo": {
+   "dc": 183,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.292
+  },
+  "meshy": {
+   "dc": 60,
+   "clien": 0,
+   "hn": 3,
+   "score": 0.277
+  },
+  "google-search": {
+   "dc": 35,
+   "clien": 0,
+   "hn": 8,
+   "score": 0.275
+  },
+  "replit": {
+   "dc": 25,
+   "clien": 0,
+   "hn": 10,
+   "score": 0.264
+  },
+  "genspark": {
+   "dc": 26,
+   "clien": 2,
+   "hn": 1,
+   "score": 0.249
+  },
+  "groq": {
+   "dc": 13,
+   "clien": 0,
+   "hn": 19,
+   "score": 0.249
   },
   "vrew": {
-   "dc": 56,
+   "dc": 50,
    "clien": 0,
    "hn": 0,
-   "score": 0.231
+   "score": 0.22
   },
-  "microsoft-copilot": {
-   "dc": 7,
+  "voicevox": {
+   "dc": 48,
    "clien": 0,
-   "hn": 16,
+   "hn": 0,
+   "score": 0.218
+  },
+  "hf-yue2-music": {
+   "dc": 19,
+   "clien": 0,
+   "hn": 3,
    "score": 0.215
   },
-  "civitai": {
-   "dc": 21,
+  "microsoft-copilot": {
+   "dc": 8,
    "clien": 0,
-   "hn": 2,
-   "score": 0.214
+   "hn": 13,
+   "score": 0.213
   },
-  "arena": {
-   "dc": 20,
+  "huggingface-spaces-3d": {
+   "dc": 11,
    "clien": 0,
-   "hn": 1,
-   "score": 0.198
+   "hn": 7,
+   "score": 0.21
   },
-  "vidu": {
-   "dc": 20,
+  "google-ai-studio-voice": {
+   "dc": 13,
    "clien": 0,
-   "hn": 1,
-   "score": 0.198
+   "hn": 5,
+   "score": 0.209
   },
   "typecast": {
-   "dc": 31,
+   "dc": 32,
    "clien": 0,
    "hn": 0,
-   "score": 0.198
+   "score": 0.196
   },
-  "udio": {
-   "dc": 15,
+  "vidu": {
+   "dc": 28,
    "clien": 0,
-   "hn": 1,
+   "hn": 0,
+   "score": 0.189
+  },
+  "civitai": {
+   "dc": 25,
+   "clien": 0,
+   "hn": 0,
    "score": 0.182
   },
   "fish-audio": {
-   "dc": 6,
-   "clien": 0,
-   "hn": 5,
-   "score": 0.172
-  },
-  "huggingface-spaces-3d": {
    "dc": 5,
    "clien": 0,
-   "hn": 5,
-   "score": 0.163
-  },
-  "duckai": {
-   "dc": 3,
-   "clien": 0,
-   "hn": 10,
-   "score": 0.161
-  },
-  "treblo": {
-   "dc": 15,
-   "clien": 0,
-   "hn": 0,
-   "score": 0.158
-  },
-  "dreamina-image": {
-   "dc": 14,
-   "clien": 0,
-   "hn": 0,
-   "score": 0.155
-  },
-  "huggingface-spaces-voice": {
-   "dc": 2,
-   "clien": 0,
-   "hn": 14,
-   "score": 0.155
-  },
-  "google-ai-studio-voice": {
-   "dc": 4,
-   "clien": 0,
-   "hn": 4,
-   "score": 0.147
-  },
-  "huggingface-spaces-image": {
-   "dc": 7,
-   "clien": 0,
-   "hn": 1,
-   "score": 0.142
-  },
-  "seaart": {
-   "dc": 9,
-   "clien": 0,
-   "hn": 0,
-   "score": 0.132
-  },
-  "google-flow-music": {
-   "dc": 9,
-   "clien": 0,
-   "hn": 0,
-   "score": 0.132
+   "hn": 6,
+   "score": 0.166
   },
   "magnific": {
    "dc": 8,
    "clien": 0,
+   "hn": 2,
+   "score": 0.16
+  },
+  "treblo": {
+   "dc": 16,
+   "clien": 0,
    "hn": 0,
+   "score": 0.159
+  },
+  "ollama": {
+   "dc": 3,
+   "clien": 0,
+   "hn": 9,
+   "score": 0.156
+  },
+  "runway": {
+   "dc": 9,
+   "clien": 0,
+   "hn": 1,
+   "score": 0.152
+  },
+  "google-flow-music": {
+   "dc": 13,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.148
+  },
+  "viggle": {
+   "dc": 13,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.148
+  },
+  "dreamina-image": {
+   "dc": 12,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.144
+  },
+  "huggingface-spaces-voice": {
+   "dc": 2,
+   "clien": 0,
+   "hn": 10,
+   "score": 0.143
+  },
+  "seaart": {
+   "dc": 11,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.139
+  },
+  "ideogram": {
+   "dc": 1,
+   "clien": 0,
+   "hn": 12,
    "score": 0.126
   },
-  "mureka": {
+  "bolt": {
+   "dc": 3,
+   "clien": 0,
+   "hn": 3,
+   "score": 0.125
+  },
+  "huggingface-spaces-image": {
+   "dc": 3,
+   "clien": 0,
+   "hn": 3,
+   "score": 0.125
+  },
+  "udio": {
    "dc": 8,
    "clien": 0,
    "hn": 0,
-   "score": 0.126
+   "score": 0.123
   },
-  "clipchamp": {
-   "dc": 3,
+  "base44": {
+   "dc": 2,
    "clien": 0,
-   "hn": 3,
-   "score": 0.126
+   "hn": 5,
+   "score": 0.122
   },
-  "pollo-ai": {
+  "venice": {
    "dc": 7,
    "clien": 0,
    "hn": 0,
-   "score": 0.119
+   "score": 0.116
   },
-  "hunyuan3d": {
-   "dc": 3,
+  "google-vids": {
+   "dc": 7,
    "clien": 0,
-   "hn": 2,
-   "score": 0.117
+   "hn": 0,
+   "score": 0.116
   },
-  "hf-minimax-music3-music": {
-   "dc": 3,
+  "clipchamp": {
+   "dc": 7,
    "clien": 0,
-   "hn": 2,
-   "score": 0.117
+   "hn": 0,
+   "score": 0.116
   },
-  "minimax-audio-music": {
-   "dc": 3,
+  "duckai": {
+   "dc": 1,
    "clien": 0,
-   "hn": 2,
-   "score": 0.117
+   "hn": 8,
+   "score": 0.113
   },
-  "heygen": {
+  "hailuo": {
    "dc": 2,
    "clien": 1,
    "hn": 1,
-   "score": 0.112
+   "score": 0.111
   },
-  "hf-ace-step-music": {
+  "arena": {
    "dc": 6,
    "clien": 0,
    "hn": 0,
-   "score": 0.111
-  },
-  "google-vids": {
-   "dc": 6,
-   "clien": 0,
-   "hn": 0,
-   "score": 0.111
-  },
-  "perchance": {
-   "dc": 2,
-   "clien": 0,
-   "hn": 3,
-   "score": 0.11
-  },
-  "runway": {
-   "dc": 3,
-   "clien": 0,
-   "hn": 1,
-   "score": 0.103
+   "score": 0.109
   },
   "qoder": {
    "dc": 5,
    "clien": 0,
    "hn": 0,
-   "score": 0.102
+   "score": 0.1
   },
   "aiva": {
-   "dc": 5,
-   "clien": 0,
-   "hn": 0,
-   "score": 0.102
-  },
-  "viggle": {
-   "dc": 5,
-   "clien": 0,
-   "hn": 0,
-   "score": 0.102
-  },
-  "base44": {
    "dc": 1,
    "clien": 0,
    "hn": 5,
    "score": 0.1
   },
   "copilot-image": {
+   "dc": 2,
+   "clien": 0,
+   "hn": 2,
+   "score": 0.099
+  },
+  "heygen": {
+   "dc": 2,
+   "clien": 0,
+   "hn": 2,
+   "score": 0.099
+  },
+  "kilo-code": {
    "dc": 1,
    "clien": 0,
    "hn": 4,
-   "score": 0.094
+   "score": 0.093
   },
-  "venice": {
+  "mureka": {
    "dc": 4,
    "clien": 0,
    "hn": 0,
-   "score": 0.092
+   "score": 0.09
   },
-  "clova-dubbing": {
-   "dc": 4,
+  "hunyuan3d": {
+   "dc": 2,
    "clien": 0,
-   "hn": 0,
-   "score": 0.092
+   "hn": 1,
+   "score": 0.085
   },
-  "chatgpt-for-kakao": {
+  "freebuff": {
+   "dc": 2,
+   "clien": 0,
+   "hn": 1,
+   "score": 0.085
+  },
+  "hf-ace-step-music": {
+   "dc": 2,
+   "clien": 0,
+   "hn": 1,
+   "score": 0.085
+  },
+  "stability-ai": {
+   "dc": 2,
+   "clien": 0,
+   "hn": 1,
+   "score": 0.085
+  },
+  "manus": {
    "dc": 3,
    "clien": 0,
    "hn": 0,
-   "score": 0.079
+   "score": 0.078
+  },
+  "bandlab": {
+   "dc": 3,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.078
+  },
+  "deevid": {
+   "dc": 3,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.078
   },
   "gemini-notebook-voice": {
    "dc": 3,
    "clien": 0,
    "hn": 0,
-   "score": 0.079
+   "score": 0.078
   },
-  "cartesia": {
-   "dc": 1,
-   "clien": 0,
-   "hn": 2,
-   "score": 0.077
-  },
-  "ideogram": {
+  "perchance": {
    "dc": 0,
    "clien": 0,
    "hn": 6,
    "score": 0.066
   },
-  "monica": {
+  "bing": {
    "dc": 2,
    "clien": 0,
    "hn": 0,
-   "score": 0.063
+   "score": 0.062
   },
-  "cursor": {
-   "dc": 0,
-   "clien": 1,
-   "hn": 2,
-   "score": 0.063
-  },
-  "google-stitch": {
+  "meta-ai-image": {
    "dc": 1,
    "clien": 0,
    "hn": 1,
-   "score": 0.063
-  },
-  "meta-ai-image": {
-   "dc": 2,
-   "clien": 0,
-   "hn": 0,
-   "score": 0.063
+   "score": 0.062
   },
   "tencent-yuanbao": {
    "dc": 2,
    "clien": 0,
    "hn": 0,
-   "score": 0.063
+   "score": 0.062
   },
-  "elevenlabs-music": {
+  "leonardo": {
+   "dc": 2,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.062
+  },
+  "tensor-art": {
+   "dc": 2,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.062
+  },
+  "pollo-ai": {
+   "dc": 2,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.062
+  },
+  "clova-dubbing": {
+   "dc": 2,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.062
+  },
+  "cartesia": {
    "dc": 1,
    "clien": 0,
    "hn": 1,
-   "score": 0.063
-  },
-  "stability-ai": {
-   "dc": 2,
-   "clien": 0,
-   "hn": 0,
-   "score": 0.063
-  },
-  "happyshrimp": {
-   "dc": 2,
-   "clien": 0,
-   "hn": 0,
-   "score": 0.063
+   "score": 0.062
   },
   "wan": {
    "dc": 0,
@@ -571,67 +607,97 @@
    "hn": 4,
    "score": 0.055
   },
-  "hailuo": {
-   "dc": 0,
-   "clien": 1,
-   "hn": 1,
-   "score": 0.049
-  },
-  "bolt": {
-   "dc": 0,
+  "remove-bg": {
+   "dc": 1,
    "clien": 0,
-   "hn": 3,
-   "score": 0.047
+   "hn": 0,
+   "score": 0.039
   },
   "upscayl": {
    "dc": 1,
    "clien": 0,
    "hn": 0,
-   "score": 0.04
+   "score": 0.039
   },
   "huggingchat-chat": {
    "dc": 1,
    "clien": 0,
    "hn": 0,
-   "score": 0.04
+   "score": 0.039
   },
-  "musicful": {
+  "cohere": {
    "dc": 1,
    "clien": 0,
    "hn": 0,
-   "score": 0.04
+   "score": 0.039
+  },
+  "google-stitch": {
+   "dc": 1,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.039
+  },
+  "codebuddy": {
+   "dc": 1,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.039
+  },
+  "pollinations": {
+   "dc": 1,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.039
+  },
+  "hf-minimax-music3-music": {
+   "dc": 1,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.039
+  },
+  "minimax-audio-music": {
+   "dc": 1,
+   "clien": 0,
+   "hn": 0,
+   "score": 0.039
   },
   "capcut": {
    "dc": 1,
    "clien": 0,
    "hn": 0,
-   "score": 0.04
+   "score": 0.039
   },
   "pixverse": {
    "dc": 1,
    "clien": 0,
    "hn": 0,
-   "score": 0.04
+   "score": 0.039
   },
-  "youtube-shorts-video": {
+  "arena-video": {
    "dc": 1,
    "clien": 0,
    "hn": 0,
-   "score": 0.04
+   "score": 0.039
   },
-  "minimax-audio-voice": {
+  "qwen-chat-video": {
    "dc": 1,
    "clien": 0,
    "hn": 0,
-   "score": 0.04
+   "score": 0.039
   },
-  "remove-bg": {
+  "cursor": {
    "dc": 0,
    "clien": 0,
    "hn": 2,
    "score": 0.037
   },
-  "gamma": {
+  "inception": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 1,
+   "score": 0.024
+  },
+  "lumo": {
    "dc": 0,
    "clien": 0,
    "hn": 1,
@@ -643,7 +709,7 @@
    "hn": 1,
    "score": 0.024
   },
-  "pollinations": {
+  "v0": {
    "dc": 0,
    "clien": 0,
    "hn": 1,
@@ -661,13 +727,13 @@
    "hn": 1,
    "score": 0.024
   },
-  "wavespeed": {
+  "clipdrop": {
    "dc": 0,
    "clien": 0,
-   "hn": 1,
-   "score": 0.024
+   "hn": 0,
+   "score": 0
   },
-  "clipdrop": {
+  "gamma": {
    "dc": 0,
    "clien": 0,
    "hn": 0,
@@ -703,13 +769,55 @@
    "hn": 0,
    "score": 0
   },
+  "neural4d": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "3daistudio": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "makerworld": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "zoo": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "chatgpt-for-kakao": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
   "hix": {
    "dc": 0,
    "clien": 0,
    "hn": 0,
    "score": 0
   },
+  "monica": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
   "poe": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "ai21": {
    "dc": 0,
    "clien": 0,
    "hn": 0,
@@ -727,19 +835,19 @@
    "hn": 0,
    "score": 0
   },
-  "v0": {
+  "emergent": {
    "dc": 0,
    "clien": 0,
    "hn": 0,
    "score": 0
   },
-  "codebuddy": {
+  "atoms": {
    "dc": 0,
    "clien": 0,
    "hn": 0,
    "score": 0
   },
-  "bing": {
+  "rovo-dev": {
    "dc": 0,
    "clien": 0,
    "hn": 0,
@@ -793,12 +901,6 @@
    "hn": 0,
    "score": 0
   },
-  "leonardo": {
-   "dc": 0,
-   "clien": 0,
-   "hn": 0,
-   "score": 0
-  },
   "lovart": {
    "dc": 0,
    "clien": 0,
@@ -847,6 +949,48 @@
    "hn": 0,
    "score": 0
   },
+  "piclumen": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "reve": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "ltx-studio": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "easemate": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "myedit": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "craiyon": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "elevenlabs-music": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
   "elevenlabs-sfx-music": {
    "dc": 0,
    "clien": 0,
@@ -871,7 +1015,43 @@
    "hn": 0,
    "score": 0
   },
+  "musicful": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
   "topmediai": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "happyshrimp": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "soundverse": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "soundful": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "loudly": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "tunee": {
    "dc": 0,
    "clien": 0,
    "hn": 0,
@@ -895,13 +1075,7 @@
    "hn": 0,
    "score": 0
   },
-  "arena-video": {
-   "dc": 0,
-   "clien": 0,
-   "hn": 0,
-   "score": 0
-  },
-  "easemate": {
+  "youtube-shorts-video": {
    "dc": 0,
    "clien": 0,
    "hn": 0,
@@ -913,7 +1087,43 @@
    "hn": 0,
    "score": 0
   },
-  "qwen-chat-video": {
+  "wavespeed": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "coverr": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "creatify": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "aistudios": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "pippit": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "vmake": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "magic-hour": {
    "dc": 0,
    "clien": 0,
    "hn": 0,
@@ -926,6 +1136,12 @@
    "score": 0
   },
   "hume": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "minimax-audio-voice": {
    "dc": 0,
    "clien": 0,
    "hn": 0,
@@ -950,6 +1166,36 @@
    "score": 0
   },
   "ttsmaker": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "ttsmp3": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "ondoku": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "perso": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "vozo": {
+   "dc": 0,
+   "clien": 0,
+   "hn": 0,
+   "score": 0
+  },
+  "noiz": {
    "dc": 0,
    "clien": 0,
    "hn": 0,

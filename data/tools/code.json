@@ -1460,5 +1460,587 @@
       "text": "무료 계정도 매일 100크레딧 수령 + Qwen3.8-Flash 크레딧 차감 없이 무제한 (9/30 종료 예정에서 연장)",
       "until": "불명"
     }
+  },
+  {
+    "id": "freebuff-code",
+    "category": "code",
+    "platform": "Freebuff",
+    "vendor": "Freebuff (Codebuff 팀, YC)",
+    "access": "official",
+    "url": "https://freebuff.com",
+    "logo": "freebuff",
+    "logoDomain": "freebuff.com",
+    "models": [
+      "MiMo 2.6 Flash (기본)",
+      "GLM 5.3 Flash",
+      "DeepSeek V4.1 Flash",
+      "Solar Mini 4 / Solar Pro 4",
+      "GPT-6 Luna·MiMo 2.6 Pro (전체 접근 지역, 일일 세션 차감)",
+      "Gemini 4 Argon·GPT-6.1 Sol (미국은 하루 1세션, 그 외 지역은 유료)"
+    ],
+    "headline": "Freebuff 광고 기반 무료 코딩 에이전트: 전체 접근 지역에서는 GLM 5.3 Flash·DeepSeek V4.1 Flash·MiMo 2.6 Flash·Solar가 세션 차감 없이 무제한, 그 외 지역은 하루 25 Freebucks",
+    "description": "Codebuff 팀(YC)이 만든 광고 기반 무료 코딩 에이전트입니다. 터미널 CLI·데스크톱 앱·웹 앱 빌더·GitHub 저장소용 Cloud·채팅을 구독·크레딧·API 키 없이 쓸 수 있고, 작업 중 텍스트 광고가 붙습니다. 전체 접근 지역에서는 GLM 5.3 Flash·DeepSeek V4.1 Flash·MiMo 2.6 Flash·Solar 모델을 세션 차감 없이 쓰고, 그 외 지역과 VPN 사용자는 하루 25(VPN 20) Freebucks 안에서 씁니다.",
+    "freeTier": {
+      "quota": "전체 접근 지역: GLM 5.3 Flash·DeepSeek V4.1 Flash·MiMo 2.6 Flash·Solar Mini 4·Solar Pro 4는 세션을 쓰지 않음(무제한), GPT-6 Luna·MiMo 2.6 Pro 등은 일일 무료 세션에서 차감. 제한 접근 지역·VPN 사용자: 위 5개 모델만, 하루 25 Freebucks(VPN·프록시 20)로 모델별 가격만큼 차감. 추천·바운티로 세션/Freebucks 추가 적립",
+      "reset": "매일 (일일 세션·Freebucks, 일부 모델은 세션 차감 없음)",
+      "watermark": "없음",
+      "commercialUse": "불명",
+      "signup": "Freebuff 계정 로그인(GitHub 연결 등), 카드·API 키 불필요",
+      "korea": "가능 (모든 국가에서 이용 가능. 한국이 전체 접근 지역인지는 불명)",
+      "notes": "텍스트 광고 표시. 일부 모델·기능은 입력 데이터가 AI 학습에 쓰일 수 있고(시작 전에 고지), 광고 모델 학습에도 사용 데이터가 쓰임. 일부 모델은 Q8_0 양자화 버전으로 서빙될 수 있음. 2026년 5월 출시 때는 비지원 지역 하루 5시간 제한으로 보도됐고, 7월 리뷰에서는 하루 5세션으로 소개되는 등 한도 방식이 자주 바뀜."
+    },
+    "flags": {
+      "reset": "daily",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "터미널에서 npm install -g freebuff 실행 (또는 freebuff.com에서 데스크톱 앱 설치)",
+      "프로젝트 폴더에서 freebuff 실행 후 로그인",
+      "모델 선택에서 GLM 5.3 Flash·DeepSeek V4.1 Flash 등 세션 차감 없는 모델 고르기"
+    ],
+    "tags": [
+      "매일충전",
+      "광고기반",
+      "카드불필요",
+      "코딩에이전트",
+      "CLI",
+      "로그인필요"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "CodebuffAI/freebuff README (Free access·모델 표)",
+        "url": "https://github.com/CodebuffAI/freebuff",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Freebuff 공식 사이트",
+        "url": "https://freebuff.com",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Freebuff debuts free coding agent, 5 daily hours on DeepSeek V4 Flash (RuntimeWire)",
+        "url": "https://runtimewire.com/article/freebuff-free-coding-agent-deepseek-v4-flash",
+        "type": "news",
+        "date": "2026-05-15"
+      },
+      {
+        "title": "FreeBuff: free AI coding agent 리뷰 (Bitdoze)",
+        "url": "https://www.bitdoze.com/md/freebuff-free-ai-coding-agent.md",
+        "type": "community",
+        "date": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "id": "opencode-code",
+    "category": "code",
+    "platform": "OpenCode",
+    "vendor": "OpenCode (Anomaly, 구 SST)",
+    "access": "opensource",
+    "url": "https://opencode.ai",
+    "logo": "opencode",
+    "logoDomain": "opencode.ai",
+    "models": [
+      "DeepSeek V4.1 Flash Free",
+      "LongCat 2.5 Preview Free",
+      "Step 5 Preview Free",
+      "MiMo-V2.6-Flash Free / MiMo-V2.5 Free",
+      "Nemotron 3 Ultra Free / Nemotron 3.5 Lightning Free",
+      "Big Pickle (스텔스 모델)",
+      "기타 기간 한정 무료 모델 (Space Bunny·Cat Jam·Exo·Jev 등)"
+    ],
+    "headline": "OpenCode 무료 모델: 로그인·API 키 없이 DeepSeek V4.1 Flash·LongCat 2.5 Preview·MiMo-V2.6-Flash 등 10여 개 모델을 0원에 (대부분 기간 한정, 수시 교체)",
+    "description": "20만 스타가 넘는 오픈소스 터미널 코딩 에이전트로, 자체 모델 게이트웨이 OpenCode Zen의 무료 모델이 기본 포함돼 있습니다. API 키나 로그인이 없으면 가격 0원 모델만 켜진 상태로 바로 실행되므로 가입 없이 쓸 수 있습니다. 무료 모델은 신모델 출시 기념 '기간 한정 무료'가 많아 목록이 자주 바뀝니다.",
+    "freeTier": {
+      "quota": "공식 가격표에 입력·출력·캐시 모두 'Free'로 표시된 모델 사용료 0원: Big Pickle, DeepSeek V4.1 Flash Free, LongCat 2.5 Preview Free, Step 5 Preview Free, MiMo-V2.6-Flash Free, MiMo-V2.5 Free, Nemotron 3 Ultra Free, Nemotron 3.5 Lightning Free, Space Bunny Free, Cat Jam Free, Exo Free, Jev 1.13 Free 등. 공식 사용량 한도 수치는 미공개(커뮤니티에서는 IP 기준 제한이 걸린다고 보고)",
+      "reset": "불명 (공식 한도 미공개, 모델별 기간 한정 무료)",
+      "watermark": "없음",
+      "commercialUse": "불명 (OpenCode 자체는 MIT 라이선스, 모델별 약관 따름)",
+      "signup": "로그인 불필요 (API 키가 없으면 무료 모델만 활성화). 유료 모델은 OpenCode Zen 계정 + 결제",
+      "korea": "가능 (Cat Jam Free 등 일부 모델은 일부 국가·지역에서 사용 불가)",
+      "notes": "무료 모델 대부분은 종료일 미공지 '기간 한정'. Big Pickle·Exo Free·MiMo 무료 모델은 무료 기간 동안 데이터가 모델 개선에 쓰일 수 있고, Nemotron 무료 모델은 체험용으로 사용 기록이 남음(개인·기밀 정보 입력 금지). DeepSeek V4.1 Flash Free·LongCat 2.5 Preview Free·Step 5 Preview Free 등은 보존 0일·학습 미사용으로 표시. 무료 모델이 혼잡 시 오류를 낸 사례 보고."
+    },
+    "flags": {
+      "reset": "unknown",
+      "watermark": "na",
+      "login": false,
+      "commercial": null
+    },
+    "promo": {
+      "text": "LongCat 2.5 Preview·Step 5 Preview·DeepSeek V4.1 Flash 등 신모델 기간 한정 무료",
+      "until": "불명"
+    },
+    "howTo": [
+      "설치: curl -fsSL https://opencode.ai/install | bash 또는 npm i -g @opencode/cli (Windows는 scoop·choco)",
+      "프로젝트 폴더에서 opencode 실행 (로그인 없이 시작 가능)",
+      "/models에서 이름에 Free가 붙은 모델 선택"
+    ],
+    "tags": [
+      "로그인불필요",
+      "카드불필요",
+      "오픈소스",
+      "CLI",
+      "코딩에이전트",
+      "기간한정"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "OpenCode Zen 문서 (무료 모델 가격표·데이터 정책)",
+        "url": "https://opencode.ai/docs/zen/",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "opencode 소스: 키가 없으면 apiKey 'public' + 유료 모델 비활성화 (packages/core/src/plugin/provider/opencode.ts)",
+        "url": "https://github.com/anomalyco/opencode/blob/dev/packages/core/src/plugin/provider/opencode.ts",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "LongCat 2.5 Preview Free on OpenCode (OrcaRouter)",
+        "url": "https://www.orcarouter.ai/blog/longcat-2-5-preview-free-opencode",
+        "type": "news",
+        "date": "2026-09"
+      },
+      {
+        "title": "分享个白嫖opencode 模型的方法 (LINUX DO, 한도는 IP 기준이라는 언급)",
+        "url": "https://linux.do/t/topic/2704105",
+        "type": "community",
+        "date": "2026"
+      }
+    ]
+  },
+  {
+    "id": "kilo-code",
+    "category": "code",
+    "platform": "Kilo Code",
+    "vendor": "Kilo Code",
+    "access": "official",
+    "url": "https://kilo.ai",
+    "logo": "kilo-code",
+    "logoDomain": "kilo.ai",
+    "models": [
+      "Auto Free (kilo-auto/free, 무료 모델 자동 라우팅)",
+      "모델 선택기의 (free) 표시 모델",
+      "NVIDIA 무료 엔드포인트(Nemotron 계열) 경유 가능",
+      "Step 5 Preview (10/9부터 약 1주 무료로 보도)"
+    ],
+    "headline": "Kilo Code 무료: Auto Free(kilo-auto/free)가 무료 모델로 자동 연결, 카드 없이 VS Code·JetBrains·CLI에서 사용 (한도는 상위 제공사 속도 제한)",
+    "description": "오픈소스 AI 코딩 에이전트(VS Code·JetBrains 확장, CLI)로, 자체 게이트웨이에서 무료 모델을 제공합니다. 기본 무료 옵션인 Auto Free는 그때 쓸 수 있는 무료 모델로 요청을 자동 배분하고, 모델 선택기에서 'free'로 검색하면 개별 무료 모델도 고를 수 있습니다. 유료 모델은 크레딧을 충전해야 합니다.",
+    "freeTier": {
+      "quota": "Auto Free와 (free) 표시 모델은 사용료 0원. 공식 사용량 수치는 없고 상위 제공사 속도 제한이 걸릴 수 있음(제3자 집계로 시간당 약 200요청 보고). 완전 무료로 쓰려면 에이전트 채팅·자동완성·백그라운드 작업 세 곳 모두 무료 모델로 설정해야 함(자동완성은 Mistral Codestral 무료 키를 직접 넣는 방식)",
+      "reset": "불명 (속도 제한 방식)",
+      "watermark": "없음",
+      "commercialUse": "불명",
+      "signup": "Kilo 계정 (이메일·Google·GitHub·Apple 등), 카드 불필요(무료 모델 기준)",
+      "korea": "가능",
+      "notes": "공식 안내: Auto Free는 프롬프트·출력을 보관하거나 서비스 개선에 쓰는 제공사로 보낼 수 있으니 개인·기밀 정보는 피할 것. NVIDIA 엔드포인트는 체험용이며 사용 기록이 수집됨. 무료 모델 목록은 수시로 바뀜. 예전의 '첫 충전 시 $20 보너스'는 최신 문서에서 빠짐."
+    },
+    "flags": {
+      "reset": "unknown",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "VS Code·JetBrains에서 Kilo Code 확장 설치 (또는 Kilo CLI)",
+      "Kilo 계정으로 로그인",
+      "모델에서 Auto Free 선택, 또는 'free'로 검색해 무료 모델 고르기"
+    ],
+    "tags": [
+      "카드불필요",
+      "오픈소스",
+      "코딩에이전트",
+      "CLI",
+      "로그인필요"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Using Kilo for Free - Kilo Docs",
+        "url": "https://kilo.ai/docs/code-with-ai/agents/free-and-budget-models",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Setting up - Kilo Docs (로그인 방법)",
+        "url": "https://kilo.ai/docs/getting-started/setting-up",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Step 5 Preview free in Kilo Code for a week (OrcaRouter)",
+        "url": "https://www.orcarouter.ai/blog/step-5-preview-free-kilo-code-week",
+        "type": "news",
+        "date": "2026-10"
+      },
+      {
+        "title": "How to Get a Free Kilo Code API Key (FreeLLM)",
+        "url": "https://freellm.net/providers/kilo-code",
+        "type": "community",
+        "date": "2026"
+      }
+    ]
+  },
+  {
+    "id": "zcode-code",
+    "category": "code",
+    "platform": "ZCode",
+    "vendor": "Z.ai (Zhipu)",
+    "access": "official",
+    "url": "https://zcode.z.ai/en",
+    "logo": "zai",
+    "logoDomain": "z.ai",
+    "models": [
+      "GLM-5.3",
+      "GLM-5-Turbo"
+    ],
+    "headline": "ZCode 신규 가입 5일 무료 체험: GLM-5.3·GLM-5-Turbo 일일 할당량 (7월 기준 하루 500만 토큰 보도), 체험 후 GLM Coding Plan 필요",
+    "description": "중국 Z.ai(즈푸)가 만든 GLM 공식 데스크톱 코딩 에이전트(macOS·Windows, Linux 베타)입니다. 앱은 무료이고, 첫 실행 때 Z.ai 계정을 연결하면 신규 사용자에게 5일 체험이 주어져 GLM-5.3·GLM-5-Turbo를 일일 할당량 안에서 쓸 수 있습니다. 체험이 끝나면 GLM Coding Plan(정가 월 $18, 현재 할인가 $12.6부터) 구독이나 자체 API 키가 필요합니다.",
+    "freeTier": {
+      "quota": "신규 사용자 5일 체험, 기간 중 GLM-5.3·GLM-5-Turbo 일일 할당량 (2026년 7월 기준 하루 500만 토큰: GLM-5.2 300만 + GLM-5-Turbo 200만으로 보도. 현재 수치는 공식 확인 안 됨)",
+      "reset": "가입 시 1회 (5일 체험, 체험 기간 중 매일 할당)",
+      "watermark": "없음",
+      "commercialUse": "불명",
+      "signup": "Z.ai 계정 (해외용. 중국 본토용 BigModel 계정도 연결 가능)",
+      "korea": "가능 (Z.ai 국제 서비스)",
+      "notes": "체험 조건은 공식 가격 페이지에 없고 리뷰 기준(10월 6일 갱신 글에서도 5일 체험 확인). 카드 필요 여부 불명. 자체 API 키·타사 모델 연결 가능. 유료 플랜은 포인트 차감이며 비혼잡 시간·주말 호출은 절반 차감."
+    },
+    "flags": {
+      "reset": "once",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "zcode.z.ai에서 데스크톱 앱 설치",
+      "첫 실행 때 Z.ai 계정 연결 (5일 체험 시작)",
+      "체험 기간 중 GLM-5.3 또는 GLM-5-Turbo로 작업"
+    ],
+    "tags": [
+      "가입시1회",
+      "체험판",
+      "코딩에이전트",
+      "로그인필요"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "ZCode 공식 페이지 (GLM Coding Plan 가격)",
+        "url": "https://zcode.z.ai/en",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "A deep dive into ZCode (Flavio Copes, 2026-10-06 갱신: 신규 5일 체험)",
+        "url": "https://flaviocopes.com/zcode.md",
+        "type": "community",
+        "date": "2026-10-06"
+      },
+      {
+        "title": "Zcode Review (Bitdoze: 5일 체험, 하루 5M 토큰)",
+        "url": "https://www.bitdoze.com/zcode-ai-review/",
+        "type": "community",
+        "date": "2026-07"
+      },
+      {
+        "title": "Z.ai, GLM-5.2용 코딩 에이전트 ZCode 출시 (디지털투데이)",
+        "url": "https://www.digitaltoday.co.kr/cn/view/77620/zai-launches-zcode-coding-agent-for-glm-52-to-rival-cursor-and-claude-code",
+        "type": "news",
+        "date": "2026-07-02"
+      }
+    ]
+  },
+  {
+    "id": "emergent-code",
+    "category": "code",
+    "platform": "Emergent",
+    "vendor": "Emergent Labs",
+    "access": "official",
+    "url": "https://emergent.sh",
+    "logo": "emergent",
+    "logoDomain": "emergent.sh",
+    "models": [
+      "상위 모델 자동 사용 (공식: 'Instant access to the most advanced models')"
+    ],
+    "headline": "Emergent 무료: 월 10크레딧으로 웹·모바일 앱 생성 맛보기 (후기 기준 간단한 앱 1개에 50크레딧 이상)",
+    "description": "프롬프트로 웹·모바일 앱을 만들어 주는 에이전트형 앱 빌더입니다. 무료 플랜도 핵심 기능과 LLM 연동을 모두 쓸 수 있지만 크레딧이 월 10개뿐이라 작은 수정·시험용에 가깝습니다. 비공개 프로젝트 호스팅과 크레딧 추가 구매는 유료 플랜부터입니다.",
+    "freeTier": {
+      "quota": "월 10크레딧. 후기 기준 로그인 기능 25~40크레딧, Stripe 연동 35~60크레딧, 간단한 앱 50~100크레딧 이상 소모 보고. 무료 플랜은 크레딧 추가 구매 불가",
+      "reset": "매월",
+      "watermark": "없음",
+      "commercialUse": "불명",
+      "signup": "Emergent 계정 가입, 카드 불필요(보고됨)",
+      "korea": "가능한 것으로 보임",
+      "notes": "비공개 프로젝트 호스팅은 Standard($20/월, 100크레딧)부터. 배포 유지에 월 50크레딧이 든다는 제3자 보고. 크레딧 소모가 커서 무료로 완성 앱을 만들기는 어려움."
+    },
+    "flags": {
+      "reset": "monthly",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "emergent.sh에서 가입",
+      "만들 앱을 프롬프트로 설명",
+      "크레딧 잔량을 보며 작은 단위로 수정 요청"
+    ],
+    "tags": [
+      "매월충전",
+      "앱빌더",
+      "바이브코딩",
+      "카드불필요",
+      "로그인필요",
+      "한도적음"
+    ],
+    "confidence": "medium",
+    "status": "limited",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Emergent Pricing (Free: 10 free monthly credits)",
+        "url": "https://emergent.sh/pricing",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Emergent Free Plan 2026 (CostBench: 카드 불필요, 크레딧 소모 후기)",
+        "url": "https://www.costbench.com/software/ai-coding-assistants/emergent/free-plan/",
+        "type": "community",
+        "date": "2026"
+      },
+      {
+        "title": "Emergent AI review (Preuve, 무료 크레딧 매월 초기화)",
+        "url": "https://preuve.ai/blog/emergent-ai-review.md",
+        "type": "community",
+        "date": "2026-10"
+      }
+    ]
+  },
+  {
+    "id": "atoms-code",
+    "category": "code",
+    "platform": "Atoms (구 MGX)",
+    "vendor": "DeepWisdom (MetaGPT 팀)",
+    "access": "official",
+    "url": "https://atoms.dev",
+    "logo": "atoms",
+    "logoDomain": "atoms.dev",
+    "models": [
+      "불명 (멀티 에이전트 팀이 자동 선택)"
+    ],
+    "headline": "Atoms 무료: 매일 15크레딧 충전, 월 최대 25크레딧까지 — AI 에이전트 팀이 웹앱 생성",
+    "description": "오픈소스 MetaGPT를 만든 DeepWisdom 팀의 호스팅 서비스로, MGX에서 Atoms로 이름을 바꿨습니다. 기획·개발·검수 역할의 AI 에이전트 여러 개가 협업해 웹앱을 만들어 줍니다. 무료 플랜은 매일 크레딧이 채워지지만 월 상한이 낮아 가볍게 써 보는 용도입니다.",
+    "freeTier": {
+      "quota": "공식 표기 '15 per day / 25 per month' — 하루 15크레딧씩, 한 달 최대 25크레딧까지로 보임. 리뷰 기준 저장공간 2GB·클라우드 프로젝트 2개 안팎 포함",
+      "reset": "매일 (월 상한 25크레딧)",
+      "watermark": "없음",
+      "commercialUse": "불명",
+      "signup": "atoms.dev 계정 가입, 카드 불필요(리뷰 기준)",
+      "korea": "불명",
+      "notes": "빌드 오류로 크레딧을 날렸다는 후기 있음. Pro $20/월(100크레딧)부터, Max $100/월부터. MetaGPT 오픈소스 프레임워크(MIT)는 별개로 무료."
+    },
+    "flags": {
+      "reset": "daily",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "atoms.dev에서 가입",
+      "만들 앱을 설명하면 에이전트 팀이 설계·구현",
+      "하루 15크레딧 안에서 수정 요청"
+    ],
+    "tags": [
+      "매일충전",
+      "앱빌더",
+      "멀티에이전트",
+      "로그인필요",
+      "한도적음"
+    ],
+    "confidence": "medium",
+    "status": "limited",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Atoms Pricing (Free: 15 per day / 25 per month)",
+        "url": "https://atoms.dev/pricing",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Atoms Review in 2026: AI, Free Plan, Login, Pricing (IconPolls)",
+        "url": "https://iconpolls.com/blogs/atoms-review-in-2026-ai-free-plan-login-pricing-github-company-and-user-experience",
+        "type": "community",
+        "date": "2026"
+      }
+    ]
+  },
+  {
+    "id": "rovo-dev-code",
+    "category": "code",
+    "platform": "Rovo Dev",
+    "vendor": "Atlassian",
+    "access": "official",
+    "url": "https://www.atlassian.com/software/rovo-dev",
+    "logo": "rovo-dev",
+    "logoDomain": "atlassian.com",
+    "models": [
+      "불명 (Atlassian이 모델 자동 선택)"
+    ],
+    "headline": "Rovo Dev Free: Jira 사이트당 월 350크레딧 → Rovo Dev CLI 작업 약 1~10개 또는 코드 리뷰 약 2~8회",
+    "description": "Atlassian의 AI 코딩 에이전트로 터미널(Rovo Dev CLI)·VS Code 확장·코드 리뷰에서 씁니다. 무료 Rovo Dev Free는 Rovo Dev가 켜진 Jira 사이트마다 사용자당 월 350크레딧을 주며, 공식 추산으로 CLI 작업 1~10개 또는 코드 리뷰 2~8회 분량입니다. 다 쓰면 다음 결제 주기까지 멈춥니다.",
+    "freeTier": {
+      "quota": "Rovo Dev Free가 활성화된 Jira 사이트당 사용자 1인 월 350크레딧 (공식 추산: 코드 리뷰 약 2~8회 또는 CLI 작업 약 1~10개). 소진 시 다음 결제 주기까지 중지",
+      "reset": "매월 (결제 주기 기준)",
+      "watermark": "없음",
+      "commercialUse": "불명",
+      "signup": "Atlassian 계정 + Rovo Dev Free가 켜진 Jira 사이트 멤버",
+      "korea": "가능한 것으로 보임",
+      "notes": "베타 때의 하루 500만(일반)/2,000만(Jira 유료 플랜) 토큰 제도는 크레딧제로 바뀌는 중(기존 베타 사용자는 사전 공지 후 순차 전환). Standard는 조직 단위 월 2,000크레딧이며 무료 크레딧과 합산되지 않음. 카드 필요 여부는 공식 문서에 없음."
+    },
+    "flags": {
+      "reset": "monthly",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "Atlassian 계정으로 Rovo Dev Free가 켜진 Jira 사이트에 멤버로 참여",
+      "Rovo Dev CLI 또는 VS Code 확장 설치 후 로그인",
+      "Rovo Dev 사용량 화면에서 남은 크레딧 확인"
+    ],
+    "tags": [
+      "매월충전",
+      "코딩에이전트",
+      "CLI",
+      "Jira연동",
+      "로그인필요"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "View your Rovo Dev credit usage (Atlassian Support)",
+        "url": "https://support.atlassian.com/rovo/docs/view-your-rovo-dev-credit-usage/",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Token limits and usage in Rovo Dev CLI (베타 한도)",
+        "url": "https://support.atlassian.com/rovo/docs/rovo-dev-cli-limits",
+        "type": "official",
+        "date": "2026"
+      },
+      {
+        "title": "Rovo Dev usage limits (Atlassian Community)",
+        "url": "https://community.atlassian.com/forums/Rovo-questions/Rovo-Dev-usage-limits/qaq-p/3126166",
+        "type": "community",
+        "date": "2026"
+      },
+      {
+        "title": "Rovo Dev 무료 350크레딧 해설 (issoh, 일본어)",
+        "url": "https://www.issoh.co.jp/tech/details/11716/",
+        "type": "community",
+        "date": "2026"
+      }
+    ]
+  },
+  {
+    "id": "minimax-code-code",
+    "category": "code",
+    "platform": "MiniMax Code",
+    "vendor": "MiniMax",
+    "access": "official",
+    "url": "https://agent.minimax.io",
+    "logo": "minimax",
+    "logoDomain": "minimax.io",
+    "models": [
+      "MiniMax 관리형 모델 (무료 사용 범위 불명)",
+      "H3 등 전체 라인업은 일부 유료 등급"
+    ],
+    "headline": "MiniMax Code 데스크톱: 매일 출석 체크 400포인트(4·7일차 1,000), 한 주 4,000포인트 → 코딩·리서치·문서·이미지 작업에 사용 (작업당 차감량 미공개)",
+    "description": "MiniMax의 데스크톱 AI 에이전트 앱(macOS·Windows, CLI도 제공)으로 코딩 모드와 업무 모드를 함께 씁니다. 앱에서 매일 출석 체크를 하면 포인트가 쌓이고, 이 포인트로 코딩·딥 리서치·프레젠테이션·이미지·영상 생성 등에 쓸 수 있습니다. 꾸준히 쓰려면 M Plan(Token Plan 기반) 구독이 주력입니다.",
+    "freeTier": {
+      "quota": "출석 체크 하루 400포인트, 4일차·7일차는 1,000포인트 (한 주 모두 출석 시 4,000포인트). 포인트는 적립일부터 30일 유효. 포인트와 사용량의 환산율·작업당 차감량은 미공개",
+      "reset": "매일 (출석 체크)",
+      "watermark": "없음",
+      "commercialUse": "불명",
+      "signup": "MiniMax 계정 (앱 설치 후 로그인)",
+      "korea": "가능한 것으로 보임 (국제판 agent.minimax.io)",
+      "notes": "무료 사용자가 고를 수 있는 모델 범위는 공식 문서에 없음(요금·한도는 앱 화면 기준이라고 안내). 9/28~10/7 출석 포인트 2배 이벤트가 있었다는 비공식 보도. 자체 MiniMax API 키·타사 모델(BYOK)도 연결 가능."
+    },
+    "flags": {
+      "reset": "daily",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "agent.minimax.io에서 MiniMax Code 데스크톱 앱 설치 후 로그인",
+      "앱에서 매일 출석 체크로 포인트 적립",
+      "Coding 모드로 프로젝트 폴더를 연결해 작업 요청"
+    ],
+    "tags": [
+      "매일충전",
+      "출석체크",
+      "코딩에이전트",
+      "CLI",
+      "로그인필요"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "M Plan and Credits — Daily Check-In (MiniMax Code Docs)",
+        "url": "https://agent.minimax.io/docs/code/account/usage",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Welcome to MiniMax Code (MiniMax Code Docs)",
+        "url": "https://agent.minimax.io/docs/code/welcome",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "MiniMax Code (AI Wiki: 무료 출석 포인트·요금제 정리)",
+        "url": "https://aiwiki.ai/wiki/minimax_code",
+        "type": "community",
+        "date": "2026"
+      }
+    ]
   }
 ]

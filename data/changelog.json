@@ -1,8 +1,248 @@
 [
   {
     "date": "2026-10-15",
-    "summary": "Gemini 무료가 10/9부터 Flash-Lite 하나로 제한, 항목 11개 재확인",
+    "summary": "무료 서비스 47곳 추가(가입 시 1회 12곳 포함, 미국·중국 커뮤니티 조사), Gemini 무료 Flash-Lite 제한, Runway 무료 영상 막힘 보고",
     "items": [
+      {
+        "type": "new",
+        "id": "venice-image",
+        "text": "Venice 무료: 가입하면 하루 이미지 15회 (기본 모델, 워터마크) — Nano Banana Pro 같은 프런티어 모델은 Pro 크레딧 전용"
+      },
+      {
+        "type": "new",
+        "id": "piclumen-image",
+        "text": "PicLumen 무료: 매일 10 Lumen → 기본 모델 이미지 하루 약 10장, 다 쓰면 Relax 모드(저속)로 계속 생성 (워터마크·비상업)"
+      },
+      {
+        "type": "new",
+        "id": "tensor-art-image",
+        "text": "Tensor.Art 무료: 매일 크레딧 충전(보고 50/일)으로 SD·FLUX 커뮤니티 모델·LoRA 이미지 생성 (워터마크 보고)"
+      },
+      {
+        "type": "new",
+        "id": "reve-image",
+        "text": "Reve 무료: 가입 시 1회 크레딧 + 매일 충전되는 기본 크레딧(양 비공개)으로 Reve 2.1 이미지 생성·편집"
+      },
+      {
+        "type": "new",
+        "id": "runway-image",
+        "text": "Runway 무료: 가입 시 125크레딧 1회 → Nano Banana Pro 2K 이미지 약 6장 (장당 20크레딧, 보고) — 무료 계정은 영상이 막히고 이미지만 된다는 보고"
+      },
+      {
+        "type": "new",
+        "id": "ltx-studio-image",
+        "text": "LTX Studio 무료: 가입 시 800크레딧 1회 → Z-Image 이미지 + LTX-2.5 영상 체험 (개인용 라이선스, 워터마크)"
+      },
+      {
+        "type": "new",
+        "id": "easemate-image",
+        "text": "EaseMate 무료: 기본 모델로 하루 이미지 5장 + 가입 30크레딧 1회 (Nano Banana Pro 등 프리미엄 모델은 크레딧)"
+      },
+      {
+        "type": "new",
+        "id": "myedit-image",
+        "text": "MyEdit 무료: AI 이미지 하루 5장 (공식 한국어 FAQ) — Nano Banana Pro·Flux 지원, 무료 모델 범위는 불명"
+      },
+      {
+        "type": "new",
+        "id": "craiyon-image",
+        "text": "Craiyon: 카드 없이 무료 생성(로그인 불필요 보고, 한도 비공개) — 워터마크·광고·대기열, 상업 이용은 출처 표기 조건"
+      },
+      {
+        "type": "new",
+        "id": "neural4d-3d",
+        "text": "Neural4D 무료: 매주 50크레딧 → 텍스처 없는 3D 모델 주 약 5개(월 약 20개) 생성·다운로드(OBJ·FBX·GLB·STL), 무료 결과물은 퍼블릭 도메인"
+      },
+      {
+        "type": "new",
+        "id": "3daistudio-3d",
+        "text": "3D AI Studio: 가입 시 무료 크레딧 1회(양 비공개, 공식 '3~5회 생성 분량') → Image/Text to 3D 1회 20크레딧, 상업 이용 가능"
+      },
+      {
+        "type": "new",
+        "id": "makerworld-3d",
+        "text": "MakerWorld MakerLab: 계정당 기능별 무료 체험(횟수 비공개)으로 Tripo·Hunyuan 3D·Meshy 등 Image to 3D 시험, 이후 1회 24~45크레딧"
+      },
+      {
+        "type": "new",
+        "id": "zoo-3d",
+        "text": "Zoo 무료 플랜: 매월 Zookeeper 사용 시간(양 비공개)으로 텍스트→CAD 모델 생성, STEP·STL 다운로드"
+      },
+      {
+        "type": "new",
+        "id": "freebuff-code",
+        "text": "Freebuff 광고 기반 무료 코딩 에이전트: 전체 접근 지역에서는 GLM 5.3 Flash·DeepSeek V4.1 Flash·MiMo 2.6 Flash·Solar가 세션 차감 없이 무제한, 그 외 지역은 하루 25 Freebucks"
+      },
+      {
+        "type": "new",
+        "id": "opencode-code",
+        "text": "OpenCode 무료 모델: 로그인·API 키 없이 DeepSeek V4.1 Flash·LongCat 2.5 Preview·MiMo-V2.6-Flash 등 10여 개 모델을 0원에 (대부분 기간 한정, 수시 교체)"
+      },
+      {
+        "type": "new",
+        "id": "kilo-code",
+        "text": "Kilo Code 무료: Auto Free(kilo-auto/free)가 무료 모델로 자동 연결, 카드 없이 VS Code·JetBrains·CLI에서 사용 (한도는 상위 제공사 속도 제한)"
+      },
+      {
+        "type": "new",
+        "id": "zcode-code",
+        "text": "ZCode 신규 가입 5일 무료 체험: GLM-5.3·GLM-5-Turbo 일일 할당량 (7월 기준 하루 500만 토큰 보도), 체험 후 GLM Coding Plan 필요"
+      },
+      {
+        "type": "new",
+        "id": "emergent-code",
+        "text": "Emergent 무료: 월 10크레딧으로 웹·모바일 앱 생성 맛보기 (후기 기준 간단한 앱 1개에 50크레딧 이상)"
+      },
+      {
+        "type": "new",
+        "id": "atoms-code",
+        "text": "Atoms 무료: 매일 15크레딧 충전, 월 최대 25크레딧까지 — AI 에이전트 팀이 웹앱 생성"
+      },
+      {
+        "type": "new",
+        "id": "rovo-dev-code",
+        "text": "Rovo Dev Free: Jira 사이트당 월 350크레딧 → Rovo Dev CLI 작업 약 1~10개 또는 코드 리뷰 약 2~8회"
+      },
+      {
+        "type": "new",
+        "id": "minimax-code-code",
+        "text": "MiniMax Code 데스크톱: 매일 출석 체크 400포인트(4·7일차 1,000), 한 주 4,000포인트 → 코딩·리서치·문서·이미지 작업에 사용 (작업당 차감량 미공개)"
+      },
+      {
+        "type": "new",
+        "id": "manus-chat",
+        "text": "Manus 무료: 매일 300크레딧(한국 오전 9시 초기화, 월 1,500 상한) + 가입 시 1,000크레딧(보고) → Manus 2.0 Lite 에이전트로 조사·문서 작업"
+      },
+      {
+        "type": "new",
+        "id": "inception-chat",
+        "text": "Inception 새 계정 1억 토큰 무료(10/8에 1천만→1억, 결제 정보 불필요) → Mercury 2.5로 입력 1천·출력 500토큰 대화 약 6만 6천 회"
+      },
+      {
+        "type": "new",
+        "id": "ai21-chat",
+        "text": "AI21 Studio 가입 시 $10 크레딧(카드 불필요) → 플레이그라운드에서 Jamba Large 짧은 대화 약 1,600회 (유효기간은 7일·3개월로 공식 안내 상충)"
+      },
+      {
+        "type": "new",
+        "id": "lumo-chat",
+        "text": "Proton Lumo: 로그인 없이 바로 질문(제한적), 무료 계정은 질문 수 확대·채팅 7일 보관·이미지 생성 소량·프로젝트 1개"
+      },
+      {
+        "type": "new",
+        "id": "ollama-chat",
+        "text": "Ollama Cloud 무료: 가입하면 스타터 모델 소량 사용량을 가입일 기준 매월 제공, 동시 1요청 — 앱·CLI·API로 클라우드 모델 실행"
+      },
+      {
+        "type": "new",
+        "id": "cohere-chat",
+        "text": "Cohere 무료 체험 키: 가입만 하면 Command A·Command A Reasoning 등 전 모델을 월 1,000회 호출 (Chat 분당 20회)"
+      },
+      {
+        "type": "new",
+        "id": "ltx-studio-video",
+        "text": "LTX Studio: 가입 시 800크레딧 1회 → 자체 LTX-2.5·LTX-2.3 모델로 영상 생성 (영상 1개당 차감량은 길이·해상도별로 달라 공식 미공개)"
+      },
+      {
+        "type": "new",
+        "id": "deevid-ai-video",
+        "text": "DeeVid AI: 가입 시 20크레딧 1회 → 기본 모델 영상 약 4개 (공식 안내, 워터마크 있음)"
+      },
+      {
+        "type": "new",
+        "id": "coverr-video",
+        "text": "Coverr: 무료 계정 매월 1,000 AI 크레딧 → Veo 3.1 Lite 영상 월 약 1개 (또는 Nano Banana 이미지 2~5장)"
+      },
+      {
+        "type": "new",
+        "id": "creatify-video",
+        "text": "Creatify: 무료 계정 매월 10크레딧 → 15초 AI 아바타 광고 영상 월 2개 (또는 이미지 광고 20장), 워터마크"
+      },
+      {
+        "type": "new",
+        "id": "ai-studios-video",
+        "text": "AI Studios(딥브레인AI): 무료 계정 → AI 아바타 영상 월 3개(각 최대 1분, 720p) + 가입 시 생성형 크레딧 16개 1회"
+      },
+      {
+        "type": "new",
+        "id": "pippit-video",
+        "text": "Pippit(CapCut 마케팅 영상): 무료 계정 매일 크레딧 지급(양 비공개, 하루 약 80 보고) → Seedance 2.5 720p 5초 영상은 약 185크레딧이라 무료로는 소량"
+      },
+      {
+        "type": "new",
+        "id": "vmake-video",
+        "text": "Vmake(메이투): 무료 계정 매일 20크레딧(당일 소멸) → UGC 광고 영상 에이전트·일부 영상 모델, 1080p 워터마크 (영상당 차감량 비공개)"
+      },
+      {
+        "type": "new",
+        "id": "magic-hour-video",
+        "text": "Magic Hour: 무료 계정 → LTX-2.3 480p UGC 광고 영상(최대 3초) 하루 1개 + 매일 무료 크레딧(양 비공개)"
+      },
+      {
+        "type": "new",
+        "id": "stable-audio-music",
+        "text": "Stable Audio 웹: 무료 월 50크레딧 → 풀믹스(4크레딧) 약 12곡 또는 멀티트랙(6크레딧) 약 8곡, 비상업 전용"
+      },
+      {
+        "type": "new",
+        "id": "soundverse-music",
+        "text": "Soundverse: 가입 시 1회 1,000토큰(음악 1초 = 1토큰) → 3분 곡 약 5개 분량, MP3 내보내기 월 10회(보고), 비상업"
+      },
+      {
+        "type": "new",
+        "id": "soundful-music",
+        "text": "Soundful: 무료로 BGM 생성은 무제한, 다운로드는 월 1곡(MP3) — 개인 용도만"
+      },
+      {
+        "type": "new",
+        "id": "loudly-music",
+        "text": "Loudly: 무료 계정 하루 1곡 다운로드 (무료 생성곡은 0.5분 길이·기본 음질), 비상업"
+      },
+      {
+        "type": "new",
+        "id": "bandlab-songstarter-music",
+        "text": "BandLab SongStarter: 무료·무제한 AI 반주 아이디어 생성 → MIDI 트랙으로 열어 BandLab Studio에서 편집 (로열티 프리)"
+      },
+      {
+        "type": "new",
+        "id": "tunee-music",
+        "text": "Tunee: 무료 계정 매일 충전 크레딧(수량 비공개) + 가입 웰컴 크레딧 → Tempolor 곡당 약 3.5·Mureka V7.6 약 6.5크레딧, 비상업·출처 표기"
+      },
+      {
+        "type": "new",
+        "id": "ttsmp3-voice",
+        "text": "ttsMP3: 로그인 없이 하루 3,000자(Amazon Polly) + AI 음성 1,000자(OpenAI TTS) 무료, MP3 다운로드·상업 이용 가능"
+      },
+      {
+        "type": "new",
+        "id": "ondoku-voice",
+        "text": "음독상(Ondoku): 가입 없이 월 1,000자 / 무료 가입 시 월 5,000자 TTS, MP3 다운로드 — 출처 표기하면 상업 이용 가능"
+      },
+      {
+        "type": "new",
+        "id": "voicevox-voice",
+        "text": "VOICEVOX: 무료 일본어 TTS·노래 합성 PC 소프트 — 생성 무제한, 'VOICEVOX:캐릭터명' 표기 시 상업 이용 가능"
+      },
+      {
+        "type": "new",
+        "id": "perso-voice",
+        "text": "Perso AI: 가입 시 1회 무료 더빙 생성 (영상 최대 1분·720p, 워터마크) — 국내 AI 더빙·음성 번역"
+      },
+      {
+        "type": "new",
+        "id": "vozo-voice",
+        "text": "Vozo: 가입 시 1회 20포인트 → AI 더빙 약 6분 또는 립싱크 약 2분 (워터마크, 카드 불필요)"
+      },
+      {
+        "type": "new",
+        "id": "noiz-voice",
+        "text": "Noiz AI: 매일 2,000크레딧(보고) ≈ 하루 TTS 약 2분 분량 + 3초 보이스 클론, 비상업"
+      },
+      {
+        "type": "update",
+        "id": "runway-video",
+        "text": "Runway: 8월 이후 무료 계정은 영상 생성이 막히고 이미지만 된다는 보고 — 확인 필요로 낮춤"
+      },
       {
         "type": "update",
         "id": "gemini-chat",

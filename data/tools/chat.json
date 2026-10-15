@@ -1990,5 +1990,421 @@
         "date": "2026-09"
       }
     ]
+  },
+  {
+    "id": "manus-chat",
+    "category": "chat",
+    "platform": "Manus",
+    "vendor": "Manus",
+    "access": "official",
+    "url": "https://manus.im",
+    "logo": "manus",
+    "logoDomain": "manus.im",
+    "models": [
+      "Chat 모드",
+      "Manus 2.0 Lite (Agent 모드, 무료 일일 크레딧 전용)"
+    ],
+    "headline": "Manus 무료: 매일 300크레딧(한국 오전 9시 초기화, 월 1,500 상한) + 가입 시 1,000크레딧(보고) → Manus 2.0 Lite 에이전트로 조사·문서 작업",
+    "description": "웹 조사·문서·슬라이드·웹사이트 제작 등을 스스로 수행하는 범용 AI 에이전트입니다. 무료 플랜은 Chat 모드와 Agent 모드의 Manus 2.0 Lite를 쓸 수 있고 매일 300크레딧이 새로 채워집니다. 일일 크레딧은 이월되지 않고, 무료 사용자는 한 달에 1,500크레딧까지만 일일 크레딧을 쓸 수 있습니다.",
+    "freeTier": {
+      "quota": "매일 300크레딧 (UTC 자정=한국 오전 9시에 300으로 재설정, 이월 없음). 무료 사용자의 일일 크레딧 월 사용 상한 1,500. 일일 크레딧은 Manus 2.0 Lite에만 사용. 신규 가입 1,000크레딧 지급 보고(무료 크레딧은 만료 없음). 동시 작업 1개, 예약 자동화 2개",
+      "reset": "매일 (월 상한 1,500크레딧) + 가입 시 1회 1,000크레딧(보고)",
+      "watermark": "없음",
+      "commercialUse": "불명",
+      "signup": "Manus 계정 가입",
+      "korea": "가능",
+      "notes": "작업 복잡도에 따라 차감량이 달라 공식적으로도 '간단한 질문용' 분량이라고 설명. 8월 말 끝난 신모델 무료 프로모션 이후 크레딧이 빨리 닳는다는 사용자 불만 보고. 크레딧 사용 순서: 이벤트 > 일일 > 월간 > 추가 구매 > 무료 크레딧. Pro $20/월부터."
+    },
+    "flags": {
+      "reset": "daily",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "manus.im에서 가입",
+      "Agent 모드에서 Manus 2.0 Lite로 작업 요청 (일일 크레딧 사용)",
+      "매일 한국 시간 오전 9시 300크레딧 재충전 (남은 일일 크레딧은 소멸)"
+    ],
+    "tags": [
+      "매일충전",
+      "가입보너스",
+      "에이전트",
+      "로그인필요"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "What is the current membership pricing for Manus? (Free: 300 daily credits, Manus 2.0 Lite)",
+        "url": "https://help.manus.im/en/articles/11711111-what-is-the-current-membership-pricing-for-manus",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Rules for credits consumption (무료 일일 크레딧 월 1,500 상한)",
+        "url": "https://help.manus.im/en/articles/11711097-what-are-the-rules-for-credits-consumption-and-how-can-i-obtain-them",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Will my daily refresh credits accumulate or reset? (UTC 자정 초기화)",
+        "url": "https://help.manus.im/en/articles/11711121-will-my-daily-refresh-credits-accumulate-or-reset",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Is Manus AI Free? Free Plan, Credits, and Limits (Fast.io)",
+        "url": "https://fast.io/resources/is-manus-ai-free/",
+        "type": "community",
+        "date": "2026"
+      }
+    ]
+  },
+  {
+    "id": "inception-chat",
+    "category": "chat",
+    "platform": "Inception (Mercury)",
+    "vendor": "Inception Labs",
+    "access": "official",
+    "url": "https://platform.inceptionlabs.ai",
+    "logo": "inception",
+    "logoDomain": "inceptionlabs.ai",
+    "models": [
+      "Mercury 2.5 (확산형 언어모델)",
+      "Mercury 2",
+      "Mercury Voice"
+    ],
+    "headline": "Inception 새 계정 1억 토큰 무료(10/8에 1천만→1억, 결제 정보 불필요) → Mercury 2.5로 입력 1천·출력 500토큰 대화 약 6만 6천 회",
+    "description": "확산(diffusion) 방식 언어모델 Mercury를 만드는 Inception Labs의 API 플랫폼입니다. 10월 8일부터 새 계정마다 1억 토큰을 무료로 주며(기존 1천만), 결제 정보 없이 API 키를 받아 쓸 수 있습니다. 브라우저에서 써 보는 Mercury Chat도 따로 있습니다.",
+    "freeTier": {
+      "quota": "새 계정 1회 1억 토큰 (결제 정보 불필요). 무료 등급 속도 제한도 10배 상향(수치 미공개). 소진 후에는 결제 정보 등록 필요",
+      "reset": "가입 시 1회",
+      "watermark": "없음",
+      "commercialUse": "불명",
+      "signup": "Inception 플랫폼 계정 가입, 카드 불필요",
+      "korea": "불명",
+      "notes": "API 중심 서비스라 일반 채팅 앱이 아님(코드나 OpenAI 호환 클라이언트 필요). Mercury Chat(chat.inceptionlabs.ai)은 브라우저 체험용으로 안내되지만 무료 한도는 미확인. 1억 토큰 유효기간 미공지. 참고 단가: Mercury 2.5 입력 $0.04·출력 $0.15/100만 토큰(할인가)."
+    },
+    "flags": {
+      "reset": "once",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "platform.inceptionlabs.ai에서 가입 후 API 키 발급",
+      "OpenAI 호환 클라이언트에 base URL https://api.inceptionlabs.ai/v1 과 키 입력",
+      "모델 mercury-2.5 선택 (브라우저 체험은 chat.inceptionlabs.ai)"
+    ],
+    "tags": [
+      "가입시1회",
+      "API",
+      "카드불필요",
+      "초고속",
+      "로그인필요"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Mercury 2: 10x free tokens (Inception 블로그, 새 API 키마다 1억 토큰)",
+        "url": "https://www.inceptionlabs.ai/blog/mercury-2-10x-free-tokens",
+        "type": "official",
+        "date": "2026-10-08"
+      },
+      {
+        "title": "Get Started - Inception Docs (100 million free tokens, no payment details required)",
+        "url": "https://docs.inceptionlabs.ai/get-started",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Models - Inception Docs (Mercury 2.5 가격)",
+        "url": "https://docs.inceptionlabs.ai/get-started/models",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Inception ships Mercury 2.5 (RuntimeWire)",
+        "url": "https://runtimewire.com/article/inception-mercury-2-5-diffusion-language-model-launch",
+        "type": "news",
+        "date": "2026-09-08"
+      }
+    ]
+  },
+  {
+    "id": "ai21-chat",
+    "category": "chat",
+    "platform": "AI21 Studio",
+    "vendor": "AI21 Labs",
+    "access": "official",
+    "url": "https://studio.ai21.com",
+    "logo": "ai21",
+    "logoDomain": "ai21.com",
+    "models": [
+      "Jamba Large (1.7)",
+      "Jamba Mini (Jamba2 Mini)"
+    ],
+    "headline": "AI21 Studio 가입 시 $10 크레딧(카드 불필요) → 플레이그라운드에서 Jamba Large 짧은 대화 약 1,600회 (유효기간은 7일·3개월로 공식 안내 상충)",
+    "description": "이스라엘 AI21 Labs의 개발자 플랫폼으로, 256K 컨텍스트의 Jamba 모델을 웹 플레이그라운드와 API로 씁니다. 새 계정에 $10 크레딧을 주며 카드 없이 시작할 수 있고, 크레딧을 다 쓰거나 기간이 끝나면 결제 정보를 등록해야 합니다.",
+    "freeTier": {
+      "quota": "신규 계정 $10 크레딧 1회 (요금 페이지: 7일 유효·카드 불필요 / 문서: 3개월 유효). 100만 토큰당 Jamba Large 입력 $2·출력 $8, Jamba Mini 입력 $0.2·출력 $0.4 → 입력 1천·출력 500토큰 대화 기준 Jamba Large 약 1,600회, Jamba Mini 약 2만 5천 회",
+      "reset": "가입 시 1회",
+      "watermark": "없음",
+      "commercialUse": "불명",
+      "signup": "AI21 계정 가입, 카드 불필요",
+      "korea": "불명",
+      "notes": "웹 플레이그라운드·API·SDK 사용 모두 크레딧에서 차감. 유효기간 표기가 페이지마다 달라 짧은 쪽(7일)으로 보는 게 안전. 한국어 성능은 불명."
+    },
+    "flags": {
+      "reset": "once",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "studio.ai21.com에서 가입 ($10 크레딧 자동 지급)",
+      "Playground에서 Jamba Large 또는 Jamba Mini 선택 후 대화",
+      "Account > Model usage에서 남은 크레딧 확인"
+    ],
+    "tags": [
+      "가입시1회",
+      "API",
+      "카드불필요",
+      "긴컨텍스트",
+      "로그인필요"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "AI21 Pricing ($10 credits for 7 days, no credit card required)",
+        "url": "https://www.ai21.com/pricing",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Pricing - AI21 Docs (Free trial usage: $10 credit good for three months, playground 포함)",
+        "url": "https://docs.ai21.com/docs/usage-cost",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "free-llm-api-resources: AI21 (trial)",
+        "url": "https://www.mintlify.com/cheahjs/free-llm-api-resources/providers/trial/ai21",
+        "type": "community",
+        "date": "2026"
+      }
+    ]
+  },
+  {
+    "id": "lumo-chat",
+    "category": "chat",
+    "platform": "Lumo",
+    "vendor": "Proton",
+    "access": "official",
+    "url": "https://lumo.proton.me",
+    "logo": "lumo",
+    "logoDomain": "proton.me",
+    "models": [
+      "오픈소스 모델 조합 (모델명 비공개)",
+      "Max 모델 (무료는 제한적)"
+    ],
+    "headline": "Proton Lumo: 로그인 없이 바로 질문(제한적), 무료 계정은 질문 수 확대·채팅 7일 보관·이미지 생성 소량·프로젝트 1개",
+    "description": "스위스 Proton이 만든 개인정보 보호형 AI 비서입니다. 계정 없이 lumo.proton.me에서 바로 질문할 수 있고, 무료 Proton 계정으로 로그인하면 더 많은 질문과 채팅 기록을 쓸 수 있습니다. 로그인 상태의 대화는 제로 액세스 암호화로 저장됩니다.",
+    "freeTier": {
+      "quota": "게스트(로그인 없음): 제한된 질문 수, 기록 저장 안 됨. 무료 계정: 메시지·Max 모델·이미지 생성 제한(수치 비공개), 채팅 기록 7일 보관, 프로젝트 1개, 웹 검색·작은 파일 업로드 가능",
+      "reset": "불명 (주간 제한이라는 제3자 보고)",
+      "watermark": "없음",
+      "commercialUse": "불명",
+      "signup": "로그인 불필요 (무료 Proton 계정이면 한도 확대·기록 저장)",
+      "korea": "가능 (공식 지원 언어 목록에 한국어 명시는 없음)",
+      "notes": "공식 페이지에 메시지 수치 없음. Lumo Plus $9.99/월(연 $119.88)로 무제한 채팅·프로젝트."
+    },
+    "flags": {
+      "reset": "unknown",
+      "watermark": "na",
+      "login": false,
+      "commercial": null
+    },
+    "howTo": [
+      "lumo.proton.me 접속 후 바로 질문 (로그인 불필요)",
+      "더 쓰려면 무료 Proton 계정으로 로그인",
+      "필요하면 웹 검색 켜고 질문"
+    ],
+    "tags": [
+      "로그인불필요",
+      "카드불필요",
+      "개인정보보호"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Lumo Pricing (Lumo Free / Plus)",
+        "url": "https://proton.me/lumo/pricing",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Getting started with Lumo (계정 없이 제한적 사용, 무료 계정 7일 기록)",
+        "url": "https://proton.me/support/lumo-getting-started",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Lumo AI by Proton 사용기 (게스트는 주간 질문 제한)",
+        "url": "https://blog.jumanji.is-a.dev/blog/Tools/Lomu-Ai-By-Proton",
+        "type": "community",
+        "date": "2026"
+      }
+    ]
+  },
+  {
+    "id": "ollama-chat",
+    "category": "chat",
+    "platform": "Ollama Cloud",
+    "vendor": "Ollama",
+    "access": "wrapper",
+    "url": "https://ollama.com",
+    "logo": "ollama",
+    "logoDomain": "ollama.com",
+    "models": [
+      "스타터 모델 (무료, 목록 비공개)",
+      "gpt-oss·DeepSeek·GLM·Kimi 등 클라우드 모델 (전체는 크레딧 구매 시)"
+    ],
+    "headline": "Ollama Cloud 무료: 가입하면 스타터 모델 소량 사용량을 가입일 기준 매월 제공, 동시 1요청 — 앱·CLI·API로 클라우드 모델 실행",
+    "description": "로컬 LLM 실행기로 유명한 Ollama의 클라우드 추론 서비스입니다. ollama.com에 가입하고 앱이나 CLI에서 로그인하면 일부 스타터 모델을 내 PC가 아닌 Ollama 서버에서 돌릴 수 있습니다. 무료 사용량은 소량이고, 전체 모델은 사용량 크레딧을 사야 열립니다.",
+    "freeTier": {
+      "quota": "무료 계정: 스타터 모델 대상 소량 사용량(정확한 수치 비공개, GPU 사용 시간 기준), 가입일 기준 매월 초기화, 동시 요청 1개. 로컬 모델 실행은 무료",
+      "reset": "매월 (가입일 기준)",
+      "watermark": "없음",
+      "commercialUse": "불명",
+      "signup": "ollama.com 계정",
+      "korea": "가능",
+      "notes": "2026년 8월 31일 요금 개편으로 무료는 '스타터 모델 소량'으로 정리됨. 클라우드 모델은 이름에 :cloud 또는 -cloud 태그가 붙음. Pro $20/월(무료 대비 약 50배), Max $100/월."
+    },
+    "flags": {
+      "reset": "monthly",
+      "watermark": "na",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "ollama.com 가입 후 Ollama 앱 설치",
+      "앱 또는 터미널에서 ollama signin 으로 로그인",
+      "클라우드 태그가 붙은 스타터 모델 선택 후 대화"
+    ],
+    "tags": [
+      "매월충전",
+      "API",
+      "오픈모델",
+      "로그인필요",
+      "한도적음"
+    ],
+    "confidence": "low",
+    "status": "limited",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Ollama Pricing (Free: starter models, 1 concurrent request)",
+        "url": "https://ollama.com/pricing",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Ollama Cloud (Free 사용량은 가입일 기준 매월 초기화)",
+        "url": "https://ollama.com/cloud",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Ollama Cloud Free vs Pro limits & pricing 2026 (DevToolHub, 8/31 개편 반영)",
+        "url": "https://devtoolhub.com/ollama-cloud-free-vs-pro-limits-pricing-2026/",
+        "type": "community",
+        "date": "2026-09-25"
+      }
+    ]
+  },
+  {
+    "id": "cohere-chat",
+    "category": "chat",
+    "platform": "Cohere (Trial key·Playground)",
+    "vendor": "Cohere",
+    "access": "official",
+    "url": "https://dashboard.cohere.com",
+    "logo": "cohere",
+    "logoDomain": "cohere.com",
+    "models": [
+      "Command A",
+      "Command A Reasoning",
+      "Command A Vision",
+      "Command A Translate",
+      "Command A+",
+      "Command R / R+ / R7B",
+      "North Mini Code"
+    ],
+    "headline": "Cohere 무료 체험 키: 가입만 하면 Command A·Command A Reasoning 등 전 모델을 월 1,000회 호출 (Chat 분당 20회)",
+    "description": "캐나다 Cohere의 개발자 대시보드로, 가입하면 무료 체험(trial) API 키가 바로 나옵니다. 체험 키로 Command A 계열을 포함한 모든 모델과 API를 쓸 수 있고, 대시보드 플레이그라운드에서 채팅처럼 시험해 볼 수 있습니다. 체험 키는 시제품·테스트용입니다.",
+    "freeTier": {
+      "quota": "체험 키: 월 1,000회 API 호출, Chat 모델 분당 20회 (Command A·A+·Reasoning·Vision·Translate·R 계열·North Mini Code). 임베딩 분당 2,000입력, 음성 인식 분당 5회",
+      "reset": "매월",
+      "watermark": "없음",
+      "commercialUse": "불가 (체험 키는 테스트·시제품용, 상용은 유료 프로덕션 키)",
+      "signup": "Cohere 계정 가입, 카드 불필요",
+      "korea": "가능",
+      "notes": "Command A Reasoning 같은 새 모델 변형은 프로덕션 키도 체험 키처럼 월 1,000회로 제한. 커뮤니티 출처 미확보."
+    },
+    "flags": {
+      "reset": "monthly",
+      "watermark": "na",
+      "login": true,
+      "commercial": false
+    },
+    "howTo": [
+      "dashboard.cohere.com에서 가입 (체험 키 자동 발급)",
+      "Playground에서 Command A 등 모델 선택 후 대화",
+      "API Keys 메뉴에서 체험 키를 복사해 다른 앱에 연결"
+    ],
+    "tags": [
+      "매월충전",
+      "API",
+      "카드불필요",
+      "로그인필요"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Rate Limits - Cohere Docs (Trial keys limited to 1,000 API calls a month)",
+        "url": "https://docs.cohere.com/docs/rate-limits",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "How Does Cohere's Pricing Work? (trial API key usage is free)",
+        "url": "https://docs.cohere.com/docs/how-does-cohere-pricing-work",
+        "type": "official",
+        "date": "2026-10"
+      }
+    ]
   }
 ]

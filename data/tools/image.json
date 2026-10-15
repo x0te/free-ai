@@ -3138,5 +3138,560 @@
         "date": "2026-08-11"
       }
     ]
+  },
+  {
+    "id": "venice-image",
+    "category": "image",
+    "platform": "Venice",
+    "vendor": "Venice.ai",
+    "access": "wrapper",
+    "url": "https://venice.ai",
+    "logo": "venice",
+    "logoDomain": "venice.ai",
+    "models": [
+      "Venice 기본 이미지 모델 (Base models, 모델명 비공개)"
+    ],
+    "headline": "Venice 무료: 가입하면 하루 이미지 15회 (기본 모델, 워터마크) — Nano Banana Pro 같은 프런티어 모델은 Pro 크레딧 전용",
+    "description": "대화와 생성물을 서버에 저장하지 않는다는 프라이버시형 AI 서비스의 이미지 생성 기능입니다. 무료 계정은 기본(Base) 오픈 모델로 하루 15번 이미지를 만들 수 있습니다. Nano Banana Pro, GPT Image 2.5, Grok Imagine, Flux 3 같은 프런티어 모델과 업스케일·배경 제거 같은 편집 도구는 유료(Pro) 크레딧으로만 씁니다.",
+    "freeTier": {
+      "quota": "하루 이미지 프롬프트 15회 + 텍스트 10회 (공식 요금표, 'Base AI models'만). 프런티어 이미지 모델(Nano Banana Pro·GPT Image 2.5·Grok Imagine·Flux 3)은 Pro 크레딧 전용",
+      "reset": "매일",
+      "watermark": "가시 워터마크 있음 (공식 FAQ: 워터마크 제거는 유료)",
+      "commercialUse": "불명",
+      "signup": "계정 가입 필요 (Sign up for free)",
+      "korea": "가능한 것으로 보임",
+      "notes": "무검열 모델 특성상 성인 콘텐츠 필터(Mature Filter) 설정이 있음 — 이용 주의. 2025년 보도(Xataka)는 비로그인 하루 이미지 5장으로 소개했지만 현행은 확인 안 됨. 업스케일·배경 제거·생성형 편집은 Pro 항목으로 표기. Pro $18/월부터 텍스트 무제한·이미지 하루 1,000장."
+    },
+    "flags": {
+      "reset": "daily",
+      "watermark": "visible",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "venice.ai에서 'Sign Up for Free'로 가입합니다.",
+      "이미지 모드를 고르고 프롬프트를 입력합니다 (기본 모델).",
+      "하루 15회까지 생성하고 내려받습니다 (워터마크 포함)."
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "워터마크",
+      "프라이버시"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Venice Pricing (Free: Base AI models, 15 image prompts per day, Watermark removal은 Pro)",
+        "url": "https://venice.ai/pricing",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Venice FAQs (워터마크 제거 관련)",
+        "url": "https://venice.ai/faqs",
+        "type": "official",
+        "date": "2026-09"
+      },
+      {
+        "title": "Venice AI: qué es, cómo funciona y cómo usar esta plataforma (Xataka)",
+        "url": "https://www.xataka.com/basics/venice-ai-que-como-funciona-como-usar-esta-plataforma-inteligencia-artificial-privada-censura",
+        "type": "news"
+      }
+    ]
+  },
+  {
+    "id": "piclumen-image",
+    "category": "image",
+    "platform": "PicLumen",
+    "vendor": "PicLumen",
+    "access": "wrapper",
+    "url": "https://www.piclumen.com",
+    "logo": "piclumen",
+    "logoDomain": "piclumen.com",
+    "models": [
+      "PicLumen 자체 모델 (Realistic·Anime 등)",
+      "Seedance 2.5 · Wan 3.0 · GPT-Image-2.5 등 (유료 크레딧 차감 큼, 무료 사용 범위 불명)"
+    ],
+    "headline": "PicLumen 무료: 매일 10 Lumen → 기본 모델 이미지 하루 약 10장, 다 쓰면 Relax 모드(저속)로 계속 생성 (워터마크·비상업)",
+    "description": "자체 이미지 모델과 여러 외부 모델을 한곳에서 쓰는 AI 이미지·영상 생성 사이트입니다. 무료 Basic 플랜은 매일 Lumen(크레딧)을 받아 이미지를 만들고, 공식 FAQ는 Lumen이 떨어져도 우선순위가 낮은 Relax 모드로 계속 생성할 수 있다고 안내합니다. 무료 이미지는 상업적으로 쓸 수 없습니다.",
+    "freeTier": {
+      "quota": "Basic(무료) 매일 10 Lumen (공식 FAQ 'receive 10 Lumens per day'). 요금표 기준 750 Lumen ≈ 이미지 750장 → 기본 모델 1장 약 1 Lumen, 하루 약 10장. Lumen 소진 후 Relax 모드(저우선순위)로 생성 계속 가능(공식 FAQ, PicLumen 자체 모델)",
+      "reset": "매일",
+      "watermark": "가시 워터마크 있음 (요금표상 '워터마크 없는 생성'은 유료, 리뷰 보고도 일치)",
+      "commercialUse": "불가 (공식 FAQ: 'Basic: No commercial use rights')",
+      "signup": "계정 가입 필요 (이메일/Google)",
+      "korea": "가능한 것으로 보임",
+      "notes": "무료는 Normal 모드, 일일 생성 한도 별도 적용(수치 비공개). Relax 모드가 무료 계정에 어디까지 적용되는지는 요금표와 FAQ 표현이 달라 확인 필요. 미사용 Lumen은 이월 안 됨. 친구 초대 시 양쪽에 보너스 Lumen."
+    },
+    "flags": {
+      "reset": "daily",
+      "watermark": "visible",
+      "login": true,
+      "commercial": false
+    },
+    "howTo": [
+      "piclumen.com에서 가입합니다.",
+      "Text to Image에서 PicLumen 자체 모델을 고르고 생성합니다 (장당 약 1 Lumen).",
+      "Lumen을 다 쓰면 Relax 모드로 대기 후 생성됩니다."
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "워터마크",
+      "비상업"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "PicLumen FAQ (Basic(Free) plan: 10 Lumens per day, Lumen 소진 시 Relax Mode)",
+        "url": "https://www.piclumen.com/faq/what-should-i-do-if-i-encounter-lag-when-generating-images/",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "PicLumen Pricing (Basic: No commercial use rights, 750 Lumens ≈ 750 images)",
+        "url": "https://www.piclumen.com/pricing/",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "PicLumen Alternative (Pixo — 무료 하루 10 Lumen, 워터마크)",
+        "url": "https://pixo.video/alternatives/piclumen",
+        "type": "community",
+        "date": "2026-08"
+      }
+    ]
+  },
+  {
+    "id": "tensor-art-image",
+    "category": "image",
+    "platform": "Tensor.Art",
+    "vendor": "Tensor.Art",
+    "access": "wrapper",
+    "url": "https://tensor.art",
+    "logo": "tensor-art",
+    "logoDomain": "tensor.art",
+    "models": [
+      "SD 1.5 · SDXL · FLUX 계열 커뮤니티 모델·LoRA (1만 개 이상)"
+    ],
+    "headline": "Tensor.Art 무료: 매일 크레딧 충전(보고 50/일)으로 SD·FLUX 커뮤니티 모델·LoRA 이미지 생성 (워터마크 보고)",
+    "description": "Civitai·SeaArt처럼 사용자가 올린 Stable Diffusion·FLUX 계열 모델과 LoRA를 골라 온라인에서 바로 돌리는 이미지 생성 사이트입니다. 무료 계정도 매일 크레딧이 충전되어 커뮤니티 모델로 그림을 만들 수 있습니다. 차감량은 모델·해상도·스텝에 따라 달라집니다.",
+    "freeTier": {
+      "quota": "매일 무료 크레딧 (리뷰 다수 하루 50크레딧, 일부는 100으로 보고 — 공식 수치 미확인). 장당 차감은 모델·해상도·스텝 수에 따라 다름",
+      "reset": "매일 (보고: 24시간마다)",
+      "watermark": "가시 워터마크 있음 (보고)",
+      "commercialUse": "모델별 라이선스에 따름 (보고 — 플랫폼이 아니라 각 모델 라이선스 기준)",
+      "signup": "계정 가입 필요 (카드 불필요)",
+      "korea": "불명 (지역 제한 언급 없음)",
+      "notes": "보고 기준 무료 최대 해상도 1536×1024, 동시 작업 1~2개, 이미지 보관 14일. 피크 시간 서버 혼잡 불만이 잦음. Pro 월 약 $9.90부터 하루 300크레딧(보고). 공식 사이트가 봇 차단(Cloudflare)으로 직접 확인되지 않음."
+    },
+    "flags": {
+      "reset": "daily",
+      "watermark": "visible",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "tensor.art에 가입합니다.",
+      "모델 목록에서 원하는 체크포인트·LoRA를 골라 'Run'을 누릅니다.",
+      "해상도·스텝을 낮게 잡으면 하루 크레딧으로 더 많이 생성할 수 있습니다."
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "커뮤니티모델",
+      "LoRA",
+      "워터마크"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Tensor.Art Review 2026 (aisotools — 무료 크레딧 매일 갱신, 상업 이용은 모델 라이선스 기준)",
+        "url": "https://aisotools.com/blog/tensor-art-review-2026",
+        "type": "community",
+        "date": "2026-08"
+      },
+      {
+        "title": "Tensor Art (Tools for Humans — 무료 하루 50크레딧, 24시간 리셋, 무료 출력 워터마크, 최대 1536×1024)",
+        "url": "https://www.toolsforhumans.ai/ai-tools/tensor-art",
+        "type": "community",
+        "date": "2026-03-24"
+      }
+    ]
+  },
+  {
+    "id": "reve-image",
+    "category": "image",
+    "platform": "Reve",
+    "vendor": "Reve",
+    "access": "official",
+    "url": "https://app.reve.com",
+    "logo": "reve",
+    "logoDomain": "reve.com",
+    "models": [
+      "Reve 2.1"
+    ],
+    "headline": "Reve 무료: 가입 시 1회 크레딧 + 매일 충전되는 기본 크레딧(양 비공개)으로 Reve 2.1 이미지 생성·편집",
+    "description": "글자 표현과 프롬프트 충실도로 주목받은 이미지 모델 Reve의 공식 앱입니다. 생성한 이미지를 채팅하듯 고쳐 나가는 편집 기능이 있습니다. 무료 플랜은 가입할 때 한 번 주는 크레딧과 매일 다시 채워지는 기본 크레딧으로 쓰며, 정확한 양은 공개하지 않습니다.",
+    "freeTier": {
+      "quota": "가입 시 1회 기본 크레딧('creative energy') + 매일 충전되는 기본 크레딧 (공식 도움말 요금제 개요 요약 기준, 수량 비공개). 2025년 출시 당시 보도는 '가입 100크레딧 + 하루 20장'으로 소개(현행과 다를 수 있음)",
+      "reset": "매일 + 가입 시 1회",
+      "watermark": "불명",
+      "commercialUse": "불명 (리뷰마다 엇갈림)",
+      "signup": "계정 가입 필요",
+      "korea": "불명",
+      "notes": "무료 계정은 모델 학습 활용에 기본 동의 상태이고, 거부(옵트아웃)는 유료 Lite·Pro에서만 가능. 유료 Lite $7.99/월 = 무료 기본량의 5배, Pro $19.99/월 = 100배 + 영상 크레딧. 공식 요금·도움말 페이지가 봇 차단으로 직접 열람되지 않아 2차 요약 기준."
+    },
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "app.reve.com에서 가입합니다 (가입 크레딧 지급).",
+      "프롬프트로 이미지를 만들고, 채팅으로 수정 지시를 이어 갑니다.",
+      "크레딧을 다 쓰면 다음 날 충전을 기다립니다."
+    ],
+    "tags": [
+      "매일충전",
+      "가입시1회",
+      "로그인필요",
+      "수량불명",
+      "글자표현"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Reve Help — Subscription plans overview (Free: 매일 충전 기본 크레딧 + 가입 시 1회)",
+        "url": "https://help.reve.com/hc/en-us/articles/46732445465108-Subscription-plans-overview",
+        "type": "official",
+        "date": "2026"
+      },
+      {
+        "title": "Reve 2.1 pricing: plans, API costs, and what you'll pay (eesel AI)",
+        "url": "https://www.eesel.ai/blog/reve-2-1-pricing",
+        "type": "news",
+        "date": "2026-07"
+      }
+    ]
+  },
+  {
+    "id": "runway-image",
+    "category": "image",
+    "platform": "Runway",
+    "vendor": "Runway",
+    "access": "official",
+    "url": "https://runway.com",
+    "logo": "runway",
+    "logoDomain": "runway.com",
+    "models": [
+      "Nano Banana Pro (보고)",
+      "Gen-4 Image · Gen-4 Image Turbo (무료 사용 가능 여부 불명)"
+    ],
+    "headline": "Runway 무료: 가입 시 125크레딧 1회 → Nano Banana Pro 2K 이미지 약 6장 (장당 20크레딧, 보고) — 무료 계정은 영상이 막히고 이미지만 된다는 보고",
+    "description": "AI 영상 도구로 유명한 Runway의 무료 플랜으로 만드는 이미지 생성입니다. 가입하면 한 번 125크레딧을 주고 만료되지 않습니다. 2026년 8월부터 공식 요금표의 무료 모델 목록이 일반 문구로 바뀌었고, 이후 테스트 글에서는 무료 계정이 Nano Banana Pro 이미지는 만들 수 있지만 영상은 업그레이드를 요구했다고 보고합니다.",
+    "freeTier": {
+      "quota": "가입 시 125크레딧 1회 (공식, 만료·재충전 없음). 테스트 보고(2026-08): Nano Banana Pro 2K 1장 20크레딧 → 약 6장. 공식 요금표 단가로는 Gen-4 Image 1080p 8크레딧(→ 약 15장), Gen-4 Image Turbo 2크레딧(→ 약 62장)이지만 무료 계정에서 쓸 수 있는지는 미확인",
+      "reset": "가입 시 1회 (만료 없음, 재충전 없음)",
+      "watermark": "불명 (테스트 보고상 2K 미리보기에 워터마크 없음. 공식 요금표의 '워터마크 없음'은 유료 Standard 항목)",
+      "commercialUse": "불명",
+      "signup": "이메일 또는 Google 계정",
+      "korea": "가능",
+      "notes": "2026-08-05 공식 요금표 무료 플랜의 모델 목록(Gen-4 Turbo, Gen-4 Text-to-Image, Gemini 3 Pro 등)이 'A selection of generative creative models'라는 문구로 바뀜(pricingsaas 추적). 같은 달 테스트 글은 Seedance 2 영상 생성이 'Standard 플랜 필요'로 막혔다고 보고. 일부 계정은 500크레딧이 표시됐다는 보고도 있어 실제 잔액은 계정 화면 기준. 저장공간 5GB."
+    },
+    "flags": {
+      "reset": "once",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "runway.com에서 가입합니다 (125크레딧 지급).",
+      "이미지 생성 도구에서 사용 가능한 모델을 고르고 차감 크레딧을 확인합니다.",
+      "크레딧을 다 쓰면 유료 플랜이 필요합니다."
+    ],
+    "tags": [
+      "가입시1회",
+      "로그인필요",
+      "멀티모델"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Runway Pricing (Free: 125 one-time credits, 'A selection of generative creative models', Gen-4 Image 1080p 8 credits/image)",
+        "url": "https://runway.com/pricing",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Runway Free Plan 2026: It Makes Images, Not Video (Marc Andrews, Nano Banana Pro 2K 20크레딧 테스트)",
+        "url": "https://marcandrews.com/runway-free-plan-2026-what-it-actually-makes/",
+        "type": "community",
+        "date": "2026-08-06"
+      },
+      {
+        "title": "Runway: Free plan model list swapped for generic wording (PricingSaaS)",
+        "url": "https://pricingsaas.com/companies/runwayml/diffs/2026W32",
+        "type": "news",
+        "date": "2026-08-05"
+      }
+    ]
+  },
+  {
+    "id": "ltx-studio-image",
+    "category": "image",
+    "platform": "LTX Studio",
+    "vendor": "Lightricks",
+    "access": "wrapper",
+    "url": "https://ltx.io/studio",
+    "logo": "ltx-studio",
+    "logoDomain": "ltx.io",
+    "models": [
+      "Z-Image (무료 플랜 이미지 모델)",
+      "LTX-2.5 · LTX-2.3 (영상)"
+    ],
+    "headline": "LTX Studio 무료: 가입 시 800크레딧 1회 → Z-Image 이미지 + LTX-2.5 영상 체험 (개인용 라이선스, 워터마크)",
+    "description": "Lightricks의 AI 영상 제작 스튜디오로, 이미지 생성부터 스토리보드·영상까지 한곳에서 만듭니다. 무료 플랜은 가입할 때 800크레딧을 한 번 주고, 이미지 모델 Z-Image와 자체 영상 모델 LTX-2.5·2.3을 쓸 수 있습니다. Nano Banana·FLUX.2 Pro·ChatGPT Images·Veo·Kling 같은 외부 모델은 유료입니다.",
+    "freeTier": {
+      "quota": "가입 시 800크레딧 1회 (공식 요금표 'Free $0 Forever — 800 credits (one time)'). 무료 플랜 모델: 이미지 Z-Image, 영상 LTX-2.5·LTX-2.3. 장당 차감량은 공식 비공개(앱 상단 잔액으로 확인), 영상과 크레딧 공유",
+      "reset": "가입 시 1회",
+      "watermark": "가시 워터마크 있음으로 보임 (유료 플랜 항목에 'No watermarking')",
+      "commercialUse": "불가 (무료는 개인용 라이선스 — 사업·마케팅·유료 작업 불가)",
+      "signup": "계정 가입 (카드 불필요, 'No billing')",
+      "korea": "가능 (공식 요금 페이지의 무료 플랜 제공 국가 목록에 KR 포함)",
+      "notes": "Nano Banana 2·Pro, FLUX.2 Pro, ChatGPT Images 2.0, Veo 3.1, Kling, Seedance는 유료 플랜 전용. 무료 플랜은 국가별로만 제공(목록 밖 지역은 'Start now'만 표시). 스토리보드, 카메라 컨트롤, Flows(노드 자동화), 오디오→영상 등 제작 도구 포함."
+    },
+    "flags": {
+      "reset": "once",
+      "watermark": "visible",
+      "login": true,
+      "commercial": false
+    },
+    "howTo": [
+      "ltx.io/studio에서 'Start for free'로 가입합니다 (800크레딧).",
+      "이미지 생성에서 Z-Image 모델로 프롬프트를 넣어 생성합니다.",
+      "같은 크레딧으로 LTX-2.5 영상도 만들 수 있으니 이미지 위주라면 영상은 아껴 씁니다."
+    ],
+    "tags": [
+      "가입시1회",
+      "로그인필요",
+      "워터마크",
+      "비상업",
+      "영상겸용"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "LTX Studio Pricing (Free: 800 credits one time, Z-image image model, LTX-2.5/2.3, Personal use license)",
+        "url": "https://ltx.io/studio/pricing",
+        "type": "official",
+        "date": "2026-10"
+      }
+    ]
+  },
+  {
+    "id": "easemate-image",
+    "category": "image",
+    "platform": "EaseMate AI",
+    "vendor": "EaseMate",
+    "access": "wrapper",
+    "url": "https://www.easemate.ai",
+    "logo": "easemate",
+    "logoDomain": "easemate.ai",
+    "models": [
+      "기본 이미지 모델 (모델명 비공개)",
+      "Nano Banana Pro · GPT Image 2.5 · Seedream 5.0 등 (크레딧 필요)"
+    ],
+    "headline": "EaseMate 무료: 기본 모델로 하루 이미지 5장 + 가입 30크레딧 1회 (Nano Banana Pro 등 프리미엄 모델은 크레딧)",
+    "description": "채팅·이미지·영상 AI를 한 사이트에 모은 서비스의 이미지 생성 기능입니다. 무료 Basic 플랜은 기본 모델로 하루 이미지 5장을 만들 수 있고, 가입 시 30크레딧과 출석 체크 크레딧을 따로 줍니다. Nano Banana Pro, GPT Image 2.5, Seedream 같은 모델은 크레딧을 씁니다.",
+    "freeTier": {
+      "quota": "Basic(무료): 하루 이미지 5장 + 영상 2개 (공식 요금표, 기본 모델). 가입 시 30크레딧 1회, 일일 체크인으로 추가 크레딧. 크레딧 팩 500 = 이미지 최대 50장(장당 약 10크레딧) → 30크레딧은 프리미엄 모델 약 3장 분량(추정)",
+      "reset": "매일 (가입 크레딧은 1회)",
+      "watermark": "불명 (공식 FAQ는 '생성물에 워터마크 없음'으로 안내하나 무료 플랜 한정 여부는 불명)",
+      "commercialUse": "불명",
+      "signup": "이메일/Google 계정",
+      "korea": "가능",
+      "notes": "요금표 비교표에는 무료 이미지 모델이 'Limited'로만 표기되고 모델명은 비공개. 비회원도 이미지 1회 무료 생성 가능(서드파티 보고). 채팅은 하루 200K 토큰 무료."
+    },
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "easemate.ai에서 가입합니다 (30크레딧 지급).",
+      "AI Image Generator에서 기본 모델을 고르면 하루 5장까지 무료입니다.",
+      "프리미엄 모델은 크레딧이 차감되니 선택 전에 차감량을 확인합니다."
+    ],
+    "tags": [
+      "매일충전",
+      "가입시1회",
+      "로그인필요",
+      "멀티모델"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "EaseMate Pricing (Basic $0: 5 images + 2 videos per day, 30 free credits on sign-up, daily check-ins)",
+        "url": "https://www.easemate.ai/pricing",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "EaseMate AI (Creati.ai — 비회원 1회 무료 생성, 가입 30크레딧, 500크레딧=이미지 최대 50장)",
+        "url": "https://creati.ai/ai-tools/easemate-ai/",
+        "type": "community"
+      }
+    ]
+  },
+  {
+    "id": "myedit-image",
+    "category": "image",
+    "platform": "MyEdit (마이에딧)",
+    "vendor": "CyberLink",
+    "access": "wrapper",
+    "url": "https://myedit.online/kr/photo-editor/ai-image-generator",
+    "logo": "myedit",
+    "logoDomain": "myedit.online",
+    "models": [
+      "Nano Banana Pro",
+      "Flux",
+      "기타 (무료로 쓸 수 있는 모델 범위 불명)"
+    ],
+    "headline": "MyEdit 무료: AI 이미지 하루 5장 (공식 한국어 FAQ) — Nano Banana Pro·Flux 지원, 무료 모델 범위는 불명",
+    "description": "PowerDirector·PhotoDirector를 만든 대만 CyberLink의 웹 편집 도구 모음 MyEdit의 AI 이미지 생성기입니다. 한국어 페이지가 있고, 공식 FAQ에 하루 5장을 무료로 만들 수 있다고 적혀 있습니다. Nano Banana Pro·Flux 같은 모델과 50가지 이상의 스타일, 참조 이미지 업로드를 지원합니다.",
+    "freeTier": {
+      "quota": "하루 5장 무료 생성 (공식 FAQ: '하루에 5장의 이미지를 무료로 생성할 수 있습니다'). 무료로 고를 수 있는 모델·해상도는 미확인",
+      "reset": "매일",
+      "watermark": "불명",
+      "commercialUse": "불명",
+      "signup": "불명 (생성·다운로드 시 로그인 요구 여부 확인 필요)",
+      "korea": "가능 (한국어 페이지 제공)",
+      "notes": "출력은 JPG. 배경 제거·업스케일·사진 복원 등 다른 AI 도구는 별도 크레딧. iOS/Android 앱도 있음(무료, 인앱 결제)."
+    },
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "myedit.online의 AI 이미지 생성기(한국어)를 엽니다.",
+      "모델과 스타일을 고르고 프롬프트를 입력합니다.",
+      "하루 5장까지 무료로 생성합니다."
+    ],
+    "tags": [
+      "매일충전",
+      "한국어지원",
+      "멀티모델"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "MyEdit AI 이미지 생성기 (공식 FAQ: 하루 5장 무료)",
+        "url": "https://myedit.online/kr/photo-editor/ai-image-generator",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "MyEdit AI 이미지 생성기 2026년 리뷰: 기능 및 가격 (FlyPix)",
+        "url": "https://flypix.ai/ko/myedit-ai-image-generator-tool-review/",
+        "type": "news",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "craiyon-image",
+    "category": "image",
+    "platform": "Craiyon (구 DALL·E mini)",
+    "vendor": "Craiyon",
+    "access": "official",
+    "url": "https://www.craiyon.com",
+    "logo": "craiyon",
+    "logoDomain": "craiyon.com",
+    "models": [
+      "Craiyon v5"
+    ],
+    "headline": "Craiyon: 카드 없이 무료 생성(로그인 불필요 보고, 한도 비공개) — 워터마크·광고·대기열, 상업 이용은 출처 표기 조건",
+    "description": "2022년 'DALL·E mini'로 유명해진 오래된 무료 이미지 생성 사이트로, 현재 자체 모델 v5를 씁니다. 가입 없이 바로 쓸 수 있다는 리뷰가 많지만, 무료 이미지에는 워터마크가 붙고 광고와 대기 시간이 있습니다. 품질은 최신 모델보다 떨어지는 편이라 가볍게 시험해 보는 용도입니다.",
+    "freeTier": {
+      "quota": "무료 생성 가능하나 무제한은 아님 (2026-04 비교 글: 'available without a credit card, but it's not unlimited'). 정확한 한도는 공식 미확인 — 예전 리뷰는 '무제한' 또는 '고급 생성 하루 2회 + Lite 무제한'으로 엇갈림",
+      "reset": "불명 (광고 지원·대기열 방식)",
+      "watermark": "가시 워터마크 있음 (보고)",
+      "commercialUse": "가능 (보고: 무료는 Craiyon.com 출처 표기 필요, 유료는 불필요)",
+      "signup": "로그인 불필요 (리뷰 보고, 공식 미확인)",
+      "korea": "불명",
+      "notes": "무료는 광고·워터마크·대기 시간이 있는 방식(2026-04 비교 글). 무료 생성물은 공개 갤러리에 노출되는 것으로 보고됨. 유료 Supporter 월 약 $5~6부터 워터마크·출처 표기 제거. v6 개발 중으로 보고. 공식 사이트가 봇 차단(Cloudflare)으로 직접 확인되지 않음."
+    },
+    "flags": {
+      "reset": "unknown",
+      "watermark": "visible",
+      "login": false,
+      "commercial": true
+    },
+    "howTo": [
+      "craiyon.com에 접속합니다 (가입 불필요).",
+      "프롬프트를 입력하고 스타일을 고른 뒤 생성합니다.",
+      "결과 중 마음에 드는 이미지를 내려받습니다 (워터마크 포함)."
+    ],
+    "tags": [
+      "로그인불필요",
+      "워터마크",
+      "광고"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "getimg.ai vs Craiyon: Quality, Features & Pricing Comparison (2026-04 — 무료는 광고·워터마크·대기, 상업 이용은 출처 표기, v5)",
+        "url": "https://getimg.ai/blog/getimg-ai-vs-craiyon-ai-image-tool-comparison",
+        "type": "community",
+        "date": "2026-04-07"
+      },
+      {
+        "title": "Craiyon Review: Is the Free AI Image Generator Still Worth Using? (Fritz AI — 계정·결제 정보 없이 생성 가능)",
+        "url": "https://fritz.ai/craiyon-review/",
+        "type": "news"
+      }
+    ]
   }
 ]

@@ -1426,5 +1426,414 @@
         "date": "2026-09"
       }
     ]
+  },
+  {
+    "id": "stable-audio-music",
+    "category": "music",
+    "platform": "Stable Audio (웹 스튜디오)",
+    "vendor": "Stability AI",
+    "access": "official",
+    "url": "https://www.stableaudio.com",
+    "logo": "stability-ai",
+    "logoDomain": "stableaudio.com",
+    "models": [
+      "Stable Audio 웹 스튜디오 모델 (버전 비공개)"
+    ],
+    "headline": "Stable Audio 웹: 무료 월 50크레딧 → 풀믹스(4크레딧) 약 12곡 또는 멀티트랙(6크레딧) 약 8곡, 비상업 전용",
+    "description": "Stability AI의 공식 음악 생성 웹 스튜디오입니다. 프롬프트로 완성 믹스를 한 번에 만들거나(FULL MIX), 에이전트가 악기별 트랙을 나눠 녹음하는 멀티트랙 모드로 만든 뒤 트랙 추가·재생성·구간 교체로 다듬을 수 있습니다. 믹싱·이펙트·바운스·내보내기는 크레딧이 들지 않습니다. 보컬곡보다는 BGM·연주곡에 강합니다.",
+    "freeTier": {
+      "quota": "월 50크레딧. 공식 문서 기준 FULL MIX 세션 시작 4크레딧(→ 약 12곡), MULTI-TRACK 6크레딧(→ 약 8곡), 트랙 추가·재생성·구간 교체·연장 각 4크레딧. 요금표 표기: '약 12 full-mix 또는 8 multi-track generations a month'",
+      "reset": "매월 (매달 1일 갱신, 미사용분 이월 없음)",
+      "watermark": "불명",
+      "commercialUse": "불가 — 무료는 개인·비상업 용도 (상업 라이선스는 Solo $12/월부터)",
+      "signup": "이메일/소셜 계정",
+      "korea": "가능 (영문 서비스, 국가 제한 안내 없음)",
+      "notes": "길이는 자동·0:30·1:00·1:30·3:00 중 선택(유료는 최대 6분, 무료의 최대 길이는 별도 명시 없음). 실패한 생성은 차감 안 됨. Stable Audio DAW 플러그인도 같은 크레딧 공유. 고객센터 문서에는 '가입 시 50크레딧'으로 적혀 있어 표기가 엇갈리나, 요금표 FAQ는 무료 플랜이 매달 1일 갱신된다고 명시."
+    },
+    "flags": {
+      "reset": "monthly",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    },
+    "howTo": [
+      "stableaudio.com 에서 무료 가입",
+      "프롬프트 입력 → FULL MIX(4크레딧) 또는 MULTI-TRACK(6크레딧) 선택, 길이 선택 후 START",
+      "필요한 트랙만 재생성·교체한 뒤 믹스를 내보내기(무료)"
+    ],
+    "tags": [
+      "매월충전",
+      "로그인필요",
+      "비상업",
+      "연주곡",
+      "BGM",
+      "멀티트랙"
+    ],
+    "confidence": "high",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Stable Audio Pricing — Free $0 · 50 credits a month · Personal, non-commercial use",
+        "url": "https://www.stableaudio.com/pricing",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Stable Audio 사용 가이드 — What costs credits (FULL MIX 4 · MULTI-TRACK 6)",
+        "url": "https://www.stableaudio.com/docs",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Stable Audio subscription plans and credit system (Stability AI KB)",
+        "url": "https://kb.stability.ai/knowledge-base/stable-audio-subscription-plans-and-credit-system",
+        "type": "official"
+      },
+      {
+        "title": "Stable Audio 3.0 Review: Pricing, Free Plan, Licence vs Suno",
+        "url": "https://undetectr.com/blog/stable-audio-review",
+        "type": "community",
+        "date": "2026-09"
+      }
+    ]
+  },
+  {
+    "id": "soundverse-music",
+    "category": "music",
+    "platform": "Soundverse",
+    "vendor": "Soundverse",
+    "access": "official",
+    "url": "https://www.soundverse.ai",
+    "logo": "soundverse",
+    "logoDomain": "soundverse.ai",
+    "models": [
+      "Soundverse 자체 모델 (Text to Music 등)"
+    ],
+    "headline": "Soundverse: 가입 시 1회 1,000토큰(음악 1초 = 1토큰) → 3분 곡 약 5개 분량, MP3 내보내기 월 10회(보고), 비상업",
+    "description": "AI 작곡·보이스 클론·음원 분리를 한 화면에서 하는 음악 제작 플랫폼입니다. 텍스트로 곡을 만들고 Extend 도구로 길이를 늘리거나 멀티트랙 편집기에서 다듬을 수 있습니다. 무료 계정은 가입할 때 받는 토큰만 쓰는 1회성 체험입니다.",
+    "freeTier": {
+      "quota": "가입 시 1,000토큰 1회 (공식 요금표). Text to Music은 길이 기준 15초=15, 1분=60, 3분=180, 5분=300토큰 → 3분 곡 약 5개 또는 5분 곡 3개. 음원 분리·보이스 모델에도 같은 토큰 사용",
+      "reset": "가입 시 1회 (공식 도움말 FAQ에는 '무료 100토큰'으로 남아 있어 표기 충돌)",
+      "watermark": "불명",
+      "commercialUse": "불가 — 상업 이용권은 유료 플랜 (무료 결과물은 비상업)",
+      "signup": "이메일/Google 계정",
+      "korea": "가능 (해외 웹, 국가 제한 안내 없음)",
+      "notes": "리뷰 사이트 기준 무료는 MP3 내보내기 월 10회·음원 분리 포함(보고). WAV·스템 내보내기는 유료. 도움말 FAQ(100토큰)와 요금표(1,000토큰)가 달라 실제 지급량 확인 필요."
+    },
+    "flags": {
+      "reset": "once",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    },
+    "howTo": [
+      "soundverse.ai 에서 무료 가입 (1,000토큰 지급)",
+      "Text to Music에서 장르·분위기 입력, 길이(15초~5분) 선택",
+      "결과를 MP3로 내보내기 (토큰은 길이만큼 차감)"
+    ],
+    "tags": [
+      "가입시1회",
+      "로그인필요",
+      "비상업",
+      "보이스클론",
+      "음원분리",
+      "정보충돌"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Soundverse Pricing — Free Tier: 1,000 free tokens upon signup",
+        "url": "https://www.soundverse.ai/pricing",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Soundverse 도움말 FAQ — 길이별 토큰 소모 (3분 = 180토큰)",
+        "url": "https://help.soundverse.ai/faqs/content-and-generation",
+        "type": "official"
+      },
+      {
+        "title": "Soundverse AI 리뷰 — Free: 1,000 tokens, 10 MP3 exports/month, non-commercial",
+        "url": "https://www.aimusicpreneur.com/ai-tools/soundverse-ai/",
+        "type": "community",
+        "date": "2026-07"
+      }
+    ]
+  },
+  {
+    "id": "soundful-music",
+    "category": "music",
+    "platform": "Soundful",
+    "vendor": "Soundful",
+    "access": "official",
+    "url": "https://soundful.com",
+    "logo": "soundful",
+    "logoDomain": "soundful.com",
+    "models": [
+      "Soundful 자체 모델 (스타일 템플릿)"
+    ],
+    "headline": "Soundful: 무료로 BGM 생성은 무제한, 다운로드는 월 1곡(MP3) — 개인 용도만",
+    "description": "장르·스타일 템플릿을 골라 저작권 걱정 없는 배경음악(BGM)과 루프를 만드는 서비스입니다. 무료 플랜도 생성 횟수 제한은 없지만, 파일로 받을 수 있는 건 한 달에 MP3 1개뿐입니다. 보컬 없는 연주곡 위주입니다.",
+    "freeTier": {
+      "quota": "트랙 생성 무제한, 무료 스타일 25종 이상, MP3 다운로드 월 1개",
+      "reset": "매월 (다운로드 1개)",
+      "watermark": "불명",
+      "commercialUse": "불가 — 무료(Standard)는 개인 라이선스, 상업 이용은 유료 플랜(Plus $4.99/월~). 리뷰에 따르면 무료 트랙 사용 시 Soundful 출처 표기 필요(보고)",
+      "signup": "이메일/소셜 계정",
+      "korea": "가능 (해외 웹, 국가 제한 안내 없음)",
+      "notes": "WAV·스템, 프리미엄 스타일 150종 이상은 유료. 연주곡·루프 중심이라 노래(보컬) 생성은 안 됨."
+    },
+    "flags": {
+      "reset": "monthly",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    },
+    "howTo": [
+      "soundful.com 에서 무료 가입",
+      "무료 스타일(장르) 선택 후 생성 (횟수 무제한)",
+      "마음에 드는 곡 1개를 그 달의 무료 MP3 다운로드로 받기"
+    ],
+    "tags": [
+      "매월충전",
+      "로그인필요",
+      "비상업",
+      "연주곡",
+      "BGM",
+      "다운로드제한"
+    ],
+    "confidence": "high",
+    "status": "limited",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Soundful Pricing — Free $0 forever: Unlimited Track Generations, 1 MP3 download/month, Personal License",
+        "url": "https://soundful.com/pricing/",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Soundful AI Review (무료 1곡 다운로드 제한·출처 표기 언급)",
+        "url": "https://vidmuse.ai/blog/soundful-ai-review",
+        "type": "community",
+        "date": "2026"
+      }
+    ]
+  },
+  {
+    "id": "loudly-music",
+    "category": "music",
+    "platform": "Loudly",
+    "vendor": "Loudly GmbH",
+    "access": "official",
+    "url": "https://www.loudly.com",
+    "logo": "loudly",
+    "logoDomain": "loudly.com",
+    "models": [
+      "Loudly 자체 모델"
+    ],
+    "headline": "Loudly: 무료 계정 하루 1곡 다운로드 (무료 생성곡은 0.5분 길이·기본 음질), 비상업",
+    "description": "베를린의 AI 음악 회사 Loudly의 생성기로, 장르·분위기·길이를 고르거나 텍스트로 설명해 로열티 프리 음악을 만듭니다. 리믹서·샘플 생성·음원 분리·마스터링 도구도 함께 제공합니다. 무료 플랜은 카드 없이 쓸 수 있지만 길이와 다운로드 수가 짧게 묶여 있습니다.",
+    "freeTier": {
+      "quota": "트랙 생성 '제한적'(수량 비공개, 외부 비교 사이트는 월 25회로 보고), 곡 미리듣기 0.5분, 다운로드 하루 1개",
+      "reset": "매일 (다운로드 1개)",
+      "watermark": "불명",
+      "commercialUse": "불가 — 무료는 비상업 용도 (Personal $8/월~부터 수익화·배포 가능)",
+      "signup": "이메일 (다운로드하려면 이메일 인증 필요)",
+      "korea": "가능 (해외 웹, 국가 제한 안내 없음)",
+      "notes": "기본 음질, 음원 분리는 제한된 분량. 공식 요금표 문구가 '0.5 minutes song previews'라 무료 결과물 길이가 30초로 제한되는 것으로 보임."
+    },
+    "flags": {
+      "reset": "daily",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": false
+    },
+    "howTo": [
+      "loudly.com 에서 'Start Free Now'로 가입 후 이메일 인증",
+      "AI Music Generator 또는 Text to Music에서 장르·분위기 지정해 생성",
+      "하루 1개 다운로드 한도 안에서 MP3 받기"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "비상업",
+      "카드불필요",
+      "연주곡",
+      "다운로드제한"
+    ],
+    "confidence": "medium",
+    "status": "limited",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Loudly Pricing — Free $0/month, No credit card required, 0.5 minutes song previews, 1 download per day, Non-commercial use",
+        "url": "https://www.loudly.com/music/pricing",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Loudly Free Plan 2026: What's Included & What's Not",
+        "url": "https://www.costbench.com/software/ai-music-generators/loudly/free-plan/",
+        "type": "community",
+        "date": "2026"
+      }
+    ]
+  },
+  {
+    "id": "bandlab-songstarter-music",
+    "category": "music",
+    "platform": "BandLab SongStarter",
+    "vendor": "BandLab Technologies",
+    "access": "official",
+    "url": "https://www.bandlab.com/songstarter",
+    "logo": "bandlab",
+    "logoDomain": "bandlab.com",
+    "models": [
+      "SongStarter (BandLab 자체 AI)"
+    ],
+    "headline": "BandLab SongStarter: 무료·무제한 AI 반주 아이디어 생성 → MIDI 트랙으로 열어 BandLab Studio에서 편집 (로열티 프리)",
+    "description": "전 세계 1억 명 이상이 쓰는 무료 온라인 DAW BandLab에 들어 있는 AI 작곡 아이디어 생성기입니다. 장르(11종)를 고르면 아이디어마다 3가지 반주(비트·멜로디·코드)를 만들어 주고, 분위기(Bright·Chill·Moody)·음높이·템포를 바꿔 계속 재생성할 수 있습니다. 고른 아이디어는 편집 가능한 MIDI 트랙으로 Studio에 열려 385종 이상의 가상 악기로 완성곡을 만들 수 있습니다.",
+    "freeTier": {
+      "quota": "무제한 (공식: 'unlimited, royalty-free musical ideas'). 아이디어당 3개 구성 제공, 재생성 무제한",
+      "reset": "무제한",
+      "watermark": "없음으로 보임 (MIDI 트랙으로 열려 Studio에서 직접 믹스다운)",
+      "commercialUse": "가능으로 보고됨 — 공식 페이지에 '로열티 프리' 표기, 리뷰는 개인·상업 이용 가능으로 소개",
+      "signup": "BandLab 계정 (Google 등) — Studio에서 편집·저장하려면 로그인 필요",
+      "korea": "가능 (UI는 한국어 미지원)",
+      "notes": "완성곡이 아니라 짧은 반주 스케치(보컬 없음)를 만들어 Studio에서 이어 작업하는 방식. 장르: Acoustic Pop, Ambient, Drift Phonk, Hip Hop, House, Latin, Lofi, Pop, R&B, Retrowave, Trap. 웹·모바일 앱 모두 지원."
+    },
+    "flags": {
+      "reset": "unlimited",
+      "watermark": "none",
+      "login": true,
+      "commercial": true
+    },
+    "howTo": [
+      "bandlab.com/songstarter 접속 → 장르 선택 후 Generate",
+      "3가지 결과 중 고르고, 분위기·음높이·템포를 바꿔 재생성",
+      "BandLab 로그인 후 Studio에서 MIDI 트랙으로 열어 편집·내보내기"
+    ],
+    "tags": [
+      "무제한",
+      "로그인필요",
+      "MIDI",
+      "연주곡",
+      "로열티프리",
+      "완전무료"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "BandLab SongStarter — Your Free AI Music Idea Generator (unlimited, royalty-free musical ideas)",
+        "url": "https://www.bandlab.com/songstarter",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "What is BandLab SongStarter? (RouteNote Create)",
+        "url": "https://create.routenote.com/blog/what-is-bandlab-songstarter/",
+        "type": "news"
+      },
+      {
+        "title": "BandLab launches AI-powered music idea generator (Music In Africa)",
+        "url": "https://musicinafrica.net/node/212735",
+        "type": "news",
+        "date": "2022"
+      }
+    ]
+  },
+  {
+    "id": "tunee-music",
+    "category": "music",
+    "platform": "Tunee",
+    "vendor": "Tunee (TemPolor·창야(ChangYa) 개발팀)",
+    "access": "wrapper",
+    "url": "https://www.tunee.ai",
+    "logo": "tunee",
+    "logoDomain": "tunee.ai",
+    "models": [
+      "Tempolor V4.5 Beta",
+      "Mureka V7.6",
+      "Mureka O2",
+      "MiniMax Music 2.0"
+    ],
+    "headline": "Tunee: 무료 계정 매일 충전 크레딧(수량 비공개) + 가입 웰컴 크레딧 → Tempolor 곡당 약 3.5·Mureka V7.6 약 6.5크레딧, 비상업·출처 표기",
+    "description": "AI와 대화하며 곡을 기획·작사·생성하는 '음악 에이전트' 서비스로, 중국 음악앱 창야(ChangYa)와 TemPolor를 만든 팀이 운영합니다. 자체 Tempolor 모델과 Mureka·MiniMax 등 외부 모델을 골라 쓰고, 뮤직비디오(MV) 제작·음원 분리·마스터링 도구도 있습니다. 일반 대화는 크레딧이 들지 않고 작사·곡 생성 단계에서만 차감됩니다.",
+    "freeTier": {
+      "quota": "가입 시 웰컴 크레딧 + 매일 자동 지급되는 Daily Credits (공식 FAQ: 수량은 지역·자원 상황에 따라 조정, 구체적 수치 비공개). 공식 단가: Tempolor V4.5 Beta 1회 7크레딧(곡당 약 3.5), MiniMax Music 2.0·Mureka V7.5 1회 9(곡당 약 4.5), Mureka V7.6 1회 13(곡당 약 6.5), Mureka O2 1회 14(곡당 약 7)",
+      "reset": "매일 (Daily Credits는 당일만 유효, 이월 없음) + 가입 시 웰컴 크레딧",
+      "watermark": "무료 다운로드는 워터마크 포함 (공식 안내 문구), MV는 Tunee 워터마크",
+      "commercialUse": "불가 — 무료 플랜 곡의 저작권은 Tunee 소유, 'Created by Tunee AI' 출처 표기 시 비상업 이용만 가능",
+      "signup": "이메일/소셜 계정",
+      "korea": "가능 (한국어 페이지 제공)",
+      "notes": "무료는 동시 프로젝트 1개, MV 클립 15초 제한, 6트랙 음원 분리는 1회만 무료. 다중 계정 감지 시 Daily Credits 지급 중단. 커뮤니티(Discord·포럼) 이벤트로 추가 크레딧 배포."
+    },
+    "flags": {
+      "reset": "daily",
+      "watermark": "visible",
+      "login": true,
+      "commercial": false
+    },
+    "howTo": [
+      "tunee.ai 가입 (웰컴 크레딧 지급)",
+      "채팅창에 원하는 곡 분위기·가사 아이디어를 설명 → 에이전트가 기획·작사",
+      "모델(Tempolor·Mureka 등) 선택해 생성 후 다운로드 (매일 크레딧 충전)"
+    ],
+    "tags": [
+      "매일충전",
+      "로그인필요",
+      "비상업",
+      "출처표기",
+      "보컬곡",
+      "멀티모델",
+      "한도비공개"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Tunee FAQ — Free Plan: Tunee owns the music, non-commercial use with attribution / 모델별 크레딧 단가",
+        "url": "https://www.tunee.ai/faq",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Tunee Subscription FAQ — Daily Credits valid for 1 day, welcome credits for new sign-ups",
+        "url": "https://www.tunee.ai/subscribe-faq",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Tunee Pricing",
+        "url": "https://www.tunee.ai/pricing",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Tunee AI: AI 音乐领域的新竞争者 (리뷰 노트)",
+        "url": "https://lilys.ai/notes/zh/suno-ai-20260106/tunee-ai-suno-killer-review",
+        "type": "community",
+        "date": "2026-01"
+      }
+    ]
   }
 ]

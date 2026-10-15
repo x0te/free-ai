@@ -1004,5 +1004,274 @@
       "login": true,
       "commercial": false
     }
+  },
+  {
+    "id": "neural4d-3d",
+    "category": "3d",
+    "platform": "Neural4D (N4D)",
+    "vendor": "Neural4D",
+    "access": "official",
+    "url": "https://www.neural4d.com/",
+    "logo": "neural4d",
+    "logoDomain": "neural4d.com",
+    "models": [
+      "Direct3D-S2"
+    ],
+    "headline": "Neural4D 무료: 매주 50크레딧 → 텍스처 없는 3D 모델 주 약 5개(월 약 20개) 생성·다운로드(OBJ·FBX·GLB·STL), 무료 결과물은 퍼블릭 도메인",
+    "description": "자체 3D 생성 모델 Direct3D-S2로 이미지·텍스트에서 3D 메시를 만드는 서비스입니다. 사진, 스케치, 다면도 이미지를 넣으면 닫힌(watertight) 메시로 재구성합니다. 무료 계정도 텍스처 없는 모델은 내려받을 수 있지만, PBR 텍스처 포함 다운로드와 상업용 소유권은 유료입니다.",
+    "freeTier": {
+      "quota": "매주 50크레딧(공식 무료 생성기 페이지 '50 free power per week'). 공식 요금표: 생성 1회 10크레딧(텍스처 +10, PBR +10) → 텍스처 없는 모델 주 약 5개. 요금표 무료 칸 표기도 '≈ 20 models per month'로 일치. 가입 시 웰컴 크레딧(양 비공개) 별도",
+      "reset": "매주 (가입 시 웰컴 크레딧은 1회)",
+      "watermark": "없음 (공식: 무료 내보내기에 워터마크 없음)",
+      "commercialUse": "불명 — 요금표 FAQ상 무료 플랜 생성물은 퍼블릭 도메인이 되며 상업 페이지에 N4D 출처 표기를 요청. 비공개 모델·소유권은 유료",
+      "signup": "Google / X / WeChat / 이메일",
+      "korea": "불명 (지역 제한 언급 없음)",
+      "notes": "무료는 텍스처 없는(blank) .obj·.fbx·.glb·.stl만 다운로드, PBR 텍스처는 유료(공식 무료 생성기 페이지). 작업 우선순위 낮음(Low). 요금표에는 무료 칸 크레딧이 '-'로만 표시돼 주간 50크레딧은 기능 소개 페이지 기준. 실패한 생성은 크레딧 자동 환불. 친구 초대 시 추가 크레딧(구버전 가이드 기준)."
+    },
+    "flags": {
+      "reset": "weekly",
+      "watermark": "none",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "neural4d.com에서 Google·X·이메일 등으로 가입합니다.",
+      "Image to 3D 또는 Text to 3D를 고르고 이미지(배경이 단순한 단일 물체 권장)나 프롬프트를 넣어 생성합니다 (1회 10크레딧).",
+      "결과를 텍스처 없이 OBJ·GLB·STL 등으로 내려받습니다 (텍스처 옵션은 크레딧 추가 + 다운로드는 유료)."
+    ],
+    "tags": [
+      "매주충전",
+      "로그인필요",
+      "이미지→3D",
+      "텍스트→3D",
+      "워터마크없음",
+      "텍스처유료"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Neural4D Pricing (무료 ≈월 20모델, 생성 10크레딧, 무료 생성물 퍼블릭 도메인)",
+        "url": "https://www.neural4d.com/pricing",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Neural4D Free 3D Model Generator (주 50크레딧, 무료는 텍스처 없는 모델 다운로드)",
+        "url": "https://www.neural4d.com/features/free-3d-model-generator",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "How to Use Neural4D (가입 시 무료 크레딧 자동 지급)",
+        "url": "https://www.neural4d.com/how-tos/how-to-use-neural4d",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "3daistudio-3d",
+    "category": "3d",
+    "platform": "3D AI Studio",
+    "vendor": "3D AI Studio",
+    "access": "wrapper",
+    "url": "https://www.3daistudio.com/",
+    "logo": "3daistudio",
+    "logoDomain": "3daistudio.com",
+    "models": [
+      "Seed3D 1.0",
+      "기타 이미지→3D·텍스트→3D 모델 (사이트에서 선택)"
+    ],
+    "headline": "3D AI Studio: 가입 시 무료 크레딧 1회(양 비공개, 공식 '3~5회 생성 분량') → Image/Text to 3D 1회 20크레딧, 상업 이용 가능",
+    "description": "여러 3D 생성 모델을 한곳에서 쓰는 웹 서비스로, 이미지→3D, 텍스트→3D, 이미지 생성, 텍스처·리메시 도구를 제공합니다. ByteDance Seed3D 1.0 같은 모델도 고를 수 있습니다. 생성물은 비공개로 저장되고 상업적으로 쓸 수 있다고 공식 요금 페이지에 적혀 있습니다.",
+    "freeTier": {
+      "quota": "가입 시 무료 크레딧 1회 (정확한 양 비공개 — 공식 문서: '모델에 따라 보통 3~5회 생성 분량'). 공식 차감: Image to 3D 20크레딧, Text to 3D 20크레딧, Image Studio 3크레딧~/장, Seed3D 1.0은 30크레딧. Texture AI·Remesh·LOD는 무료",
+      "reset": "가입 시 1회 (월 충전 없음, 유료 플랜만 매월 충전)",
+      "watermark": "불명",
+      "commercialUse": "가능 (공식: 모든 생성 자산은 비공개·본인 소유, 게임·제품·클라이언트 작업에 상업 이용 가능)",
+      "signup": "계정 가입 (카드 불필요)",
+      "korea": "불명 (지역 제한 언급 없음)",
+      "notes": "다운로드 형식 GLB·OBJ·FBX·STL·USDZ·PLY 등. 무료 플랜 모델 보관 6개월(1크레딧으로 3년 연장). 정확한 가입 크레딧은 대시보드 좌측 상단에서 확인. 과거 보도(3Printr)에서는 '첫 5회 생성 무료'로 소개됨. 유료 Basic 월 1,000크레딧부터."
+    },
+    "flags": {
+      "reset": "once",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": true
+    },
+    "howTo": [
+      "3daistudio.com에서 'Sign Up Free'로 가입합니다 (카드 불필요).",
+      "Image to 3D 또는 Text to 3D를 열고 모델을 골라 생성합니다 (1회 약 20크레딧, 모델에 따라 다름).",
+      "모델 카드의 Download에서 GLB·STL 등 원하는 형식으로 받습니다."
+    ],
+    "tags": [
+      "가입시1회",
+      "로그인필요",
+      "멀티모델",
+      "상업이용가능",
+      "이미지→3D",
+      "텍스트→3D",
+      "수량불명"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "3D AI Studio Pricing (가입 시 무료 크레딧, Image/Text to 3D 20크레딧, 상업 이용 가능)",
+        "url": "https://www.3daistudio.com/Pricing",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "3D AI Studio Docs — Getting Started (무료 크레딧 '보통 3~5회 생성 분량')",
+        "url": "https://docs.3daistudio.com/getting-started",
+        "type": "official"
+      },
+      {
+        "title": "Startup 3D AI Studio promises to create 3D models in just a few seconds (3Printr)",
+        "url": "https://www.3printr.com/startup-3d-ai-studio-promises-to-create-3d-models-in-just-a-few-seconds-3869869/",
+        "type": "news"
+      }
+    ]
+  },
+  {
+    "id": "makerworld-3d",
+    "category": "3d",
+    "platform": "MakerWorld MakerLab (Image to 3D)",
+    "vendor": "Bambu Lab",
+    "access": "wrapper",
+    "url": "https://makerworld.com/",
+    "logo": "makerworld",
+    "logoDomain": "makerworld.com",
+    "models": [
+      "Tripo AI 3.1",
+      "Hitem3D 2.1",
+      "Hunyuan 3D 3.1",
+      "Meshy 6",
+      "Rodin Gen-2"
+    ],
+    "headline": "MakerWorld MakerLab: 계정당 기능별 무료 체험(횟수 비공개)으로 Tripo·Hunyuan 3D·Meshy 등 Image to 3D 시험, 이후 1회 24~45크레딧",
+    "description": "Bambu Lab의 3D 프린팅 모델 공유 사이트 MakerWorld 안에 있는 AI 도구 모음(MakerLab)의 이미지→3D 기능입니다. Tripo, Hitem3D, Hunyuan 3D, Meshy, Rodin 같은 외부 모델을 골라 프린트용 모델로 만듭니다. 2026년 6월 개편으로 매달 주던 무료 크레딧 대신 계정당 정해진 체험 횟수를 주는 방식으로 바뀌었습니다.",
+    "freeTier": {
+      "quota": "계정당 기능별 무료 체험 횟수 (수량 비공개, 캠페인으로 추가 지급될 수 있음). 체험 소진 후 크레딧 차감: Tripo AI 3.1 24, Hitem3D 2.1 24, Hunyuan 3D 3.1 28, Meshy 6 45, Rodin Gen-2 45크레딧/회. 커뮤니티 활동으로 모은 MakerWorld 포인트를 80포인트 → 600크레딧으로 교환 가능",
+      "reset": "가입 시 1회 (기능별 체험 횟수, 수량 비공개)",
+      "watermark": "불명",
+      "commercialUse": "불명",
+      "signup": "Bambu Lab / MakerWorld 계정",
+      "korea": "가능 (MakerWorld 한국어 페이지 운영)",
+      "notes": "2026-06 공지: 매월 무료 크레딧 지급을 계정 단위 체험 횟수로 대체, 일부 생성 기능은 '내보낼 때 차감'에서 '생성할 때 차감'으로 변경, 기존 1:10 포인트 교환 폐지. 체험 횟수가 있으면 크레딧보다 먼저 쓰임. Basic Image to Keychain(이미지→키링)은 계속 무료. 구매 크레딧은 만료 없음. 공식 페이지가 봇 차단(Cloudflare)으로 직접 확인되지 않아 수치는 검색 요약 기준."
+    },
+    "flags": {
+      "reset": "once",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "makerworld.com에 Bambu Lab 계정으로 로그인합니다.",
+      "MakerLab → Image to 3D에서 이미지를 올리고 모델(Tripo·Hunyuan 3D 등)을 고릅니다.",
+      "무료 체험 횟수가 남아 있으면 먼저 차감되고, 이후에는 크레딧(포인트 교환 또는 구매)이 필요합니다."
+    ],
+    "tags": [
+      "가입시1회",
+      "로그인필요",
+      "멀티모델",
+      "3D프린팅",
+      "이미지→3D",
+      "수량불명"
+    ],
+    "confidence": "low",
+    "status": "limited",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "MakerLab Credits: Complete Guide (Image to 3D 모델별 차감량, 무료 체험 우선 적용)",
+        "url": "https://makerworld.com/makerlab-credit-full-guide",
+        "type": "official",
+        "date": "2026"
+      },
+      {
+        "title": "MakerLab 크레딧 규칙 개편 공지 (월 무료 크레딧 → 계정당 체험 횟수, 2026-06 말 적용)",
+        "url": "https://makerworld.com/en/community/post/1777202",
+        "type": "official",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "zoo-3d",
+    "category": "3d",
+    "platform": "Zoo (Zookeeper · Text-to-CAD)",
+    "vendor": "Zoo (구 KittyCAD)",
+    "access": "official",
+    "url": "https://zoo.dev/",
+    "logo": "zoo",
+    "logoDomain": "zoo.dev",
+    "models": [
+      "Zookeeper (CAD 에이전트)",
+      "Text-to-CAD"
+    ],
+    "headline": "Zoo 무료 플랜: 매월 Zookeeper 사용 시간(양 비공개)으로 텍스트→CAD 모델 생성, STEP·STL 다운로드",
+    "description": "프롬프트로 편집 가능한 CAD 모델(KCL 코드 기반)을 만드는 Zoo의 CAD 에이전트 Zookeeper와 Zoo Design Studio입니다. 메시가 아닌 치수·구조가 살아 있는 기계 부품형 모델을 만들고 STEP·STL로 내보낼 수 있어 3D 프린팅·제품 설계용에 가깝습니다. 브라우저와 Mac·Windows·Linux 앱에서 씁니다.",
+    "freeTier": {
+      "quota": "무료 플랜에 매월 Zookeeper 추론(reasoning) 사용 시간 포함 — 정확한 양은 요금표에서 동적으로 표시돼 확인 못 함. 과거 서드파티 자료는 '월 40 Text-to-CAD 크레딧'으로 소개(현행과 다를 수 있음)",
+      "reset": "매월 (계정 가입일 기준으로 보고됨, 이월 없음)",
+      "watermark": "불명",
+      "commercialUse": "불명",
+      "signup": "Zoo 계정 가입",
+      "korea": "불명 (지역 제한 언급 없음)",
+      "notes": "무료 플랜은 모델 선택 없이 Auto 모드만. Zookeeper는 KCL CAD 모델 생성·수정, 렌더 확인, STEP/STL 내보내기 지원(공식 FAQ). 무료 사용량을 다 쓰면 알림 후 유료 업그레이드 필요. 무료 플랜의 학습 데이터 활용 정책은 요금표에서 확인 필요."
+    },
+    "flags": {
+      "reset": "monthly",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "zoo.dev에서 가입한 뒤 'Try in Browser'로 Zoo Design Studio를 엽니다 (데스크톱 앱도 있음).",
+      "Zookeeper에 만들 부품을 설명합니다 (예: '구멍 4개 달린 50mm 브래킷').",
+      "생성된 CAD 모델을 수정하고 STEP 또는 STL로 내려받습니다."
+    ],
+    "tags": [
+      "매월충전",
+      "로그인필요",
+      "텍스트→3D",
+      "CAD",
+      "한도비공개",
+      "3D프린팅"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Zoo Pricing (Free 플랜: 월 Zookeeper 사용 시간 포함)",
+        "url": "https://zoo.dev/pricing",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Zoo FAQ (Design Studio 무료, Zookeeper STEP/STL 내보내기, 무료는 Auto 모드)",
+        "url": "https://zoo.dev/docs/faq",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Consider a hobbyist pricing tier? (Zoo 커뮤니티 포럼 — 무료 플랜은 취미 사용자용이라는 스태프 답변)",
+        "url": "https://community.zoo.dev/t/consider-a-hobbyist-pricing-tier/195",
+        "type": "community"
+      }
+    ]
   }
 ]
