@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-15",
+    "summary": "Gemini 무료가 10/9부터 Flash-Lite 하나로 제한, 항목 11개 재확인",
+    "items": [
+      {
+        "type": "update",
+        "id": "gemini-chat",
+        "text": "Gemini 무료: 10월 9일부터 Flash·Pro 선택이 빠지고 Gemini 3.5 Flash-Lite만 사용 가능 (여러 매체 보도, 계정별 적용 시점 상이)"
+      },
+      {
+        "type": "update",
+        "id": "gemini-app-image",
+        "text": "Gemini 앱 이미지: 무료 모델이 Flash-Lite로 고정돼 Nano Banana 2 Lite가 쓰일 가능성 메모 추가"
+      },
+      {
+        "type": "check",
+        "text": "11개 항목 재확인 (Suno 무료 다운로드 평생 7곡 유지, Google Flow 하루 50크레딧 유지, AI Horde·AIVA·Base44·Bolt·Firefly·CodeBuddy·OpenRouter·Media.io 등 변동 없음)"
+      }
+    ]
+  },
+  {
     "date": "2026-09-30",
     "summary": "2차 검증: 공식 요금제 + 미국·중국·일본·한국 커뮤니티 교차 확인. 무료 조건 63건 정정, 신규 14곳 추가 (Dreamina 영상 무료 사실상 막힘, Hailuo 매일 크레딧 폐지 등)",
     "items": [

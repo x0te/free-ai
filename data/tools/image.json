@@ -60,7 +60,7 @@
         "date": "2026-03-27"
       }
     ],
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-15",
     "category": "image",
     "added": "2026-09-29",
     "updated": "2026-09-29",
@@ -406,7 +406,7 @@
       "commercialUse": "Google 약관·금지 사용 정책 안에서 사용 가능(명시적 상업 제한 없음)",
       "signup": "Google 계정 (생성은 만 13세 이상, 편집은 만 18세 이상)",
       "korea": "가능 (한국어 지원)",
-      "notes": "무료는 1K 해상도로만 다운로드할 수 있다(유료는 2K). Nano Banana Pro로 다시 그리기(Redo with Pro)는 유료 플랜 전용이고, 일일 할당량을 다 쓰면 Redo도 못 한다. 모델을 Flash-Lite로 두면 Nano Banana 2 Lite가, Flash/Pro로 두면 Nano Banana 2가 쓰인다. 수요가 몰리면 무료 사용자의 고연산 기능이 제한될 수 있다."
+      "notes": "무료는 1K 해상도로만 다운로드할 수 있다(유료는 2K). Nano Banana Pro로 다시 그리기(Redo with Pro)는 유료 플랜 전용이고, 일일 할당량을 다 쓰면 Redo도 못 한다. 모델을 Flash-Lite로 두면 Nano Banana 2 Lite가, Flash/Pro로 두면 Nano Banana 2가 쓰인다. 수요가 몰리면 무료 사용자의 고연산 기능이 제한될 수 있다. 2026-10-09부터 무료 계정은 대화 모델이 Flash-Lite로 고정되어 이미지도 Nano Banana 2 Lite가 쓰일 가능성이 큼(미확인)."
     },
     "howTo": [
       "gemini.google.com 또는 Gemini 앱에 Google 계정으로 로그인",
@@ -470,7 +470,7 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-30",
+    "updated": "2026-10-15",
     "flags": {
       "reset": "daily",
       "watermark": "visible",
@@ -2596,7 +2596,7 @@
     ],
     "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-15",
     "promo": {
       "text": "ToMoviee Lite 모델 선택 시 이미지 생성 무제한 무료 (페이지에 '기간 한정' 표기, 2026-08 말 게시)",
       "until": "불명"
@@ -3117,7 +3117,7 @@
     "status": "active",
     "added": "2026-09-30",
     "updated": "2026-09-30",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-15",
     "sources": [
       {
         "title": "AI Horde — Free · Community run · Open source",
