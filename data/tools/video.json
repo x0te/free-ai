@@ -3288,5 +3288,66 @@
         "date": "2026-10"
       }
     ]
+  },
+  {
+    "id": "genra-video",
+    "category": "video",
+    "access": "wrapper",
+    "platform": "Genra",
+    "vendor": "Genra",
+    "url": "https://genra.ai",
+    "logo": "genra",
+    "logoDomain": "genra.ai",
+    "models": [
+      "Veo",
+      "Kling",
+      "Wan"
+    ],
+    "headline": "Genra 무료: 가입 시 1회 40크레딧(카드 불필요) → Veo·Kling·Wan 등 영상 체험, 영상당 소모량 비공개라 개수 불명",
+    "description": "Genra는 Veo, Kling, Wan 등 여러 영상 모델을 한 편집기에서 쓰게 해주는 wrapper 사이트입니다. 공식 가격 페이지가 \"지금 가입하고 무료 크레딧 받기\" 한정 프로모션으로 가입 시 40크레딧을 안내하며, 신용카드는 필요 없다고 적습니다. 한 번 받는 크레딧이며 영상 1개당 소모량은 확인하지 못했습니다.",
+    "freeTier": {
+      "quota": "가입 시 40크레딧 (한정 프로모션 표기)",
+      "reset": "가입 시 1회",
+      "watermark": "불명",
+      "commercialUse": "불명",
+      "signup": "Google 계정 등 (신용카드 불필요)",
+      "korea": "불명 (한국어 페이지 있음)",
+      "notes": "크레딧 액수·모델별 소모량·워터마크는 검색 스니펫 기준이며 공식 페이지 직접 열람은 못 함. 프로모션 문구라 예고 없이 바뀔 수 있음."
+    },
+    "flags": {
+      "reset": "once",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "genra.ai 접속 후 Google 등으로 가입 (40크레딧 지급)",
+      "영상 모델 선택 후 프롬프트 입력·생성"
+    ],
+    "tags": [
+      "가입보너스",
+      "로그인필요",
+      "wrapper",
+      "카드불필요"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "added": "2026-10-15",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
+    "sources": [
+      {
+        "title": "Genra 가격/가입 크레딧 안내 (한국어)",
+        "url": "https://genra.ai/ko",
+        "type": "official",
+        "date": "2026-10"
+      },
+      {
+        "title": "Genra pricing (中文)",
+        "url": "https://genra.ai/zh/pricing",
+        "type": "official",
+        "date": "2026-10"
+      }
+    ]
   }
 ]

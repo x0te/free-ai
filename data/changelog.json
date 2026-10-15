@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-10-15",
-    "summary": "무료 서비스 47곳 추가(가입 시 1회 12곳 포함, 미국·중국 커뮤니티 조사), Gemini 무료 Flash-Lite 제한, Runway 무료 영상 막힘 보고",
+    "summary": "무료 서비스 47곳 추가(가입 시 1회 12곳 포함, 미국·중국 커뮤니티 조사), Gemini 무료 Flash-Lite 제한, Runway 무료 영상 막힘 보고, Genra 신규(가입 시 1회), Qoder 무료 연장 반영",
     "items": [
       {
         "type": "new",
@@ -256,6 +256,20 @@
       {
         "type": "check",
         "text": "11개 항목 재확인 (Suno 무료 다운로드 평생 7곡 유지, Google Flow 하루 50크레딧 유지, AI Horde·AIVA·Base44·Bolt·Firefly·CodeBuddy·OpenRouter·Media.io 등 변동 없음)"
+      },
+      {
+        "type": "new",
+        "id": "genra-video",
+        "text": "Genra 영상 — 가입 시 1회 40크레딧(카드 불필요)으로 Veo·Kling·Wan 체험 (스니펫 기준, 신뢰도 낮음)"
+      },
+      {
+        "type": "update",
+        "id": "qoder-code",
+        "text": "Qoder — Qwen3.8-Flash 무료 이벤트 9/30 종료에서 연장, 10/1 이후 종료일 미정"
+      },
+      {
+        "type": "check",
+        "text": "10개 항목 재확인 (Qoder·CodeBuddy·OpenRouter·OpenCode·Cartesia·ChatGPT·PixAI·Media.io·Canva 이미지/3D)"
       }
     ]
   },

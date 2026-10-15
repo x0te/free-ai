@@ -1410,8 +1410,8 @@
     "confidence": "high",
     "status": "active",
     "added": "2026-09-30",
-    "updated": "2026-09-30",
-    "lastVerified": "2026-09-30",
+    "updated": "2026-10-15",
+    "lastVerified": "2026-10-15",
     "sources": [
       {
         "title": "Pricing - Qoder Docs (Free/Pro 비교, 체험 조건)",
@@ -1457,7 +1457,7 @@
       }
     ],
     "promo": {
-      "text": "무료 계정도 매일 100크레딧 수령 + Qwen3.8-Flash 크레딧 차감 없이 무제한 (9/30 종료 예정에서 연장)",
+      "text": "무료 계정도 매일 100크레딧 수령 + Qwen3.8-Flash 크레딧 차감 없이 무제한 (9/30 종료 예정에서 연장, 10/1부터 종료일 미정)",
       "until": "불명"
     }
   },

@@ -209,5 +209,6 @@
   "voicevox": { "ko": ["보이스복스"], "en": ["VOICEVOX"] },
   "perso": { "ko": ["페르소 AI"], "en": ["Perso AI"] },
   "vozo": { "ko": [], "en": ["Vozo AI"] },
-  "noiz": { "ko": [], "en": ["Noiz AI"] }
+  "noiz": { "ko": [], "en": ["Noiz AI"] },
+  "genra": { "ko": [], "en": ["Genra AI"] }
 }
