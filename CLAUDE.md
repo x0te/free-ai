@@ -21,6 +21,7 @@
 오늘 날짜는 **한국 시간(KST)** 기준으로 쓴다.
 
 1. **새 소식 찾기** (지난 48시간 위주). **국가별로 나눠서** WebSearch 한다. 무료 정보는 미국·중국 커뮤니티가 가장 빠르니 둘을 가장 많이 본다 (영어 ≥ 중국어 > 한국어 > 일본어).
+   - **커뮤니티는 짧은 검색어로 훑는다**: 커뮤니티 이름 + `무료`/`free`/`免费`/`白嫖`/`無料` 한두 단어면 충분하다 (예: `site:reddit.com/r/aivideo free`, `linux.do 免费`, `小红书 白嫖 AI`, `클리앙 무료 AI`, `無料 動画生成`). 긴 검색어는 놓치는 글이 많다. 아래 긴 검색어 예시는 특정 주제를 파고들 때 쓴다.
    - 🇺🇸 미국/영어권: Reddit(r/singularity, r/StableDiffusion, r/aivideo, r/SunoAI, r/GeminiAI, r/ChatGPT, r/LocalLLaMA, r/aiArt, r/ArtificialInteligence, r/SideProject), X, Hacker News, Product Hunt, There's An AI For That
      검색어 예: `free AI video generator new`, `free credits veo`, `nano banana free unlimited`, `suno free plan change`, `free credits on signup AI no credit card`, `<서비스명> free tier`, `site:reddit.com free credits AI video`
    - 🇨🇳 중국어권: 知乎, 小红书, V2EX, linux.do, 哔哩哔哩(B站), 即刻, 微博, 什么值得买, 少数派
