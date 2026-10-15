@@ -20,11 +20,15 @@
 
 오늘 날짜는 **한국 시간(KST)** 기준으로 쓴다.
 
-1. **새 소식 찾기** (지난 48시간 위주). 영어·한국어 둘 다 WebSearch 한다.
-   - 검색어 예: `free AI video generator new`, `free credits veo`, `nano banana free unlimited`, `suno free plan change`, `무료 AI 이미지 생성 사이트`, `무료 이벤트 무제한 AI`, `<서비스명> free tier` 등
-   - 커뮤니티: Reddit(r/singularity, r/StableDiffusion, r/aivideo, r/SunoAI, r/GeminiAI, r/ChatGPT, r/LocalLLaMA), X, 디시 AI 관련 갤러리, 클리앙, 뽐뿌, 긱뉴스, Hacker News, Product Hunt
+1. **새 소식 찾기** (지난 48시간 위주). **국가별로 나눠서** WebSearch 한다. 무료 정보는 미국·중국 커뮤니티가 가장 빠르니 둘을 가장 많이 본다 (영어 ≥ 중국어 > 한국어 > 일본어).
+   - 🇺🇸 미국/영어권: Reddit(r/singularity, r/StableDiffusion, r/aivideo, r/SunoAI, r/GeminiAI, r/ChatGPT, r/LocalLLaMA, r/aiArt, r/ArtificialInteligence, r/SideProject), X, Hacker News, Product Hunt, There's An AI For That
+     검색어 예: `free AI video generator new`, `free credits veo`, `nano banana free unlimited`, `suno free plan change`, `free credits on signup AI no credit card`, `<서비스명> free tier`, `site:reddit.com free credits AI video`
+   - 🇨🇳 중국어권: 知乎, 小红书, V2EX, linux.do, 哔哩哔哩(B站), 即刻, 微博, 什么值得买, 少数派
+     검색어 예: `免费 AI 视频生成 每日积分`, `AI 白嫖 注册送积分`, `新用户 免费额度 AI 绘画`, `免费 AI 音乐 生成`, `国际版 免费 积分`, `限时免费 AI`, `<서비스명> 免费额度`
+   - 🇰🇷 한국: 디시 AI 관련 갤러리, 클리앙, 뽐뿌, 긱뉴스, 아카라이브 AI 채널 — 검색어 예: `무료 AI 이미지 생성 사이트`, `무료 이벤트 무제한 AI`, `가입 크레딧 무료 AI`
+   - 🇯🇵 일본: X, note, 5ch — 검색어 예: `無料 AI 動画生成 クレジット`, `AI 無料 登録 クレジット`
    - 공식 채널: Google(blog.google, labs.google), OpenAI, xAI, Meta, ByteDance Seed/Dreamina, Kling, MiniMax/Hailuo, Alibaba Qwen/Wan, Suno, Udio, ElevenLabs, Freepik, Higgsfield, Krea 등의 블로그·changelog·X 계정
-   - 찾을 것: 새로 나온 무료 서비스/모델, 무료 한도 변경, 무료 폐지, **무료 계정 대상 기간 한정 이벤트**(무제한 주간, 출시 기념 무료 등)
+   - 찾을 것: 새로 나온 무료 서비스/모델, **가입 시 1회 무료 크레딧을 주는 곳**, 무료 한도 변경, 무료 폐지, **무료 계정 대상 기간 한정 이벤트**(무제한 주간, 출시 기념 무료 등)
 2. **기존 항목 재확인**: `lastVerified`가 가장 오래된 항목 10~15개 + 이벤트(promo)가 걸린 항목 전부를 공식 요금제/도움말 페이지와 최근 커뮤니티 글로 다시 확인한다. 확인만 하고 바뀐 게 없으면 `lastVerified`만 오늘로.
 3. **데이터 수정** (아래 스키마 준수)
    - 새 항목: `added`, `updated`, `lastVerified` = 오늘
@@ -45,7 +49,8 @@
 ## 판단 기준
 
 - **포함**: 카드 등록 없이 가입만으로(또는 로그인 없이) 생성 가능한 것. 워터마크가 있어도 포함.
-- **제외**: 카드 등록이 필요한 체험판, 생성 결과를 전혀 받을 수 없는 것.
+  - **계정당 1회만 주는 무료(가입 크레딧, 첫 생성 무료 등)도 포함한다.** 매일·매월 충전이 아니어도 된다. `reset: "가입 시 1회"`, `flags.reset: "once"`로 쓰고, headline에 "가입 시 1회 N크레딧 → ○○ 약 N개"처럼 한 번뿐이라는 걸 분명히 적는다. 기한 안에 소멸되면 그것도 적는다.
+- **제외**: 카드 등록이 필요한 체험판, 생성 결과를 전혀 받을 수 없는 것, 중국 휴대폰(+86) 인증이 필수라 한국에서 가입할 수 없는 것 (국제판이 있으면 국제판으로 넣는다).
 - 수치는 구체적으로 계산해서 headline에 쓴다: "월 100크레딧 → Veo 3.1 Fast 8초 영상 약 5개". 확실하지 않으면 "약", "보고됨"을 붙이고 `confidence`를 낮춘다. **추측으로 지어내지 않는다.**
 - 같은 모델도 사이트마다 한도가 다르므로 사이트별로 별도 항목. 한 사이트가 여러 카테고리면 카테고리별로 별도 항목 (logo 키는 공유).
 - 출처(`sources`)는 최소 1개, 가능하면 공식 1 + 커뮤니티/뉴스 1.
