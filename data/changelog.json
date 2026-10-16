@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-10-16",
+    "summary": "PixAI 4주년 이벤트 종료일(10/20) 확정, 5개 항목 재확인 — 새 무료 서비스·한도 변경은 확인되지 않음",
+    "items": [
+      {
+        "type": "promo",
+        "id": "pixai-image",
+        "text": "PixAI 4주년 'Project Genesis' 이벤트 종료일 10/20 12:00(JST)로 확인"
+      },
+      {
+        "type": "check",
+        "text": "5개 항목 재확인 (Claude 무료 Sonnet·Haiku, OpenRouter 스텔스 모델, Qoder, CodeBuddy, PixAI)"
+      }
+    ]
+  },
+  {
     "date": "2026-10-15",
     "summary": "무료 서비스 47곳 추가(가입 시 1회 12곳 포함, 미국·중국 커뮤니티 조사), Gemini 무료 Flash-Lite 제한, Runway 무료 영상 막힘 보고, Genra 신규(가입 시 1회), Qoder 무료 연장 반영",
     "items": [

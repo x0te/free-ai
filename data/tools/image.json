@@ -1269,10 +1269,10 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-10-16",
     "promo": {
-      "text": "4주년 'Project Genesis' 출석 이벤트: 매일 체크인으로 최대 315,000 크레딧 + Tsubaki.3 생성 카드 15장 (9/17 시작, 무료 계정 참여 가능)",
-      "until": "불명"
+      "text": "4주년 'Project Genesis' 출석 이벤트: 매일 체크인으로 최대 315,000 크레딧 + Tsubaki.3 생성 카드 15장 (9/17 시작, 10/20 12:00 JST까지, 무료 계정 참여 가능)",
+      "until": "2026-10-20"
     },
     "sources": [
       {
@@ -1292,10 +1292,16 @@
         "url": "https://gall.dcinside.com/mgallery/board/view/?id=zetam&no=1340000",
         "type": "community",
         "date": "2026-09-17"
+      },
+      {
+        "title": "PR TIMES — PixAI 4주년 이벤트 10/20 종료",
+        "url": "https://www.gamespark.jp/release/prtimes/20260930/317580.html",
+        "type": "news",
+        "date": "2026-09"
       }
     ],
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-10-16",
     "flags": {
       "reset": "daily",
       "watermark": "unknown",
