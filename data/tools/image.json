@@ -237,7 +237,7 @@
       "commercialUse": "OpenAI 약관상 생성물 권리는 사용자에게 있음(정책 준수 시 상업 이용 가능)",
       "signup": "OpenAI 계정 (이메일, Google, Apple 등)",
       "korea": "가능 (한국어 지원)",
-      "notes": "무료 사용자는 한도 내에서 속도가 느릴 수 있고 피크 시간에 대기가 생긴다. 고급 추론(Thinking) 이미지 생성과 고해상도 옵션은 유료 플랜에서 더 넉넉하다. 일부 보도는 무료 이미지 한도를 주간 단위로 설명하기도 한다."
+      "notes": "무료 사용자는 한도 내에서 속도가 느릴 수 있고 피크 시간에 대기가 생긴다. 고급 추론(Thinking) 이미지 생성과 고해상도 옵션은 유료 플랜에서 더 넉넉하다. 일부 보도는 무료 이미지 한도를 주간 단위로 설명하기도 한다. 2026-10 한 테스트에서는 무료 계정이 하루 20장 이상 생성해도 한도 메시지가 없었다는 보고도 있음(편차 큼, 공식 수치 없음)."
     },
     "howTo": [
       "chatgpt.com에 로그인한 뒤 왼쪽 'Images' 메뉴로 가거나 채팅에 '이미지 만들어줘'라고 입력",
@@ -253,7 +253,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-17",
     "sources": [
       {
         "title": "Introducing ChatGPT Images 2.5",
@@ -278,11 +278,17 @@
         "url": "https://www.engadget.com/2234173/chatgpt-free-features-2026/",
         "type": "news",
         "date": "2026-08-12"
+      },
+      {
+        "title": "Atlas Cloud — ChatGPT image generation limit (2026-10)",
+        "url": "https://www.atlascloud.ai/blog/tips/chatgpt-image-generation-limit",
+        "type": "news",
+        "date": "2026-10"
       }
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-10-17",
     "flags": {
       "reset": "unknown",
       "watermark": "none",
@@ -1827,7 +1833,7 @@
         "type": "official"
       }
     ],
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-10-17",
     "category": "image",
     "added": "2026-09-29",
     "updated": "2026-09-29",
@@ -1891,7 +1897,7 @@
         "type": "official"
       }
     ],
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-17",
     "category": "image",
     "added": "2026-09-29",
     "updated": "2026-09-29",
@@ -2426,7 +2432,7 @@
     "headline": "Lovart 무료: 매일 갱신 무료 크레딧으로 디자인 에이전트 체험 (모델 제한, 수량은 앱 내 표시)",
     "description": "대화하듯 요청하면 포스터·브랜드 이미지·썸네일을 캔버스에 만들어 주는 AI 디자인 에이전트다. 유료에서는 여러 최신 이미지·영상 모델을 쓰지만 무료 플랜은 일부 모델로 제한된다.",
     "freeTier": {
-      "quota": "매일 갱신되는 무료 크레딧(Free Daily Credits) — 정확한 수량은 공개 페이지에서 확인 불가. 데스크톱 앱 설치 시 300 보너스 크레딧, 초대 보상 크레딧",
+      "quota": "매일 갱신되는 무료 크레딧(Free Daily Credits) — 정확한 수량은 공개 페이지에서 확인 불가. 데스크톱 앱 설치 시 300 보너스 크레딧, 초대 보상 크레딧 (2026-09 말 가이드에는 무료 플랜이 일 30크레딧으로 보고됨 — 수치는 변동 가능, 결제 화면에서 확인)",
       "reset": "매일",
       "watermark": "불명",
       "commercialUse": "불가 (상업 라이선스는 유료)",
@@ -2452,12 +2458,18 @@
         "title": "Lovart Pricing",
         "url": "https://www.lovart.ai/pricing",
         "type": "official"
+      },
+      {
+        "title": "AIREITER — Lovart pricing (2026-09)",
+        "url": "https://aireiter.com/blog/lovart-pricing",
+        "type": "news",
+        "date": "2026-09"
       }
     ],
-    "lastVerified": "2026-09-29",
+    "lastVerified": "2026-10-17",
     "category": "image",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-10-17",
     "flags": {
       "reset": "daily",
       "watermark": "unknown",
@@ -2602,7 +2614,7 @@
     ],
     "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-10-17",
     "promo": {
       "text": "ToMoviee Lite 모델 선택 시 이미지 생성 무제한 무료 (페이지에 '기간 한정' 표기, 2026-08 말 게시)",
       "until": "불명"
@@ -3060,7 +3072,7 @@
     "status": "active",
     "added": "2026-09-30",
     "updated": "2026-09-30",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-17",
     "sources": [
       {
         "title": "Bandicam AI Studio Pricing (AI Image up to 1,000 images 1024×1024 per 1,000 credits, cheapest model)",

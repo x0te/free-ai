@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-17",
+    "summary": "신규·한도 변경 없음 — 15개 항목 재확인, Lovart 무료 크레딧·ChatGPT Images 한도 보고 갱신",
+    "items": [
+      {
+        "type": "update",
+        "id": "lovart-image",
+        "text": "Lovart — 9월 말 가이드에서 무료 플랜 일 30크레딧으로 보고 (수치 변동 가능, 신뢰도 낮춤)"
+      },
+      {
+        "type": "update",
+        "id": "chatgpt-image",
+        "text": "ChatGPT Images — 일부 테스트에서 무료 계정 하루 20장 이상 생성 보고 (공식 수치 없음)"
+      },
+      {
+        "type": "check",
+        "text": "15개 항목 재확인 (Arena 3종, 반디캠 2종, Civitai, Clipchamp, Canva, Media.io, OpenRouter 스텔스, CodeBuddy, Qoder, OpenCode 등)"
+      }
+    ]
+  },
+  {
     "date": "2026-10-16",
     "summary": "PixAI 4주년 이벤트 종료일(10/20) 확정, 5개 항목 재확인 — 새 무료 서비스·한도 변경은 확인되지 않음",
     "items": [
