@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-10-18",
+    "summary": "신규·한도 변경 없음 — 16개 항목 재확인 (미·중·한·일 커뮤니티 점검, 새로 추가할 무료 서비스는 확인되지 않음)",
+    "items": [
+      {
+        "type": "check",
+        "text": "16개 항목 재확인 (Bing Image Creator, Clipdrop, Cursor, Devin, DeepSeek, Duck.ai, Dreamina 2종, Copilot Audio Expressions, 클로바더빙, CLOVA X 종료, PixAI, CodeBuddy, Qoder, OpenRouter, Media.io)"
+      }
+    ]
+  },
+  {
     "date": "2026-10-17",
     "summary": "신규·한도 변경 없음 — 15개 항목 재확인, Lovart 무료 크레딧·ChatGPT Images 한도 보고 갱신",
     "items": [

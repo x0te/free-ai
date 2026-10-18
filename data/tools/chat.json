@@ -264,7 +264,7 @@
     ],
     "confidence": "medium",
     "status": "ended",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-18",
     "sources": [
       {
         "title": "CLOVA X - 나무위키",
@@ -324,7 +324,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-18",
     "sources": [
       {
         "title": "DeepSeek API Docs - Change Log (V4-Pro GA rolled out on APP, Web, API)",
@@ -1501,7 +1501,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-18",
     "sources": [
       {
         "title": "Duck.ai | DuckDuckGo Help Pages",
@@ -1825,7 +1825,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-10-17",
+    "lastVerified": "2026-10-18",
     "promo": {
       "text": "익명 제공사의 스텔스 모델 'Space Bunny Alpha'(1M 컨텍스트)를 테스트 기간 동안 $0로 제공 중",
       "until": "불명"
