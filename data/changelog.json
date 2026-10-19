@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-10-19",
+    "summary": "신규·한도 변경 없음 — 10개 항목 재확인 (미·중·한·일 커뮤니티 점검, 새로 추가할 무료 서비스는 확인되지 않음)",
+    "items": [
+      {
+        "type": "check",
+        "text": "10개 항목 재확인 (ElevenLabs 음성·음악, Firebase Studio 종료 일정, Fish Audio, Gamma, Qoder, PixAI 4주년 이벤트, Media.io, OpenRouter 스텔스, CodeBuddy)"
+      }
+    ]
+  },
+  {
     "date": "2026-10-18",
     "summary": "신규·한도 변경 없음 — 16개 항목 재확인 (미·중·한·일 커뮤니티 점검, 새로 추가할 무료 서비스는 확인되지 않음)",
     "items": [
