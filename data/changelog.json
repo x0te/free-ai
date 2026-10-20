@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-10-20",
+    "summary": "신규·한도 변경 없음 — 12개 항목 재확인 (미·중·한·일 커뮤니티 점검, 새로 추가할 무료 서비스는 확인되지 않음)",
+    "items": [
+      {
+        "type": "check",
+        "text": "12개 항목 재확인 (Dzine 이미지·영상, EaseMate, ElevenLabs 효과음, Gemini CLI 종료, Gemini 앱 이미지·음악, Gemini Notebook 2종, CodeBuddy, Media.io, OpenRouter)"
+      }
+    ]
+  },
+  {
     "date": "2026-10-19",
     "summary": "신규·한도 변경 없음 — 10개 항목 재확인 (미·중·한·일 커뮤니티 점검, 새로 추가할 무료 서비스는 확인되지 않음)",
     "items": [
