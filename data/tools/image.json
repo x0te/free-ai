@@ -1142,7 +1142,7 @@
     ],
     "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-21",
     "sources": [
       {
         "title": "Launching seven new MAI models (MAI-Image-2.5)",
@@ -1251,7 +1251,7 @@
       "Tsubaki.3 (이벤트 카드로 무료 생성)",
       "PixAI 애니메 모델·커뮤니티 LoRA (크레딧)"
     ],
-    "headline": "PixAI 무료: 매일 출석 크레딧으로 애니풍 이미지 — 지금 4주년 이벤트로 최대 31.5만 크레딧 + Tsubaki.3 카드 15장",
+    "headline": "PixAI 무료: 매일 출석 크레딧으로 애니풍 이미지 (4주년 출석 이벤트는 10/20 종료)",
     "description": "애니메이션·일러스트 특화 이미지 생성 플랫폼. 매일 출석으로 크레딧을 받아 자체 모델과 커뮤니티 LoRA를 쓸 수 있다. 9월 17일 공개한 신모델 Tsubaki.3와 함께 4주년 출석 이벤트를 진행 중.",
     "freeTier": {
       "quota": "매일 출석 크레딧 (커뮤니티 보고: 출석 1만 크레딧 + 매일 추가 크레딧)",
@@ -1275,11 +1275,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-10-19",
-    "promo": {
-      "text": "4주년 'Project Genesis' 출석 이벤트: 매일 체크인으로 최대 315,000 크레딧 + Tsubaki.3 생성 카드 15장 (9/17 시작, 10/20 12:00 JST까지, 무료 계정 참여 가능)",
-      "until": "2026-10-20"
-    },
+    "lastVerified": "2026-10-21",
     "sources": [
       {
         "title": "PixAI 4th Anniversary Event",
@@ -1307,7 +1303,7 @@
       }
     ],
     "added": "2026-09-29",
-    "updated": "2026-10-16",
+    "updated": "2026-10-21",
     "flags": {
       "reset": "daily",
       "watermark": "unknown",
@@ -2113,7 +2109,7 @@
         "type": "official"
       }
     ],
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-21",
     "category": "image",
     "added": "2026-09-29",
     "updated": "2026-09-29",
@@ -2614,7 +2610,7 @@
     ],
     "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-10-20",
+    "lastVerified": "2026-10-21",
     "promo": {
       "text": "ToMoviee Lite 모델 선택 시 이미지 생성 무제한 무료 (페이지에 '기간 한정' 표기, 2026-08 말 게시)",
       "until": "불명"

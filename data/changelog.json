@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-10-21",
+    "summary": "신규·한도 변경 없음 — PixAI 4주년 이벤트 종료 정리, 10개 항목 재확인 (미·중·한·일 커뮤니티 점검, 공식 근거가 확인된 신규 무료 서비스 없음)",
+    "items": [
+      {
+        "type": "promo",
+        "id": "pixai-image",
+        "text": "PixAI 4주년 출석 이벤트 종료(10/20) — 이벤트 표기 제거"
+      },
+      {
+        "type": "check",
+        "text": "10개 항목 재확인 (Genspark 채팅, GitHub Copilot, Gemini 영상 종료, getimg 종료, OpenRouter, Media.io 이미지, AI Studio 채팅·코드, CodeBuddy, Copilot 이미지)"
+      }
+    ]
+  },
+  {
     "date": "2026-10-20",
     "summary": "신규·한도 변경 없음 — 12개 항목 재확인 (미·중·한·일 커뮤니티 점검, 새로 추가할 무료 서비스는 확인되지 않음)",
     "items": [
@@ -320,7 +335,7 @@
       },
       {
         "type": "check",
-        "text": "11개 항목 재확인 (Suno 무료 다운로드 평생 7곡 유지, Google Flow 하루 50크레딧 유지, AI Horde·AIVA·Base44·Bolt·Firefly·CodeBuddy·OpenRouter·Media.io 등 변동 없음)"
+        "text": "10개 항목 재확인 (Suno 무료 다운로드 평생 7곡 유지, Google Flow 하루 50크레딧 유지, AI Horde·AIVA·Base44·Bolt·Firefly·CodeBuddy·OpenRouter·Media.io 등 변동 없음)"
       },
       {
         "type": "new",

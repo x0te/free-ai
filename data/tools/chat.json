@@ -538,7 +538,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-21",
     "sources": [
       {
         "title": "Gemini API release notes (2026-09-02 Gemini 3.8 Flash GA, 2026-08-13 3.7 Flash GA, 2026-09-18 2.5 접근 제한)",
@@ -1561,7 +1561,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-21",
     "sources": [
       {
         "title": "Credits Guide | Genspark Help Center",
@@ -1825,7 +1825,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-10-20",
+    "lastVerified": "2026-10-21",
     "promo": {
       "text": "익명 제공사의 스텔스 모델 'Space Bunny Alpha'(1M 컨텍스트)를 테스트 기간 동안 $0로 제공 중",
       "until": "불명"
