@@ -610,7 +610,7 @@
     ],
     "confidence": "medium",
     "status": "limited",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-22",
     "sources": [
       {
         "title": "Grok Pricing 2026: Plans, Weekly Usage Limits and API Costs - Fello AI (xAI removed the last free image access on March 19, 2026)",
@@ -1825,7 +1825,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-10-21",
+    "lastVerified": "2026-10-22",
     "promo": {
       "text": "익명 제공사의 스텔스 모델 'Space Bunny Alpha'(1M 컨텍스트)를 테스트 기간 동안 $0로 제공 중",
       "until": "불명"
