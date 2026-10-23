@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-10-23",
+    "summary": "OpenRouter 스텔스 모델 무료 종료로 이벤트 표기 정리, 8개 항목 재확인 (미·중·한·일 커뮤니티 점검, 공식 근거가 확인된 신규 무료 서비스 없음)",
+    "items": [
+      {
+        "type": "promo",
+        "id": "openrouter-chat",
+        "text": "OpenRouter 스텔스 모델 Space Bunny Alpha(MiniMax M3.1 Flash로 공개) 무료 기간 종료 — 이벤트 표기 제거"
+      },
+      {
+        "type": "check",
+        "text": "8개 항목 재확인 (OpenRouter, Bing 영상, Groq, Flora, Hailuo, Qoder, CodeBuddy, Media.io 이미지)"
+      }
+    ]
+  },
+  {
     "date": "2026-10-22",
     "summary": "신규·한도 변경 없음 — 10개 항목 재확인 (미·중·한·일 커뮤니티 점검, 공식 근거가 확인된 신규 무료 서비스 없음)",
     "items": [
