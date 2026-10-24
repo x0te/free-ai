@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-10-24",
+    "summary": "신규·한도 변경 없음 — 5개 항목 재확인 (미·중·한·일 커뮤니티 30회 점검, 공식 근거가 확인된 신규 무료 서비스 없음)",
+    "items": [
+      {
+        "type": "check",
+        "text": "5개 항목 재확인 (OpenCode, CodeBuddy, HeyGen, Media.io 이미지, Google Flow Music)"
+      }
+    ]
+  },
+  {
     "date": "2026-10-23",
     "summary": "OpenRouter 스텔스 모델 무료 종료로 이벤트 표기 정리, 8개 항목 재확인 (미·중·한·일 커뮤니티 점검, 공식 근거가 확인된 신규 무료 서비스 없음)",
     "items": [
