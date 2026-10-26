@@ -580,7 +580,7 @@
     ],
     "confidence": "medium",
     "status": "ended",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-26",
     "sources": [
       {
         "title": "Gemini Developer API pricing",
@@ -725,7 +725,7 @@
     ],
     "confidence": "medium",
     "status": "ended",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-26",
     "sources": [
       {
         "title": "Grok Imagine Limits 2026: Free Tier + SuperGrok Caps",
@@ -2178,7 +2178,7 @@
         "type": "official"
       }
     ],
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-26",
     "category": "image",
     "added": "2026-09-29",
     "updated": "2026-09-29",
@@ -2610,7 +2610,7 @@
     ],
     "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-10-25",
+    "lastVerified": "2026-10-26",
     "promo": {
       "text": "ToMoviee Lite 모델 선택 시 이미지 생성 무제한 무료 (페이지에 '기간 한정' 표기, 2026-08 말 게시)",
       "until": "불명"
