@@ -545,73 +545,6 @@
     }
   },
   {
-    "id": "google-ai-studio-image",
-    "category": "image",
-    "platform": "Google AI Studio",
-    "vendor": "Google",
-    "url": "https://aistudio.google.com/",
-    "logo": "google-ai-studio",
-    "logoDomain": "aistudio.google.com",
-    "models": [
-      "Nano Banana 2",
-      "Nano Banana 2 Lite",
-      "Nano Banana Pro"
-    ],
-    "headline": "Nano Banana → AI Studio 무료 사용 사실상 종료 (유료 키나 AI Pro 플랜 필요)",
-    "description": "개발자용 Gemini 실험 공간. 2025년에는 Nano Banana를 무료로 돌려보는 우회 경로로 유명했다. 지금은 공식 가격표에서 모든 이미지 모델의 무료 등급이 '제공 안 함'이고, AI Studio에서 Nano Banana를 쓰려면 유료 API 키나 Google AI Pro 플랜이 필요하다는 보고가 일관된다.",
-    "freeTier": {
-      "quota": "무료 등급 없음 (Nano Banana 2, 2 Lite, Pro, 2.5 Flash Image 모두 'Free Tier: Not available')",
-      "reset": "해당 없음",
-      "watermark": "SynthID(비가시)",
-      "commercialUse": "유료 API 약관에 따름",
-      "signup": "Google 계정 + 결제 수단(유료 키)",
-      "korea": "가능",
-      "notes": "가격 페이지에 'AI Studio 사용은 무료'라는 일반 문구는 남아 있다. 하지만 이미지 모델은 유료 키나 AI Pro가 필요하다는 게 커뮤니티의 일관된 보고다. 무료로 Nano Banana를 쓰려면 Gemini 앱, 검색 AI 모드, Flow를 이용할 것."
-    },
-    "howTo": [
-      "무료 이용자는 대신 Gemini 앱, Google 검색 AI 모드, Google Flow 사용을 권장",
-      "AI Studio에서 쓰려면 결제가 연결된 API 키를 발급",
-      "모델 선택에서 gemini-3.1-flash-image 계열 선택"
-    ],
-    "tags": [
-      "무료종료",
-      "유료전환",
-      "개발자"
-    ],
-    "confidence": "medium",
-    "status": "ended",
-    "lastVerified": "2026-10-26",
-    "sources": [
-      {
-        "title": "Gemini Developer API pricing",
-        "url": "https://ai.google.dev/gemini-api/docs/pricing",
-        "type": "official",
-        "date": "2026-09"
-      },
-      {
-        "title": "Is Nano Banana 2 Free? Gemini, AI Studio, and API Answer",
-        "url": "https://www.aifreeapi.com/en/posts/nano-banana-2-free",
-        "type": "community",
-        "date": "2026-03-29"
-      },
-      {
-        "title": "Gemini image generation free limit 2026",
-        "url": "https://blog.laozhang.ai/en/posts/gemini-image-generation-free-limit-2026",
-        "type": "community",
-        "date": "2026-09-26"
-      }
-    ],
-    "access": "official",
-    "added": "2026-09-29",
-    "updated": "2026-09-29",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "invisible",
-      "login": true,
-      "commercial": null
-    }
-  },
-  {
     "id": "google-flow-image",
     "category": "image",
     "platform": "Google Flow",
@@ -693,64 +626,6 @@
     }
   },
   {
-    "id": "grok-imagine-image",
-    "category": "image",
-    "platform": "Grok Imagine",
-    "vendor": "xAI",
-    "url": "https://grok.com/imagine",
-    "logo": "grok",
-    "logoDomain": "grok.com",
-    "models": [
-      "Grok Imagine (Aurora)"
-    ],
-    "headline": "Grok Imagine 이미지 → 2026년 3월 19일 무료 제공 종료 (SuperGrok 유료 전용)",
-    "description": "xAI의 Grok Imagine은 2025년 한동안 무료 이미지 생성으로 인기가 많았다. 2026년 1월 유명인 딥페이크 논란 뒤 무료 이미지 생성을 줄였고, 3월 19일 무료 할당을 완전히 없앴다. 지금은 SuperGrok 구독자만 이미지와 영상을 만들 수 있다.",
-    "freeTier": {
-      "quota": "무료 0장 (유료 SuperGrok 전용)",
-      "reset": "해당 없음",
-      "watermark": "해당 없음",
-      "commercialUse": "해당 없음",
-      "signup": "X 또는 xAI 계정 + 유료 구독",
-      "korea": "유료 구독 시 가능",
-      "notes": "무료 Grok은 텍스트 채팅과 일부 음성 기능만 남았다. 가을부터 SuperGrok 요금 체계도 바뀌었다는 보고가 있다(Lite 약 30달러, Plus 100달러 신설)."
-    },
-    "howTo": [
-      "무료 이용자는 다른 서비스(Gemini, Flow, Meta AI 등) 이용 권장",
-      "유료 사용 시 grok.com의 Imagine 탭 이용",
-      "SuperGrok 구독 후 생성"
-    ],
-    "tags": [
-      "무료종료",
-      "유료전용"
-    ],
-    "confidence": "medium",
-    "status": "ended",
-    "lastVerified": "2026-10-26",
-    "sources": [
-      {
-        "title": "Grok Imagine Limits 2026: Free Tier + SuperGrok Caps",
-        "url": "https://www.sloane.world/guides/grok-imagine-limits-2026",
-        "type": "community",
-        "date": "2026-09-22"
-      },
-      {
-        "title": "Grok Image Limits & Video Generation Status (2026 Update)",
-        "url": "https://www.atlascloud.ai/blog/tips/grok-xai-image-generation-daily-limit",
-        "type": "community",
-        "date": "2026"
-      }
-    ],
-    "access": "official",
-    "added": "2026-09-29",
-    "updated": "2026-09-29",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "none",
-      "login": true,
-      "commercial": null
-    }
-  },
-  {
     "id": "huggingface-spaces-image",
     "platform": "Hugging Face Spaces",
     "vendor": "Hugging Face",
@@ -813,7 +688,7 @@
         "type": "official"
       }
     ],
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-30",
     "category": "image",
     "added": "2026-09-29",
     "updated": "2026-09-29",
@@ -984,9 +859,9 @@
       "비상업",
       "영상연계"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-30",
     "sources": [
       {
         "title": "Kling AI: Membership Plans, Benefits & Account Options",
@@ -1015,7 +890,7 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-30",
+    "updated": "2026-10-30",
     "flags": {
       "reset": "daily",
       "watermark": "visible",
@@ -1581,64 +1456,6 @@
     }
   },
   {
-    "id": "sora-image",
-    "category": "image",
-    "platform": "Sora 앱",
-    "vendor": "OpenAI",
-    "url": "https://sora.com/",
-    "logo": "sora",
-    "logoDomain": "sora.com",
-    "models": [
-      "Sora",
-      "GPT Image"
-    ],
-    "headline": "Sora 앱 이미지 생성 → 2026년 4월 26일 앱 종료 (이미지는 ChatGPT에서)",
-    "description": "OpenAI의 Sora 앱과 웹에서도 이미지를 만들 수 있었지만, OpenAI가 2026년 3월에 Sora 종료를 발표했다. 앱과 웹은 4월 26일, Sora 2 API는 9월 24일에 끝났다. 무료 사용자의 Sora 이미지·영상 생성은 그보다 앞선 2026년 1월에 이미 막혔다.",
-    "freeTier": {
-      "quota": "서비스 종료",
-      "reset": "해당 없음",
-      "watermark": "해당 없음",
-      "commercialUse": "해당 없음",
-      "signup": "해당 없음",
-      "korea": "해당 없음",
-      "notes": "OpenAI 이미지 생성은 ChatGPT(Images 2.5)에서 이용. 기존 Sora 라이브러리 내보내기 기한도 지났다."
-    },
-    "howTo": [
-      "이미지 생성은 chatgpt.com의 Images 메뉴 사용",
-      "API가 필요하면 GPT-Image-2.5 모델 사용(유료)",
-      "Sora 앱은 더 이상 이용 불가"
-    ],
-    "tags": [
-      "서비스종료"
-    ],
-    "confidence": "high",
-    "status": "ended",
-    "lastVerified": "2026-09-30",
-    "sources": [
-      {
-        "title": "What to know about the Sora discontinuation",
-        "url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
-        "type": "official",
-        "date": "2026-03"
-      },
-      {
-        "title": "OpenAI's Sora ... now it's shutting down",
-        "url": "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/",
-        "type": "news",
-        "date": "2026-03-24"
-      }
-    ],
-    "access": "official",
-    "added": "2026-09-29",
-    "updated": "2026-09-29",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "none",
-      "login": true,
-      "commercial": null
-    }
-  },
-  {
     "id": "tencent-yuanbao-image",
     "category": "image",
     "platform": "Tencent Yuanbao (元宝)",
@@ -1706,65 +1523,6 @@
     "flags": {
       "reset": "unknown",
       "watermark": "unknown",
-      "login": true,
-      "commercial": null
-    }
-  },
-  {
-    "id": "google-whisk-image",
-    "category": "image",
-    "platform": "Whisk / ImageFX",
-    "vendor": "Google",
-    "url": "https://labs.google/fx/tools/whisk",
-    "logo": "google-whisk",
-    "logoDomain": "labs.google",
-    "models": [
-      "Imagen 4",
-      "Nano Banana"
-    ],
-    "headline": "Whisk·ImageFX → 2026년 Google Flow로 통합, 단독 서비스 종료 (주소가 Flow로 연결됨)",
-    "description": "이미지 여러 장을 섞어 새 이미지를 만드는 Whisk와 Imagen 기반 ImageFX는 구글 Labs의 무료 이미지 도구였다. 2026년 2월 구글이 두 도구를 Flow에 통합한다고 발표했고, 지금 두 주소로 들어가면 flow.google.com으로 넘어간다.",
-    "freeTier": {
-      "quota": "단독 서비스 종료. 같은 기능은 Google Flow에서 무료 이미지 생성으로 이용",
-      "reset": "해당 없음",
-      "watermark": "해당 없음",
-      "commercialUse": "해당 없음",
-      "signup": "Google 계정 (Flow)",
-      "korea": "Flow로 이용 가능",
-      "notes": "2026년 3월부터 Whisk·ImageFX의 프로젝트와 에셋을 Flow 라이브러리로 옮기는 옵트인 이전이 제공됐다."
-    },
-    "howTo": [
-      "flow.google.com 접속 (기존 Whisk·ImageFX 주소는 자동으로 넘어감)",
-      "프로젝트 안에서 이미지 생성, 레퍼런스 이미지 드래그로 Whisk 방식 합성",
-      "필요하면 기존 Whisk·ImageFX 자산을 Flow 라이브러리로 이전"
-    ],
-    "tags": [
-      "서비스종료",
-      "Flow통합"
-    ],
-    "confidence": "high",
-    "status": "ended",
-    "lastVerified": "2026-10-25",
-    "sources": [
-      {
-        "title": "Flow update: Whisk와 ImageFX를 Flow로 통합",
-        "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/flow-updates-february-2026/",
-        "type": "official",
-        "date": "2026-02"
-      },
-      {
-        "title": "Whisk (flow.google.com/?from=whisk 로 리다이렉트)",
-        "url": "https://labs.google/fx/tools/whisk",
-        "type": "official",
-        "date": "2026-09-29"
-      }
-    ],
-    "access": "official",
-    "added": "2026-09-29",
-    "updated": "2026-09-29",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "none",
       "login": true,
       "commercial": null
     }
@@ -2069,127 +1827,6 @@
     }
   },
   {
-    "id": "getimg-image",
-    "platform": "getimg.ai",
-    "vendor": "getimg.ai",
-    "access": "wrapper",
-    "url": "https://getimg.ai",
-    "logo": "getimg",
-    "logoDomain": "getimg.ai",
-    "models": [],
-    "headline": "getimg.ai: 무료 플랜 폐지(2026) — 최저 Entry $10/월",
-    "description": "예전에는 월 수십 장 무료 생성으로 유명했던 이미지 생성 사이트지만 2026년 현재 무료 티어가 사라지고 유료 구독만 남았다. 무료 대안을 찾는다면 다른 항목을 쓰는 게 낫다.",
-    "freeTier": {
-      "quota": "없음 (무료 티어·무료 체험 모두 없음)",
-      "reset": "없음",
-      "watermark": "해당 없음",
-      "commercialUse": "해당 없음 (유료 플랜은 상업 이용 가능)",
-      "signup": "유료 구독 필요",
-      "korea": "가능",
-      "notes": "Entry($10/월, 3,000크레딧 ≈ 1K 이미지 약 60장)부터 시작. 이미지→영상은 유료 전용."
-    },
-    "howTo": [
-      "무료 사용 불가 — Raphael AI, Vheer, Perchance 등 무료 대안 이용"
-    ],
-    "tags": [
-      "무료종료"
-    ],
-    "confidence": "high",
-    "status": "ended",
-    "sources": [
-      {
-        "title": "getimg.ai Review: Is It Free, Safe (Krea)",
-        "url": "https://www.krea.ai/blog/getimg-ai-review-is-it-free-safe-and-how-to-use-it-in-2026",
-        "type": "community",
-        "date": "2026-09-14"
-      },
-      {
-        "title": "getimg.ai Pricing",
-        "url": "https://getimg.ai/pricing",
-        "type": "official"
-      }
-    ],
-    "lastVerified": "2026-10-21",
-    "category": "image",
-    "added": "2026-09-29",
-    "updated": "2026-09-29",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "none",
-      "login": true,
-      "commercial": null
-    }
-  },
-  {
-    "id": "higgsfield-image",
-    "platform": "Higgsfield",
-    "vendor": "Higgsfield AI",
-    "access": "wrapper",
-    "url": "https://higgsfield.ai",
-    "logo": "higgsfield",
-    "logoDomain": "higgsfield.ai",
-    "models": [],
-    "headline": "Higgsfield 무료: 크레딧 0 — 사실상 인터페이스 체험용 (Nano Banana 등은 유료)",
-    "description": "Nano Banana, Seedance, Kling, Soul 등 이미지·영상 모델을 한데 모은 인기 크리에이터 플랫폼이다. 유료 플랜의 '무제한' 이벤트로 유명하지만 무료 계정 혜택은 매우 적다. 2026년 9월 기준 요금표상 Free 플랜은 크레딧 0, 동시 1건, 영상 불가로 체험용에 가깝다.",
-    "freeTier": {
-      "quota": "요금표 기준 0크레딧·동시 생성 1건·'Included' 표시된 일부 이미지 모델만 (보고). 일부 리뷰(2026-08)는 하루 약 10크레딧(Nano Banana Pro 2크레딧/장 → 약 5장)이라 보고해 정보가 엇갈림",
-      "reset": "불명",
-      "watermark": "가시 워터마크 있음 (보고)",
-      "commercialUse": "불가",
-      "signup": "Google/이메일 계정",
-      "korea": "가능",
-      "notes": "유료 전용: Nano Banana Pro/2, Seedance 2.x, Kling, MiniMax 등 대부분. 카드 없이 받던 1일 All Unlimited 체험은 2026-07-23 종료(보고), MCP 3일 체험은 카드 등록 필요. X(트위터)에서 비정기 크레딧 이벤트가 열리기도 함. 무료로 쓸 수 있는 모델명은 확인 못 함."
-    },
-    "howTo": [
-      "higgsfield.ai 가입",
-      "Image 메뉴에서 무료로 표시된(Included) 모델이 있는지 확인",
-      "무료로 생성 가능한 범위가 거의 없으면 다른 사이트 이용 권장"
-    ],
-    "tags": [
-      "크레딧0",
-      "체험용",
-      "워터마크",
-      "정보충돌"
-    ],
-    "confidence": "low",
-    "status": "ended",
-    "sources": [
-      {
-        "title": "Higgsfield Pricing (2026): Credits and Real Monthly Costs - Krea",
-        "url": "https://www.krea.ai/blog/higgsfield-pricing-explained-2026-unlimited-credits-and-real-monthly-costs",
-        "type": "community",
-        "date": "2026-09-05"
-      },
-      {
-        "title": "Is Higgsfield Free? Free plan, trials and promo codes (Creatify)",
-        "url": "https://creatify.ai/blog/is-higgsfield-free-free-plan-trials-and-promo-codes-explained-(2026)",
-        "type": "community",
-        "date": "2026-09-06"
-      },
-      {
-        "title": "Is Higgsfield AI Free? What the Free Tier Actually Gives You (RizzGen)",
-        "url": "https://www.rizzgen.ai/blogs/is-higgsfield-ai-free",
-        "type": "community",
-        "date": "2026-08-16"
-      },
-      {
-        "title": "Higgsfield Pricing",
-        "url": "https://higgsfield.ai/pricing",
-        "type": "official"
-      }
-    ],
-    "lastVerified": "2026-10-26",
-    "category": "image",
-    "added": "2026-09-29",
-    "updated": "2026-09-29",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "visible",
-      "login": true,
-      "commercial": false
-    }
-  },
-  {
     "id": "imagineart-image",
     "platform": "ImagineArt",
     "vendor": "Vyro AI",
@@ -2305,7 +1942,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-30",
     "sources": [
       {
         "title": "Krea Pricing (Free 100 units/day)",
@@ -2610,7 +2247,7 @@
     ],
     "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-10-29",
+    "lastVerified": "2026-10-30",
     "promo": {
       "text": "ToMoviee Lite 모델 선택 시 이미지 생성 무제한 무료 (페이지에 '기간 한정' 표기, 2026-08 말 게시)",
       "until": "불명"

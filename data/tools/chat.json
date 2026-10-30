@@ -123,7 +123,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-10-29",
+    "lastVerified": "2026-10-30",
     "promo": {
       "text": "만 19~34세 · ChatGPT 유료 플랜 첫 이용(또는 유료 종료 후 90일 경과) 대상 ChatGPT Plus 2개월 무료 — 결제수단 등록 불필요, 자동결제 없음, 1인 1회, 모바일로 참여",
       "until": "혜택 소진 시까지 (조기 종료 가능)"
@@ -220,61 +220,6 @@
         "url": "https://www.digitalmarketer.co.kr/insights/claude-free-plan-guide",
         "type": "community",
         "date": "2026-09"
-      }
-    ],
-    "access": "official",
-    "added": "2026-09-29",
-    "updated": "2026-09-29",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "na",
-      "login": true,
-      "commercial": null
-    }
-  },
-  {
-    "id": "clova-x-chat",
-    "category": "chat",
-    "platform": "CLOVA X",
-    "vendor": "NAVER",
-    "url": "https://clova-x.naver.com",
-    "logo": "clova-x",
-    "logoDomain": "naver.com",
-    "models": [
-      "HyperCLOVA X"
-    ],
-    "headline": "네이버 CLOVA X: 2026년 4월 9일 서비스 종료, 더 이상 사용 불가",
-    "description": "네이버의 초거대 AI HyperCLOVA X 기반 무료 대화형 AI였으나 2026년 4월 9일 서비스가 종료됐습니다. 한국어·국내 정보에 강점이 있었고 문서 업로드·이미지 분석·추론(THINK) 기능까지 무료로 제공했습니다. 현재 HyperCLOVA X 기술은 네이버 검색의 AI 기능 등 다른 서비스에서 활용되는 것으로 알려져 있습니다.",
-    "freeTier": {
-      "quota": "서비스 종료 (종료 전에는 전 기능 무료)",
-      "reset": "해당 없음",
-      "watermark": "해당 없음",
-      "commercialUse": "해당 없음",
-      "signup": "해당 없음 (종료 전 네이버 계정)",
-      "korea": "종료",
-      "notes": "대체 국내 무료 챗봇으로는 뤼튼 등이 있음. 네이버 HyperCLOVA X SEED 계열 오픈모델(Think 14B/32B, Omni 8B)은 별도로 공개돼 있음."
-    },
-    "howTo": [
-      "서비스 종료로 이용 불가",
-      "국내 무료 대안: 뤼튼(wrtn.ai) 또는 한국어 지원 글로벌 챗봇 이용"
-    ],
-    "tags": [
-      "서비스종료",
-      "국내서비스"
-    ],
-    "confidence": "medium",
-    "status": "ended",
-    "lastVerified": "2026-10-18",
-    "sources": [
-      {
-        "title": "CLOVA X - 나무위키",
-        "url": "https://namu.wiki/w/CLOVA%20X",
-        "type": "community"
-      },
-      {
-        "title": "HyperCLOVA X - 나무위키",
-        "url": "https://namu.wiki/w/HyperCLOVA%20X",
-        "type": "community"
       }
     ],
     "access": "official",

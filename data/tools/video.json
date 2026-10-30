@@ -489,7 +489,7 @@
     ],
     "confidence": "low",
     "status": "limited",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-30",
     "sources": [
       {
         "title": "Grok Imagine Free Tier Is Back for Some Accounts, Not Others - RoboRhythms",
@@ -708,7 +708,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-30",
     "sources": [
       {
         "title": "Hugging Face Docs: ZeroGPU (Usage tiers: Unauthenticated 2 min, Free account 5 min, PRO 40 min)",
@@ -785,9 +785,9 @@
       "상업이용불가",
       "대기열"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-30",
     "sources": [
       {
         "title": "KlingAI Daily Free Credits – Claim Yours",
@@ -815,7 +815,7 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-10-30",
     "flags": {
       "reset": "daily",
       "watermark": "visible",
@@ -943,62 +943,6 @@
       "watermark": "visible",
       "login": true,
       "commercial": null
-    }
-  },
-  {
-    "id": "pika-video",
-    "category": "video",
-    "platform": "Pika",
-    "vendor": "Pika Labs",
-    "url": "https://pika.art",
-    "logo": "pika",
-    "logoDomain": "pika.art",
-    "models": [
-      "Pika"
-    ],
-    "headline": "무료 크레딧 폐지 — 무료 플랜 월 0크레딧(크레딧 팩 구매해야 생성 가능)",
-    "description": "이펙트(Pikaffects)·장면 합성 기능으로 유명했던 영상 생성 서비스. 2026년 7월까지는 무료 플랜에 월 80크레딧이 있다고 보고됐지만, 현재 공식 요금표의 무료 플랜은 '월 0크레딧, 팩 전용'으로 바뀌어 사실상 무료 생성이 불가능하다.",
-    "freeTier": {
-      "quota": "월 0크레딧 (크레딧 팩 1회 구매 시에만 생성 가능)",
-      "reset": "해당 없음",
-      "watermark": "없음 (팩 구매 시)",
-      "commercialUse": "불가 (무료 플랜 상업 라이선스 미포함)",
-      "signup": "이메일 또는 Google 계정",
-      "korea": "가능",
-      "notes": "무료 플랜은 모든 모델 접근·동시 영상 2개가 표기돼 있으나 크레딧이 0이라 결제 없이 생성 불가."
-    },
-    "howTo": [
-      "무료 생성 불가 — 무료 대안으로 Google Flow·Kling 이용 권장"
-    ],
-    "tags": [
-      "무료폐지",
-      "유료팩필요"
-    ],
-    "confidence": "medium",
-    "status": "ended",
-    "lastVerified": "2026-09-30",
-    "sources": [
-      {
-        "title": "Pika Pricing",
-        "url": "https://pika.art/pricing",
-        "type": "official",
-        "date": "2026-09"
-      },
-      {
-        "title": "Pika Free Plan - CostBench",
-        "url": "https://costbench.com/software/ai-video-generators/pika/free-plan/",
-        "type": "news",
-        "date": "2026-07-08"
-      }
-    ],
-    "access": "official",
-    "added": "2026-09-29",
-    "updated": "2026-09-29",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "none",
-      "login": true,
-      "commercial": false
     }
   },
   {
@@ -1136,67 +1080,6 @@
     "flags": {
       "reset": "once",
       "watermark": "visible",
-      "login": true,
-      "commercial": null
-    }
-  },
-  {
-    "id": "sora-video",
-    "category": "video",
-    "platform": "Sora",
-    "vendor": "OpenAI",
-    "url": "https://sora.chatgpt.com",
-    "logo": "sora",
-    "logoDomain": "sora.chatgpt.com",
-    "models": [
-      "Sora 2"
-    ],
-    "headline": "서비스 종료 — Sora 앱·웹 2026-04-26 종료, Sora 2 API도 2026-09-24 완전 제거",
-    "description": "OpenAI의 영상 생성 앱 Sora는 2026년 3월 24일 종료가 발표돼 4월 26일 앱·웹 서비스가 닫혔고, 9월 24일 Sora 2 모델과 Videos API까지 모두 제거됐다. 막대한 운영비와 사용자 감소가 원인으로 보도됐다. 현재 무료든 유료든 사용할 수 없다.",
-    "freeTier": {
-      "quota": "없음 (종료 전에는 무료 사용자도 하루 약 30회 생성이 가능했다고 보도됨)",
-      "reset": "해당 없음",
-      "watermark": "해당 없음",
-      "commercialUse": "해당 없음",
-      "signup": "해당 없음",
-      "korea": "해당 없음 (서비스 종료)",
-      "notes": "남은 크레딧은 2026-09-24 이후 환불 없이 소멸. 대체재로 Google Flow(Veo 3.1), Kling 등을 권장."
-    },
-    "howTo": [
-      "사용 불가 — 무료 대안으로 Google Flow 또는 Google Vids 이용"
-    ],
-    "tags": [
-      "서비스종료"
-    ],
-    "confidence": "high",
-    "status": "ended",
-    "lastVerified": "2026-09-30",
-    "sources": [
-      {
-        "title": "OpenAI's Sora was the creepiest app on your phone -- now it's shutting down - TechCrunch",
-        "url": "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/",
-        "type": "news",
-        "date": "2026-03-24"
-      },
-      {
-        "title": "OpenAI sets two-stage Sora shutdown with app closing April 2026 and API following in September - The Decoder",
-        "url": "https://the-decoder.com/openai-sets-two-stage-sora-shutdown-with-app-closing-april-2026-and-api-following-in-september/",
-        "type": "news",
-        "date": "2026-03"
-      },
-      {
-        "title": "What to know about the Sora discontinuation - OpenAI Help Center",
-        "url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
-        "type": "official",
-        "date": "2026-03"
-      }
-    ],
-    "access": "official",
-    "added": "2026-09-29",
-    "updated": "2026-09-29",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "none",
       "login": true,
       "commercial": null
     }
@@ -1508,57 +1391,6 @@
     }
   },
   {
-    "id": "canva-video",
-    "category": "video",
-    "access": "wrapper",
-    "platform": "Canva (Create a Video Clip · Veo 3)",
-    "vendor": "Canva",
-    "url": "https://www.canva.com/features/ai-video-generator/",
-    "logo": "canva",
-    "logoDomain": "canva.com",
-    "models": [],
-    "headline": "Canva 무료: Veo 3 기반 'Create a Video Clip'은 Pro·Business·Enterprise·Nonprofit 전용 — 무료 계정 불가",
-    "description": "Canva AI의 'Create a Video Clip'은 Google Veo 3로 16:9 8초 오디오 포함 영상을 만들어 디자인에 바로 넣는 기능입니다. 공식 페이지는 Pro·Business·Enterprise·Nonprofit 사용자가 월 제한된 수만큼 쓸 수 있다고 명시해, 무료 계정은 대상이 아닙니다.",
-    "freeTier": {
-      "quota": "영상 0개 (Veo 3 클립은 유료/비영리 플랜에서 월 제한 수량)",
-      "reset": "해당 없음",
-      "watermark": "해당 없음",
-      "commercialUse": "해당 없음",
-      "signup": "Canva 계정",
-      "korea": "가능",
-      "notes": "무료 계정에서는 Veo 3 영상 클립 메뉴를 쓸 수 없음. 생성 길이 최대 8초, 16:9, 프롬프트당 1개."
-    },
-    "howTo": [
-      "Canva 무료 계정으로는 Video clip 생성 불가",
-      "Pro·Business 또는 Canva for Nonprofits 필요",
-      "무료 대안: Google Vids/Flow(공식 Veo) 항목 참고"
-    ],
-    "tags": [
-      "무료영상불가",
-      "유료전용",
-      "Veo"
-    ],
-    "confidence": "high",
-    "status": "ended",
-    "lastVerified": "2026-10-17",
-    "sources": [
-      {
-        "title": "Canva AI Video Generator (Pro, Business, Enterprise, and Nonprofit users can use Create a Video Clip)",
-        "url": "https://www.canva.com/features/ai-video-generator/",
-        "type": "official",
-        "date": "2026-09"
-      }
-    ],
-    "added": "2026-09-29",
-    "updated": "2026-09-29",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "none",
-      "login": true,
-      "commercial": null
-    }
-  },
-  {
     "id": "dzine-video",
     "category": "video",
     "access": "wrapper",
@@ -1760,127 +1592,6 @@
     }
   },
   {
-    "id": "higgsfield-video",
-    "category": "video",
-    "access": "wrapper",
-    "platform": "Higgsfield",
-    "vendor": "Higgsfield AI",
-    "url": "https://higgsfield.ai",
-    "logo": "higgsfield",
-    "logoDomain": "higgsfield.ai",
-    "models": [
-      "무료 제공 선택 모델"
-    ],
-    "headline": "Higgsfield 무료: 2026-09 공식 기준 무료 플랜 크레딧 0 — 사실상 무료 영상 생성 불가 (일부 이미지 모델만)",
-    "description": "Higgsfield는 Seedance·Kling·Veo 등과 자체 카메라 무빙 프리셋으로 인기인 영상 애그리게이터지만, 2026년 9월 공식 도움말은 무료 사용자가 '소수 모델로 생성 가능하되 크레딧은 받지 않는다'고 밝힙니다. 6월까지는 하루 10크레딧(워터마크, 하루 1클립 수준)이 있었다는 보고가 있으나 현재 공식 표는 0크레딧입니다. 'Seedance 2.5 무제한'은 유료 플랜 전용이며 대기 시간 논란도 있었습니다.",
-    "freeTier": {
-      "quota": "크레딧 0 (공식 플랜 비교표·도움말, 2026-09) — 무료 영상 생성은 사실상 불가",
-      "reset": "해당 없음",
-      "watermark": "가시 워터마크 있음 (무료 출력)",
-      "commercialUse": "불가 (무료 플랜 상업 라이선스 없음)",
-      "signup": "이메일/Google 계정",
-      "korea": "가능",
-      "notes": "유료 전용: Veo 3.x, Kling, Seedance 2.0/2.5 등 영상 전반. 2026-06 리뷰에선 일 10크레딧 보고 → 9월 공식 문서는 0. 카드 없는 무료 체험 없음(MCP 3일 체험은 카드 필요)."
-    },
-    "howTo": [
-      "higgsfield.ai 가입해도 무료 크레딧은 지급되지 않음(2026-09 기준)",
-      "영상은 유료 플랜(Basic 이상) 필요",
-      "무료 대안: Lovart·Dzine·Hugging Face Spaces 등"
-    ],
-    "tags": [
-      "무료영상불가",
-      "유료전용",
-      "워터마크"
-    ],
-    "confidence": "medium",
-    "status": "ended",
-    "lastVerified": "2026-10-26",
-    "sources": [
-      {
-        "title": "Higgsfield Free Tier Overview (Creatify, 공식 도움말 인용: free users … receive no credits, 2026-09-06)",
-        "url": "https://creatify.ai/blog/is-higgsfield-free-free-plan-trials-and-promo-codes-explained-(2026)",
-        "type": "news",
-        "date": "2026-09"
-      },
-      {
-        "title": "Is Higgsfield Free? (zsky, 2026-06: 10 credits/day, no Veo 3)",
-        "url": "https://zsky.ai/blog/is-higgsfield-free",
-        "type": "news",
-        "date": "2026-06-20"
-      },
-      {
-        "title": "WION: How Higgsfield sells 'unlimited' Seedance 2.5 that barely generates anything",
-        "url": "https://www.wionews.com/world/how-higgsfield-sells-unlimited-seedance-2-5-that-barely-generates-anything-1786998832812",
-        "type": "news",
-        "date": "2026-08-18"
-      },
-      {
-        "title": "Higgsfield AI Free Plan - CostBench",
-        "url": "https://costbench.com/software/ai-video-generators/higgsfield/free-plan/",
-        "type": "news",
-        "date": "2026-08-19"
-      }
-    ],
-    "added": "2026-09-29",
-    "updated": "2026-09-29",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "visible",
-      "login": true,
-      "commercial": false
-    }
-  },
-  {
-    "id": "krea-video",
-    "category": "video",
-    "access": "wrapper",
-    "platform": "Krea",
-    "vendor": "Krea AI",
-    "url": "https://www.krea.ai",
-    "logo": "krea",
-    "logoDomain": "krea.ai",
-    "models": [],
-    "headline": "Krea 무료: 영상 불가 — 무료는 하루 100 컴퓨트 유닛으로 Krea 2 이미지만",
-    "description": "Krea는 Veo·Kling·Wan·Hailuo 등 다양한 영상 모델과 실시간 생성으로 유명한 애그리게이터지만, 2026년 8월 공식 블로그 기준 무료 플랜은 '이미지 전용'입니다. 하루 100 컴퓨트 유닛으로 자체 Krea 2 이미지와 2K 업스케일만 쓸 수 있고 영상 모델·전체 모델 라이브러리·상업 라이선스는 유료입니다.",
-    "freeTier": {
-      "quota": "영상 0개 (무료: 하루 100 컴퓨트 유닛, Krea 2 이미지 전용)",
-      "reset": "해당 없음 (컴퓨트 유닛은 매일)",
-      "watermark": "해당 없음",
-      "commercialUse": "불가 (상업 라이선스는 유료)",
-      "signup": "이메일/Google 계정",
-      "korea": "가능",
-      "notes": "유료 전용: Veo 3.1, Kling, Wan, Hailuo 등 모든 영상 모델."
-    },
-    "howTo": [
-      "krea.ai 가입",
-      "영상은 Basic 이상 유료 플랜 필요",
-      "무료 계정은 Krea 2 이미지 생성만 가능"
-    ],
-    "tags": [
-      "무료영상불가",
-      "유료전용"
-    ],
-    "confidence": "high",
-    "status": "ended",
-    "lastVerified": "2026-09-30",
-    "sources": [
-      {
-        "title": "The 7 Best Free AI Image Generators in 2026 - Krea (free tier is images-only)",
-        "url": "https://www.krea.ai/blog/best-free-ai-image-generators-in-2026",
-        "type": "official",
-        "date": "2026-08-26"
-      }
-    ],
-    "added": "2026-09-29",
-    "updated": "2026-09-29",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "none",
-      "login": true,
-      "commercial": false
-    }
-  },
-  {
     "id": "leonardo-video",
     "category": "video",
     "access": "wrapper",
@@ -2002,125 +1713,6 @@
     "flags": {
       "reset": "daily",
       "watermark": "unknown",
-      "login": true,
-      "commercial": null
-    }
-  },
-  {
-    "id": "magnific-video",
-    "category": "video",
-    "access": "wrapper",
-    "platform": "Magnific (구 Freepik)",
-    "vendor": "Freepik Company",
-    "url": "https://www.magnific.com",
-    "logo": "magnific",
-    "logoDomain": "magnific.com",
-    "models": [],
-    "headline": "Magnific(구 Freepik) 무료: 영상 생성 불가 — 무료는 자체 모델 이미지 하루 20장만",
-    "description": "Freepik은 2026년 4월 28일 AI 플랫폼을 Magnific으로 리브랜딩했고, Kling·Veo·MiniMax·Runway·Seedance·Wan 등 30여 개 모델을 한 크레딧 풀로 제공합니다. 하지만 영상·오디오·고급 이미지 모델은 항상 유료 크레딧을 쓰며, 무료 계정은 자체 모델 이미지 하루 20장(개인용·출처 표기)만 가능합니다.",
-    "freeTier": {
-      "quota": "영상 0개 (무료는 자체 모델 AI 이미지 하루 20장)",
-      "reset": "해당 없음 (이미지는 매일)",
-      "watermark": "해당 없음",
-      "commercialUse": "무료 이미지는 개인용·출처 표기 조건",
-      "signup": "Freepik/Magnific 계정",
-      "korea": "가능",
-      "notes": "유료 전용: Kling 3.0, Veo 3.1, Seedance, MiniMax, Runway, PixVerse, Wan, LTX 등 모든 영상 모델. 무료 계정은 추가 크레딧 구매도 불가."
-    },
-    "howTo": [
-      "magnific.com(freepik.com 리다이렉트) 가입",
-      "영상 생성은 Premium 이상 구독 필요",
-      "무료 계정은 이미지 생성(하루 20장)만 이용"
-    ],
-    "tags": [
-      "무료영상불가",
-      "유료전용",
-      "리브랜딩"
-    ],
-    "confidence": "medium",
-    "status": "ended",
-    "lastVerified": "2026-09-30",
-    "sources": [
-      {
-        "title": "Magnific Pricing (freepik.com/pricing → magnific.com/pricing, 유료 플랜만 표시)",
-        "url": "https://www.magnific.com/pricing",
-        "type": "official",
-        "date": "2026-09"
-      },
-      {
-        "title": "Is Freepik AI Free? (zsky, 20 AI images per day)",
-        "url": "https://zsky.ai/blog/is-freepik-ai-free",
-        "type": "news",
-        "date": "2026-06-20"
-      },
-      {
-        "title": "Freepik AI pricing explained (eesel AI)",
-        "url": "https://www.eesel.ai/blog/freepik-ai-pricing",
-        "type": "news",
-        "date": "2026"
-      }
-    ],
-    "added": "2026-09-29",
-    "updated": "2026-09-29",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "none",
-      "login": true,
-      "commercial": null
-    }
-  },
-  {
-    "id": "openart-video",
-    "category": "video",
-    "access": "wrapper",
-    "platform": "OpenArt",
-    "vendor": "OpenArt",
-    "url": "https://openart.ai",
-    "logo": "openart",
-    "logoDomain": "openart.ai",
-    "models": [],
-    "headline": "OpenArt 무료: 무료 플랜 없음 — 가입 체험 약 40크레딧 < 최저 영상 단가(Kling 2.6 5초 60, Veo 3.1 4초 80)로 영상 불가",
-    "description": "OpenArt는 Seedance 2.5·Kling 3.0·Veo 3.1·Wan 3.0·MiniMax H3 등 100여 개 모델을 모은 크리에이터 스튜디오입니다. 2026년 요금 페이지에는 유료 플랜(Starter~Wonder)만 있고, 카드 없는 가입 체험 크레딧(약 40, 보고)은 가장 싼 영상 모델 단가에도 못 미칩니다.",
-    "freeTier": {
-      "quota": "영상 0개 (체험 크레딧 약 40 보고, 영상 최저 단가 60크레딧)",
-      "reset": "가입 시 1회 (체험)",
-      "watermark": "해당 없음",
-      "commercialUse": "해당 없음",
-      "signup": "이메일/Google 계정",
-      "korea": "가능",
-      "notes": "공식 단가(720p): Veo 3.1 4초 80, Kling 2.6 5초 60, Kling 3.0 175, Seedance 2.0 400, Seedance 2.5 650, Wan 2.7 125, MiniMax H3 300, PixVerse V6 70. 디스코드 가입 추가 크레딧(과거 50) 보고가 있으나 현재 유효성 미확인."
-    },
-    "howTo": [
-      "openart.ai 가입 시 소량 체험 크레딧",
-      "영상은 Starter($14/월, 4,000크레딧) 이상 필요",
-      "무료 대안 항목 참고"
-    ],
-    "tags": [
-      "무료영상불가",
-      "유료전용"
-    ],
-    "confidence": "medium",
-    "status": "ended",
-    "lastVerified": "2026-09-30",
-    "sources": [
-      {
-        "title": "OpenArt Pricing (모델별 크레딧·유료 플랜)",
-        "url": "https://openart.ai/pricing",
-        "type": "official",
-        "date": "2026-09"
-      },
-      {
-        "title": "OpenArt Pricing 2026 (Flowith: ~40 trial credits, no card)",
-        "url": "https://flowith.io/blog/openart-pricing-2026-free-credits-vs-pro-vs-starter/",
-        "type": "news",
-        "date": "2026"
-      }
-    ],
-    "added": "2026-09-29",
-    "updated": "2026-09-29",
-    "flags": {
-      "reset": "once",
-      "watermark": "none",
       "login": true,
       "commercial": null
     }

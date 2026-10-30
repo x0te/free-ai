@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-10-30",
+    "summary": "신규 없음 — 종료 후 30일 지난 항목 17개 정리, 14개 항목 재확인, Kling 무료 한도 신뢰도 하향 (미·중·한·일 커뮤니티 점검, 공식 근거가 확인된 신규 무료 서비스 없음)",
+    "items": [
+      {
+        "type": "fix",
+        "id": "kling-video",
+        "text": "Kling 영상·이미지 — 매일 66크레딧이 구독자 전용으로 바뀌었다는 보고가 엇갈려 신뢰도를 낮음(공식 확인 불가)"
+      },
+      {
+        "type": "check",
+        "text": "14개 항목 재확인 (Krea 이미지·3D, Kiro, Hugging Face Spaces 4종, Stable Audio 3, Grok Imagine 영상, OpenCode, ChatGPT for Kakao, CodeBuddy, Qoder, Media.io 이미지)"
+      }
+    ]
+  },
+  {
     "date": "2026-10-29",
     "summary": "신규·한도 변경 없음 — 9개 항목 재확인 (미·중·한·일 커뮤니티 점검, 공식 근거가 확인된 신규 무료 서비스 없음)",
     "items": [

@@ -308,135 +308,6 @@
     }
   },
   {
-    "id": "firebase-studio-code",
-    "category": "code",
-    "platform": "Firebase Studio",
-    "vendor": "Google",
-    "url": "https://firebase.studio",
-    "logo": "firebase-studio",
-    "logoDomain": "firebase.google.com",
-    "models": [
-      "Gemini"
-    ],
-    "headline": "무료 워크스페이스 3개(개발자 프로그램 10개) → 2026년 6월 22일 신규 가입·생성 중단, 2027년 3월 22일 완전 종료",
-    "description": "Firebase Studio는 브라우저에서 App Prototyping 에이전트로 풀스택 앱을 만들고 클라우드 개발 환경에서 편집할 수 있던 Google 서비스입니다. 2026년 6월 22일부터 신규 가입과 새 워크스페이스 생성이 막혔고, 기존 사용자는 2027년 3월 22일 종료 전까지 프로젝트를 옮겨야 합니다. Google은 브라우저 프로토타이핑은 AI Studio Build, 코드 중심 개발은 Antigravity로 안내합니다.",
-    "freeTier": {
-      "quota": "종료 예정: 기존 무료 워크스페이스 3개(Google Developer Program 가입 시 10개)는 기존 사용자만 유지",
-      "reset": "해당 없음",
-      "watermark": "해당 없음(코드 생성)",
-      "commercialUse": "해당 없음",
-      "signup": "신규 가입 불가 (2026-06-22부터)",
-      "korea": "해당 없음",
-      "notes": "2027-03-22에 남은 데이터가 영구 삭제됨. Firestore·Authentication·App Hosting 등 핵심 Firebase 서비스는 영향 없음"
-    },
-    "howTo": [
-      "신규 사용자는 Google AI Studio Build 또는 Antigravity 이용",
-      "기존 사용자는 공식 마이그레이션 문서에 따라 프로젝트를 GitHub 또는 AI Studio로 이전",
-      "2027년 3월 22일 전에 데이터 백업"
-    ],
-    "tags": [
-      "서비스종료",
-      "신규가입불가",
-      "AIStudio이전"
-    ],
-    "confidence": "high",
-    "status": "ended",
-    "lastVerified": "2026-10-19",
-    "sources": [
-      {
-        "title": "Firebase Studio sunset and project migration",
-        "url": "https://firebase.google.com/docs/studio/migrating-project",
-        "type": "official",
-        "date": "2026"
-      },
-      {
-        "title": "/firebase-studio-shutdown (agentdeals issue #2163)",
-        "url": "https://github.com/robhunter/agentdeals/issues/2163",
-        "type": "community",
-        "date": "2026"
-      }
-    ],
-    "access": "official",
-    "added": "2026-09-29",
-    "updated": "2026-09-29",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "na",
-      "login": true,
-      "commercial": null
-    }
-  },
-  {
-    "id": "gemini-cli-code",
-    "category": "code",
-    "platform": "Gemini CLI",
-    "vendor": "Google",
-    "url": "https://geminicli.com",
-    "logo": "gemini-cli",
-    "logoDomain": "geminicli.com",
-    "models": [
-      "Gemini (Code Assist 무료)"
-    ],
-    "headline": "하루 1,000회 무료 요청 → 2026년 6월 18일 개인 무료 종료, Antigravity CLI로 대체",
-    "description": "Google 계정 로그인만으로 하루 1,000회 요청을 무료로 쓸 수 있어 가장 인기 있던 무료 터미널 코딩 에이전트였습니다. 2026년 6월 18일부터 무료 개인 계정과 Google AI Pro·Ultra 계정의 요청 처리가 중단되었고, Google은 Antigravity CLI로 이전을 안내하고 있습니다. 오픈소스 도구 자체는 남아 있어 유료 API 키나 기업용 라이선스로는 계속 쓸 수 있습니다.",
-    "freeTier": {
-      "quota": "종료: 기존 무료 한도는 Google 계정 기준 하루 1,000회, 무료 API 키 기준 하루 250회였음",
-      "reset": "해당 없음 (2026-06-18 무료 제공 종료)",
-      "watermark": "해당 없음(코드 생성)",
-      "commercialUse": "해당 없음",
-      "signup": "Google 계정 (현재는 유료 Gemini API 키 또는 Code Assist Standard/Enterprise 필요)",
-      "korea": "해당 없음",
-      "notes": "Antigravity CLI는 설치 시 기존 Gemini CLI의 스킬·MCP 서버·GEMINI.md 설정을 자동으로 가져옴. AI Studio 무료 API 키로 우회하는 방법이 거론되나 무료 API의 Flash 모델 한도는 하루 약 20회 수준으로 보고됨"
-    },
-    "howTo": [
-      "무료로 계속 쓰려면 Antigravity CLI(agy)를 설치",
-      "Google 계정으로 로그인하면 기존 Gemini CLI 설정이 자동 이전됨",
-      "또는 유료 Gemini API 키를 발급받아 Gemini CLI에 연결"
-    ],
-    "tags": [
-      "무료종료",
-      "CLI",
-      "Antigravity이전"
-    ],
-    "confidence": "high",
-    "status": "ended",
-    "lastVerified": "2026-10-20",
-    "sources": [
-      {
-        "title": "An important update: Transitioning Gemini CLI to Antigravity CLI",
-        "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
-        "type": "official",
-        "date": "2026-05-19"
-      },
-      {
-        "title": "Gemini CLI: Quotas and pricing",
-        "url": "https://geminicli.com/docs/resources/quota-and-pricing/",
-        "type": "official"
-      },
-      {
-        "title": "안티그래비티 Cli는 출력 형식이 다르군요... Gemini Cli 종료 관련 (클리앙)",
-        "url": "https://www.clien.net/service/board/park/19195756",
-        "type": "community",
-        "date": "2026"
-      },
-      {
-        "title": "Google, Gemini CLI를 종료하고 Antigravity CLI로 전환 (PyTorchKR)",
-        "url": "https://discuss.pytorch.kr/t/google-gemini-cli-antigravity-cli/10304",
-        "type": "community",
-        "date": "2026-05"
-      }
-    ],
-    "access": "official",
-    "added": "2026-09-29",
-    "updated": "2026-09-29",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "na",
-      "login": true,
-      "commercial": null
-    }
-  },
-  {
     "id": "github-copilot-code",
     "category": "code",
     "platform": "GitHub Copilot Free",
@@ -773,7 +644,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-10-30",
     "sources": [
       {
         "title": "More room to explore: $20 paid tier sign-up bonus (Kiro Blog)",
@@ -949,71 +820,6 @@
       "watermark": "na",
       "login": true,
       "commercial": false
-    }
-  },
-  {
-    "id": "qwen-code-code",
-    "category": "code",
-    "platform": "Qwen Code",
-    "vendor": "Alibaba (Qwen)",
-    "url": "https://github.com/QwenLM/qwen-code",
-    "logo": "qwen",
-    "logoDomain": "qwen.ai",
-    "models": [
-      "Qwen3-Coder 계열"
-    ],
-    "headline": "하루 1,000회(→100회) 무료 Qwen OAuth → 2026년 4월 15일 무료 종료",
-    "description": "Qwen Code는 Gemini CLI를 기반으로 만든 Alibaba의 오픈소스 터미널 코딩 에이전트입니다. Qwen 계정 로그인(OAuth)만으로 하루 1,000회를 무료로 쓸 수 있어 인기를 끌었지만, 하루 100회로 축소된 뒤 2026년 4월 15일 무료 OAuth가 완전히 종료되었습니다. 현재는 Alibaba Cloud Coding Plan이나 OpenRouter 등 다른 API를 연결해야 합니다.",
-    "freeTier": {
-      "quota": "종료: 무료 Qwen OAuth(하루 1,000회 → 100회로 축소 후) 2026-04-15 중단",
-      "reset": "해당 없음",
-      "watermark": "해당 없음(코드 생성)",
-      "commercialUse": "해당 없음",
-      "signup": "현재는 API 키(Alibaba Cloud Coding Plan, OpenRouter, Fireworks 등) 필요",
-      "korea": "해당 없음",
-      "notes": "CLI 자체는 오픈소스로 계속 사용 가능. ModelScope가 하루 2,000회 무료 API 호출(모델당 500회)을 제공한다고 보고되지만 상업적 이용 불가·중국 계정 조건 등 제약이 있어 확인 필요"
-    },
-    "howTo": [
-      "npm으로 Qwen Code 설치",
-      "무료 OAuth 대신 OpenRouter 무료 모델 또는 유료 API 키를 설정",
-      "터미널에서 qwen 실행 후 작업 지시"
-    ],
-    "tags": [
-      "무료종료",
-      "CLI",
-      "오픈소스"
-    ],
-    "confidence": "high",
-    "status": "ended",
-    "lastVerified": "2026-09-30",
-    "sources": [
-      {
-        "title": "Authentication | Qwen Code Docs",
-        "url": "https://qwenlm.github.io/qwen-code-docs/en/users/configuration/auth/",
-        "type": "official",
-        "date": "2026"
-      },
-      {
-        "title": "Qwen OAuth Free Tier Policy Adjustment · Issue #3203",
-        "url": "https://github.com/QwenLM/qwen-code/issues/3203",
-        "type": "community",
-        "date": "2026"
-      },
-      {
-        "title": "Is Qwen Code Still Free in 2026? 3 Free Paths",
-        "url": "https://inventivehq.com/blog/qwen-code-still-free-2026-shutdown",
-        "type": "community",
-        "date": "2026"
-      }
-    ],
-    "access": "official",
-    "added": "2026-09-29",
-    "updated": "2026-09-29",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "na",
-      "login": true,
-      "commercial": null
     }
   },
   {
@@ -1335,7 +1141,7 @@
     "status": "active",
     "added": "2026-09-30",
     "updated": "2026-09-30",
-    "lastVerified": "2026-10-29",
+    "lastVerified": "2026-10-30",
     "sources": [
       {
         "title": "Subscription & Limited-Time Daily Active Bonus - CodeBuddy Docs",
@@ -1411,7 +1217,7 @@
     "status": "active",
     "added": "2026-09-30",
     "updated": "2026-10-15",
-    "lastVerified": "2026-10-29",
+    "lastVerified": "2026-10-30",
     "sources": [
       {
         "title": "Pricing - Qoder Docs (Free/Pro 비교, 체험 조건)",
@@ -1596,7 +1402,7 @@
     "status": "active",
     "added": "2026-10-15",
     "updated": "2026-10-15",
-    "lastVerified": "2026-10-25",
+    "lastVerified": "2026-10-30",
     "sources": [
       {
         "title": "OpenCode Zen 문서 (무료 모델 가격표·데이터 정책)",
