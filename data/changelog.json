@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-10-31",
+    "summary": "신규·한도 변경 없음 — 9개 항목 재확인 (미·중·한·일 커뮤니티 49회 점검, 공식 근거가 확인된 신규 무료 서비스 없음)",
+    "items": [
+      {
+        "type": "check",
+        "text": "9개 항목 재확인 (Leonardo 이미지·영상, Lovable, Magnific, Meshy, Marble, Media.io 이미지, Google Flow 영상, MiniMax Music 3 HF)"
+      }
+    ]
+  },
+  {
     "date": "2026-10-30",
     "summary": "신규 없음 — 종료 후 30일 지난 항목 17개 정리, 14개 항목 재확인, Kling 무료 한도 신뢰도 하향 (미·중·한·일 커뮤니티 점검, 공식 근거가 확인된 신규 무료 서비스 없음)",
     "items": [
