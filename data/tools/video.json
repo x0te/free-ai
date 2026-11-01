@@ -233,77 +233,6 @@
     }
   },
   {
-    "id": "gemini-video",
-    "category": "video",
-    "platform": "Gemini 앱",
-    "vendor": "Google",
-    "url": "https://gemini.google.com",
-    "logo": "gemini",
-    "logoDomain": "gemini.google.com",
-    "models": [
-      "Gemini Omni 1.1 Flash"
-    ],
-    "headline": "무료 계정 → 영상 생성 불가 (비구독자 Omni 영상 10개 프로모션은 8/4에서 8/11로 연장된 뒤 종료, Google AI Plus 이상 필요)",
-    "description": "Gemini 앱의 영상 생성은 Veo 3.1에서 Gemini Omni(1.1 Flash)로 바뀌었고 최대 10초 영상을 만든다. 하지만 공식 요금 비교표상 영상 생성은 Google AI Plus·Pro·Ultra 구독자 전용이며, 무료 사용자는 한시 프로모션 때만 쓸 수 있었다. 무료로 Google 영상 모델을 쓰려면 Flow·Vids·YouTube Shorts를 이용하는 편이 낫다.",
-    "freeTier": {
-      "quota": "0 (구독 필요). 과거 프로모션: 비구독 개인 계정에 Omni 영상 최대 10개 무료, 당초 2026-08-04까지였다가 2026-08-11 12시(PT)까지 연장 후 종료",
-      "reset": "해당 없음",
-      "watermark": "SynthID(비가시)",
-      "commercialUse": "해당 없음",
-      "signup": "Google 계정 + Google AI Plus(한국 월 7,500원) 이상 구독",
-      "korea": "가능 (유료 구독 시)",
-      "notes": "만 18세 이상. 공식 도움말 요금 비교표상 'Google AI 플랜 없음'은 동영상 생성 불가. 학생 인증 시 1년 무료 이용 안내가 있으나 국가·자격별로 다름. 이미지 생성(Nano Banana 2)은 무료 사용자도 가능."
-    },
-    "howTo": [
-      "gemini.google.com 또는 Gemini 앱 로그인",
-      "도구 → '동영상 만들기' 선택 (무료 계정은 업그레이드 안내가 뜸)",
-      "무료로 쓰려면 Google Flow(매일 50크레딧) 또는 Google Vids(월 6개) 이용"
-    ],
-    "tags": [
-      "구독필요",
-      "프로모션종료",
-      "SynthID"
-    ],
-    "confidence": "medium",
-    "status": "ended",
-    "lastVerified": "2026-10-21",
-    "sources": [
-      {
-        "title": "Google extends free Gemini Omni video generation offer - Android Authority",
-        "url": "https://www.androidauthority.com/free-gemini-omni-videos-3695658/",
-        "type": "news",
-        "date": "2026-08-07"
-      },
-      {
-        "title": "Gemini Apps limits & upgrades - Gemini Apps Help",
-        "url": "https://support.google.com/gemini/answer/16275805?hl=en",
-        "type": "official",
-        "date": "2026-09"
-      },
-      {
-        "title": "Gemini 동영상 생성 개요",
-        "url": "https://gemini.google/overview/video-generation/",
-        "type": "official",
-        "date": "2026-09"
-      },
-      {
-        "title": "Gemini Free Video Promo: 10 Omni Videos Until Aug 4, 2026 - explainx",
-        "url": "https://explainx.ai/blog/gemini-free-10-videos-omni-promo-august-2026",
-        "type": "news",
-        "date": "2026-07"
-      }
-    ],
-    "access": "official",
-    "added": "2026-09-29",
-    "updated": "2026-09-30",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "invisible",
-      "login": true,
-      "commercial": null
-    }
-  },
-  {
     "id": "google-flow-video",
     "category": "video",
     "platform": "Google Flow",
@@ -821,62 +750,6 @@
       "watermark": "visible",
       "login": true,
       "commercial": false
-    }
-  },
-  {
-    "id": "luma-video",
-    "category": "video",
-    "platform": "Luma Dream Machine",
-    "vendor": "Luma AI",
-    "url": "https://lumalabs.ai/dream-machine",
-    "logo": "luma",
-    "logoDomain": "lumalabs.ai",
-    "models": [
-      "Ray3.2"
-    ],
-    "headline": "무료 플랜 없음 — Dream Machine은 유료(Plus 월 $30~)만, 대신 Adobe Firefly 무료 생성에서 Luma Ray3.14 사용 가능",
-    "description": "Luma AI의 영상 생성 서비스 Dream Machine(Ray 모델). 현재 공식 요금표에는 Plus·Pro·Ultra 유료 플랜만 있고 상시 무료 플랜이 없다. Luma 모델을 무료로 써 보려면 Adobe Firefly의 일일 무료 생성을 이용하는 방법이 있다.",
-    "freeTier": {
-      "quota": "없음 (유료 플랜 전용)",
-      "reset": "해당 없음",
-      "watermark": "해당 없음",
-      "commercialUse": "해당 없음",
-      "signup": "해당 없음",
-      "korea": "가능 (유료)",
-      "notes": "요금제: Plus $30, Pro $90, Ultra $300(월). Luma Ray3.14는 Adobe Firefly 무료 일일 생성에 포함됨."
-    },
-    "howTo": [
-      "무료로는 Dream Machine 사용 불가 — firefly.adobe.com에서 Luma Ray3.14 선택해 무료 생성"
-    ],
-    "tags": [
-      "무료없음",
-      "유료전용"
-    ],
-    "confidence": "medium",
-    "status": "ended",
-    "lastVerified": "2026-09-30",
-    "sources": [
-      {
-        "title": "Luma AI Pricing",
-        "url": "https://lumalabs.ai/pricing",
-        "type": "official",
-        "date": "2026-09"
-      },
-      {
-        "title": "Luma Dream Machine Free Plan - CostBench",
-        "url": "https://costbench.com/software/ai-video-generators/luma-dream-machine/free-plan/",
-        "type": "news",
-        "date": "2026-08-18"
-      }
-    ],
-    "access": "official",
-    "added": "2026-09-29",
-    "updated": "2026-09-30",
-    "flags": {
-      "reset": "unknown",
-      "watermark": "none",
-      "login": true,
-      "commercial": null
     }
   },
   {
@@ -1683,7 +1556,7 @@
       "commercialUse": "불명 (상업 라이선스는 유료 플랜 항목으로 표기)",
       "signup": "이메일/Google 계정 가입",
       "korea": "가능 (지역 제한 안내 없음)",
-      "notes": "동시 작업 1개. 유료 전용: Seedance 2.0, Kling 3.0/2.6/2.5, Veo 3.1·Veo 3 (Veo 3.1 Fast는 4초 40크레딧이라 무료 30크레딧으로는 불가). 에이전트 방식으로 만들면 크레딧이 조금 더 들 수 있음."
+      "notes": "동시 작업 1개. 유료 전용: Seedance 2.0, Kling 3.0/2.6/2.5, Veo 3.1·Veo 3 (Veo 3.1 Fast는 4초 40크레딧이라 무료 30크레딧으로는 불가). 에이전트 방식으로 만들면 크레딧이 조금 더 들 수 있음. · 11/1 점검: 일부 외부 글에서 무료 크레딧이 공식 요금표에 더 이상 표기되지 않는다고 보고됨 — 가입 후 계정 잔액 확인 필요"
     },
     "howTo": [
       "lovart.ai 접속 후 가입",
@@ -1697,9 +1570,9 @@
       "Seedance",
       "Hailuo"
     ],
-    "confidence": "high",
+    "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-11-01",
     "sources": [
       {
         "title": "Lovart Pricing (무료 30/d, 모델별 크레딧 표)",
@@ -1709,7 +1582,7 @@
       }
     ],
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-11-01",
     "flags": {
       "reset": "daily",
       "watermark": "unknown",
