@@ -1041,11 +1041,11 @@
     "models": [
       "v0 모델"
     ],
-    "headline": "무료 → 매달 5달러 크레딧 + 하루 7메시지, Vercel로 바로 배포",
+    "headline": "무료 → 가입 시 1회 5달러 크레딧(보고됨, 10월 초 변경) + 하루 7메시지, Vercel로 바로 배포",
     "description": "Vercel이 만든 AI 앱·UI 빌더로 React/Next.js 기반 화면과 풀스택 앱을 프롬프트로 생성합니다. 디자인 모드로 화면을 직접 다듬고 GitHub 동기화, Vercel 원클릭 배포를 지원해 개발자 친화적입니다. 무료는 하루 메시지 수가 적어 짧은 UI 시안 제작에 맞습니다.",
     "freeTier": {
-      "quota": "월 5달러 상당 크레딧 + 하루 7메시지 제한",
-      "reset": "매월(크레딧) / 매일(메시지)",
+      "quota": "신규 가입 시 5달러 상당 크레딧 1회(기존 \"매월 5달러\"에서 10월 초 변경된 것으로 가격 추적 사이트가 보고, 공식 확인 필요) + 하루 7메시지 제한",
+      "reset": "가입 시 1회(크레딧, 보고됨) / 매일(메시지)",
       "watermark": "해당 없음(코드 생성)",
       "commercialUse": "불명 (명시적 금지 없음)",
       "signup": "Vercel 계정 (이메일, GitHub 등)",
@@ -1060,13 +1060,13 @@
     "tags": [
       "앱빌더",
       "UI생성",
-      "매월충전",
+      "가입보너스",
       "Vercel배포",
       "로그인필요"
     ],
-    "confidence": "high",
+    "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-11-06",
     "sources": [
       {
         "title": "v0 Pricing",
@@ -1078,13 +1078,19 @@
         "url": "https://v0.app/docs/pricing",
         "type": "official",
         "date": "2026-09-28"
+      },
+      {
+        "title": "UsagePricing — v0 Free 크레딧 1회성 변경 기록",
+        "url": "https://www.usagepricing.com/blueprint/activity/v0-2026-10-05-free-credits-one-time",
+        "type": "news",
+        "date": "2026-10-05"
       }
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-11-06",
     "flags": {
-      "reset": "monthly",
+      "reset": "once",
       "watermark": "na",
       "login": true,
       "commercial": false
