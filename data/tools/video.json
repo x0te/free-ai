@@ -37,7 +37,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-11-07",
     "sources": [
       {
         "title": "Adobe Firefly 요금제 (Not ready to buy a plan? … free daily generations … Nano Banana and Luma Ray3.14)",
@@ -1065,7 +1065,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-11-07",
     "sources": [
       {
         "title": "Introducing Gemini Omni - Google Blog",
@@ -1896,7 +1896,7 @@
       "commercialUse": "불명 (브루 이용약관 확인 필요)",
       "signup": "브루 계정 (이메일·Google 등)",
       "korea": "가능 (국내 서비스, 한국어)",
-      "notes": "요금표상 'AI 이미지·비디오 다운로드'와 'Vrew 워터마크 삭제'는 Light 플랜 이상 기능 → 무료는 만든 AI 비디오를 브루 프로젝트 안에서 편집해 워터마크가 붙은 영상으로 내보내는 방식. 기반 모델명은 비공개. 이미지로부터 'AI로 비디오 생성', 한 번에 최대 5개. PC 앱/웹 모두 제공."
+      "notes": "요금표상 'AI 이미지·비디오 다운로드'와 'Vrew 워터마크 삭제'는 Light 플랜 이상 기능 → 무료는 만든 AI 비디오를 브루 프로젝트 안에서 편집해 워터마크가 붙은 영상으로 내보내는 방식. 기반 모델명은 비공개. 이미지로부터 'AI로 비디오 생성', 한 번에 최대 5개. PC 앱/웹 모두 제공. 공지: 2026-12-01부터 요금제·환불 정책이 개편될 예정(세부 내용 미확인) — 무료 한도가 바뀔 수 있음."
     },
     "howTo": [
       "vrew.ai에서 PC 앱 설치 또는 웹 체험하기 → 로그인",
@@ -1912,7 +1912,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-11-07",
     "sources": [
       {
         "title": "Vrew 가격 정책 (Free ₩0 · 200 크레딧/월 · AI 비디오 최대 20개)",
@@ -1928,7 +1928,7 @@
       }
     ],
     "added": "2026-09-29",
-    "updated": "2026-09-30",
+    "updated": "2026-11-07",
     "flags": {
       "reset": "monthly",
       "watermark": "visible",
@@ -1979,7 +1979,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-11-07",
     "sources": [
       {
         "title": "WaveSpeedAI Pricing (No credit card required • Eligible new accounts get $1 in free credits)",
