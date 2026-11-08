@@ -836,7 +836,7 @@
     "models": [
       "Kling Image 3.0"
     ],
-    "headline": "Kling Image 3.0 → Kling AI 무료 계정 매일 66크레딧 (영상과 공유)",
+    "headline": "Kling Image 3.0 → 무료 계정 일일 크레딧 지급 여부 보도 상충 (기존 안내: 영상과 공유 66크레딧/일)",
     "description": "중국 콰이쇼우의 영상·이미지 생성 플랫폼. 영상 모델로 유명하지만 Kling Image 3.0으로 영화 같은 사실적 이미지, 레퍼런스 기반 인물 일관성, 스토리보드 생성도 지원한다. 만든 이미지를 곧바로 영상으로 이어서 만들 수 있다.",
     "freeTier": {
       "quota": "매일 66크레딧 (영상·이미지 공용, 누적 안 됨). 이미지는 영상보다 크레딧을 훨씬 적게 쓴다 (정확한 이미지 단가는 미확인)",
@@ -845,7 +845,7 @@
       "commercialUse": "불가 (무료 플랜은 개인 용도만)",
       "signup": "이메일, Google 등",
       "korea": "가능 (글로벌판)",
-      "notes": "무료 계정은 대기열이 느리고 출력 제한이 있다(영상 720p, 5초 등). 상업용으로 쓰려면 Standard(월 약 10달러) 이상이 필요하다."
+      "notes": "※ 2026-11 기준 일부 최신 보도(Kling 요금 안내 8/3, 11/4)는 무료(Basic) 계정에 매일 크레딧이 없고 구독자만 매일 지급·무료는 월 체험 크레딧(수량 비공개)이라고 해 보고가 상충한다. 가입 후 크레딧 화면에서 실제 지급량 확인 필요. 무료 계정은 대기열이 느리고 출력 제한이 있다(영상 720p, 5초 등). 상업용으로 쓰려면 Standard(월 약 10달러) 이상이 필요하다."
     },
     "howTo": [
       "kling.ai(구 klingai.com/global)에 가입",
@@ -860,9 +860,15 @@
       "영상연계"
     ],
     "confidence": "low",
-    "status": "active",
-    "lastVerified": "2026-10-30",
+    "status": "limited",
+    "lastVerified": "2026-11-08",
     "sources": [
+      {
+        "title": "Kling AI 무료 플랜 보도 상충 (Basic 일일 크레딧 없음 vs 66/일)",
+        "url": "https://www.aiarty.com/ai-video-generator/kling-ai-pricing.htm",
+        "type": "news",
+        "date": "2026-11"
+      },
       {
         "title": "Kling AI: Membership Plans, Benefits & Account Options",
         "url": "https://kling.ai/app/membership/membership-plan",
@@ -890,7 +896,7 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-10-30",
+    "updated": "2026-11-08",
     "flags": {
       "reset": "daily",
       "watermark": "visible",
@@ -2247,7 +2253,7 @@
     ],
     "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-11-07",
+    "lastVerified": "2026-11-08",
     "promo": {
       "text": "ToMoviee Lite 모델 선택 시 이미지 생성 무제한 무료 (페이지에 '기간 한정' 표기, 2026-08 말 게시)",
       "until": "불명"
@@ -2768,7 +2774,7 @@
     "status": "active",
     "added": "2026-09-30",
     "updated": "2026-09-30",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-11-08",
     "sources": [
       {
         "title": "AI Horde — Free · Community run · Open source",
