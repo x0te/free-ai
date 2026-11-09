@@ -37,7 +37,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-11-09",
     "sources": [
       {
         "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
@@ -123,7 +123,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-11-08",
+    "lastVerified": "2026-11-09",
     "promo": {
       "text": "만 19~34세 · ChatGPT 유료 플랜 첫 이용(또는 유료 종료 후 90일 경과) 대상 ChatGPT Plus 2개월 무료 — 결제수단 등록 불필요, 자동결제 없음, 1인 1회, 모바일로 참여",
       "until": "혜택 소진 시까지 (조기 종료 가능)"
@@ -2337,7 +2337,7 @@
     "status": "active",
     "added": "2026-10-15",
     "updated": "2026-10-15",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-11-09",
     "sources": [
       {
         "title": "Rate Limits - Cohere Docs (Trial keys limited to 1,000 API calls a month)",

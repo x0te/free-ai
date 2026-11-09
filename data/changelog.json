@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-09",
+    "summary": "Qoder Qwen3.8-Flash 0크레딧 무료 이벤트 11/7 종료 반영, OpenCode 무료 모델 목록 불일치 주의 표기 — 신규 없음, 14개 항목 재확인 (미·중·한·일 커뮤니티 및 항목 검색 점검; 공식 페이지 직접 접속 불가, 검색 스니펫으로 확인)",
+    "items": [
+      {
+        "type": "promo",
+        "id": "qoder-code",
+        "text": "Qoder — Qwen3.8-Flash 크레딧 0 이벤트가 11/7(SGT 00:00)에 종료. 매일 100크레딧은 지속 여부 확인 필요로 조정"
+      },
+      {
+        "type": "update",
+        "id": "opencode-code",
+        "text": "OpenCode — 공식 Zen 문서와 무료 모델 목록이 일부 달라 신뢰도 low로 조정"
+      },
+      {
+        "type": "check",
+        "text": "14개 항목 재확인 (Moescape·Cartesia·ChatGPT·Cohere·Coverr·Creatify·DeeVid·EaseMate·CodeBuddy·카카오 ChatGPT·Media.io + Qoder·OpenCode) — Craiyon·Canva(이미지/3D)는 보도 상충, Musicful·위안바오 이미지·VocalRemover·Dream Track은 근거 부족으로 미갱신"
+      }
+    ]
+  },
+  {
     "date": "2026-11-08",
     "summary": "Kling 무료 계정 일일 66크레딧 지급이 없어졌다는 최신 보도가 나와 안내를 '확인 필요'로 조정 — 신규·종료 없음, 12개 항목 재확인 (미·중·한·일 커뮤니티 35회 점검; 공식 페이지 직접 접속 불가, 검색 스니펫으로 확인)",
     "items": [
