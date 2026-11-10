@@ -2303,7 +2303,7 @@
     "status": "active",
     "added": "2026-10-15",
     "updated": "2026-10-15",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-11-10",
     "sources": [
       {
         "title": "LTX Studio Pricing (Free: $0, 800 credits one time, personal use license)",
@@ -2774,20 +2774,20 @@
       "Kling",
       "Wan"
     ],
-    "headline": "Genra 무료: 가입 시 1회 40크레딧(카드 불필요) → Veo·Kling·Wan 등 영상 체험, 영상당 소모량 비공개라 개수 불명",
+    "headline": "Genra 무료: 가입 시 40크레딧(카드 불필요) + 매일 로그인 10크레딧 → Veo·Kling·Wan 등 영상 체험, 영상당 소모량 비공개라 개수 불명",
     "description": "Genra는 Veo, Kling, Wan 등 여러 영상 모델을 한 편집기에서 쓰게 해주는 wrapper 사이트입니다. 공식 가격 페이지가 \"지금 가입하고 무료 크레딧 받기\" 한정 프로모션으로 가입 시 40크레딧을 안내하며, 신용카드는 필요 없다고 적습니다. 한 번 받는 크레딧이며 영상 1개당 소모량은 확인하지 못했습니다.",
     "freeTier": {
-      "quota": "가입 시 40크레딧 (한정 프로모션 표기)",
-      "reset": "가입 시 1회",
-      "watermark": "불명",
+      "quota": "가입 시 40크레딧 1회 + 매일 로그인 보너스 10크레딧 (공식 FAQ 스니펫, 한정 프로모션 표기)",
+      "reset": "가입 시 1회 + 매일 로그인 보너스",
+      "watermark": "없음 (공식 FAQ: 모든 내보내기 워터마크 없음 — 검색 스니펫 기준)",
       "commercialUse": "불명",
       "signup": "Google 계정 등 (신용카드 불필요)",
       "korea": "불명 (한국어 페이지 있음)",
-      "notes": "크레딧 액수·모델별 소모량·워터마크는 검색 스니펫 기준이며 공식 페이지 직접 열람은 못 함. 프로모션 문구라 예고 없이 바뀔 수 있음."
+      "notes": "크레딧 액수·모델별 소모량은 검색 스니펫 기준이며 공식 페이지 직접 열람은 못 함(11/10 FAQ 스니펫으로 일일 로그인 10크레딧 확인). 프로모션 문구라 예고 없이 바뀔 수 있음."
     },
     "flags": {
-      "reset": "once",
-      "watermark": "unknown",
+      "reset": "daily",
+      "watermark": "none",
       "login": true,
       "commercial": null
     },
@@ -2804,8 +2804,8 @@
     "confidence": "low",
     "status": "active",
     "added": "2026-10-15",
-    "updated": "2026-10-15",
-    "lastVerified": "2026-10-15",
+    "updated": "2026-11-10",
+    "lastVerified": "2026-11-10",
     "sources": [
       {
         "title": "Genra 가격/가입 크레딧 안내 (한국어)",

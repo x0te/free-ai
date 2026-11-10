@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-10",
+    "summary": "Genra 매일 로그인 10크레딧·워터마크 없음 반영, OpenCode 무료 모델 GLM-5.3-Flash 추가 표기 — 신규·종료 없음, 9개 항목 재확인 (미·중·한·일 커뮤니티 검색 점검; 공식 페이지 직접 접속 불가, 검색 스니펫으로 확인)",
+    "items": [
+      {
+        "type": "update",
+        "id": "genra-video",
+        "text": "Genra — 가입 시 40크레딧 외에 매일 로그인 10크레딧, 내보내기 워터마크 없음으로 보고됨"
+      },
+      {
+        "type": "update",
+        "id": "opencode-code",
+        "text": "OpenCode — GLM-5.3-Flash 기간 한정 무료(10/16~) 보도 추가, 목록 불일치 주의 유지"
+      },
+      {
+        "type": "check",
+        "text": "9개 항목 재확인 (LTX Studio 영상·이미지·Inception·Emergent·Kilo Code·Loudly·Media.io + Genra·OpenCode) — Canva·Craiyon·Freebuff·Qoder·CodeBuddy·Musicful·위안바오·VocalRemover·Dream Track·카카오 ChatGPT는 근거 부족/상충으로 미갱신"
+      }
+    ]
+  },
+  {
     "date": "2026-11-09",
     "summary": "Qoder Qwen3.8-Flash 0크레딧 무료 이벤트 11/7 종료 반영, OpenCode 무료 모델 목록 불일치 주의 표기 — 신규 없음, 14개 항목 재확인 (미·중·한·일 커뮤니티 및 항목 검색 점검; 공식 페이지 직접 접속 불가, 검색 스니펫으로 확인)",
     "items": [

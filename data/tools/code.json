@@ -1385,7 +1385,7 @@
       "commercialUse": "불명 (OpenCode 자체는 MIT 라이선스, 모델별 약관 따름)",
       "signup": "로그인 불필요 (API 키가 없으면 무료 모델만 활성화). 유료 모델은 OpenCode Zen 계정 + 결제",
       "korea": "가능 (Cat Jam Free 등 일부 모델은 일부 국가·지역에서 사용 불가)",
-      "notes": "무료 모델 대부분은 종료일 미공지 '기간 한정'. Big Pickle·Exo Free·MiMo 무료 모델은 무료 기간 동안 데이터가 모델 개선에 쓰일 수 있고, Nemotron 무료 모델은 체험용으로 사용 기록이 남음(개인·기밀 정보 입력 금지). DeepSeek V4.1 Flash Free·LongCat 2.5 Preview Free·Step 5 Preview Free 등은 보존 0일·학습 미사용으로 표시. 무료 모델이 혼잡 시 오류를 낸 사례 보고. [11/9 재확인] 검색 스니펫상 공식 Zen 문서에는 LongCat-2.0 Free·DeepSeek V4 Flash Free 등이 무료로 표기되고 Step 5 Preview는 유료 가격으로 보여, 위 모델 목록과 일부 불일치할 수 있음(DeepSeek V4.1 Flash Free는 제3자 보도만 확인). 실제 무료 모델은 /models에서 확인."
+      "notes": "무료 모델 대부분은 종료일 미공지 '기간 한정'. Big Pickle·Exo Free·MiMo 무료 모델은 무료 기간 동안 데이터가 모델 개선에 쓰일 수 있고, Nemotron 무료 모델은 체험용으로 사용 기록이 남음(개인·기밀 정보 입력 금지). DeepSeek V4.1 Flash Free·LongCat 2.5 Preview Free·Step 5 Preview Free 등은 보존 0일·학습 미사용으로 표시. 무료 모델이 혼잡 시 오류를 낸 사례 보고. [11/9 재확인] 검색 스니펫상 공식 Zen 문서에는 LongCat-2.0 Free·DeepSeek V4 Flash Free 등이 무료로 표기되고 Step 5 Preview는 유료 가격으로 보여, 위 모델 목록과 일부 불일치할 수 있음(DeepSeek V4.1 Flash Free는 제3자 보도만 확인). 실제 무료 모델은 /models에서 확인. [11/10] 제3자 보도: GLM-5.3-Flash(opencode/glm-5.3-flash-free)가 10/16부터 기간 한정 무료."
     },
     "flags": {
       "reset": "unknown",
@@ -1413,8 +1413,8 @@
     "confidence": "low",
     "status": "active",
     "added": "2026-10-15",
-    "updated": "2026-11-09",
-    "lastVerified": "2026-11-09",
+    "updated": "2026-11-10",
+    "lastVerified": "2026-11-10",
     "sources": [
       {
         "title": "OpenCode Zen 문서 (무료 모델 가격표·데이터 정책)",
@@ -1490,7 +1490,7 @@
     "status": "active",
     "added": "2026-10-15",
     "updated": "2026-10-15",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-11-10",
     "sources": [
       {
         "title": "Using Kilo for Free - Kilo Docs",
@@ -1637,7 +1637,7 @@
     "status": "limited",
     "added": "2026-10-15",
     "updated": "2026-10-15",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-11-10",
     "sources": [
       {
         "title": "Emergent Pricing (Free: 10 free monthly credits)",
