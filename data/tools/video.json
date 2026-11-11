@@ -2720,7 +2720,7 @@
       "commercialUse": "불가로 보임 (공식 요금표가 상업 이용 권리를 유료 플랜 혜택으로 안내)",
       "signup": "계정 가입 (일부 도구는 가입 없이 사용 가능 — 공식 'No signup required')",
       "korea": "불명 (요금제 페이지는 원화로 표시)",
-      "notes": "크레딧은 이월되며 소멸 기한 없음. 유료 Creator는 연 144,000크레딧(연 결제 시 월 ₩17,104)부터. MCP로 AI 에이전트와 연결 가능."
+      "notes": "크레딧은 이월되며 소멸 기한 없음. 유료 Creator는 연 144,000크레딧(연 결제 시 월 ₩17,104)부터. MCP로 AI 에이전트와 연결 가능. 공식 도움말 스니펫(2026-11 확인): 무료 계정은 Create 페이지에서 하루 1회 100크레딧 수령, 총 7회까지로 안내(해석 불명확, 제3자는 상시 지급으로 보도). 가입 시 400크레딧 보고."
     },
     "flags": {
       "reset": "daily",
@@ -2743,8 +2743,8 @@
     "confidence": "low",
     "status": "limited",
     "added": "2026-10-15",
-    "updated": "2026-10-15",
-    "lastVerified": "2026-10-15",
+    "updated": "2026-11-11",
+    "lastVerified": "2026-11-11",
     "sources": [
       {
         "title": "Magic Hour Changelog — Create Free AI UGC Ads with LTX 2.3 (Free users can generate one UGC ad per day)",
@@ -2757,6 +2757,12 @@
         "url": "https://magichour.ai/pricing",
         "type": "official",
         "date": "2026-10"
+      },
+      {
+        "title": "Magic Hour Help — Understanding credits / daily limits",
+        "url": "https://help.magichour.ai/en/articles/12612555-understanding-credits",
+        "type": "official",
+        "date": "2026-11"
       }
     ]
   },

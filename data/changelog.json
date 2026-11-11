@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-11-11",
+    "summary": "신규·종료 없음 — Magic Hour 일일 크레딧 수령 방식(공식 도움말) 보충, 10개 항목 재확인 (미·중·한·일 커뮤니티 34회 검색; 공식 페이지 직접 접속 불가, 검색 스니펫으로 확인)",
+    "items": [
+      {
+        "type": "update",
+        "id": "magic-hour-video",
+        "text": "Magic Hour — 공식 도움말 기준 일일 100크레딧 수령(총 7회로 안내, 해석 불명확)·가입 400크레딧 보고 추가"
+      },
+      {
+        "type": "check",
+        "text": "10개 항목 재확인 (Canva 이미지·3D, Manus, Neural4D, MakerWorld, Proton Lumo, Magic Hour, CodeBuddy, Media.io, 카카오 ChatGPT) — Qoder·OpenCode·Freebuff·MyEdit·Craiyon·MiniMax Code·Musicful·위안바오·VocalRemover·Dream Track은 근거 상충/부족으로 미갱신"
+      }
+    ]
+  },
+  {
     "date": "2026-11-10",
     "summary": "Genra 매일 로그인 10크레딧·워터마크 없음 반영, OpenCode 무료 모델 GLM-5.3-Flash 추가 표기 — 신규·종료 없음, 9개 항목 재확인 (미·중·한·일 커뮤니티 검색 점검; 공식 페이지 직접 접속 불가, 검색 스니펫으로 확인)",
     "items": [
