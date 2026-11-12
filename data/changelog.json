@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-11-12",
+    "summary": "Google Vids 무료 AI 영상이 Omni 1.2 Flash·월 3개(15초)로 변경 보도 반영 — 신규·종료 없음, 11개 항목 재확인 (미·중·한·일 커뮤니티 검색 40여 회; 공식 페이지 직접 접속 불가, 검색 스니펫으로 확인)",
+    "items": [
+      {
+        "type": "update",
+        "id": "google-vids-video",
+        "text": "Google Vids — 11/5부터 Gemini Omni 1.2 Flash, 무료 계정 월 3개·15초 영상으로 보고됨 (기존 월 6클립 안내와 상충, 신뢰도 medium)"
+      },
+      {
+        "type": "check",
+        "text": "11개 항목 재확인 (음독상, PicLumen, Craiyon, Reve, Noiz, Pippit, Ollama, MiniMax Code, 카카오 ChatGPT, Media.io, OpenCode) — Musicful·위안바오·VocalRemover·Dream Track·Freebuff·MyEdit·Perso·Qoder·CodeBuddy는 근거 상충/부족으로 미갱신"
+      }
+    ]
+  },
+  {
     "date": "2026-11-11",
     "summary": "신규·종료 없음 — Magic Hour 일일 크레딧 수령 방식(공식 도움말) 보충, 10개 항목 재확인 (미·중·한·일 커뮤니티 34회 검색; 공식 페이지 직접 접속 불가, 검색 스니펫으로 확인)",
     "items": [

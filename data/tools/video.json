@@ -324,18 +324,18 @@
     "logo": "google-vids",
     "logoDomain": "workspace.google.com",
     "models": [
-      "Gemini Omni 1.1 Flash"
+      "Gemini Omni 1.2 Flash"
     ],
-    "headline": "개인 Google 계정 → Gemini Omni 1.1 Flash로 1080p AI 영상 클립 월 6개 (AI 아바타 생성과 합산)",
-    "description": "Google의 브라우저 기반 영상 편집기. 2026년 9월 23일부터 일반 개인 Google 계정도 Gemini Omni 1.1 Flash로 AI 영상 클립을 무료로 만들 수 있게 됐다. 클립 길이 지정, 장면 연장, 저해상도 AI 클립 1080p 업스케일 등 편집 도구와 바로 연결되는 것이 장점이다.",
+    "headline": "Google 계정 → Gemini Omni 1.2 Flash로 최대 15초 AI 영상 월 3개 (11/5 개편, 보고됨)",
+    "description": "Google의 브라우저 기반 영상 편집기. 2026년 11월 5일 Gemini Omni 1.2 Flash가 적용되면서 Google 계정만 있으면 최대 15초 AI 영상을 월 3개까지 무료로 만들 수 있다고 보도됐다(9월의 Omni 1.1 Flash 월 6클립 안내에서 변경). 클립 길이 지정, 장면 연장 등 편집 도구와 바로 연결되는 것이 장점이다.",
     "freeTier": {
-      "quota": "월 6회 (AI 영상 클립 생성 + AI 아바타 생성 합산)",
+      "quota": "월 3개, 영상당 최대 15초 (11/5 Omni 1.2 Flash 개편 기준 보도. 이전 안내는 월 6회(클립+아바타 합산), 도움말에는 월 60초로 적힌 곳도 있어 수치 상충)",
       "reset": "매월 (매월 1일 0시 PT, 미사용분 이월 없음)",
       "watermark": "SynthID(비가시) 포함",
       "commercialUse": "명시 없음 (Google 약관 적용)",
       "signup": "Google 계정 (개인 계정 가능)",
       "korea": "가능 (Workspace 제공 국가 전체 대상, AI 아바타 한국어 지원)",
-      "notes": "데스크톱 웹에서만 생성 가능(모바일은 보기만). 1080p로 안내되나 일부 테스터는 720p 결과 보고. 개인 계정은 AI 영상 편집 일부 제한, 아바타는 프리셋만 사용. 생성 약 30초."
+      "notes": "데스크톱 웹에서만 생성 가능(모바일은 보기만). 한도 수치는 2차 보도 기준이라 Google Vids 도움말에서 직접 확인 필요(공식 페이지는 이 환경에서 열람 불가). 생성 약 30초."
     },
     "howTo": [
       "PC 브라우저에서 vids.new 접속 후 개인 Google 계정으로 로그인",
@@ -350,10 +350,22 @@
       "신규",
       "데스크톱전용"
     ],
-    "confidence": "high",
+    "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-10-22",
+    "lastVerified": "2026-11-12",
     "sources": [
+      {
+        "title": "Omni 1.2 Flash in Google Vids - Google Blog",
+        "url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/",
+        "type": "official",
+        "date": "2026-11-05"
+      },
+      {
+        "title": "Google Vids is rolling out three free 15-second AI videos a month - Mixed",
+        "url": "https://mixed-news.com/en/google-vids-omni-1-2-flash-free-15-second-videos/",
+        "type": "news",
+        "date": "2026-11"
+      },
       {
         "title": "Anyone can make stunning HD videos with Gemini Omni in Google Vids",
         "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-in-google-vids/",
@@ -375,7 +387,7 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-11-12",
     "flags": {
       "reset": "monthly",
       "watermark": "invisible",
@@ -2618,7 +2630,7 @@
     "status": "limited",
     "added": "2026-10-15",
     "updated": "2026-10-15",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-11-12",
     "sources": [
       {
         "title": "Pippit Pricing (Free: KRW 0, No credit card required, Get free daily credits)",
