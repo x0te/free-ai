@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-11-13",
+    "summary": "신규·종료 없음 — 15개 항목 재확인(5개 이벤트 포함 지속 확인), 미·중·한·일 커뮤니티 검색 36회; 공식 페이지 직접 접속 불가(네트워크 차단), 검색 스니펫으로 확인",
+    "items": [
+      {
+        "type": "check",
+        "text": "15개 항목 재확인 (Stable Audio, Soundful, Suno, Runway 이미지·영상, Soundverse, Tensor.Art, OpenCode, CodeBuddy, Rovo Dev, 카카오 ChatGPT, Media.io, Qoder, VocalRemover, 위안바오) — Musicful·Dream Track·Freebuff·MyEdit·Perso는 근거 상충/부족으로 미갱신"
+      }
+    ]
+  },
+  {
     "date": "2026-11-12",
     "summary": "Google Vids 무료 AI 영상이 Omni 1.2 Flash·월 3개(15초)로 변경 보도 반영 — 신규·종료 없음, 11개 항목 재확인 (미·중·한·일 커뮤니티 검색 40여 회; 공식 페이지 직접 접속 불가, 검색 스니펫으로 확인)",
     "items": [
