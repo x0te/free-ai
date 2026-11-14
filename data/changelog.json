@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-11-14",
+    "summary": "Agnes AI 무료 멀티모달 API(텍스트·이미지·영상) 신규 3건, Qoder 'Qoduck' 무료 이벤트 반영 — 미·중·한·일 커뮤니티 검색 40여 회, 공식 페이지 직접 접속 불가로 검색 스니펫 기준",
+    "items": [
+      {
+        "type": "new",
+        "id": "agnes-chat",
+        "text": "Agnes AI 텍스트 — Agnes-2.0-Flash 무료 API (보도 기준, 신뢰도 낮음)"
+      },
+      {
+        "type": "new",
+        "id": "agnes-image",
+        "text": "Agnes AI 이미지 — Agnes-Image Flash 무료 API"
+      },
+      {
+        "type": "new",
+        "id": "agnes-video",
+        "text": "Agnes AI 영상 — Agnes-Video-2.0 무료 API (분당 약 2회)"
+      },
+      {
+        "type": "promo",
+        "id": "qoder-code",
+        "text": "Qoder — 11/7부터 무료 계정에도 스텔스 모델 Qoduck 일일 무료 사용량(수량·종료일 미공개)"
+      },
+      {
+        "type": "update",
+        "id": "vmake-video",
+        "text": "Vmake — 무료 내보내기 해상도 표기가 출처마다 엇갈림(720p vs 1080p) 주석 추가"
+      },
+      {
+        "type": "check",
+        "text": "10개 항목 재확인 (ttsMP3, VOICEVOX, Vozo, Venice, Tunee, Media.io, OpenCode, CodeBuddy, Suno, Vmake) — Musicful·Dream Track·MyEdit·Perso·ZCode·Zoo·카카오 ChatGPT·Freebuff·Claude는 근거 부족/상충으로 미갱신"
+      }
+    ]
+  },
+  {
     "date": "2026-11-13",
     "summary": "신규·종료 없음 — 15개 항목 재확인(5개 이벤트 포함 지속 확인), 미·중·한·일 커뮤니티 검색 36회; 공식 페이지 직접 접속 불가(네트워크 차단), 검색 스니펫으로 확인",
     "items": [

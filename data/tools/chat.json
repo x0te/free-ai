@@ -2352,5 +2352,64 @@
         "date": "2026-10"
       }
     ]
+  },
+  {
+    "id": "agnes-chat",
+    "category": "chat",
+    "platform": "Agnes AI API",
+    "vendor": "Agnes AI",
+    "access": "official",
+    "url": "https://platform.agnes-ai.com",
+    "logo": "agnes",
+    "logoDomain": "agnes-ai.com",
+    "models": [
+      "Agnes-2.0-Flash"
+    ],
+    "headline": "Agnes AI 무료 API: 텍스트 모델 Agnes-2.0-Flash(1M 컨텍스트)를 카드 없이 무제한 호출 (보도 기준)",
+    "description": "Agnes AI가 6월부터 OpenAI 호환 API로 텍스트·이미지·영상 모델을 무료 개방한 서비스입니다. 텍스트 모델은 컨텍스트 창 1M을 내세웁니다. 코딩 에이전트·자동화 스크립트에 붙여 쓰는 용도입니다.",
+    "freeTier": {
+      "quota": "Agnes-2.0-Flash 텍스트 API 무료, 호출량 상한 미공개 (분당 약 20~30요청이라는 보도, 출처마다 다름)",
+      "reset": "무제한 (기간 한정 여부 미공개, 속도 제한만 있음)",
+      "watermark": "불명",
+      "commercialUse": "불명 (약관 확인 필요)",
+      "signup": "이메일 등으로 가입 후 API 키 발급, 카드 불필요(보도 기준)",
+      "korea": "불명 (접속 제한 보도 없음)",
+      "notes": "2026-06-01 발표로 텍스트·이미지·영상 API를 '무기한 무료' 개방했다는 보도 기반이며, 공식 약관·콘솔은 직접 열람하지 못함(WebFetch 차단). 출처마다 엔드포인트·모델명·요청 한도(분당 20~30회)가 엇갈려 확인 필요. 프로모션 기간 중 무료이며 이후 유료화될 수 있다는 지적도 있음. 개발자용 API라 일반 채팅 UI는 없음."
+    },
+    "flags": {
+      "reset": "unlimited",
+      "watermark": "unknown",
+      "login": true,
+      "commercial": null
+    },
+    "howTo": [
+      "platform.agnes-ai.com 가입 후 API 키 발급",
+      "OpenAI 호환 엔드포인트(base URL은 콘솔 표시값 확인)에 키를 넣어 호출 — Cline·Trae 등 클라이언트에 연결 가능"
+    ],
+    "tags": [
+      "API",
+      "무제한",
+      "카드불필요",
+      "로그인필요"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "added": "2026-11-14",
+    "updated": "2026-11-14",
+    "lastVerified": "2026-11-14",
+    "sources": [
+      {
+        "title": "Show HN: Agnes AI – Free multimodal API (text, image, video), OpenAI-compatible",
+        "url": "https://hn.svelte.dev/item/48657403",
+        "type": "community",
+        "date": "2026-06"
+      },
+      {
+        "title": "不限时免费,全球榜单前十AI Lab开放全模态API (36Kr)",
+        "url": "https://www.36kr.com/p/3834038018287488",
+        "type": "news",
+        "date": "2026-06"
+      }
+    ]
   }
 ]
