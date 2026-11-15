@@ -123,7 +123,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-11-13",
+    "lastVerified": "2026-11-15",
     "promo": {
       "text": "만 19~34세 · ChatGPT 유료 플랜 첫 이용(또는 유료 종료 후 90일 경과) 대상 ChatGPT Plus 2개월 무료 — 결제수단 등록 불필요, 자동결제 없음, 1인 1회, 모바일로 참여",
       "until": "혜택 소진 시까지 (조기 종료 가능)"
@@ -195,7 +195,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-10-16",
+    "lastVerified": "2026-11-15",
     "sources": [
       {
         "title": "Introducing Claude Sonnet 5 - Anthropic",
@@ -2409,6 +2409,72 @@
         "url": "https://www.36kr.com/p/3834038018287488",
         "type": "news",
         "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "lg-exaone-chat",
+    "category": "chat",
+    "platform": "LG EXAONE API",
+    "vendor": "LG AI Research",
+    "access": "official",
+    "url": "https://docs.exaone.ai",
+    "logo": "lg-exaone",
+    "logoDomain": "exaone.ai",
+    "models": [
+      "K-EXAONE 2.5"
+    ],
+    "headline": "LG AI연구원 K-EXAONE 2.5 API 무료 개방 (11/9~): API 키만 발급받으면 무료, 비상업 조건·하루 약 100회 보고됨",
+    "description": "LG AI연구원이 11월 9일 엔비디아 AI 데이 서울 2026에서 K-EXAONE 2.5 API를 자체 플랫폼으로 전면 무료 공개했습니다. 실사용 검증 목적의 개방이라 종료 시점은 공지되지 않았습니다. 개발자용 API라 채팅 UI는 없고 코딩 에이전트·앱에 연결해 씁니다.",
+    "freeTier": {
+      "quota": "API 키 발급 후 무료 호출. 한도는 공식 미확인 — 개인 후기에서 '하루 100회·키 30일 만료'로 보고됨(블로그 1건)",
+      "reset": "불명 (무료 기간 미공지, 실사용 검증 기간)",
+      "watermark": "해당 없음",
+      "commercialUse": "불가로 보고됨 (약관상 비상업적 이용만 허용이라는 해석, 보도자료는 '개발·연구 활용'으로 표현)",
+      "signup": "docs.exaone.ai에서 가입 후 API 키 발급 (카드 불필요로 보도)",
+      "korea": "가능",
+      "notes": "모델 규모·컨텍스트 수치가 출처마다 엇갈림(236B vs 750B). 입력 데이터가 학습에 쓰일 수 있다는 후기 있음. 오픈 웨이트는 아직 미공개. 공식 문서 직접 열람은 못 해 보도·후기 기준."
+    },
+    "flags": {
+      "reset": "unknown",
+      "watermark": "none",
+      "login": true,
+      "commercial": false
+    },
+    "howTo": [
+      "docs.exaone.ai에서 계정 만들고 API 키 발급",
+      "OpenAI 호환 클라이언트 또는 공식 문서의 엔드포인트로 호출 (30일마다 키 갱신 필요로 보고됨)"
+    ],
+    "tags": [
+      "API",
+      "한국어",
+      "카드불필요",
+      "로그인필요",
+      "비상업"
+    ],
+    "confidence": "low",
+    "status": "active",
+    "added": "2026-11-15",
+    "updated": "2026-11-15",
+    "lastVerified": "2026-11-15",
+    "sources": [
+      {
+        "title": "LG AI Research opens K-EXAONE 2.5 API free of charge (Korea Times)",
+        "url": "https://www.koreatimes.co.kr/business/companies/20261109/lg-ai-research-opens-k-exaone-25-api-free-of-charge",
+        "type": "news",
+        "date": "2026-11"
+      },
+      {
+        "title": "LG AI연구원, 독파모 ‘K-엑사원 2.5’ API 무료 개방 (뉴스토마토)",
+        "url": "https://newstomato.com/ReadNews.aspx?no=1319732",
+        "type": "news",
+        "date": "2026-11"
+      },
+      {
+        "title": "LG 엑사원 무료 API, 직접 써 보니",
+        "url": "https://brunch.co.kr/@ainote/236",
+        "type": "community",
+        "date": "2026-11"
       }
     ]
   }

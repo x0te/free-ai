@@ -211,5 +211,6 @@
   "vozo": { "ko": [], "en": ["Vozo AI"] },
   "noiz": { "ko": [], "en": ["Noiz AI"] },
   "genra": { "ko": [], "en": ["Genra AI"] },
-  "agnes": { "ko": ["아그네스 AI"], "en": ["Agnes AI"] }
+  "agnes": { "ko": ["아그네스 AI"], "en": ["Agnes AI"] },
+  "lg-exaone": { "ko": ["엑사원", "K-엑사원"], "en": ["K-EXAONE", "EXAONE"] }
 }

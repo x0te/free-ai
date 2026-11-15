@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-11-15",
+    "summary": "LG K-EXAONE 2.5 무료 API 신규 1건, 11개 항목 재확인 — 미·중·한·일 커뮤니티 검색 40여 회, 공식 페이지 직접 접속 불가로 검색 스니펫 기준",
+    "items": [
+      {
+        "type": "new",
+        "id": "lg-exaone-chat",
+        "text": "LG EXAONE API — K-EXAONE 2.5 API를 11/9부터 무료 개방 (비상업 조건·한도는 후기 기준, 신뢰도 낮음)"
+      },
+      {
+        "type": "check",
+        "text": "11개 항목 재확인 (Claude 2종, Arena Video, 반디캠 AI 2종, ChatGPT Images, 카카오 ChatGPT, CodeBuddy, Media.io, OpenCode, Qoder) — Musicful·Dream Track·Freebuff·MyEdit·Perso·ZCode·Zoo·Arena 채팅/이미지는 근거 부족·상충으로 미갱신"
+      }
+    ]
+  },
+  {
     "date": "2026-11-14",
     "summary": "Agnes AI 무료 멀티모달 API(텍스트·이미지·영상) 신규 3건, Qoder 'Qoduck' 무료 이벤트 반영 — 미·중·한·일 커뮤니티 검색 40여 회, 공식 페이지 직접 접속 불가로 검색 스니펫 기준",
     "items": [
