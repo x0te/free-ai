@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-11-16",
+    "summary": "이벤트 5건 재확인 — 신규·변경 없음. 공식 페이지 접속이 막혀 검색 스니펫 기준",
+    "items": [
+      {
+        "type": "check",
+        "text": "5개 항목 재확인 (Qoder, CodeBuddy, Media.io, OpenCode, ChatGPT for Kakao 이벤트 — 모두 여전히 진행 중)"
+      }
+    ]
+  },
+  {
     "date": "2026-11-15",
     "summary": "LG K-EXAONE 2.5 무료 API 신규 1건, 11개 항목 재확인 — 미·중·한·일 커뮤니티 검색 40여 회, 공식 페이지 직접 접속 불가로 검색 스니펫 기준",
     "items": [
