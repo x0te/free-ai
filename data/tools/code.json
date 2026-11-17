@@ -466,15 +466,12 @@
       "Gemini 3.8 Flash",
       "Gemini 3.7 Flash",
       "Gemini 3.6 Flash",
-      "Gemini 3.1 Pro",
-      "Claude Sonnet 4.6",
-      "Claude Opus 4.6",
-      "gpt-oss-120b"
+      "Gemini 3.1 Pro"
     ],
-    "headline": "무료 → Tab 자동완성·Command 무제한 + Claude Opus 4.6·Gemini 3.1 Pro 에이전트는 주간 기본 한도, CLI 포함",
-    "description": "Google의 에이전트 중심 개발 플랫폼으로 IDE, 터미널용 Antigravity CLI(agy), 에이전트 매니저로 구성됩니다. 2026년 6월 Gemini CLI를 흡수했고, 무료 개인 요금제에서도 Gemini뿐 아니라 Claude Sonnet·Opus 4.6과 gpt-oss-120b를 고를 수 있는 것이 큰 장점입니다. 에이전트가 계획을 세우고 여러 파일을 수정하며 브라우저로 결과를 확인하는 방식이라 바이브 코딩에 적합합니다.",
+    "headline": "무료 → Tab 자동완성·Command 무제한 + Gemini 에이전트는 주간 기본 한도, CLI 포함 (Claude는 11/2부터 무료 제외)",
+    "description": "Google의 에이전트 중심 개발 플랫폼으로 IDE, 터미널용 Antigravity CLI(agy), 에이전트 매니저로 구성됩니다. 2026년 6월 Gemini CLI를 흡수했습니다. 무료 개인 요금제에서 쓰던 Claude Sonnet·Opus 4.6과 gpt-oss-120b는 11월 2일 제거되었고, 후속 Claude 5.5는 유료(Pro·Ultra) 전용이라 무료에서는 Gemini 모델을 씁니다. 에이전트가 계획을 세우고 여러 파일을 수정하며 브라우저로 결과를 확인하는 방식이라 바이브 코딩에 적합합니다.",
     "freeTier": {
-      "quota": "Tab 자동완성·Command 요청 무제한, 에이전트 모델은 '기본 주간 한도'(수치 비공개). 커뮤니티에서는 하루 약 20회 수준의 에이전트 요청으로 보고됨",
+      "quota": "Tab 자동완성·Command 요청 무제한, Gemini 에이전트 모델은 '기본 주간 한도'(수치 비공개). 커뮤니티에서는 하루 약 20회 수준의 에이전트 요청으로 보고됨",
       "reset": "매주 (유료는 5시간 주기 갱신)",
       "watermark": "해당 없음(코드 생성)",
       "commercialUse": "불명 (명시적 금지 없음)",
@@ -485,7 +482,7 @@
     "howTo": [
       "antigravity.google에서 Windows/macOS/Linux용 앱 다운로드",
       "개인 Google 계정으로 로그인하고 Individual(무료) 플랜 선택",
-      "에이전트 매니저에서 모델(Gemini 3.1 Pro, Claude Opus 4.6 등)을 고르고 작업 지시",
+      "에이전트 매니저에서 모델(Gemini 3.1 Pro 등)을 고르고 작업 지시",
       "터미널에서 쓰려면 Antigravity CLI(agy) 설치 후 같은 계정으로 로그인"
     ],
     "tags": [
@@ -493,13 +490,18 @@
       "IDE",
       "CLI",
       "주간충전",
-      "Claude무료",
       "로그인필요"
     ],
     "confidence": "medium",
     "status": "limited",
-    "lastVerified": "2026-10-22",
+    "lastVerified": "2026-11-17",
     "sources": [
+      {
+        "title": "Antigravity will drop the Claude 4.6 models on November 2",
+        "url": "https://mixed-news.com/en/antigravity-claude-4-6-removed-november-2-pro-trial-split/",
+        "type": "news",
+        "date": "2026-10"
+      },
       {
         "title": "Google Antigravity - Pricing",
         "url": "https://antigravity.google/pricing",
@@ -526,7 +528,7 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-11-17",
     "flags": {
       "reset": "weekly",
       "watermark": "na",
@@ -1147,7 +1149,7 @@
     "status": "active",
     "added": "2026-09-30",
     "updated": "2026-11-07",
-    "lastVerified": "2026-11-16",
+    "lastVerified": "2026-11-17",
     "sources": [
       {
         "title": "Subscription & Limited-Time Daily Active Bonus - CodeBuddy Docs",
@@ -1223,7 +1225,7 @@
     "status": "active",
     "added": "2026-09-30",
     "updated": "2026-11-14",
-    "lastVerified": "2026-11-16",
+    "lastVerified": "2026-11-17",
     "sources": [
       {
         "title": "Qoder Docs — Off-Peak Rate (Qwen3.8-Flash 무료 11/6 16:00 UTC 종료 명시)",
@@ -1426,7 +1428,7 @@
     "status": "active",
     "added": "2026-10-15",
     "updated": "2026-11-10",
-    "lastVerified": "2026-11-16",
+    "lastVerified": "2026-11-17",
     "sources": [
       {
         "title": "OpenCode Zen 문서 (무료 모델 가격표·데이터 정책)",
@@ -1575,7 +1577,7 @@
     "status": "active",
     "added": "2026-10-15",
     "updated": "2026-10-15",
-    "lastVerified": "2026-10-15",
+    "lastVerified": "2026-11-17",
     "sources": [
       {
         "title": "ZCode 공식 페이지 (GLM Coding Plan 가격)",

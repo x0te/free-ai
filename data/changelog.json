@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-11-17",
+    "summary": "Antigravity 무료에서 Claude 4.6·gpt-oss 제외 반영, 13개 항목 재확인 — 미·중·한·일 커뮤니티 검색 30회, 공식 페이지 직접 접속 불가로 검색 스니펫 기준",
+    "items": [
+      {
+        "type": "update",
+        "id": "google-antigravity-code",
+        "text": "Google Antigravity — Claude Sonnet/Opus 4.6·gpt-oss-120b가 11/2 제거, 후속 Claude 5.5는 유료 전용 → 무료는 Gemini 모델만 (주간 한도)"
+      },
+      {
+        "type": "check",
+        "text": "13개 항목 재확인 (Bing Image Creator, Clipdrop, 클로바 더빙, ZCode, Zoo, Arena 채팅/이미지, Lovart + 이벤트 Qoder·CodeBuddy·Media.io·OpenCode·ChatGPT for Kakao — 모두 변동 없음, 이벤트 종료일은 여전히 미공지) — Musicful·Dream Track·Freebuff·MyEdit·Perso·Civitai·Clipchamp는 근거 부족·상충으로 미갱신"
+      }
+    ]
+  },
+  {
     "date": "2026-11-16",
     "summary": "이벤트 5건 재확인 — 신규·변경 없음. 공식 페이지 접속이 막혀 검색 스니펫 기준",
     "items": [
