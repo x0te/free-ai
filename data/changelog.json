@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-11-18",
+    "summary": "13개 항목 재확인 — 신규·변경 없음. 검색 50여 회(미·중·한·일), 공식 페이지 직접 접속 불가로 검색 스니펫 기준",
+    "items": [
+      {
+        "type": "check",
+        "text": "13개 항목 재확인 (Clipchamp, Copilot Audio Expressions, DeepSeek, Duck.ai, Devin Desktop, Cursor, ElevenLabs Music, Dreamina 이미지 + 이벤트 Qoder·CodeBuddy·Media.io·OpenCode·ChatGPT for Kakao — 모두 변동 없음, 이벤트 종료일은 여전히 미공지) — Musicful·Dream Track·Freebuff·MyEdit·Perso·Civitai·Dreamina 영상은 근거 부족·상충으로 미갱신"
+      }
+    ]
+  },
+  {
     "date": "2026-11-17",
     "summary": "Antigravity 무료에서 Claude 4.6·gpt-oss 제외 반영, 13개 항목 재확인 — 미·중·한·일 커뮤니티 검색 30회, 공식 페이지 직접 접속 불가로 검색 스니펫 기준",
     "items": [
