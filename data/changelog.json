@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-20",
+    "summary": "신규 2건(둘 다 가입·무료 한도형: TTS.ai, Sorceress 3D), 16개 항목 재확인 — 미·중·한·일 검색 60여 회, 공식 페이지 직접 접속 불가로 검색 스니펫 기준",
+    "items": [
+      {
+        "type": "new",
+        "id": "tts-ai-voice",
+        "text": "TTS.ai — 오픈소스 TTS 무료: 비가입 하루 5,000자, 가입 시 월 10,000자 + 1회 15,000자 (상업 이용은 페이지 간 안내 상충)"
+      },
+      {
+        "type": "new",
+        "id": "sorceress-3d",
+        "text": "Sorceress 3D Studio — 가입 시 1회 100크레딧(TRELLIS 이미지→3D 약 12개), 자체 블로그 근거라 신뢰도 낮음"
+      },
+      {
+        "type": "check",
+        "text": "16개 항목 재확인 (ElevenLabs 음성·SFX/음악, Fish Audio, Dzine 이미지·영상, Gamma, EaseMate, Gemini 앱 이미지, Freebuff, MyEdit, Dreamina 영상 + 이벤트 Qoder·CodeBuddy·Media.io·OpenCode·ChatGPT for Kakao — 변동 없음, 이벤트 종료일은 여전히 미공지) — Musicful·Dream Track·Perso·Civitai는 근거 부족으로 미갱신"
+      }
+    ]
+  },
+  {
     "date": "2026-11-18",
     "summary": "13개 항목 재확인 — 신규·변경 없음. 검색 50여 회(미·중·한·일), 공식 페이지 직접 접속 불가로 검색 스니펫 기준",
     "items": [

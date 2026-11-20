@@ -314,7 +314,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-10-19",
+    "lastVerified": "2026-11-20",
     "sources": [
       {
         "title": "이제 일레븐랩스가 1황인듯 (디시 크리에이터 갤러리)",
@@ -406,7 +406,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-10-19",
+    "lastVerified": "2026-11-20",
     "sources": [
       {
         "title": "Pricing & Plans - Fish Audio",
@@ -1574,5 +1574,67 @@
         "date": "2026"
       }
     ]
+  },
+  {
+    "id": "tts-ai-voice",
+    "category": "voice",
+    "platform": "TTS.ai",
+    "vendor": "TTS.ai",
+    "access": "wrapper",
+    "url": "https://tts.ai/tools/free-tts/",
+    "logo": "tts-ai",
+    "logoDomain": "tts.ai",
+    "models": [
+      "Kokoro",
+      "Piper",
+      "VITS",
+      "MeloTTS"
+    ],
+    "headline": "오픈소스 TTS 무료: 비가입 하루 5,000자 / 가입 시 월 10,000자 + 1회 15,000자 (1회 생성 500자 제한)",
+    "description": "Kokoro·Piper·VITS·MeloTTS 같은 오픈소스 음성 합성 모델을 브라우저에서 바로 쓰는 사이트입니다. 가입 없이도 하루 일정 글자 수까지 생성할 수 있고, 가입하면 월 무료 글자와 소멸되지 않는 보너스 글자가 붙습니다. 표준·프리미엄 모델과 보이스 클론은 유료 글자 팩이 필요합니다.",
+    "freeTier": {
+      "quota": "비가입: 하루 5,000자(UTC 자정 리셋, 다른 페이지에는 하루 10회로 표기). 가입: 월 10,000자 + 소멸 없는 보너스 15,000자(가입 시 1회). 무료 모델은 글자 1:1 차감, 1회 생성 500자 제한",
+      "reset": "매일(비가입) / 매월(가입) + 가입 시 1회 보너스",
+      "watermark": "없음 (오디오 워터마크 안내 없음)",
+      "commercialUse": "불명 — 가격 페이지는 무료 티어 결과물을 개인·비상업용으로, 무료 도구 페이지는 MIT/Apache 모델이라 상업 이용 가능으로 안내해 서로 상충. 상업 이용 전 약관 확인 필요",
+      "signup": "로그인 불필요(비가입 한도) / 이메일 가입(월 한도)",
+      "korea": "가능 (한국어 UI 있음, 한국어 음성 지원 여부는 미확인)",
+      "notes": "표준 모델은 글자 2배, 프리미엄 4배 차감. 보이스 클론(Chatterbox 등)은 유료 위주로 보임. 글자 팩 $5/10만자."
+    },
+    "howTo": [
+      "tts.ai/tools/free-tts 에 접속합니다.",
+      "텍스트를 넣고 Kokoro 등 무료 모델과 음성을 고릅니다.",
+      "생성 후 오디오를 내려받습니다. 더 쓰려면 이메일로 가입합니다."
+    ],
+    "tags": [
+      "로그인불필요",
+      "매일충전",
+      "오픈소스모델"
+    ],
+    "confidence": "medium",
+    "status": "active",
+    "added": "2026-11-20",
+    "updated": "2026-11-20",
+    "lastVerified": "2026-11-20",
+    "sources": [
+      {
+        "title": "TTS.ai 가격 안내(공식)",
+        "url": "https://tts.ai/pricing/?lang=en",
+        "type": "official",
+        "date": "2026-11"
+      },
+      {
+        "title": "TTS.ai 무료 TTS 도구(공식)",
+        "url": "https://tts.ai/tools/free-tts/",
+        "type": "official",
+        "date": "2026-11"
+      }
+    ],
+    "flags": {
+      "reset": "daily",
+      "watermark": "none",
+      "login": false,
+      "commercial": null
+    }
   }
 ]
