@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-11-21",
+    "summary": "신규 없음, Copilot Free 채팅 한도 표기 정정 + 10개 항목 재확인 — 미·중·한·일 검색 50여 회, 외부 사이트 직접 접속 불가로 검색 스니펫 기준",
+    "items": [
+      {
+        "type": "update",
+        "id": "github-copilot-code",
+        "text": "GitHub Copilot Free — 요금제 페이지에서 \"채팅 50회\" 표기가 사라지고 \"제한된 채팅·에이전트 사용(AI 크레딧)\"으로만 표기, 자동완성 월 2,000회는 유지"
+      },
+      {
+        "type": "check",
+        "text": "10개 항목 재확인 (Gemini Notebook 채팅·오디오, Genspark, Copilot 이미지 + 이벤트 Qoder Qoduck·CodeBuddy·OpenCode·ChatGPT for Kakao·Media.io — 변동 없음, 이벤트 종료일 여전히 미공지) — Musicful·Dream Track·Perso·Civitai·PixAI·Gemini 음악·AI Studio 3종·Flow 이미지는 근거 부족으로 미갱신"
+      }
+    ]
+  },
+  {
     "date": "2026-11-20",
     "summary": "신규 2건(둘 다 가입·무료 한도형: TTS.ai, Sorceress 3D), 16개 항목 재확인 — 미·중·한·일 검색 60여 회, 공식 페이지 직접 접속 불가로 검색 스니펫 기준",
     "items": [

@@ -318,10 +318,10 @@
     "models": [
       "Auto 모델 선택 (Anthropic·OpenAI·Google 등)"
     ],
-    "headline": "무료 → 월 코드 자동완성 2,000회 + 채팅 50회, 에이전트 모드·Copilot CLI 포함",
+    "headline": "무료 → 월 코드 자동완성 2,000회 + 채팅·에이전트 소량(AI 크레딧 한도), 에이전트 모드·Copilot CLI 포함",
     "description": "VS Code, JetBrains, Visual Studio 등 주요 에디터와 GitHub.com, 터미널(Copilot CLI)에서 쓰는 GitHub의 AI 코딩 도우미입니다. 무료 플랜에서도 에이전트 모드와 CLI를 쓸 수 있어 기존 에디터를 바꾸지 않고 AI 코딩을 체험하기 좋습니다. 2026년 6월부터 요금 체계가 토큰 기반 GitHub AI Credits로 바뀌었고, 코드 완성은 별도 한도로 유지됩니다.",
     "freeTier": {
-      "quota": "월 코드 자동완성 2,000회 + 채팅 요청 50회(Copilot Edits 포함). 채팅·에이전트 사용은 소량의 AI 크레딧 한도로 측정",
+      "quota": "월 코드 자동완성 2,000회. 채팅·에이전트는 \"limited usage\"로만 표기되며 월 AI 크레딧 한도로 측정(구 \"채팅 50회\" 표기는 요금제 페이지에서 사라짐, 구체 수치 비공개)",
       "reset": "매월",
       "watermark": "해당 없음(코드 생성)",
       "commercialUse": "불명 (명시적 금지 없음)",
@@ -344,12 +344,13 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-10-21",
+    "lastVerified": "2026-11-21",
     "sources": [
       {
-        "title": "GitHub Copilot · Plans & pricing",
+        "title": "GitHub Copilot · Plans & pricing (Free: 2,000 completions, limited chat and agent usage)",
         "url": "https://github.com/features/copilot/plans",
-        "type": "official"
+        "type": "official",
+        "date": "2026-11"
       },
       {
         "title": "Usage-based billing for individuals - GitHub Docs",
@@ -372,7 +373,7 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-11-21",
     "flags": {
       "reset": "monthly",
       "watermark": "na",
@@ -1149,7 +1150,7 @@
     "status": "active",
     "added": "2026-09-30",
     "updated": "2026-11-07",
-    "lastVerified": "2026-11-20",
+    "lastVerified": "2026-11-21",
     "sources": [
       {
         "title": "Subscription & Limited-Time Daily Active Bonus - CodeBuddy Docs",
@@ -1225,7 +1226,7 @@
     "status": "active",
     "added": "2026-09-30",
     "updated": "2026-11-14",
-    "lastVerified": "2026-11-20",
+    "lastVerified": "2026-11-21",
     "sources": [
       {
         "title": "Qoder Docs — Off-Peak Rate (Qwen3.8-Flash 무료 11/6 16:00 UTC 종료 명시)",
@@ -1428,7 +1429,7 @@
     "status": "active",
     "added": "2026-10-15",
     "updated": "2026-11-10",
-    "lastVerified": "2026-11-20",
+    "lastVerified": "2026-11-21",
     "sources": [
       {
         "title": "OpenCode Zen 문서 (무료 모델 가격표·데이터 정책)",
