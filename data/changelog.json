@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-11-22",
+    "summary": "신규 없음, Bing Video Creator 무료 한도 표기 정정 + 14개 항목 재확인 — 미·중·한·일 검색 50여 회, 외부 사이트 직접 접속 불가로 검색 스니펫 기준",
+    "items": [
+      {
+        "type": "update",
+        "id": "bing-video-creator-video",
+        "text": "Bing Video Creator — Microsoft 공식 소개 기준으로 표준 속도 무료, 빠른 생성은 Rewards 포인트(가끔 무료 크레딧)로 표기 정정, \"빠른 10회 무료\" 문구 삭제. Sora 2 종료 여파로 실제 작동은 여전히 미확인"
+      },
+      {
+        "type": "check",
+        "text": "14개 항목 재확인 (Flow 이미지·Jules·Stitch·FLORA·Civitai·AI Studio 채팅·Grok·Gemini 음악 + 이벤트 Qoder Qoduck·CodeBuddy·OpenCode·Media.io·ChatGPT for Kakao — 변동 없음, 이벤트 종료일 여전히 미공지) — Musicful·Dream Track·Perso·PixAI·AI Studio 코드/음성은 근거 부족으로 미갱신"
+      }
+    ]
+  },
+  {
     "date": "2026-11-21",
     "summary": "신규 없음, Copilot Free 채팅 한도 표기 정정 + 10개 항목 재확인 — 미·중·한·일 검색 50여 회, 외부 사이트 직접 접속 불가로 검색 스니펫 기준",
     "items": [

@@ -1204,10 +1204,10 @@
     "models": [
       "Sora 2 (Azure OpenAI)"
     ],
-    "headline": "Bing Video Creator 무료: Sora 2로 8초 영상 — 빠른 모드 10회 + 표준 속도(수 시간 대기) 무제한. 단 Azure의 Sora 2가 2026-10-15 은퇴 예정",
+    "headline": "Bing Video Creator: 표준 속도 생성은 무료, 빠른 생성은 Microsoft Rewards 포인트 필요(가끔 무료 크레딧 지급) — Sora 2 종료 여파로 실제 작동은 미확인",
     "description": "Bing Video Creator는 2025년 6월 Sora로 무료 영상 생성을 열었고 2026년 3월 Sora 2로 업그레이드됐습니다. 하지만 OpenAI는 Sora 앱을 2026년 4월 26일, Sora 2 API를 9월 24일에 종료했고, 2026-09-29 확인 시 Bing의 영상 생성 경로(ai-video-generator)가 이미지 생성기로 리다이렉트됐습니다. 공식 종료 공지는 찾지 못했습니다.",
     "freeTier": {
-      "quota": "로그인 시 빠른(Fast) 생성 10회 무료, 이후 빠른 생성은 1회당 Microsoft Rewards 100포인트, 아니면 표준(Standard) 속도로 무제한. 영상 길이 8초, 9:16/16:9",
+      "quota": "Microsoft 공식 페이지(2026-11-22 검색 스니펫) 기준: 표준(Standard) 생성은 무료, 빠른(Fast) 생성은 보통 Microsoft Rewards 포인트 필요하며 가끔 빠른 생성 크레딧을 무료로 줌. 동시 대기 3개까지. 과거(출시 초기) 보도는 빠른 모드 10회 무료·Rewards 100포인트/회였으나 현재 공식 문구엔 10회 표기가 없음",
       "reset": "무제한 (표준 속도) / 빠른 모드는 계정당 10회 + Rewards 포인트로 추가",
       "watermark": "불명 (C2PA 콘텐츠 자격 증명 메타데이터 포함)",
       "commercialUse": "불명 (약관상 '오락 목적' 서비스, Microsoft에 생성물 사용권 부여)",
@@ -1218,7 +1218,7 @@
     "howTo": [
       "bing.com/images/create 접속 후 Microsoft 계정으로 로그인",
       "생성 유형에서 Video(동영상)를 고르고 프롬프트 입력",
-      "속도 Fast(무료 10회) 또는 Standard를 고른 뒤 생성, 완료 알림이 오면 다운로드"
+      "속도 Standard(무료) 또는 Fast(Rewards 포인트)를 고른 뒤 생성, 완료 알림이 오면 다운로드"
     ],
     "tags": [
       "종료",
@@ -1227,8 +1227,14 @@
     ],
     "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-10-23",
+    "lastVerified": "2026-11-22",
     "sources": [
+      {
+        "title": "Bing Video Creator (Microsoft 공식 소개 페이지)",
+        "url": "https://www.microsoft.com/bing/features/bing-video-creator",
+        "type": "official",
+        "date": "2026-11"
+      },
       {
         "title": "Bing Image Creator / Video Creator 생성 페이지",
         "url": "https://www.bing.com/images/create/ai-video-generator",
@@ -1273,7 +1279,7 @@
       }
     ],
     "added": "2026-09-29",
-    "updated": "2026-09-30",
+    "updated": "2026-11-22",
     "flags": {
       "reset": "unlimited",
       "watermark": "unknown",
