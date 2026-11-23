@@ -492,7 +492,7 @@
     ],
     "confidence": "low",
     "status": "limited",
-    "lastVerified": "2026-10-23",
+    "lastVerified": "2026-11-23",
     "sources": [
       {
         "title": "Hailuo AI Review: Pricing, Credits, and H3 Access - Kingy AI (요금표 무료 칸 'One-time trial credits', 2026-09-20 재확인)",
@@ -560,13 +560,13 @@
     "headline": "무료 계정 → 월 3개, 최대 1분 AI 아바타(립싱크) 영상 (워터마크)",
     "description": "대본을 넣으면 AI 아바타가 말하는 영상을 만들어 주는 대표 아바타·립싱크 서비스. 무료 계정도 최신 Avatar IV와 500개 이상의 스톡 아바타, 내 얼굴 커스텀 아바타 1개, 음성 복제 1개를 쓸 수 있다. 한국어 포함 30개 이상 언어를 지원한다.",
     "freeTier": {
-      "quota": "월 3개 영상, 각 최대 1분",
+      "quota": "지역에 따라 월 1~3개 영상(공식 도움말 기준), 각 최대 1분",
       "reset": "매월",
       "watermark": "가시 워터마크(HeyGen 브랜딩) 있음",
       "commercialUse": "불명",
       "signup": "이메일 또는 Google 계정",
       "korea": "가능 (한국어 지원)",
-      "notes": "공식 요금표는 최대 1080p로 표기, 일부 리뷰는 무료 720p로 보고. 포토 아바타 3개, 커스텀 아바타 1개, 음성 클론 1개, Video Agent 사용 가능."
+      "notes": "공식 요금표는 최대 1080p로 표기, 일부 리뷰는 무료 720p로 보고. 포토 아바타 3개, 커스텀 아바타 1개, 음성 클론 1개, Video Agent 사용 가능. [11/23] 공식 도움말: 무료는 크레딧제가 아니라 영상 쿼터(지역별 1~3개) + Video Agent 월 3개로 안내됨."
     },
     "howTo": [
       "heygen.com 가입 후 로그인",
@@ -582,7 +582,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-10-24",
+    "lastVerified": "2026-11-23",
     "sources": [
       {
         "title": "HeyGen Pricing",
@@ -599,7 +599,7 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-11-23",
     "flags": {
       "reset": "monthly",
       "watermark": "visible",

@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-11-23",
+    "summary": "신규 없음, HeyGen 무료 쿼터 표기 정정 + 14개 항목 재확인 — 미·중·한·일 검색 50여 회, 외부 사이트 직접 접속 불가로 검색 스니펫 기준",
+    "items": [
+      {
+        "type": "update",
+        "id": "heygen-video",
+        "text": "HeyGen — 공식 도움말 기준 무료는 지역에 따라 월 1~3개 영상(크레딧제 아님)으로 표기 정정"
+      },
+      {
+        "type": "check",
+        "text": "14개 항목 재확인 (Groq·OpenRouter·HIX·Hi3D·Hailuo·PixAI·AI Studio 코드/음성 + 이벤트 Qoder·CodeBuddy·OpenCode·Media.io·ChatGPT for Kakao — 변동 없음, 이벤트 종료일 여전히 미공지) — Musicful·Dream Track·Perso·ACE-Step·Flow Music·Happyshrimp는 근거 부족으로 미갱신"
+      }
+    ]
+  },
+  {
     "date": "2026-11-22",
     "summary": "신규 없음, Bing Video Creator 무료 한도 표기 정정 + 14개 항목 재확인 — 미·중·한·일 검색 50여 회, 외부 사이트 직접 접속 불가로 검색 스니펫 기준",
     "items": [
