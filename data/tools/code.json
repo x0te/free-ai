@@ -1150,7 +1150,7 @@
     "status": "active",
     "added": "2026-09-30",
     "updated": "2026-11-07",
-    "lastVerified": "2026-11-23",
+    "lastVerified": "2026-11-24",
     "sources": [
       {
         "title": "Subscription & Limited-Time Daily Active Bonus - CodeBuddy Docs",
@@ -1225,8 +1225,8 @@
     "confidence": "medium",
     "status": "active",
     "added": "2026-09-30",
-    "updated": "2026-11-14",
-    "lastVerified": "2026-11-23",
+    "updated": "2026-11-24",
+    "lastVerified": "2026-11-24",
     "sources": [
       {
         "title": "Qoder Docs — Off-Peak Rate (Qwen3.8-Flash 무료 11/6 16:00 UTC 종료 명시)",
@@ -1290,7 +1290,7 @@
       }
     ],
     "promo": {
-      "text": "무료 계정(개인 International)도 11/7부터 스텔스 모델 Qoduck 매일 무료 사용량 제공 (수량·종료일 미공개, 대기열 지연 경고)",
+      "text": "무료 계정(개인 International)도 11/7부터 스텔스 모델 Qoduck 매일 무료 사용량 제공 (수량·종료일 미공개; 11/11 Qwen4-Max-Preview로 알려졌다는 보도, 한시 할인으로 크레딧 계수 0.5x→0.1x 보고, 대기열 지연 경고)",
       "until": "불명"
     }
   },
@@ -1429,7 +1429,7 @@
     "status": "active",
     "added": "2026-10-15",
     "updated": "2026-11-10",
-    "lastVerified": "2026-11-23",
+    "lastVerified": "2026-11-24",
     "sources": [
       {
         "title": "OpenCode Zen 문서 (무료 모델 가격표·데이터 정책)",

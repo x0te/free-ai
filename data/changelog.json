@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-11-24",
+    "summary": "신규 없음, Ideogram 무료 한도 정정(주 30 크레딧·Google/Apple 가입만) + 12개 항목 재확인 — 미·중·한·일 검색 40여 회, 외부 사이트 직접 접속 불가로 검색 스니펫 기준",
+    "items": [
+      {
+        "type": "update",
+        "id": "ideogram-image",
+        "text": "Ideogram — 공식 도움말 기준 무료는 주 30 크레딧, Google·Apple 계정으로 가입한 경우만 지급(Microsoft·이메일 가입 제외)으로 정정 (기존 '주 10 슬로 크레딧' 표기 수정)"
+      },
+      {
+        "type": "update",
+        "id": "qoder-code",
+        "text": "Qoder — 무료 Qoduck 이벤트: 11/11 Qwen4-Max-Preview로 알려졌다는 보도, 한시 크레딧 할인 보고 반영 (종료일 여전히 미공지)"
+      },
+      {
+        "type": "update",
+        "id": "huggingchat-chat",
+        "text": "HuggingChat — 10/15 무료 월 크레딧 제거 보고(제3자, 미확인) 주의 문구 추가, 신뢰도 낮춤"
+      },
+      {
+        "type": "check",
+        "text": "12개 항목 재확인 (Gemini 무료 Flash-Lite 제한·ImagineArt·Hume·Hunyuan 3D·Flow Music + 이벤트 CodeBuddy·OpenCode·Media.io·ChatGPT for Kakao — 변동 없음) — Musicful·Dream Track·Perso·ACE-Step·HappyShrimp·YuE2·Qwen-Image·Google 검색 Nano Banana는 근거 부족으로 미갱신"
+      }
+    ]
+  },
+  {
     "date": "2026-11-23",
     "summary": "신규 없음, HeyGen 무료 쿼터 표기 정정 + 14개 항목 재확인 — 미·중·한·일 검색 50여 회, 외부 사이트 직접 접속 불가로 검색 스니펫 기준",
     "items": [

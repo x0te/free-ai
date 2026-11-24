@@ -123,7 +123,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-11-23",
+    "lastVerified": "2026-11-24",
     "promo": {
       "text": "만 19~34세 · ChatGPT 유료 플랜 첫 이용(또는 유료 종료 후 90일 경과) 대상 ChatGPT Plus 2개월 무료 — 결제수단 등록 불필요, 자동결제 없음, 1인 1회, 모바일로 참여",
       "until": "혜택 소진 시까지 (조기 종료 가능)"
@@ -336,7 +336,7 @@
     ],
     "confidence": "medium",
     "status": "limited",
-    "lastVerified": "2026-10-29",
+    "lastVerified": "2026-11-24",
     "sources": [
       {
         "title": "Gemini Apps limits & upgrades for Google AI subscribers - Gemini Apps Help",
@@ -633,7 +633,7 @@
       "commercialUse": "모델 라이선스별 상이",
       "signup": "Hugging Face 계정 로그인 필요",
       "korea": "가능",
-      "notes": "PRO 구독은 월 $2 크레딧(ZeroGPU 등 다른 HF 컴퓨트에도 사용). 작은 모델을 고르면 무료 크레딧으로 조금 더 쓸 수 있음. 자주 쓸 거라면 OpenRouter·Groq 무료 모델이 현실적."
+      "notes": "PRO 구독은 월 $2 크레딧(ZeroGPU 등 다른 HF 컴퓨트에도 사용). 작은 모델을 고르면 무료 크레딧으로 조금 더 쓸 수 있음. 자주 쓸 거라면 OpenRouter·Groq 무료 모델이 현실적. [11/24 주의] 제3자 추적 사이트가 2026-10-15 무료 계정 월 크레딧 제거를 보고했으나 공식 문서에서는 확인하지 못했다. 실제 사용 가능 여부는 계정 화면에서 확인."
     },
     "howTo": [
       "huggingface.co/chat 접속 후 HF 계정 로그인",
@@ -646,7 +646,7 @@
       "로그인필요",
       "한도적음"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "status": "limited",
     "lastVerified": "2026-10-27",
     "sources": [
@@ -669,7 +669,7 @@
       }
     ],
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-11-24",
     "flags": {
       "reset": "monthly",
       "watermark": "na",
