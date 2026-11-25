@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-11-25",
+    "summary": "신규·변경 없음, 7개 항목 재확인 — 미·중·한·일 검색 50여 회, 외부 사이트 직접 접속 불가로 검색 스니펫 기준",
+    "items": [
+      {
+        "type": "check",
+        "text": "7개 항목 재확인 (HuggingChat·ChatGPT for Kakao 프로모션·Media.io·CodeBuddy·Kimi·Hugging Face Spaces 3D·영상) — 변경 없음"
+      }
+    ]
+  },
+  {
     "date": "2026-11-24",
     "summary": "신규 없음, Ideogram 무료 한도 정정(주 30 크레딧·Google/Apple 가입만) + 12개 항목 재확인 — 미·중·한·일 검색 40여 회, 외부 사이트 직접 접속 불가로 검색 스니펫 기준",
     "items": [
