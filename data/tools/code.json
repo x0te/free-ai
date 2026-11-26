@@ -631,7 +631,7 @@
       "commercialUse": "불명 (명시적 금지 없음)",
       "signup": "Google, GitHub 또는 AWS Builder ID (카드 불필요)",
       "korea": "가능 (보고됨)",
-      "notes": "신규 가입 보너스 500크레딧(14일)은 2026-05-08에 폐지되고 '첫 유료 전환 시 20달러 크레딧(카드 필요)'으로 바뀜 (그 전 가입자의 미사용분만 유지). 무료는 프리미엄 모델(Claude Opus·Sonnet 5, GPT-5.6 등)·Kiro Web 불가. 무료 사용자 요청은 미국 리전에서 처리"
+      "notes": "신규 가입 보너스 500크레딧(14일)은 2026-05-08에 폐지되고 '첫 유료 전환 시 20달러 크레딧(카드 필요)'으로 바뀜 (그 전 가입자의 미사용분만 유지). 무료는 프리미엄 모델(Claude Opus·Sonnet 5, GPT-5.6 등)·Kiro Web 불가. 무료 사용자 요청은 미국 리전에서 처리 공식 결제 문서 기준 2026-11-01부터 무료에서 첫 유료 전환 시 500 체험 크레딧을 주는 무료 체험이 제공된다는 보고(유료 전환 전제, 카드 필요)."
     },
     "howTo": [
       "kiro.dev에서 IDE 다운로드(또는 Kiro CLI 설치)",
@@ -647,7 +647,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-10-30",
+    "lastVerified": "2026-11-26",
     "sources": [
       {
         "title": "More room to explore: $20 paid tier sign-up bonus (Kiro Blog)",
@@ -680,7 +680,7 @@
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-30",
+    "updated": "2026-11-26",
     "flags": {
       "reset": "monthly",
       "watermark": "na",
@@ -1150,7 +1150,7 @@
     "status": "active",
     "added": "2026-09-30",
     "updated": "2026-11-07",
-    "lastVerified": "2026-11-25",
+    "lastVerified": "2026-11-26",
     "sources": [
       {
         "title": "Subscription & Limited-Time Daily Active Bonus - CodeBuddy Docs",
@@ -1226,7 +1226,7 @@
     "status": "active",
     "added": "2026-09-30",
     "updated": "2026-11-24",
-    "lastVerified": "2026-11-24",
+    "lastVerified": "2026-11-26",
     "sources": [
       {
         "title": "Qoder Docs — Off-Peak Rate (Qwen3.8-Flash 무료 11/6 16:00 UTC 종료 명시)",
@@ -1429,7 +1429,7 @@
     "status": "active",
     "added": "2026-10-15",
     "updated": "2026-11-10",
-    "lastVerified": "2026-11-24",
+    "lastVerified": "2026-11-26",
     "sources": [
       {
         "title": "OpenCode Zen 문서 (무료 모델 가격표·데이터 정책)",

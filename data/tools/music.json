@@ -37,7 +37,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-10-25",
+    "lastVerified": "2026-11-26",
     "sources": [
       {
         "title": "ACE-Step v1.5 - Hugging Face Space",
@@ -970,7 +970,7 @@
     ],
     "confidence": "medium",
     "status": "limited",
-    "lastVerified": "2026-09-30",
+    "lastVerified": "2026-11-26",
     "sources": [
       {
         "title": "Create AI-generated soundtrack in Shorts with Dream Track - YouTube Help",
@@ -1306,7 +1306,7 @@
       "commercialUse": "불가로 보임 — 요금표에서 '새로 만든 곡의 상업 이용 권리'는 유료(Standard $5/월~) 항목. 베타라 상세 라이선스 정책은 아직 공개 전",
       "signup": "계정 필요 (로그인)",
       "korea": "가능 (해외 웹 제공, 한국어 제목 곡 사례 있음 — 한국어 발음 품질은 미확인)",
-      "notes": "무료: 동시 작업 2개, MP3 다운로드, 최신 V1.1 무료 체험(요금표 기준). WAV·MP4 다운로드와 우선 대기열은 유료로 보임. 베타 서비스라 정책이 바뀔 수 있음."
+      "notes": "무료: 동시 작업 2개, MP3 다운로드, 최신 V1.1 무료 체험(요금표 기준). WAV·MP4 다운로드와 우선 대기열은 유료로 보임. 베타 서비스라 정책이 바뀔 수 있음. 약관 페이지에 신규 가입 크레딧은 발급 24시간 후 소멸한다는 내용이 있다는 보고(제3자·미확인) — 가입 직후 바로 쓰는 게 안전. 콘텐츠에 대한 광범위한 이용 허락 조항도 지적됨."
     },
     "flags": {
       "reset": "daily",
@@ -1327,10 +1327,10 @@
       "신규",
       "베타"
     ],
-    "confidence": "medium",
+    "confidence": "low",
     "added": "2026-09-30",
-    "updated": "2026-09-30",
-    "lastVerified": "2026-10-26",
+    "updated": "2026-11-26",
+    "lastVerified": "2026-11-26",
     "status": "active",
     "sources": [
       {

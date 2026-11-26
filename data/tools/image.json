@@ -493,7 +493,8 @@
     "logo": "google-search",
     "logoDomain": "google.com",
     "models": [
-      "Nano Banana 2"
+      "Nano Banana 2",
+      "Nano Banana 2.1 (AI 모드 적용 보도)"
     ],
     "headline": "Nano Banana → 구글 검색 AI 모드에서 24시간당 최대 25장 무료",
     "description": "구글 검색 AI 모드의 'Create Images' 기능으로 검색창에서 바로 이미지를 만들고 대화하듯 고친다. 무료 한도가 숫자로 공개된 몇 안 되는 구글 이미지 서비스라 계획을 세우기 쉽다. 한국어 프롬프트를 지원한다.",
@@ -504,7 +505,7 @@
       "commercialUse": "Google 약관 범위 안에서 사용 가능(명시적 상업 제한 없음)",
       "signup": "직접 관리하는 개인 Google 계정 (만 18세 이상)",
       "korea": "가능 (지원 국가에 대한민국, 지원 언어에 한국어 포함)",
-      "notes": "Nano Banana Pro는 무료 사용자의 경우 미국에서만 쓸 수 있다는 도움말 문구가 있음. 일반 검색창에서 이미지 생성 요청하는 방식은 영어만 지원하고, AI 모드의 'Create Images' 메뉴는 한국어도 된다. 한도는 수요에 따라 바뀔 수 있다(이전 20장 → 현재 25장)."
+      "notes": "Nano Banana Pro는 무료 사용자의 경우 미국에서만 쓸 수 있다는 도움말 문구가 있음. 일반 검색창에서 이미지 생성 요청하는 방식은 영어만 지원하고, AI 모드의 'Create Images' 메뉴는 한국어도 된다. 한도는 수요에 따라 바뀔 수 있다(이전 20장 → 현재 25장). 2026-10-06 출시된 Nano Banana 2.1이 AI 모드에 적용됐다는 보도(Search Engine Roundtable 등)가 있으나, 무료 한도 수치는 구글이 공개하지 않아 25장 기준은 공식 도움말 기준으로 유지."
     },
     "howTo": [
       "google.com에서 AI 모드를 열기 (개인 Google 계정으로 로그인)",
@@ -519,7 +520,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-10-28",
+    "lastVerified": "2026-11-26",
     "sources": [
       {
         "title": "Create and edit images in Google Search - Google Search Help",
@@ -532,11 +533,17 @@
         "url": "https://blog.laozhang.ai/en/posts/gemini-image-generation-free-limit-2026",
         "type": "community",
         "date": "2026-09-26"
+      },
+      {
+        "title": "Nano Banana 2.1 In Google AI Mode In Search (Search Engine Roundtable)",
+        "url": "https://seroundtable.com/nano-banana-21-google-ai-mode-42246.html",
+        "type": "news",
+        "date": "2026-10"
       }
     ],
     "access": "official",
     "added": "2026-09-29",
-    "updated": "2026-09-29",
+    "updated": "2026-11-26",
     "flags": {
       "reset": "daily",
       "watermark": "invisible",
@@ -688,7 +695,7 @@
         "type": "official"
       }
     ],
-    "lastVerified": "2026-10-30",
+    "lastVerified": "2026-11-26",
     "category": "image",
     "added": "2026-09-29",
     "updated": "2026-09-29",
@@ -734,7 +741,7 @@
     ],
     "confidence": "medium",
     "status": "active",
-    "lastVerified": "2026-10-28",
+    "lastVerified": "2026-11-26",
     "sources": [
       {
         "title": "Qwen-Image-2.1 - Hugging Face Space",
@@ -1948,7 +1955,7 @@
     ],
     "confidence": "high",
     "status": "active",
-    "lastVerified": "2026-10-30",
+    "lastVerified": "2026-11-26",
     "sources": [
       {
         "title": "Krea Pricing (Free 100 units/day)",
@@ -2253,7 +2260,7 @@
     ],
     "confidence": "low",
     "status": "active",
-    "lastVerified": "2026-11-25",
+    "lastVerified": "2026-11-26",
     "promo": {
       "text": "ToMoviee Lite 모델 선택 시 이미지 생성 무제한 무료 (페이지에 '기간 한정' 표기, 2026-08 말 게시)",
       "until": "불명"

@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-11-26",
+    "summary": "신규 없음, 3개 항목 내용 보강(Google 검색 Nano Banana 2.1·HappyShrimp 가입 크레딧 소멸·Kiro 체험) + 14개 항목 재확인 — 미·중·한·일 검색 50여 회, 외부 사이트 직접 접속 불가로 검색 스니펫 기준",
+    "items": [
+      {
+        "type": "update",
+        "id": "google-search-image",
+        "text": "Google 검색 AI 모드 — Nano Banana 2.1 적용 보도 반영 (무료 한도 수치는 비공개, 기존 25장 유지)"
+      },
+      {
+        "type": "update",
+        "id": "happyshrimp-music",
+        "text": "HappyShrimp — 신규 가입 크레딧이 24시간 후 소멸한다는 약관 보고 추가, 신뢰도 낮춤"
+      },
+      {
+        "type": "update",
+        "id": "kiro-code",
+        "text": "Kiro — 11/1부터 첫 유료 전환 시 500 체험 크레딧 보고 추가"
+      },
+      {
+        "type": "check",
+        "text": "14개 항목 재확인 (Krea 이미지·Qwen-Image·Qwen3-TTS·ACE-Step·YouTube Dream Track·HF Spaces·CodeBuddy·Qoder·OpenCode·Media.io·카카오톡 ChatGPT 프로모션 등) — 변경 없음"
+      }
+    ]
+  },
+  {
     "date": "2026-11-25",
     "summary": "신규·변경 없음, 7개 항목 재확인 — 미·중·한·일 검색 50여 회, 외부 사이트 직접 접속 불가로 검색 스니펫 기준",
     "items": [
