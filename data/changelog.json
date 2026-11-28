@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-11-28",
+    "summary": "신규·변경 없음, 15개 항목 재확인 — 미·중·한·일 검색 40여 회, 외부 사이트 직접 접속 불가로 검색 스니펫 기준",
+    "items": [
+      {
+        "type": "check",
+        "text": "15개 항목 재확인 (Stable Audio 3 HF·Krea 3D·Meta AI 채팅/이미지·Mistral Vibe·Copilot·LuvVoice·MiniMax Audio 음악/음성·Lovart 영상 + 이벤트 5건: CodeBuddy·카카오톡 ChatGPT·Media.io·OpenCode·Qoder) — 변경 없음"
+      }
+    ]
+  },
+  {
     "date": "2026-11-27",
     "summary": "신규·변경 없음, 13개 항목 재확인 — 미·중·한·일 검색 50여 회, 외부 사이트 직접 접속 불가로 검색 스니펫 기준",
     "items": [
